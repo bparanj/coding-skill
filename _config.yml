@@ -1,0 +1,7 @@
+title: Coding Skill
+sass:
+  sass_dir: assets/css
+  style: compressed
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
