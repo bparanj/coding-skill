@@ -1,4 +1,4 @@
-I"g<p>A mental model is a representation of some domain that supports understanding, reasoning, and prediction. Mental models permit reasoning about situations not directly experienced. They allow people to mentally simulate the behavior of a system.</p>
+I"ß<p>A mental model is a representation of some domain that supports understanding, reasoning, and prediction. Mental models permit reasoning about situations not directly experienced. They allow people to mentally simulate the behavior of a system.</p>
 
 <p>For instance, the knowledge about the computer memory and how it is used during the program execution can be visualized as shown in the diagram. This is a useful mental model when solving coding problems. Because, we are able to make the design choices.</p>
 
@@ -34,5 +34,4 @@
 
 <p>Expert programmers have the knowledge to understand the meaning behind an innocent looking statement such as an assignment. They have a good grasp of concepts such as the system stack and heap. They know how to make memory management decisions. They know whether to allocate memory dynamically or static memory is sufficient for a given problem.</p>
 
-<p><a class="btn btn-primary btn-lg" href="https://go.oncehub.com/BalaParanj" role="button">Schedule Your Free Consultation Now</a></p>
 :ET

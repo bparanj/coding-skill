@@ -85,4 +85,3 @@ I can guide you in creating a customized action plan for your situation. [Sign u
 
 >You can get everything in life you want if you will just help enough other people get what they want.
 
-<a class="btn btn-primary btn-lg" href="https://go.oncehub.com/BalaParanj" role="button">Schedule Your Free Consultation Now</a>
