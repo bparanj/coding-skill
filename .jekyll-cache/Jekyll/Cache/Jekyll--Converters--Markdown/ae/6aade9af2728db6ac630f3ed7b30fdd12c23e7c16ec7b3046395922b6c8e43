@@ -1,0 +1,63 @@
+I"�<h2 id="algorithmic-problem-solving">Algorithmic Problem Solving</h2>
+
+<p>In this article we will discuss the strategy to use when you have to solve a new problem that you’ve never solved before.</p>
+
+<p>Let’s now look at a step by step approach to solving a new problem.</p>
+
+<p><strong>Step 1 : Clarifications</strong></p>
+
+<p>The first step is to make sure that you understand the problem.</p>
+
+<ul>
+  <li>What are the parameters involved?</li>
+  <li>What is the goal for the solution?</li>
+</ul>
+
+<p>Your first task is to ask lots of questions. When faced with a hard problem, ask as many questions as you can think of to find the assumptions that is relevant to the solution. In this step you determine the scope of the problem. You must understand what you’re trying to analyze and solve before moving on to the next step.</p>
+
+<p><strong>Step 2 : Work Through Examples</strong></p>
+
+<p>After you’ve asked a lot of questions to clarify the problem, the next step is to confirm your understanding by working through an example.</p>
+
+<p>Working through an example is useful because it lets you recognize an emerging pattern and provides you the momentum to solve the problem.</p>
+
+<p>It also lets you take some time and think through the problem very concretely about what difficulties might be involved in the solution. You might also find any hidden assumptions or implicit questions that you need to address again. If so go back to the first step of asking more questions to make sure that you’ve mapped out the scope of the solution.</p>
+
+<p>Okay, so at this point we have a very good understanding of the problem and we’re ready to solve it.</p>
+
+<p><strong>Step 3 : First Correct Solution</strong></p>
+
+<p>In the next stage of the strategy we come up with a first solution. You want to solve the problem, even if it’s not a good approach. This is the brute force approach.</p>
+
+<p>This approach does not have to be clever or elegant. But you want to make sure that you’ve got a correct solution.</p>
+
+<p><strong>Step 4 : Test Your Solution</strong></p>
+
+<p>As you’re developing your brute force approach as first naive solution to the problem, the next step is to test it. Test it with normal input as well as edge cases. Your brute-force approach must handle both.</p>
+
+<p>Think through a little bit if you were to implement this first solution:</p>
+
+<ul>
+  <li>How would you do it?</li>
+  <li>What data structures would be useful?</li>
+  <li>How would those data structures interact with the problem that you’re working with?</li>
+  <li>What performance would you get out of this implementation?</li>
+</ul>
+
+<p>Think about any trade-offs in terms of using more memory to speed up the performance, or vice verse. So, we’ve got a solution. But we didn’t spend a lot of time trying to make it clever or elegant.</p>
+
+<p><strong>Step 5 : Refine Your Solution</strong></p>
+
+<p>So our next step of the strategy is to iterate this whole process of coming up with a candidate approach to solving the problem. Evaluating, testing and poking at it, making sure that it works correctly or if it doesn’t, thinking about ways to fix it and refine your solution as much as you can.</p>
+
+<p>The interviewer will try to guide you towards iterating your solution, asking you if it could be made better, asking you if there are any trade-offs that you have in mind. And you want to think through this checklist of how you evaluate your strategy at each stage of the problem solving process.</p>
+
+<p>Now when we iterate, we come up with a great solution, that we think at the high level will do a pretty good job. We’ve done an asymptotic analysis. We have a sense of how long asymptotically using Big O notation each of the operations involved will take.</p>
+
+<p><strong>Step 6 : Write Code</strong></p>
+
+<p>Finally in step 6 of our strategy, we finally write some code. So only after a very thorough analysis of the problem, you have a very good sense of what you want to implement, now you can start writing some code on the whiteboard.</p>
+
+<p>Programming on a white board in the interview situation is quite different from typing it out in a computer. It’s a good idea to practice on whiteboard during preparation.</p>
+
+:ET
