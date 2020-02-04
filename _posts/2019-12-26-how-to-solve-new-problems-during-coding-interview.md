@@ -3,6 +3,19 @@ layout: post
 excerpt: In this article we will discuss the strategy to use when you have to solve a new problem that you've never solved before.
 ---
 
+Solving programming problems requires two skills: 
+
+1. The design of algorithms
+2. The implementation of algorithms
+
+The design of algorithms consists of problem solving and mathematical thinking. This demands skills for analyzing problems and solving them creatively. An algorithm must be both correct and efficient and the core of the problem is often about inventing an efficient algorithm. 
+
+Theoretical knowledge of algorithms is an important prerequisite to design algorithms. Typically, a solution to a problem is a combination of well-known techniques and new insights. 
+
+The implementation of algorithms requires good programming skills. The solution must be tested using a set of test cases. The implmentation must be correct to pass all the test cases.
+
+Coding style must be straightforward and concise. The programs are short - usually less than 50 lines of code. 
+
 ## Algorithmic Problem Solving
 
 In this article we will discuss the strategy to use when you have to solve a new problem that you've never solved before.

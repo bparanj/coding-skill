@@ -1,4 +1,19 @@
-I"˜<h2 id="algorithmic-problem-solving">Algorithmic Problem Solving</h2>
+I"@<p>Solving programming problems requires two skills:</p>
+
+<ol>
+  <li>The design of algorithms</li>
+  <li>The implementation of algorithms</li>
+</ol>
+
+<p>The design of algorithms consists of problem solving and mathematical thinking. This demands skills for analyzing problems and solving them creatively. An algorithm must be both correct and efficient and the core of the problem is often about inventing an efficient algorithm.</p>
+
+<p>Theoretical knowledge of algorithms is an important prerequisite to design algorithms. Typically, a solution to a problem is a combination of well-known techniques and new insights.</p>
+
+<p>The implementation of algorithms requires good programming skills. The solution must be tested using a set of test cases. The implmentation must be correct to pass all the test cases.</p>
+
+<p>Coding style must be straightforward and concise. The programs are short - usually less than 50 lines of code.</p>
+
+<h2 id="algorithmic-problem-solving">Algorithmic Problem Solving</h2>
 
 <p>In this article we will discuss the strategy to use when you have to solve a new problem that youâ€™ve never solved before.</p>
 
