@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Computer Science - The Mechanization of Abstraction
 ---
 
 The book Foundations of Computer Science by Al Aho and Jeff Ullman is available for free download online. This book provided a clear explanation of solving real world problems by applying Computer Science knowledge. It filled a beginner's gap in my knowledge. We have worked with graph in high school, we think of plotting a graph using the x and y axis in a graph paper. But in Computer Science graph means something different. It represents nodes and edges. Here is my notes from the book that resulted in my Aha moment.

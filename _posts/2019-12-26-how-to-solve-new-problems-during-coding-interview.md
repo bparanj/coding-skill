@@ -1,5 +1,6 @@
 ---
 layout: post
+title: How to Solve New Problems During Coding Interview
 excerpt: In this article we will discuss the strategy to use when you have to solve a new problem that you've never solved before.
 ---
 

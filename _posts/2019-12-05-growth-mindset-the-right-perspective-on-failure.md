@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Growth Mindset - The Right Perspective on Failure
 excerpt: How you deal with failures will determine whether you succeed in your career or not. Learn how to cope with challenges. Avoid the fixed mindset and adopt a growth mindset.
 ---
 

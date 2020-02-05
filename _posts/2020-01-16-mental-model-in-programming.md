@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Mental Model in Programming
 ---
 
 A mental model is a representation of some domain that supports understanding, reasoning, and prediction. Mental models permit reasoning about situations not directly experienced. They allow people to mentally simulate the behavior of a system. 

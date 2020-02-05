@@ -1,5 +1,6 @@
 ---
 layout: post
+title: How to Set Goal and Create an Action Plan
 excerpt: Yogi Berra said "If you don't know where you are going, you might wind up someplace else". Learn how to set your career goal and performance goal. This drives your customized action plan for coding interview preparation.
 ---
 

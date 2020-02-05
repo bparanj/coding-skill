@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Problem Solving Techniques for Coding Interview
 excerpt: In a coding interview you have to demonstrate to your interviewer that you possess several key skills. The ability to rigorously formulate real-world problems. The skills to solve problems and design algorithms. The tools to go from an algorithm to a working program.  The analytical techniques required to determhe the computational complexity of your solution.
 ---
 
