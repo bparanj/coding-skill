@@ -1,0 +1,23 @@
+I"�
+<p>Working at the Whiteboard</p>
+
+<p>So now that we have a strategy in mind, we’re ready to move to the white board and start implementing it.</p>
+
+<p>You’ll be talking with an interviewer and you’ll be working with them next to a white board. Let’s work with the example we have so far. Our strategy for finding the k’th smallest element and the array is to first sort the array, and then just pick out the k’th element. And so, let’s go ahead and implement that.</p>
+
+<p>We know that we’re supposed to be returning the value of the k’th smallest element, and so we’re returning an int. And we want a descriptive method name, and so we call this kthSmallest. And as inputs, we have both the array of elements that we started with, as well as the rank. And so we have int array and we have the rank that we want to return.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>And so, here’s our head method header. Now, the first thing we want to do in our method is validate the arguments. So check if (K i&lt;=0</td>
+      <td> </td>
+      <td>K&gt; array.length. In which case, it doesn’t make any sense to ask for the k’th smallest. So in this situation, we want to thrown an exception, because the arguments were bad. And so, we’re going to throw a new IllegalArgument Exception.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>If we do have good arguments and then our plan was to sort, and we can use a library method for that. We’ve got arrays.sort(array) and then we’re going to return the element in the kth position after we’ve sorted the array. We’re assuming k is indexed by starting with index 0. Then what we want to return is the element of the array[k-1], rather than k. And so what we have now on the board is a description of the algorithm that we’ve articulated for solving the problem. And what we would do now is walk through with an example.</p>
+
+<p>They might ask us to implement this sorting method instead of using a library call. They might ask us to go further with the algorithm.</p>
+:ET

@@ -1,0 +1,20 @@
+I"�	<p>Before you start coding on the whiteboard, you must have a strategy in mind. You’ll be talking with an interviewer and working with them next to a white board. One of the criteria for evaluating your performance is your ability to translate a concept into code.</p>
+
+<p>A candidate can verbalize the solution and yet they can’t write code to implement it. Perhaps they do write code, but the code looks ugly and disorganized. The candidate will lose some points here if they can’t demonstrate good coding practices.</p>
+
+<p>One of the best ways to show this is through Object-Oriented programming (OOP), which could automatically get you a few points indicating that you can write more “structured” code.
+Also be especially careful about recursion. Most interview loops will involve at least one or numerous recursive solutions (since there’s not much in programming that is much trickier than recursion). We all like to think we can write recursion, but practice ensures you can write it quickly and elegantly. Often recursion will involve a “helper” function that has function parameters capable of passing around more state.
+Being able to convert a recursive solution to an iterative one will almost surely help you ace an interview. If you are given a recursive question, turn the tables on the interviewer and show that you can not only solve it elegantly but can take that a step further and throw in an iterative solution, while explaining the pros/cons of recursion vs iteration (ie., not being bound by the recursion stack space).
+Just be careful here not to waste too much time on elegant code. Many candidates will burn all their time on “beautiful naming” for variables and functions, writing every last semicolon out… manage your time effectively. And remember that often interviewers will photograph your code and transcribe it word-for-word – spend just a moment to double-check your solution to clean it up.
+Google Coding Style Guides:
+Python
+https://google.github.io/styleguide/pyguide.html
+Javascript
+https://google.github.io/styleguide/jsguide.html
+Java
+https://google.github.io/styleguide/javaguide.html
+C++
+https://google.github.io/styleguide/cppguide.html</p>
+
+<p>Here are the coding samples. Just copy/paste these into your favorite Python editor. In the video, I am using Visual Studio Code with the CodeRunner extension that allows for quickly running code directly from the editor. Try writing these on your own and then paste in the solution.</p>
+:ET
