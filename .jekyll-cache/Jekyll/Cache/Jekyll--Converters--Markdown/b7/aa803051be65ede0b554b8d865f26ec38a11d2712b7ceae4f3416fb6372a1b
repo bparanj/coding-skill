@@ -1,0 +1,91 @@
+I""<p><strong>Goal</strong></p>
+
+<p>Set your career goal by using the format: From X to Y by when. Example:</p>
+
+<blockquote>
+  <blockquote>
+    <p>From Bootcamp Graduate to Graduate Software Engineer at Google by August 15, 2020.</p>
+  </blockquote>
+</blockquote>
+
+<p>Graduate software engineer will have 0 years of experience. The time frame should neither be too short nor too long. Too short a time frame is not sufficient to prepare. Too much time makes the work expand.</p>
+
+<blockquote>
+  <p>Work expands so as to fill the time available for its completion
+Parkinson’s Law</p>
+</blockquote>
+
+<p>Parkinson’s Law should not be used to set unreasonable deadlines. Your time frame depends on whether you need to brush up on the concepts or you are learning them for the first time. Now write down your goal in a notebook.</p>
+
+<p><strong>Performance Goal</strong></p>
+
+<p>Even though you set your career goal in the format from X to Y by when, your performance goal for the interview must be in the format:</p>
+
+<blockquote>
+  <p>I want to solve any given problem for a senior developer level within 45 minutes time frame and come up with an optimized solution.</p>
+</blockquote>
+
+<p>Because most of the technical interviews last only 40-45 minutes. The number of lines of code of the solution will be less than 50 lines of code. That’s it. This assumes no redundant code in the solution. If you’re spending time on problems that have 100 to 200 lines of code in the solution, you are not utilizing your preparation time properly.</p>
+
+<p>So the time constraint narrows down the kind of problems that you can expect in a real coding interview. Initially it may take you 65 minutes to solve the problem. The more you practice, the closer you get to finish it within the 45 minutes. Because if you don’t finish it within that time frame you won’t be selected. This is your readiness for attending an interview.</p>
+
+<p>Restricting the size of the solution is one way to focus on solving problems that you will likely encounter in a coding interview. This compresses the time required to prepare.</p>
+
+<p><strong>Daily Action Plan</strong></p>
+
+<p>Decide on how much time you have available for coding interview preparation. Write down in your notebook:</p>
+
+<blockquote>
+  <p>I can dedicate ___ hours per day for study and deliberate practice.</p>
+</blockquote>
+
+<p><strong>Prioritize Topics</strong></p>
+
+<p>Make a list of topics to study for the interview and prioritize them. The familiar topics will go to the bottom of your list. You can use the following topics as your starting point:</p>
+
+<p><strong>Data Structures and Abstract Data Types</strong></p>
+
+<ul>
+  <li>Arrays</li>
+  <li>Strings</li>
+  <li>Graphs: directed and undirected, different representations and their trade-offs</li>
+  <li>Hash Table: collision resolution strategies, hash functions and their trade-offs</li>
+  <li>Linked Lists: single and double, with and without sentinel nodes</li>
+  <li>The List ADT</li>
+  <li>The Set ADT</li>
+  <li>The Map ADT</li>
+  <li>Min/Max Heaps</li>
+  <li>Stack</li>
+  <li>Queue and Priority Queue ADTs</li>
+  <li>Trees, Binary Trees, Binary Search Trees</li>
+  <li>Binomial and Fibonacci Heaps</li>
+  <li>AVL / Red Black Trees</li>
+  <li>Splay Trees</li>
+  <li>Skip Lists</li>
+  <li>Tries</li>
+</ul>
+
+<p><strong>Algorithms</strong></p>
+
+<ul>
+  <li>Binary search</li>
+  <li>Sorting algorithms: Selection Sort, Insertion Sort, Bubble Sort, Quicksort, Mergesort, Heapsort</li>
+  <li>Search algorithms: Depth-first search, Breadth-first search, Dijkstra’s algorithm</li>
+  <li>Tree traversal: pre-order, post-order, in-order, level-order (which is BFS)</li>
+</ul>
+
+<p><strong>Algorithm Techniques</strong></p>
+
+<ul>
+  <li>Brute force</li>
+  <li>Divide and conquer / Recursion</li>
+  <li>Greedy Algorithms</li>
+  <li>Dynamic Programming (advanced level)</li>
+  <li>Backtracking</li>
+  <li>NP-hard problems</li>
+</ul>
+
+<p>What goes into your list depends on the position level. For senior level positions, you have to add advanced data structures and algorithms. You must know the scope of the material you need to master within the given time frame. What is the breadth and depth of knowledge you need to master for your situation?</p>
+
+<p>Sorting and searching become an intermediate step in solving other problems. You are learning how to solve some common classes of problems that have already been classified. There are known ways to go about solving them efficiently. So if somebody gives you a problem, you need to be able to pick the right data structure to store the data and decide on the right algorithm to use.</p>
+:ET
