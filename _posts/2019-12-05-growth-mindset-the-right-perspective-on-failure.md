@@ -40,5 +40,3 @@ Software development is the right career choice if you enjoy:
 - Learning new things everyday
 
 If you have made the right choice, next you need to set your goal, plan and execute your plan to accomplish your goal. In an upcoming article, we will discuss about planning your actions and executing them.
-
-

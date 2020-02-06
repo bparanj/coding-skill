@@ -7,7 +7,7 @@ A mental model is a representation of some domain that supports understanding, r
 
 For instance, the knowledge about the computer memory and how it is used during the program execution can be visualized as shown in the diagram. This is a useful mental model when solving coding problems. Because, we are able to make the design choices.
 
-![Computer Memory](https://www.codingskill.net/assets/images/computer-memory-layout.jpg)
+![Computer Memory](/assets/images/computer-memory-layout.jpg)
 
 Recursion is a difficult topic for beginners to understand. Experts have the mental model to understand recursion deeply and they are able to choose between tail recursion or head recursion based on the problem. They know about the system stack, frames for the procedure calls and how the values of variables are bound to the recursive calls.
 
@@ -21,7 +21,7 @@ In mathematics, a variable is an unknown which can take on all the numerical val
 
 The classical imperative paradigm uses modifiable variables. According to this model, the variable is seen as sort of container or location that refers to physical memory. We can give a name to the variable and it can contain values. These values can be changed over time, by execution of assignment commands.
 
-![Mental Model of a Variable](https://www.codingskill.net/assets/images/mental-model-variable.png)
+![Mental Model of a Variable](/assets/images/mental-model-variable.png)
 
 A programming newbie will have a simple mental model for a variable.
 
@@ -29,7 +29,7 @@ In mathematics a variable represents a value that is unknown but when such a val
 
 We can represent a variable with the name x with a box that is filled with a value. It can be seen that the variable (the box) is different from the name x which denotes it. 
 
-![Variable Representation](https://www.codingskill.net/assets/images/variable.png)
+![Variable Representation](/assets/images/variable.png)
 
 Some object-oriented languages use a different model. According to this alternative model, a variable is not a container for a value but is a reference to a value which is typically stored in the heap. 
 

@@ -3,7 +3,6 @@ layout: post
 excerpt: You've got to crawl before you can walk and you've got to walk before you can run. If you don't, you're going to struggle and will face a lot of problems during coding interview preparation.
 ---
 
-
 You've got to crawl before you can walk and you've got to walk before you can run. If you don't, you're going to struggle and will face a lot of problems during coding interview preparation. 
 
 Everyone has differences in their existing knowledge. You have to identify your current preparation phase and start from that phase in your preparation. You can then prepare well for the coding interview by following the steps in each phase of the preparation as outlined in this article.

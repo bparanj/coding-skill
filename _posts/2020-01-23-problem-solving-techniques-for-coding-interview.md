@@ -82,13 +82,3 @@ Is there symmetry in the input space or solution space that can be exploited?
 Expert programmers do not rely on a set of rules. But the journey to becoming an expert programmer cannot bypass the phase where you need a set of rules to learn problem solving in the context of solving coding problems. 
 
 The book works through several coding problems to illustrate how to apply these problem solving techniques to a coding problem. You still need to learn which technique to apply to which problem. I highly recommend the Algorithms for Interviews book to build your problem solving toolbox for coding interviews. It provides the training wheels you need to become a problem solver.
-
-
-
-
-
-
-
-
-
-

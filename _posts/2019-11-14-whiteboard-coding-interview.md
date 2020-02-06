@@ -39,4 +39,3 @@ The exception may be for some structures like Heap, in which it is just too comp
 ## Handling a Question You Have Seen Before
 
 You can solve the problem quickly. Good candidates will have seen every type of question at some point. The interviewer is not evaluating you on whether you can solve it but how you solve it. Demonstrate that you can solve it both recursively and iteratively with proper time-space complexity analysis and elegant code. Dsicuss the pros and cons of the alternatives.
-
