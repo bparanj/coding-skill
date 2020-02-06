@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://localhost:4000/2019/10/24/how-to-set-goal-and-create-an-action-plan.html</loc>
+<lastmod>2019-10-24T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2019/10/31/milestones.html</loc>
+<lastmod>2019-10-31T00:00:00-04:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/2019/11/07/top-10-mistakes-that-candidates-make-in-a-coding-interview.html</loc>
 <lastmod>2019-11-07T00:00:00-05:00</lastmod>
 </url>
@@ -13,7 +21,7 @@
 <lastmod>2019-11-21T00:00:00-05:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/2019/11/28/how-to-set-goal-and-create-an-action-plan.html</loc>
+<loc>http://localhost:4000/2019/11/28/how-to-prepare-quickly-for-coding-interview.html</loc>
 <lastmod>2019-11-28T00:00:00-05:00</lastmod>
 </url>
 <url>
