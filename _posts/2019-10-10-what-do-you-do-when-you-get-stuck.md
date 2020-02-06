@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What to do when you are stuck?
+title: What to Do When You are Stuck?
 excerpt: You are working on a coding problem and struggling to make progress to solve the problem. You look at a the solution for the problem, you are totally lost and cannot understand the code. How do you get past this obstacle?
 ---
 
