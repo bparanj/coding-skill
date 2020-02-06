@@ -82,3 +82,5 @@ Is there symmetry in the input space or solution space that can be exploited?
 Expert programmers do not rely on a set of rules. But the journey to becoming an expert programmer cannot bypass the phase where you need a set of rules to learn problem solving in the context of solving coding problems. 
 
 The book works through several coding problems to illustrate how to apply these problem solving techniques to a coding problem. You still need to learn which technique to apply to which problem. I highly recommend the Algorithms for Interviews book to build your problem solving toolbox for coding interviews. It provides the training wheels you need to become a problem solver.
+
+In upcoming articles, we will see the forest as well as the trees by discussing both the big picture as well as the lower level details that fit into the higher level structure. The high level strategic decisions are data structures, algorithms and problem solving strategies and the tactical decisions at the code level are coding patterns, coding drills and the semantics. You need a good grasp of both aspects to become a problem solver capable of solving new problems.
