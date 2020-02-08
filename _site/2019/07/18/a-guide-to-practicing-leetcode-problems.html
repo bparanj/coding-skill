@@ -1,0 +1,187 @@
+<!doctype html>
+<html>
+  <head>
+	<meta charset="utf-8">
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>A Guide to Practicing Leetcode Problems - Coding Skill</title>
+
+  <link rel="stylesheet" href="/assets/css/styles.css">
+	<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>A Guide to Practicing Leetcode Problems | Coding Skill</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="A Guide to Practicing Leetcode Problems" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="This guide answers questions people often have about interview coding problems and things to watch out." />
+<meta property="og:description" content="This guide answers questions people often have about interview coding problems and things to watch out." />
+<link rel="canonical" href="http://localhost:4000/2019/07/18/a-guide-to-practicing-leetcode-problems.html" />
+<meta property="og:url" content="http://localhost:4000/2019/07/18/a-guide-to-practicing-leetcode-problems.html" />
+<meta property="og:site_name" content="Coding Skill" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-07-18T00:00:00-04:00" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2019/07/18/a-guide-to-practicing-leetcode-problems.html"},"url":"http://localhost:4000/2019/07/18/a-guide-to-practicing-leetcode-problems.html","description":"This guide answers questions people often have about interview coding problems and things to watch out.","headline":"A Guide to Practicing Leetcode Problems","dateModified":"2019-07-18T00:00:00-04:00","datePublished":"2019-07-18T00:00:00-04:00","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+  <body>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="/">Coding Skill</a>
+		<form class="form-inline my-2 my-lg-0">			
+			<a class="btn btn-primary btn-lg" href="https://go.oncehub.com/BalaParanj" role="button">Schedule a Free Consultation</a>
+		    </form>
+  </div>
+	
+</nav>
+
+
+
+
+
+
+    <div class="container">
+			<div class="row">
+			  <div class="col-md-8">
+					<h1>A Guide to Practicing Leetcode Problems</h1>
+
+<p>This guide answers questions people often have about interview coding problems and things to watch out.</p>
+
+<h2 id="list-of-topics-you-need-to-know-well">List of Topics You Need To Know Well</h2>
+
+<h3 id="fundamentals-of-computers">Fundamentals of Computers</h3>
+
+<p>Just a general knowing how computers store information etc. Knowing how binary works, how memory is managed in a program (stack &amp; heap), etc.</p>
+
+<h3 id="big-o-time--space-complexity-computation">Big O Time &amp; Space Complexity Computation</h3>
+
+<p>Know asymptotic bounds. If you can be flexible in how you analyze a solution you come up with (lower bounding it, upper bounding, exact bounding) it can help you see whether you can do better and make an improved algorithm</p>
+
+<h3 id="arrays">Arrays</h3>
+
+<p>Often questions that work within arrays will be solved in linear time for the most part. The linear time solution will be tricky.</p>
+
+<h3 id="primitives">Primitives</h3>
+
+<p>Things like bit shifting. This is more rare and I don’t think this is as important since it doesn’t test real thinking abilities since it mixes with one’s abilities to bit shift which is an esoteric skill.</p>
+
+<h3 id="strings">Strings</h3>
+
+<p>These are problems that often deal with strings like permutations, backtracking problems that have use take an exhaustive approach in producing decompositions of a string to search a possibility space (which is often a brute force way of solving a problem since it will be exponential in time), etc. String problems are often solved most optimally in O(n) time or O(s1 + s2) time (linear with respect to each string) if we are given two strings.</p>
+
+<h3 id="dynamic-programming">Dynamic Programming</h3>
+
+<p>One of the most difficult subjects. Subproblems is the key. If you can identify the subproblem, you have cracked the problem. Because from there it is all about memoization to cache and leverage previous solutions.</p>
+
+<h3 id="recursion--backtracking">Recursion / Backtracking</h3>
+
+<p>At some point you will naturally think of solutions in a recursive manner (if backtracking could be a possible approach used). Problems that use backtracking often say: “generate all”, “compute every”. This indicates an expression of exhaustively expressing all the possibilities of a decision space. Recursion is beautiful for this type of problem.</p>
+
+<h3 id="graphs">Graphs</h3>
+
+<p>Know DFS &amp; BFS. DFS uses a stack (either implicit with the call stack and recursion or explicit if we create our own stack) and BFS uses a queue.</p>
+
+<h3 id="greedy-algorithms">Greedy Algorithms</h3>
+
+<p>These are algorithms that take the locally most optimal solution to achieve a global optimal. In contrast to problems that use dynamic programming (which is characterized by caching previous subproblems to find a global optimum), greedy algorithms take locally optimal choices.</p>
+
+<p>Not all greedy approaches one comes up with will work 100% of the time so it hinges on being able to use deductive logic to prove that a given approach will always work</p>
+
+<h3 id="hashtables">Hashtables</h3>
+
+<p>Very common in mid-level interviews. This is a must know. It is pretty simple, when our time complexity is too high, we can often reduce time and increase space by using some sort of auxiliary structure to cache work. Hashtables are often that auxiliary structure.</p>
+
+<h3 id="linked-lists">Linked Lists</h3>
+
+<p>A tricky structure to work with. It is hard because we can’t index into items. It gets easier with time but always remains tricky.</p>
+
+<h3 id="sorting">Sorting</h3>
+
+<p>Know the fundamental sorting algorithms. Bubble, Insertion, Selection, Merge, Quick, Heap, etc.</p>
+
+<h3 id="searching">Searching</h3>
+
+<p>If an array is sorted. Immediately know that that is a strong hint that the optimal solution will use binary search and stay to the order of O(log(n)).</p>
+
+<h3 id="minmax-heaps">Min/Max Heaps</h3>
+
+<p>If you see: “find the largest” or “find the smallest”, anything to do with size, think heap. Min or max. If we want larger items we use a min heap since we can throw away small items (to leave the large ones behind). And vice versa for when we want the smaller items.</p>
+
+<h3 id="stacks">Stacks</h3>
+
+<p>LIFO structures. Know how to implement a stack inside out. I’d suggest knowing how to implement all data structures stated here.</p>
+
+<h3 id="queues">Queues</h3>
+
+<p>FIFO structures. Used for Breadth First Search.</p>
+
+<h3 id="trees-binary-trees--binary-search-trees">Trees, Binary Trees, &amp; Binary Search Trees</h3>
+
+<p>Trees are connected, acyclic, graphs. You can do DFS and BFS on them. Print all the characters in the tree in this order? Does it look like DFS? Traverse the tree level by level? Looks like BFS. BFS goes out level by level.</p>
+
+<h2 id="an-approach-to-preparation">An Approach To Preparation</h2>
+
+<ol>
+  <li>
+    <p>Find your weak topics.</p>
+  </li>
+  <li>
+    <p>Start with easy problems.</p>
+  </li>
+  <li>
+    <p>Easy problems will be very difficult when you just start. Then they will start getting easy. Then move onto the medium level difficulty problems.</p>
+  </li>
+  <li>
+    <p>Summer internship interviews will be medium difficulty questions. Full-time roles will be upper medium questions sprinkled with a few hard questions. Stay rooted in the fundamentals above and you can survive.</p>
+  </li>
+  <li>
+    <p>Go onto hard problems if you want. But don’t get lost on esoteric problems that require special tricks. This is all about getting ready to pass an interview for a job, not about bragging rights.</p>
+  </li>
+  <li>
+    <p>Top it all off with polishing your delivery. Take mock interviews.</p>
+  </li>
+</ol>
+
+<h2 id="how-many-leetcode-problems-until-i-am-ready">How Many Leetcode Problems Until I am Ready?</h2>
+
+<p>There is no finite amount. Every person comes to the table with their own weaknesses in all topics above. You will know when you are ready. You will see a problem and say: “Oh…yeah I know what principle to apply here”. The more you get that spark, the higher the chances you pass.</p>
+
+<h2 id="should-i-time-myself">Should I Time Myself?</h2>
+
+<p>Yes and no. Time is critical. Speed is critical. But timing yourself is useless if you are very uncomfortable with a specific problem class. I suggest solving many problems (peeping the solutions often is fine, just gain comfort) in your weak points. Then when you get sick of jumping to answers you will soon take the leap and just solve the problem yourself because you will become familiar with the techniques required for the approach. This is how backtracking was for me. I went from total confusion to it becoming a default way of thinking.</p>
+
+<h2 id="what-should-i-focus-my-study-on">What Should I focus My Study On?</h2>
+
+<p>Weak points. And then popular problems. Find a list of problems the company you are interviewing at asks. No idea whether this is a myth or not (and CTCI addressed this as false, that companies repeat questions from a list) but I have friends that told me of getting exactly questions from these lists. It isn’t critical but it can help.</p>
+
+<h2 id="reading-books-vs-leetcodehackerrank">Reading Books vs. Leetcode/HackerRank</h2>
+
+<p>Books give you theory. Coding gives you the memory in your fingers and the necessary practice. Like if I know a problem will use BFS, how fast can I put the logic in place for a basic search? If I know that a problem may use a heap, how fast can I throw up a priority queue with the right comparator (if it is a max or min heap. Java defaults to a min heap without a comparator)</p>
+
+
+
+<hr/>
+<a class="btn btn-primary btn-lg" href="https://go.oncehub.com/BalaParanj" role="button">Schedule Your Free Consultation Now</a>
+
+			  </div>
+	
+			  <div class="col-md-4">
+			    <h3 class="my-3">Coding Interview Secrets</h3>
+			    <p>
+						If you are feeling frustrated and overwhelmed with coding interview preparation, sign up for FREE <a href='https://codinginterview.coach/'> coaching session </a> and we will figure it all out. Why is this free? Because I believe in Zig Ziglar's quote: You can get everything in life you want if you will just help enough other people get what they want.
+			    </p>
+			  </div>
+			</div>
+    </div>
+    
+    <br/>    <br/>
+    <script src="/assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+
+
