@@ -16,8 +16,8 @@ The last question the interviewer sometimes might ask you is if you have any que
 
 This is important because you need to end the interview with a good impression. 
 
-Do not ask the interviewer what they think about your solution. 
-Do not ask any negative questions such as what's the worst part about their job. 
+- Do not ask the interviewer what they think about your solution. 
+- Do not ask any negative questions such as what's the worst part about their job. 
 
 You will make the interviewer uncomfortable. If the company makes the headline for the wrong reason, do not ask any questions about that issue.
 

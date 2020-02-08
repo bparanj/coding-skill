@@ -12,11 +12,29 @@ Once you acquire the basic concepts, it is time to apply the concept to solve a 
 - Can this problem be divided into two subproblems that can then be solved independently?
 - Can I use sort or search as an intermediate step?
 
-Basically, you need to recall the techniques you learned during your study session and apply them to solve new problems.
+Basically, you need to recall the techniques you learned during your study session and apply them to solve new problems. In a previous article on [How to Develop Your Own Toolbox for Solving Coding Problems]({% post_url 2019-08-22-how-to-develop-your-own-toolbox-for-solving-coding-problems %}) you learned the importance of making an attempt to solve the problem before looking at the solution.
+
+## Consistency
+
+Be Consistent. Work on at least one problem a day to keep your skills sharp. Repetition will keep your mind engaged.  There are patterns in these algorithms and data structures that if you do over and over, you will learn to recognize.
+
+## Practice on Paper or Whiteboard
+
+Write by hand. Practice writing out the problems by hand on paper or a whiteboard. It will help you better gauge your usage of time and appreciate how valuable time is in an interview.  In a real interview setting, it is not rare to write half pseudocode to save on time.
+
+## Efficiency and Confidence
+
+The speed and fluidity at which you can analyze a problem, propose an algorithm and code the algorithm reveals a lot about a candidate.  If you solved the problem, try doing it again faster later.
 
 ## Solve the Problem Multiple Times
 
-Without looking at references or your notes, solve the problem for the second time. Pretend as if you have never seen the problem before. After this second attempt, search for similar or related problems. Solving similar problems will deepen your understanding of the newly learned algorithm. This process will familiarize you with your new skills, so you can understand them. 
+Without looking at references or your notes, solve the problem for the second time. Pretend as if you have never seen the problem before. Rather than simply solving the problem and moving on, make an attempt to solve the problem using other techniques.  
+
+Challenge yourself to write the brute force solution, analyze it and write the iterative version of a recursive solution. See if you can create custom data structures like a Grid class, Point class or Binary Search Tree class to add object-oriented structure to your code.  
+
+The fluidity and speed will set you apart from other candidates. Many candidates solve a problem and still do not receive offers, because they cannot solve the problems fluidly and quickly.
+
+After this second attempt, search for similar or related problems. Solving similar problems will deepen your understanding of the newly learned algorithm. This process will familiarize you with your new skills, so you can understand them. 
 
 Make note of how much time it takes you to solve a specific problem. This keeps track of your progress over time. This method appears slow but it is the best way to learn new patterns and apply them to solve different problems.
 
@@ -52,17 +70,19 @@ Practice expressing your problem solving process. Ways to practice:
 
 Understand the thought process of an interviewer. 
 
-1. How did the candidate analyze the problem?
-2. Did the candidate miss any special or edge cases?
-3. Did the candidate approach the problem methodically and logically?
-4. Did the candidate ask clarifying questions when they were stuck?
-5. Does the candidate have a strong foundation in basic computer science concepts?
-6. Did the candidate produce working code? 
-7. Did the candidate test the code?
-8. Is the candidate’s code clean and easy to read and maintain?
-9. Can the candidate explain their ideas clearly?
-10. Is the candidate pleasant to work with?
-11. Use the mock interview evaluation criteria to evaluate your performance.
+- How did you analyze the problem?
+- Did you miss any special or edge cases?
+- Did you approach the problem methodically and logically?
+- Did you clarify the problem as needed, and then explain the solution?
+- Did you ask clarifying questions when you were stuck?
+- Do you have a strong foundation in basic computer science concepts?
+- Did you produce working code? 
+- Did you test the code?
+- Is you code clean and easy to read and maintain?
+- Can you explain their ideas clearly?
+- Are you pleasant to work with?
+
+Use the mock interview evaluation criteria to evaluate your performance.
 
 ## Conclusion
 

@@ -33,11 +33,9 @@ The fourth mistake is trying to memorize the problems and its solution. This is 
 
 If you know the fundamentals, data structures, you can remember things like: For this type of problem, you have to use a queue. You make better use of your time by understanding the fundamentals.
 
-Study as many different algorithms as you can so that none of them will throw you off guard. When you see something about a tree traversal using hashmaps or iterative tree traversal, it should not throw you off guard. 
+Study as many different algorithms as you can so that none of them will throw you off guard. When you see something about a tree traversal using hashmaps or iterative tree traversal, it should not throw you off guard. You should say: “Oh yeah, I've seen something like this before”. 
 
-You should say: “Oh yeah, I've seen something like this before”.  Dynamic programming problems usually are either you get it or you don't get it type of questions. 
-
-Instead of analyzing the problem to solve it, if you are trying to remember what the memorized answer was, it can be harmful. Because you're not applying your problem solving skills to solve the problem.
+Instead of analyzing the problem to solve it, if you are trying to remember the memorized answer, it can be harmful. Because you're not applying your problem solving skills to solve the problem.
 
 Your ability to analyze the problem is very important. If you can give a good analysis on time, space, data structure usage and right alternatives, even if you didn't complete solving the whole problem it may still be good enough. It's about the thought process and not necessarily about whether you can solve the whole problem.
 
@@ -45,11 +43,11 @@ Your ability to analyze the problem is very important. If you can give a good an
 
 The fifth mistake is not solving problems out loud. Before you start writing the code, you can take time to think and then communicate your thoughts to the interviewers. 
 
-There are two benefits to communication. The first benefit is that they care about your thought process, you will be checking off one of the evaluation criteria of the interview performance. The second benefit is that they can guide you in the right direction, if you're going in the wrong direction. So it pays you to think out loud.
+They care about your thought process, you will be checking off one of the evaluation criteria of the interview performance. They can guide you in the right direction, if you're going in the wrong direction. So it pays you to think out loud.
 
 Lack of communication means lack of analysis. You must talk about trade offs, time-space complexity, alternatives you are considering such as recursive vs iterative solution and so on. 
 
-## Mistake #6 : Rushing Into Coding
+## Mistake #6 : Rushing into Coding
 
 The sixth mistake is rushing into the coding part too soon. You might miss the edge cases and it may not be the most optimal solution. You modify the current code and fix any issues. Often, these fixes without any thinking do not address any underlying bigger problems in your code.
 
@@ -61,41 +59,40 @@ Yes, you only have 45 minutes, but you also have time to stop and think. Five mi
 
 ## Mistake #7 : Sloppy Code
 
-The seventh mistake is sloppy code. This is related to rushing to code. Sloppy code implies confusing variable names and syntax mistakes. You want something that's beautifully written, cohesive and concise which is easier for your interviewer to know what you're doing.
+The seventh mistake is sloppy code. This is related to rushing to code. Sloppy code implies confusing variable names and syntax mistakes. You want something that's beautifully written, cohesive and concise which is easier for your interviewer to understand.
 
-Often times interviewers will take a picture of your solution. It gets transcribed into a document so that it can go to the hiring committee or hiring manager who can review your code. Take some time to clean up the code. If at the very end, you have an algorithm and you think that it's pretty good and you kind of have the interviewers approval on that, then, take a minute or two to cleanup.
+Often times interviewers will take a picture of your solution. It gets transcribed into a document so that it can go to the hiring committee who can review your code. Take some time to clean up the code. If at the very end, you have an algorithm and you think that it's pretty good and you kind of have the interviewers approval on that, then, take a minute or two to cleanup.
 
 Don't spend too much time on this, but take a little bit of time to clean up and make sure that it looks good. It only takes a minute to clean up the method signatures and check the input and output parameters. If you don’t, they will think that is the best you can do.
 
 ## Mistake #8 : Not Revising Your Code
 
-The eight mistake is not revising your code. Often times, after finishing coding you may still have syntax errors. It may sound nitpicky, but it's still important. It shows that you are detail oriented to the interviewer. 
+The eighth mistake is not revising your code. Often times, after finishing coding you may still have syntax errors. It may sound nitpicky, but it's still important. It shows that you are detail oriented to the interviewer. 
 
 ## Mistake #9 : Fixing Mistakes Carelessly
 
 The ninth mistake is fixing mistakes carelessly. Often times this is related to sloppy coding or rushing into coding. You start coding and then you realize there are some edge cases missing. You add an if statement to fix that edge case. 
 
-But your code has fundamentally something wrong with it. Instead of trying to fix it right away because you realize there's an edge case missing, step back. Think about your code. Is this important for all these cases? Then make sure that your code is right before fixing any mistakes. This is about having a big picture view of the solution. You must be able to see the forest.
+But your code has fundamentally something wrong with it. Instead of trying to fix it immediately, step back. Think about your code. Is this important for all these cases? Then make sure that your code is right before fixing any mistakes. This is about having a big picture view of the solution. You must be able to see the forest.
 
-There's nothing worse than when you fix one error and then the interviewer asks you about another error. You fix that and then they ask you about another case. You don't want too much help like that because then the interviewer will think you're sloppy and careless. 
+There's nothing worse than when you fix one error and then the interviewer asks you about another case. You fix that and then they ask you about another case. You don't want too much help like that because then the interviewer will think you're sloppy and careless. Too many careless errors will sink you.
 
-So, when you see a mistake, fix it, take a step back, take another quick look. This is about knowing what you're doing and being able to comprehend your code and being quick at it. Fix anything else that needs to be fixed and then you can say, “Okay, I think this pretty much does what we're looking for here”. This is the general gist of the algorithm. You're not guaranteeing that the whole thing is perfect. But you can at least say, this is about right and just try to fix any careless errors that you may have committed. Because too many careless errors will sink you.
+So, when you see a mistake, fix it, take a step back, take another quick look. This is about knowing what you're doing and being able to comprehend your code and being quick at it. Fix anything else that needs to be fixed and then you can say, “Okay, I think this pretty much does what we're looking for here”. This is the general gist of the algorithm. You're not guaranteeing that the whole thing is perfect. 
 
 ## Mistake #10 : Giving Up Easily
 
 The last mistake is giving up too easily. When you are given a problem in the interview, you say: “Oh, I don't know how to do this. I give up, I can't do this”. Part of the interview is about getting signal from you. 
 
-So it's possible that they give you a harder question to see how you struggle with it and how you learn than if they give you a question that you know already, then it doesn't give them any signal. 
+So it's possible that they give you a harder question to see how you struggle with it and how you learn than if they give you a question that you know already. 
 
 So you're supposed to struggle a little bit. Any positive self talk that keeps you working through the problem is a good tactic. If you don’t worry about the result and consider this as an opportunity to learn as much as you can in the interview, you will be in a better position to tackle the problem.
 
-So, take a deep breath and relax and just do your best. At first you may panic, if you start analyzing the problem, the interviewer sometimes might give you hints. Sometimes you might get an epiphany. You can gain momentum and confidence as you work through the problem. So, don't give up that easily.
+So, take a deep breath, relax and just do your best. At first you may panic, if you start analyzing the problem, the interviewer sometimes might give you hints. Sometimes you might get an epiphany. You can gain momentum and confidence as you work through the problem. So, don't give up that easily.
 
-Usually in the first few moments when the question is thrown at you, there's a bit of fear like do I know this one. Have I got this? As your brain is trying to figure out, what could this be? You're fearful, the more you get into it, the more you start to realize like, okay, you should have this one. Most of these questions are not supposed to be very complicated. It's not going to use some crazy algorithm and crazy data structure that you've never heard of before. 
+Usually in the first few moments when you hear the question, there's a bit of fear about whether you know this one. As your brain is trying to figure out, what could this be? The more you get into it, the more you start to realize, okay, you should have this one. Most of the questions are not supposed to be very complicated. It's not going to use some crazy algorithm and crazy data structure that you've never heard of before. 
 
-Keep in mind that whatever they throw at you, you should be able to accomplish using what you know with stacks queues, hashmaps, maybe some tree traversals, arrays and so on. That's really all you have to do and you just put these basic building blocks together. 
+Whatever they ask you, you should be able to accomplish using what you know with stacks queues, hashmaps, maybe some tree traversals, arrays and so on. You just put these basic building blocks together. 
 
 Generally you get something that you can slowly build on top of that thing. They want to see how far you can go. 
 
-Sometimes an interviewer will just throw a question at you, that is not well calibrated that even the interviewer doesn't know the answer to. They just want to see how far you can go. So if you feel bad about it, maybe you just got an uncalibrated question and you should still plow through the rest of the interview and do as best as you can. Because it could be that that interviewer was just not very well calibrated and their feedback will not be counted.
-
+Sometimes an interviewer might ask you a question, that is not well calibrated and even they don't know the answer to that question. They want to see how far you can go. So if you feel bad about it, maybe you just got an uncalibrated question and you should still plow through the rest of the interview and do as best as you can. Because their feedback will not be counted.

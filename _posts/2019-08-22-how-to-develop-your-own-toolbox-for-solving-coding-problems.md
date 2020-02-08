@@ -11,7 +11,7 @@ The problem solving aspect comes once you have acquired the prerequisite knowled
 
 ## Make an Attempt to Solve the Problem
 
-If we look at a coding problem, see if you can solve it without looking at any solution. This means you're creating obstacles for yourself and you're trying to push beyond your current skill boundary. The success is beyond your current skill level. You must tackle your obstacles head on.
+Look at a coding problem and see if you can solve it without looking at any solution. This means you're creating obstacles for yourself and you're trying to push beyond your current skill boundary. The success is beyond your current skill level. You must tackle your obstacles head on.
 
 During the first attempt to solve a problem, your goal is not to immediately figure out the correct answer. The real purpose of the first attempt is to:
 

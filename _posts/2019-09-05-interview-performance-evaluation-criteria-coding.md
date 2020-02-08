@@ -5,9 +5,9 @@ title: Technical Interview Evaluation Criteria - Coding
 
 This article will cover the coding criteria and provide tips to score extremely well. For example, we talk about the preferred language for interviews and their pros and cons. We also cover interviewing for a given position level and why that matters.
 
-Before we start, complete the action items:
+## Action Items
 
-- Understand your desired type of engineering role.  Large tech companies usually have a few predefined roles, which you can understand by checking their website. Some standard ones are iOS, Android, backend, frontend, machine learning, augmented reality etc.,  Many companies and startups in particular will usually want full-stack engineers who can work on both backend and frontend.
+- Understand your desired type of engineering role. Large tech companies usually have a few predefined roles, which you can understand by checking their website. Some standard ones are iOS, Android, backend, frontend, machine learning, augmented reality etc., Many companies and startups in particular will usually want full-stack engineers who can work on both backend and frontend.
 
 - Understand your other skills. If you have skills in communication, analytics, statistics, visual design, finance, music, foreign language or anything else make a personal note of that. 
 
