@@ -15,5 +15,6 @@ If you have a strong background some other languages like C++, you can still pic
 
 ### Using Javascript for Data Structures and Algorithms Questions
 
-If you are interviewing for a frontend role, it is fine. Be aware of some of the drawbacks of Javascript. It lacks support for manual memory management. It's not often used for object-oriented programming. 
+If you are interviewing for a frontend role, Javascript is fine. If you're going for a generalist role, Python is great to add to your toolset as it's used by most FANG and other top-tier companies as a middle-tier language.
 
+Be aware of some of the drawbacks of Javascript. It lacks support for manual memory management. It's not often used for object-oriented programming. 
