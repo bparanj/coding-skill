@@ -1,0 +1,36 @@
+I"�<p>Let’s discuss how your interview performance is evaluated. There are four criteria that determines whether you get an offer or not. You can work on improving your performance along those criteria. Even if you pass the coding interview, you might not pass the hiring committee. Because you might have failed on one of the other criteria that is not related to coding. You need to score well on all criteria to proceed further.</p>
+
+<h2 id="coding">Coding</h2>
+
+<p>This is your coding ability. It is about the syntax, how the code looks, can you write it quickly and elegantly, clean structure etc.</p>
+
+<h2 id="data-structures-and-algorithms">Data Structures and Algorithms</h2>
+
+<p>You must demonstrate your mastery of data structures and algorithms. This may involve creating data structures or showing you know Object-Oriented Programming.</p>
+
+<h2 id="design">Design</h2>
+
+<p>Design shows your analysis skills. Time-space analysis &amp; alternative approaches. You must show your ability to analyze a solution, regardless of whether you get the solution right or not.</p>
+
+<h2 id="communication">Communication</h2>
+
+<p>Software Engineering is a team sport and the ability to communicate clearly and friendly is essential.</p>
+
+<h2 id="efficacy">Efficacy</h2>
+
+<p>Efficiency is about your time management. Proper time management is the key to success.</p>
+
+<h2 id="action-items">Action Items</h2>
+
+<ul>
+  <li>
+    <p>If you’ve taken interviews in the past, reflect on them and think about these criteria. Did you demonstrate all the 4 core criteria, with the fifth efficacy component?</p>
+  </li>
+  <li>
+    <p>Think about how you can demonstrate each criteria in an interview. Given a rating scale of 1-5, what do you think a 5 looks like for each criteria?</p>
+  </li>
+  <li>
+    <p>What does clean code mean to you? Look over the Google Style Guides to understand style guidelines.  Pick your favorite language and check if your coding standards match that of Google’s official guides.</p>
+  </li>
+</ul>
+:ET
