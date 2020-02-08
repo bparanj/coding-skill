@@ -29,7 +29,8 @@ There are many situations in which information has a hierarchical or nested stru
 - Code the representation of a tree and its basic operations.
 - Create test cases and check if your solution works. Debug and fix any bugs.
 
-#### Step 1 : Basic Terminology
+##### Step 1 : Basic Terminology
+
 You learn the basic terminology and concepts first. You take your own notes on terms such as:
 
 - Nodes
@@ -51,15 +52,15 @@ This step will repeat for other topics. In this step, you're building your vocab
 
 The building blocks will get bigger and bigger over time. Complexity level of the ideas you can grasp is going to go up over time. So, this also means the progression of the level of difficulty of the problems you'll be able to solve is also going to go up over time. But again, you need to have patience and focus on the process not the outcome. 
 
-#### Step 2 : Data Structures for Trees
+##### Step 2 : Data Structures for Trees
 
 The next step is to learn about the data structures. Many data structures involving combinations of arrays and pointers can be used to implement trees. The data structure of choice depends on the operations performed on the tree. 
 
-#### Step 3 : Algorithms
+##### Step 3 : Algorithms
 
 Study recursive algorithms that operate on the nodes of a tree.
 
-#### Step 4 : Basic Operations
+##### Step 4 : Basic Operations
 
 You can now study the different traversals, such as:
 
@@ -71,7 +72,7 @@ You can learn how to compute the height of a tree, the degree of a node etc.
 
 The basic operations on a given data structure is called as abstract data type. It is an ADT, because these are just interfaces. These basic interfaces is not language specific. For instance stack has operations such as push, pop, peek, full?, empty? etc. This is the interface. The implementation internally can use an array, it can use some other way of representing that particular data structure.
 
-#### Step 5 : Check the Solution
+##### Step 5 : Check the Solution
 
 Create test cases and check if your solution works. Debug and fix any bugs. After 20 minutes, if you still can't figure out a solution, refer to the solution and compare it with your solution.
 
@@ -85,3 +86,12 @@ Once the solution works as expected, reflect on where you can improve, determine
 This same learning sequence can be applied to learn other topics in your study list. Minimize the number of books you have to study. Refer to the book recommendations at the end of this article. 
 
 Consuming too much content delays practicing. Practice must begin as soon as you have enough knowledge to apply them to write code. Studying is one aspect. Practice is another critical aspect. There are two approaches to studying that I recommend. It will be covered in upcoming articles.
+
+
+### Blogging
+
+So at the end of the study session you can organize and put everything you learned into one blog post. Others are going to engage with your content, you're also going to learn from them. So it's a collaborative way to learn about these things. 
+
+If people start noticing this, that's one way to get noticed by prospective employers. You have very strong basics, you have understood these things. People will start approaching you in your LinkedIn profile. 
+
+What is luck? When preparation meets opportunity, you create your own luck. Right now you can only focus on preparation, that's in your control. The opportunity is definitely going to come. 

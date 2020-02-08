@@ -107,7 +107,9 @@ Practice articulating your solution. As you progress, keep revisiting the core i
 
 **Step 6 : Teach**
 
-Form a study group. People who are skilled at explaining concepts to others understand them deeply. Teach the subject to others so that you develop a deeper understanding. 
+You can form a study group and explain the concept in your own words to someone. If you can teach the concept in a simple way to somebody else, then you have really mastered those concepts. 
+
+You don't have to memorize and recite definitions from a textbook. People who are skilled at explaining concepts to others understand them deeply. Teach the subject to others so that you develop a deeper understanding. Only when you have a good understanding of the concepts, you will be able to apply it to solve problems.
 
 **Step 7 : Evaluate Progress**
 
