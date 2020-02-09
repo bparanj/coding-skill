@@ -115,6 +115,12 @@ Weak points. And then popular problems. Find a list of problems the company you 
 
 It is a good strategy to pick few questions from different topics in algorithm and DS rather than thinking of exhaustively solving all questions of one topic first. Check out the Leetcode learn section that can help you pick topics to get started.
 
+### Practice the Problem Variants
+
+This will make you confident in your algorithm skills.
+
+There are no answers, but you already know the structure of the problem since it’s a variant of a given question. Guessing the structure to solve a problem is relatively easy when you have seen 100+ questions on Leetcode. Translating what the structure of the solution you want to use to an actual solution is the hardest part of these questions and can help you to solve the coding problem.
+
 ## Reading Books vs. Leetcode/HackerRank
 
 Books give you theory. Coding gives you the memory in your fingers and the necessary practice. Like if I know a problem will use BFS, how fast can I put the logic in place for a basic search? If I know that a problem may use a heap, how fast can I throw up a priority queue with the right comparator (if it is a max or min heap. Java defaults to a min heap without a comparator)
@@ -123,3 +129,8 @@ Books give you theory. Coding gives you the memory in your fingers and the neces
 
 Technical interviews vary based on the employer and even the interviewer. Spend time exploring tips from companies like Google and Microsoft to figure out what matters most. Talk to you professionals working those companies to learn from their mistakes and success. A useful resource for that: [RESOURCE LINK GOES HERE]
 
+## Downside of Leetcode
+
+For some of the solutions (at least in Python) , everyone is trying to one up each other with unreadable and small code.
+
+Spending time on these discussions can be a waste of time since your code must be easy to understand for the interviewer.

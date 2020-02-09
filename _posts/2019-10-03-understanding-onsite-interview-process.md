@@ -24,6 +24,33 @@ As you go higher up, there's going to be other topics like systems design and be
 
 The first 5 minutes and last 5 minutes matters a lot. These are your first and last impressions. Everyone says they're passionate about coding, but if you can show that passion by explaining about a project you've done that will be ideal.
 
+### Making a Good Last Impression
+
+What to do in the last 5 minutes to make a good impression? This is a Two-Way interview. If you're good, the interviewer will need to sell you on the company because you could have multiple competing offers. 
+
+So, they will be prepared to explain why it's so great to work at their company. If you can get them to try to sell you on joining the company, their mindset is already being altered towards bringing you in.
+
+Your questions are the last impression that you make. If you have no questions, it indicates that perhaps you're not all that interested in the role.
+
+The questions only lasts for about two minutes. Just a quick, Hey before we end this, can I ask you a question?"
+
+- What makes you want to work here?
+- What are the primary challenges of your current team?
+
+Share a quick comment about how you've also faced similar challenges. End with, "Thanks for sharing, it was a pleasure talking to you and that was an interesting question. I enjoyed tackling it."
+
+It is also a good opportunity to learn about something interesting regarding their stack or internal processes, such as:
+
+- How do they run their CI/CD pipeline?
+- How does requirements go from conceptual phase to production?
+- How do they deal with critical production issues?
+- Do engineers debate and have an active voice on requirements prioritization and functional requirements?
+- How much test coverage do they have for their products?
+- How does the company embrace innovation?
+- Do the engineers have a chance to research and apply technologies that improve the product?
+
+If you are not just looking for a place to get bills paid, it is really important to match the company's internal processes and goals with your career goals.
+
 ## Coding Problems
 
 The problems that the interviewer asks have specific requirements. They are are not from a pool of questions that is used for interviews. They must be short enough to be explained and solved reasonably quickly, yet complex enough that not everyone can solve them. Often these problems have challenging restrictions and may require algorithmic tricks or uncommonly used features of a programming language.
@@ -35,7 +62,6 @@ You should have thorough knowledge of mainstream languages like Java, C++, C and
 ## Computer Science Concepts
 
 The questions will cover data structures and algorithms. Approach all scripting as a coding exercise. The code should be clean and robust.  All problems will have a short elegant solution. If you start writing a lot of code, take a step back and rethink your approach. You might be heading in the wrong direction. You should ask clarifying questions and make sure you completely understand the problem before you start working on it.
-
 
 ## Communicate
 

@@ -8,7 +8,7 @@ Technical Phone Screen is the first hurdle in getting your dream job. If you suc
 
 Now, in-person interviews are expensive for companies. They want to make sure that you match your resume quite well in terms of your skills.
 
-The format of Technical Phone Screen is going to consist of an introduction of you introducing yourself to the interviewer and vice versa followed by questions.
+The format of Technical Phone Screen is going to consist of introducing yourself to the interviewer and vice versa followed by questions.
 
 They questions might be a programming questions where you are going to be coding in a shared Google Doc. They could be questions about Data Structures, Big-O analysis, Algorithm analysis or object oriented principles. 
 
@@ -25,6 +25,30 @@ In the beginning of the interview, the interviewer might ask questions such as:
 - What type of role do you want?
 
 However, it's normal that many interviewers will go straight to coding.
+
+### Researching a Company
+
+Use the following checklist to research a company before the interview.
+
+- Mission Statement
+- All their products or at least the product area you're applying to
+- What are they working on / new innovation
+- What kind of culture they have, so you can mimic it
+- What interview questions they ask
+
+## Smoke Screen Questions
+
+The smoke-screen questions are language dependent. Search for "common interview questions in {your language of choice}" and there are usually plenty of articles on lists.
+
+A lot of these may be quite language-specific, and since they're quick yes/no questions they don't make for great meaty interview questions. 
+
+If you're going into an interview, and you know it's going to be for something language-specific like "javascript frontend developer," "Objective-C iOS developer," or "Python backend developer" then it'll be good to brush up on these. 
+
+You could be developing in a language like Javascript and never use closures. But that's still a very common question for Javascript roles so don't let those catch you off guard.
+
+Smoke screen test is usually domain specific. If it's a startup, they ask a lot about language specific things depending on the language they use. 
+
+For larger companies, these questions are rarer, they usually just ask you to do a coding interview. If they do ask you yes/no or definition questions, make sure you know about object oriented programming concepts, OS concepts, concurrency, networking, and language specific questions.
 
 ## Internet Connection
 

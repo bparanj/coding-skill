@@ -10,7 +10,7 @@ Make sure that you are keeping on track and working through the problem as quick
 
 ## Tip #2 : End the Interview on a Good Note
 
-End the interview on a good note, because the first impression matters. The way you present yourself, the way you talk and dress matters. Make sure to dress casual, dress a little bit better, don’t wear a business suit. Do not use too much oil on your hair. 
+The first impression matters. The way you present yourself, the way you talk and dress matters. Make sure to dress casual, dress a little bit better, don’t wear a business suit. Do not use too much oil on your hair. 
 
 The last question the interviewer sometimes might ask you is if you have any questions. You must wrap up solving the problem before the last five minutes. If you don’t, you will run out of time to ask any questions to the interviewer. 
 
