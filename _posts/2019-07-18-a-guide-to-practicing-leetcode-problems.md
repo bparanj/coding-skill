@@ -131,6 +131,6 @@ Technical interviews vary based on the employer and even the interviewer. Spend 
 
 ## Downside of Leetcode
 
-For some of the solutions (at least in Python) , everyone is trying to one up each other with unreadable and small code.
+For some of the solutions (at least in Python), everyone is trying to one up each other with unreadable and small code.
 
 Spending time on these discussions can be a waste of time since your code must be easy to understand for the interviewer.
