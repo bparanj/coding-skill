@@ -25,12 +25,14 @@ Let's now look at a step by step approach to solving a new problem.
 
 **Step 1 : Clarifications**
 
-The first step is to make sure that you understand the problem.
+The first step is to make sure that you understand the problem. State the problem as you understand it and any assumptions.
 
 - What are the parameters involved? 
 - What is the goal for the solution? 
 
-Your first task is to ask lots of questions. When faced with a hard problem, ask as many questions as you can think of to find the assumptions that is relevant to the solution. In this step you determine the scope of the problem. You must understand what you're trying to analyze and solve before moving on to the next step.
+Ask lot of questions. When faced with a hard problem, ask as many questions as you can think of to find the assumptions that is relevant to the solution. 
+
+In this step you determine the scope of the problem. You must understand what you're trying to analyze and solve before moving on to the next step.
 
 **Step 2 : Work Through Examples**
 
@@ -38,7 +40,11 @@ After you've asked a lot of questions to clarify the problem, the next step is t
 
 Working through an example is useful because it lets you recognize an emerging pattern and provides you the momentum to solve the problem.
 
-It also lets you take some time and think through the problem very concretely about what difficulties might be involved in the solution. You might also find any hidden assumptions or implicit questions that you need to address again. If so go back to the first step of asking more questions to make sure that you've mapped out the scope of the solution.
+It also lets you take some time and think through the problem very concretely about what difficulties might be involved in the solution.
+
+You might also find any hidden assumptions or implicit questions that you need to address again. If so go back to the first step of asking more questions to make sure that you've mapped out the scope of the solution.
+
+Use specific examples to figure out the general solution. Break problems down into steps and explain along the way.
 
 Okay, so at this point we have a very good understanding of the problem and we're ready to solve it.
 
@@ -47,6 +53,12 @@ Okay, so at this point we have a very good understanding of the problem and we'r
 In the next stage of the strategy we come up with a first solution. You want to solve the problem, even if it's not a good approach. This is the brute force approach.
 
 This approach does not have to be clever or elegant. But you want to make sure that you've got a correct solution.
+
+If you're stuck, vocalize your thoughts on where exactly you're stuck and maybe ask the interviewer something like "This approach should work right?". 
+
+Usually, they'll guide you the right way. If the interviewers rule out an approach for the presented problem, follow the instructions and try something different. 
+
+When given hints, make sure you respond well and demonstrate your ability to work with others. Being able to respond to a hint is mostly seen as a positive signal.
 
 **Step 4 : Test Your Solution**
  
@@ -65,7 +77,11 @@ Think about any trade-offs in terms of using more memory to speed up the perform
 
 So our next step of the strategy is to iterate this whole process of coming up with a candidate approach to solving the problem. Evaluating, testing and poking at it, making sure that it works correctly or if it doesn't, thinking about ways to fix it and refine your solution as much as you can.
 
-The interviewer will try to guide you towards iterating your solution, asking you if it could be made better, asking you if there are any trade-offs that you have in mind. And you want to think through this checklist of how you evaluate your strategy at each stage of the problem solving process.
+The interviewer will try to guide you towards iterating your solution, asking you if it could be made better, asking you if there are any trade-offs that you have in mind. 
+
+Think about speed, accuracy and optimality. While optimality is important, make sure you have working code in the given time that completely solves the problem. Always try to build up from a brute force solution that is easy to code. If you end up overcomplicating things by focusing on optimality, try to snap out of it and ensure you have working code to show at the end. 
+
+Remember: working code wins.This shows your coding skills and also allows the interviewer to give hints if there is time left. The best solutions usually require less than 30 lines of code. Always remember to explain the complexity when you are confident you have a solution (without prompting from the interviewer is better).
 
 Now when we iterate, we come up with a great solution, that we think at the high level will do a pretty good job. We've done an asymptotic analysis. We have a sense of how long asymptotically using Big O notation each of the operations involved will take.
 

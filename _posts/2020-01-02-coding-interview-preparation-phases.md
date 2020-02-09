@@ -107,13 +107,19 @@ Practice articulating your solution. As you progress, keep revisiting the core i
 
 **Step 6 : Teach**
 
-You can form a study group and explain the concept in your own words to someone. If you can teach the concept in a simple way to somebody else, then you have really mastered those concepts. 
+You don't have to memorize and recite definitions from a textbook. People who are skilled at explaining concepts to others understand them deeply. 
 
-You don't have to memorize and recite definitions from a textbook. People who are skilled at explaining concepts to others understand them deeply. Teach the subject to others so that you develop a deeper understanding. Only when you have a good understanding of the concepts, you will be able to apply it to solve problems.
+Teach the subject to others so that you develop a deeper understanding. Only when you have a good understanding of the concepts, you will be able to apply it to solve problems.
+
+You can form a study group and start teaching the complex algorithms/data structures to others by helping your friends prepare in 1:1 coaching sessions. 
+
+You can also blog about challenging concepts and share your unique approaches to those topics.
 
 **Step 7 : Evaluate Progress**
 
 Take mock interviews to evaluate your progress and identify your problem areas to work on.
+
+Conduct mock interviews for your friends to improve your interviewing skills. By putting yourself in the shoes of the interviewer, you notice things about a candidate that stand out and can improve your own performance. Print out and use [Mock Interview Evaluation Criteria]({% post_url 2019-08-01-mock-interview-evaluation-criteria %}) while you conduct the interview to familiarize yourself with the evaluation criteria. Rate your friend's performance on a scale of 1 to 5 during the interview.
 
 ## Conclusion
 

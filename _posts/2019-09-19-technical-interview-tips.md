@@ -63,3 +63,43 @@ Oftentimes, you first read the code, then write a second version of the code. Bu
 
 A lot of developers get scared. After one phone interview, they stop interviewing. So don't get discouraged if you fail an interview, who cares, you have next year to do it again. You have many more companies to apply for a job. 
 
+## Tip #7 : Wait to Test
+
+You should come up with interesting test cases yourself instead of holding out until the interviewer provides test cases that break your code. Your ability to proactively dry run test cases on your code to identify bugs is a key part of the evaluation.
+
+## Tip #8 : Master the Programming Language
+
+Knowing all language-specific data structures and libraries is useful during an interview. Create cheat-sheets of top non-trivial data structures/library functions that you can quickly review while practicing. 
+
+Next, look at the internal implementations for all the data structures available out-of-the-box in your language. Knowing how they are implemented and the complexity/cost of different operations in the implementation can help you impress the interviewer.
+
+### Must Knows
+
+- Standard library
+- Read custom separator input
+- Read files
+- Implementations and complexity
+- Object oriented support and best practices
+
+## Tip #9 : Master Advanced Concepts
+
+Create a generic template for these concepts which you can modify and apply to any new problem. Topcoder tutorials are one of the best sources to learn such advanced data structures and algorithms.
+
+### Concept Checklist
+
+- Optimizing recursive problems with Dynamic Programming: caching/memoization and bottom-up (iterative)
+- Tree: Traversal (Level-Order, Diagonal, Vertical-Order, ZigZag, etc), Recursion, N-ary
+- Backtracking
+- Graph: BFS, DFS, Topological sort, Union-Find, Spanning Tree, Distance, Search, Cycle-detection, and Connectivity, Graph Coloring, A* Search, Bidirectional search
+- Sliding window problems
+- Trie
+- Union-Find
+- String search algorithms
+- Line-sweep algorithms
+- Bit manipulation
+- Streaming algorithms (e.g. finding Average or median in a stream of integers)
+- Advanced sorting algorithms (e.g. Radix, Bucket Sort, Pancake Sorting)
+- NP-Complete (e.g. traveling salesman, the knapsack problem, vertex cover problem)
+- Combinatorics and Probability
+- Processes, threads, and concurrency in Operating Systems
+

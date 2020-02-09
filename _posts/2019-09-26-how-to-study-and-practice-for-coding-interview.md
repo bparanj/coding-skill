@@ -46,11 +46,17 @@ You learn the basic terminology and concepts first. You take your own notes on t
 - Height
 - Depth
 
-You write in your own words that makes sense to you. Everybody has their own note taking preferences. You can draw diagrams of a tree, name the elements of a tree, use your own notation, use bullet points and so on. It's up to you how you organize it. The important thing is that it should be easy for you to understand when you review them. 
+You write in your own words that makes sense to you. Everybody has their own note taking preferences. You can draw diagrams of a tree, name the elements of a tree, use your own notation, use bullet points and so on. 
 
-This step will repeat for other topics. In this step, you're building your vocabulary of the programming concepts. These are the basic building blocks. You learn basic concepts and progressively these concepts will be built on top of each other. You combine two simple concepts and it becomes one compound idea, a complex concept. 
+It's up to you how you organize it. The important thing is that it should be easy for you to understand when you review them. 
 
-The building blocks will get bigger and bigger over time. Complexity level of the ideas you can grasp is going to go up over time. So, this also means the progression of the level of difficulty of the problems you'll be able to solve is also going to go up over time. But again, you need to have patience and focus on the process not the outcome. 
+This step will repeat for other topics. In this step, you're building your vocabulary of the programming concepts. These are the basic building blocks. 
+
+You learn basic concepts and progressively these concepts will be built on top of each other. You combine two simple concepts and it becomes one compound idea, a complex concept. 
+
+The building blocks will get bigger and bigger over time. Complexity level of the ideas you can grasp is going to go up over time. 
+
+So, this also means the progression of the level of difficulty of the problems you'll be able to solve is also going to go up over time. But again, you need to have patience and focus on the process not the outcome. 
 
 ##### Step 2 : Data Structures for Trees
 
@@ -87,6 +93,7 @@ This same learning sequence can be applied to learn other topics in your study l
 
 Consuming too much content delays practicing. Practice must begin as soon as you have enough knowledge to apply them to write code. Studying is one aspect. Practice is another critical aspect. There are two approaches to studying that I recommend. It will be covered in upcoming articles.
 
+It is a good idea to practice on paper or a whiteboard. However, it is good idea to submit the code on an online judge platform. It helps you not only identify missing test cases, but also gives you access to comparative analysis of your performance and code of other people on the platform. You need to be mindful of wasting time by going through the discussion topics on these platforms. It can distract you from your study plan.
 
 ### Blogging
 

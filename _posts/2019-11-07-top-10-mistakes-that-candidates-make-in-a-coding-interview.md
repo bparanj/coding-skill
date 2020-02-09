@@ -53,7 +53,9 @@ Lack of communication means lack of analysis. You must talk about trade offs, ti
 
 ### Mistake #6 : Rushing into Coding
 
-The sixth mistake is rushing into the coding part too soon. You might miss the edge cases and it may not be the most optimal solution. You modify the current code and fix any issues. Often, these fixes without any thinking do not address any underlying bigger problems in your code.
+The sixth mistake is rushing into the coding part too soon. When a new problem is presented, make sure you communicate your solution and get a clear go ahead from your interviewer before you hastily attempt to code.
+
+You might miss the edge cases and it may not be the most optimal solution. You modify the current code and fix any issues. Often, these fixes without any thinking do not address any underlying bigger problems in your code.
 
 Don’t rush to code. First, talk about the solution. Talk about different designs with different trade offs. This prevents wasting time on reworking the code later. 
 
@@ -95,8 +97,10 @@ So, take a deep breath, relax and just do your best. At first you may panic, if 
 
 Usually in the first few moments when you hear the question, there's a bit of fear about whether you know this one. As your brain is trying to figure out, what could this be? The more you get into it, the more you start to realize, okay, you should have this one. Most of the questions are not supposed to be very complicated. It's not going to use some crazy algorithm and crazy data structure that you've never heard of before. 
 
-Whatever they ask you, you should be able to accomplish using what you know with stacks queues, hashmaps, maybe some tree traversals, arrays and so on. You just put these basic building blocks together. 
+Whatever they ask you, you should be able to accomplish using what you know with stacks queues, hashmaps, tree traversals, arrays and so on. You just put these basic building blocks together. 
 
 Generally you get something that you can slowly build on top of that thing. They want to see how far you can go. 
 
-Sometimes an interviewer might ask you a question, that is not well calibrated and even they don't know the answer to that question. They want to see how far you can go. So if you feel bad about it, maybe you just got an uncalibrated question and you should still plow through the rest of the interview and do as best as you can. Because their feedback will not be counted.
+Sometimes an interviewer might ask you a question, that is not well calibrated and even they don't know the answer to that question. They want to see how far you can go. 
+
+So if you feel bad about it, maybe you just got an uncalibrated question and you should still plow through the rest of the interview and do as best as you can. Because their feedback will not be counted.

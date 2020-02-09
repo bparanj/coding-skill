@@ -23,7 +23,6 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-07-18T00:00:00-04:00" />
 <script type="application/ld+json">
-
 {"@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2019/07/18/a-guide-to-practicing-leetcode-problems.html"},"url":"http://localhost:4000/2019/07/18/a-guide-to-practicing-leetcode-problems.html","description":"This guide answers questions people often have about interview coding problems and things to watch out.","headline":"A Guide to Practicing Leetcode Problems","dateModified":"2019-07-18T00:00:00-04:00","datePublished":"2019-07-18T00:00:00-04:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
@@ -56,7 +55,7 @@
 
 <p>Know asymptotic bounds. If you can be flexible in how you analyze a solution you come up with (lower bounding it, upper bounding, exact bounding) it can help you see whether you can do better and make an improved algorithm</p>
 
-<h3 id="arrays">Arrays</h3>
+<h3 id="array">Array</h3>
 
 <p>Often questions that work within arrays will be solved in linear time for the most part. The linear time solution will be tricky.</p>
 
@@ -64,7 +63,7 @@
 
 <p>Things like bit shifting. This is more rare and I don’t think this is as important since it doesn’t test real thinking abilities since it mixes with one’s abilities to bit shift which is an esoteric skill.</p>
 
-<h3 id="strings">Strings</h3>
+<h3 id="string">String</h3>
 
 <p>These are problems that often deal with strings like permutations, backtracking problems that have use take an exhaustive approach in producing decompositions of a string to search a possibility space (which is often a brute force way of solving a problem since it will be exponential in time), etc. String problems are often solved most optimally in O(n) time or O(s1 + s2) time (linear with respect to each string) if we are given two strings.</p>
 
@@ -76,9 +75,9 @@
 
 <p>At some point you will naturally think of solutions in a recursive manner (if backtracking could be a possible approach used). Problems that use backtracking often say: “generate all”, “compute every”. This indicates an expression of exhaustively expressing all the possibilities of a decision space. Recursion is beautiful for this type of problem.</p>
 
-<h3 id="graphs">Graphs</h3>
+<h3 id="graph">Graph</h3>
 
-<p>Know DFS &amp; BFS. DFS uses a stack (either implicit with the call stack and recursion or explicit if we create our own stack) and BFS uses a queue.</p>
+<p>Know DFS and BFS. DFS uses a stack (either implicit with the call stack and recursion or explicit if we create our own stack) and BFS uses a queue.</p>
 
 <h3 id="greedy-algorithms">Greedy Algorithms</h3>
 
@@ -88,7 +87,7 @@
 
 <h3 id="hashtables">Hashtables</h3>
 
-<p>Very common in mid-level interviews. This is a must know. It is pretty simple, when our time complexity is too high, we can often reduce time and increase space by using some sort of auxiliary structure to cache work. Hashtables are often that auxiliary structure.</p>
+<p>Very common in mid-level interviews. This is a must know. It is simple, when our time complexity is too high, we can often reduce time and increase space by using some sort of auxiliary structure to cache work. Hashtables are often that auxiliary structure.</p>
 
 <h3 id="linked-lists">Linked Lists</h3>
 
@@ -106,17 +105,17 @@
 
 <p>If you see: “find the largest” or “find the smallest”, anything to do with size, think heap. Min or max. If we want larger items we use a min heap since we can throw away small items (to leave the large ones behind). And vice versa for when we want the smaller items.</p>
 
-<h3 id="stacks">Stacks</h3>
+<h3 id="stack">Stack</h3>
 
 <p>LIFO structures. Know how to implement a stack inside out. I’d suggest knowing how to implement all data structures stated here.</p>
 
-<h3 id="queues">Queues</h3>
+<h3 id="queue">Queue</h3>
 
 <p>FIFO structures. Used for Breadth First Search.</p>
 
-<h3 id="trees-binary-trees--binary-search-trees">Trees, Binary Trees, &amp; Binary Search Trees</h3>
+<h3 id="tree-binary-tree--binary-search-tree">Tree, Binary Tree &amp; Binary Search Tree</h3>
 
-<p>Trees are connected, acyclic, graphs. You can do DFS and BFS on them. Print all the characters in the tree in this order? Does it look like DFS? Traverse the tree level by level? Looks like BFS. BFS goes out level by level.</p>
+<p>Trees are connected, acyclic, graphs. You can do DFS and BFS on them. Print all the characters in the tree in this order. Does it look like DFS? Traverse the tree level by level? Looks like BFS. BFS goes out level by level.</p>
 
 <h2 id="an-approach-to-preparation">An Approach To Preparation</h2>
 
@@ -145,17 +144,33 @@
 
 <p>There is no finite amount. Every person comes to the table with their own weaknesses in all topics above. You will know when you are ready. You will see a problem and say: “Oh…yeah I know what principle to apply here”. The more you get that spark, the higher the chances you pass.</p>
 
+<h3 id="practice-strategically">Practice Strategically</h3>
+
+<p>It is a good strategy to pick few questions from different topics in algorithm and data structures rather than thinking of exhaustively solving all questions of one topic first. Check out the Leetcode learn section that can help you pick topics to get started.</p>
+
 <h2 id="should-i-time-myself">Should I Time Myself?</h2>
 
-<p>Yes and no. Time is critical. Speed is critical. But timing yourself is useless if you are very uncomfortable with a specific problem class. I suggest solving many problems (peeping the solutions often is fine, just gain comfort) in your weak points. Then when you get sick of jumping to answers you will soon take the leap and just solve the problem yourself because you will become familiar with the techniques required for the approach. This is how backtracking was for me. I went from total confusion to it becoming a default way of thinking.</p>
+<p>Time is critical. Speed is critical. But timing yourself is useless if you are very uncomfortable with a specific problem class. I suggest solving many problems (peeping the solutions often is fine, just gain comfort) in your weak points. Then when you get sick of jumping to answers you will soon take the leap and just solve the problem yourself because you will become familiar with the techniques required for the approach. This is how backtracking was for me. I went from total confusion to it becoming a default way of thinking.</p>
+
+<h3 id="track-time">Track Time</h3>
+
+<p>Once you are familiar with a specific problem class, try to track how much time you spend on each question. You should also have a limit on how much time you will spend on a single question. As you keep practicing, you can keep decreasing your limit and effectively increase the number of questions.</p>
 
 <h2 id="what-should-i-focus-my-study-on">What Should I focus My Study On?</h2>
 
 <p>Weak points. And then popular problems. Find a list of problems the company you are interviewing at asks. No idea whether this is a myth or not (and CTCI addressed this as false, that companies repeat questions from a list) but I have friends that told me of getting exactly questions from these lists. It isn’t critical but it can help.</p>
 
+<h3 id="practice-strategically-1">Practice Strategically</h3>
+
+<p>It is a good strategy to pick few questions from different topics in algorithm and DS rather than thinking of exhaustively solving all questions of one topic first. Check out the Leetcode learn section that can help you pick topics to get started.</p>
+
 <h2 id="reading-books-vs-leetcodehackerrank">Reading Books vs. Leetcode/HackerRank</h2>
 
 <p>Books give you theory. Coding gives you the memory in your fingers and the necessary practice. Like if I know a problem will use BFS, how fast can I put the logic in place for a basic search? If I know that a problem may use a heap, how fast can I throw up a priority queue with the right comparator (if it is a max or min heap. Java defaults to a min heap without a comparator)</p>
+
+<h2 id="gather-advice">Gather Advice</h2>
+
+<p>Technical interviews vary based on the employer and even the interviewer. Spend time exploring tips from companies like Google and Microsoft to figure out what matters most. Talk to you professionals working those companies to learn from their mistakes and success. A useful resource for that: [RESOURCE LINK GOES HERE]</p>
 
 
 
