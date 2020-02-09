@@ -1,16 +1,18 @@
 ---
 layout: post
-title: Top 10 Mistakes Made During Coding Interview Preparation
+title: Top 10 Mistakes Made During the Coding Interview and Preparation
 excerpt: Learn how to overcome the top 10 mistakes. Practicing on a computer. Not rehearsing behavioral questions. Not taking any mock interviews. Memorizing solutions to the problems. Being silent while solving the problem at the whiteboard. Rushing into coding without thinking through the alternatives. Sloppy coding. Not revising your code. Fixing mistakes carelessly and giving up too easily. 
 ---
 
-## Mistake #1 : Coding on a Computer
+## Mistakes Made During Interview Preparation
+
+### Mistake #1 : Coding on a Computer
 
 The first mistake is practicing the code on a computer because you feel comfortable. In a coding interview, most of the time you won't have a computer. You will have a whiteboard or even a piece of paper. So practicing in an environment similar to the actual environment is a good preparation tactic.
 
 You should not practice too much on the computer. As you start writing you may find that your handwriting is slow, writing variable names, method signatures and so will take a lot of time. Use a pen and paper to practice coding problems.
 
-## Mistake #2 : Not Rehearsing Behavioral Questions
+### Mistake #2 : Not Rehearsing Behavioral Questions
 
 The second mistake is not rehearsing for behavioral questions. It is important to make a good first impression within the first five minutes. The first impression matters a lot. You must be able to tell your story in a compelling and interesting way. 
 
@@ -21,13 +23,13 @@ Prepare three to five stories that you can talk about to demonstrate your leader
 
 It takes time to come up with a good story. Your story must have takeaways that demonstrate your strengths. So come prepared with good stories. What is the story that you want to tell people?
 
-## Mistake #3 : Not Taking Any Mock Interviews
+### Mistake #3 : Not Taking Any Mock Interviews
 
 The third mistake is not taking any mock interviews. It's important to take mock interviews. Because, you have to communicate well. This requires practicing how to communicate while you're coding in an interview setting. 
 
 You might be nervous during the interview, but if you've practiced it several times you'll get good at it.
 
-## Mistake #4 : Memorizing the Problems and the Solutions
+### Mistake #4 : Memorizing the Problems and the Solutions
 
 The fourth mistake is trying to memorize the problems and its solution. This is an impossible task because there are thousands of questions that can be asked in the interview.
 
@@ -39,7 +41,9 @@ Instead of analyzing the problem to solve it, if you are trying to remember the 
 
 Your ability to analyze the problem is very important. If you can give a good analysis on time, space, data structure usage and right alternatives, even if you didn't complete solving the whole problem it may still be good enough. It's about the thought process and not necessarily about whether you can solve the whole problem.
 
-## Mistake #5 : Being Silent While Solving the Problem
+## Mistakes Made During the Coding Interview
+
+### Mistake #5 : Being Silent While Solving the Problem
 
 The fifth mistake is not solving problems out loud. Before you start writing the code, you can take time to think and then communicate your thoughts to the interviewers. 
 
@@ -47,7 +51,7 @@ They care about your thought process, you will be checking off one of the evalua
 
 Lack of communication means lack of analysis. You must talk about trade offs, time-space complexity, alternatives you are considering such as recursive vs iterative solution and so on. 
 
-## Mistake #6 : Rushing into Coding
+### Mistake #6 : Rushing into Coding
 
 The sixth mistake is rushing into the coding part too soon. You might miss the edge cases and it may not be the most optimal solution. You modify the current code and fix any issues. Often, these fixes without any thinking do not address any underlying bigger problems in your code.
 
@@ -57,7 +61,7 @@ Now, often times when you're rushing, you're a bit stressed and when you're stre
 
 Yes, you only have 45 minutes, but you also have time to stop and think. Five minutes can give you a lot of time to think about the problem. It might seem long to you because you're interviewing and the long silence might be uncomfortable, but it’s okay to sometimes take two to three minutes to think. 
 
-## Mistake #7 : Sloppy Code
+### Mistake #7 : Sloppy Code
 
 The seventh mistake is sloppy code. This is related to rushing to code. Sloppy code implies confusing variable names and syntax mistakes. You want something that's beautifully written, cohesive and concise which is easier for your interviewer to understand.
 
@@ -65,11 +69,11 @@ Often times interviewers will take a picture of your solution. It gets transcrib
 
 Don't spend too much time on this, but take a little bit of time to clean up and make sure that it looks good. It only takes a minute to clean up the method signatures and check the input and output parameters. If you don’t, they will think that is the best you can do.
 
-## Mistake #8 : Not Revising Your Code
+### Mistake #8 : Not Revising Your Code
 
 The eighth mistake is not revising your code. Often times, after finishing coding you may still have syntax errors. It may sound nitpicky, but it's still important. It shows that you are detail oriented to the interviewer. 
 
-## Mistake #9 : Fixing Mistakes Carelessly
+### Mistake #9 : Fixing Mistakes Carelessly
 
 The ninth mistake is fixing mistakes carelessly. Often times this is related to sloppy coding or rushing into coding. You start coding and then you realize there are some edge cases missing. You add an if statement to fix that edge case. 
 
@@ -79,7 +83,7 @@ There's nothing worse than when you fix one error and then the interviewer asks 
 
 So, when you see a mistake, fix it, take a step back, take another quick look. This is about knowing what you're doing and being able to comprehend your code and being quick at it. Fix anything else that needs to be fixed and then you can say, “Okay, I think this pretty much does what we're looking for here”. This is the general gist of the algorithm. You're not guaranteeing that the whole thing is perfect. 
 
-## Mistake #10 : Giving Up Easily
+### Mistake #10 : Giving Up Easily
 
 The last mistake is giving up too easily. When you are given a problem in the interview, you say: “Oh, I don't know how to do this. I give up, I can't do this”. Part of the interview is about getting signal from you. 
 

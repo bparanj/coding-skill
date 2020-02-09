@@ -75,3 +75,5 @@ Finally in step 6 of our strategy, we finally write some code. So only after a v
 
 Programming on a white board in the interview situation is quite different from typing it out in a computer. It's a good idea to practice on whiteboard during preparation.
 
+You can download the [Problem Solving Approach PDF](/assets/files/problem-solving-approach.pdf) to use as a guide for your preparation. This is based on a 45 minutes interview with few minutes at the end for asking questions to the interviewer. The article [Tecnical Interview Tips]({% post_url 2019-09-19-technical-interview-tips %}) has suggestions on questions you can ask at the end of the interview.
+

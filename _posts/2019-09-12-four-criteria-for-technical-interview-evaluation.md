@@ -76,7 +76,7 @@ The end result of your actions.
 
 ## Speed and Efficiency 
 
-Interviewers ask questions that can build on top of itself such as increasingly adding restrictions or pushing for faster time/space, so that interviewers can get some signal on the candidate's ability beyond just pass or fail.  
+Interviewers may first ask you to write a problem recursively, then iteratively, then without using additional space, and so forth. These additional restrictions test your knowledge of trading off time for space. Questions build on top of itself by increasingly adding restrictions or pushing for faster time, so that interviewers can get some signal on the candidate's ability beyond just pass or fail.  
 
 This is why fluidity and confidence is essential. So, even if you have heard these problems before, it helps to become good at these and see how the pros solve these problems. This helps you to recognize patterns in code and crafting elegant and simple solutions.
 

@@ -15,7 +15,7 @@ There are a number of approaches to designing algorithms: exhaustive search, div
 
 You already need to know the basic data structures and algorithms to read this book. The authors recommend the book Algorithms by Dasgupta, Papadirnitriou, and Vazirani because it is succinct and beautifully written.
 
-The book Algorithms for Interviews by Aziz and Prakash covers some common problem solving techniques. Let's briefly look at these problem solving techniques.
+The book Algorithms for Interviews by Aziz and Prakash covers some common problem solving techniques. Let's briefly look at these problem solving techniques. 
 
 ## Divide and Conquer
 

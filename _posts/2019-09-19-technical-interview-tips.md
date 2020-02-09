@@ -23,7 +23,7 @@ You will make the interviewer uncomfortable. If the company makes the headline f
 
 You can figure out the team dynamics and culture by following these guidelines:
 
-- If the person is your potential manager, give that person a scenario and ask how would the person handle conflict between two employees. Why? You can figure out how you will be treated if you have conflicts at work.
+- If the person is your potential manager, give that person a scenario and ask how would the person handle conflict between two employees. You can figure out how you will be treated if you have conflicts at work.
 - If the person is your potential co-worker, ask the person for opinions about technology stack or if people at work hangout out after work.
 - If it's a big company, your interviewers won't work with you. But normally someone in the team will interview you. You can change your questions a bit to figure out the same things about your potential team.
 
