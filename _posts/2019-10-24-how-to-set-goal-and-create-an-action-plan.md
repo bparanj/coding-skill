@@ -40,31 +40,31 @@ Make a list of topics to study for the interview and prioritize them. The famili
 
 **Data Structures and Abstract Data Types**
 
-- Arrays
-- Strings
-- Graphs: directed and undirected, different representations and their trade-offs
+- Array
+- String
+- Graph: directed and undirected, different representations and their trade-offs
 - Hash Table: collision resolution strategies, hash functions and their trade-offs
-- Linked Lists: single and double, with and without sentinel nodes
+- Linked List: single and double, with and without sentinel nodes
 - The List ADT
 - The Set ADT
 - The Map ADT
 - Min/Max Heaps
 - Stack
 - Queue and Priority Queue ADTs
-- Trees, Binary Trees, Binary Search Trees
+- Tree, Binary Tree, Binary Search Tree
 - Binomial and Fibonacci Heaps
-- AVL / Red Black Trees
-- Splay Trees
-- Skip Lists
-- Tries
+- AVL / Red Black Tree
+- Splay Tree
+- Skip List
+- Trie
 
 **Algorithms**
 
 - Binary search
-- Sorting algorithms: Selection Sort, Insertion Sort, Bubble Sort, Quicksort, Mergesort, Heapsort
-- Search algorithms: Depth-first search, Breadth-first search, Dijkstra's algorithm
+- Sorting: Selection Sort, Insertion Sort, Bubble Sort, Quick Sort, Merge Sort, Radix/Bucket Sort, Heap Sort
+- Search: Depth First Search, Breadth First Search, Dijkstra's algorithm
 - Tree traversal: pre-order, post-order, in-order, level-order (which is BFS)
-
+- Traversals (On multiple data structures)
 
 **Algorithm Techniques**
 
