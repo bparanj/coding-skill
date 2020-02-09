@@ -44,9 +44,17 @@ If you're going to do non-verbal cues, do big things like thumbs up or really lo
 
 ## Talking Points
 
-If you're going to be working in a non-visual environment like telephone, it's okay to have notes. I recommend keeping a pen and notepad handy, either if you have Skype or you're working on a telephone. Resume can also be your notes. But if you have completely non-visual you can have even more notes. 
+If you will be working in a non-visual environment like telephone, it's okay to have notes. I recommend keeping a pen and notepad handy, either if you have Skype or you're working on a telephone. Resume can also be your notes. But if you have completely non-visual you can have even more notes. 
 
-Your notes about the company or other things you want to highlight. Some talking points for the interview that you want to hit on. It's a good idea to keep notes on the interviewer's name and role, so you can later ask questions about their position.
+Your notes about the company or other things you want to highlight. Some talking points for the interview that you want to hit on. Ask some of the Joel Spolsky questions:
+
+- Do you have CI/CD setup?
+- Do you fix bugs before writing new code?
+- Do you have a product spec?
+- Do programmers have quiet working conditions?
+- Do you use the best tools money can buy?
+
+It's a good idea to keep notes on the interviewer's name and role, so you can later ask questions about their position.
 
 But don't rely on them too much. Every time they ask a question and if you're shuffling through papers they're going to catch on and it won't come out very well. 
 
