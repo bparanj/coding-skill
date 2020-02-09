@@ -8,11 +8,11 @@ Technical Phone Screen is the first hurdle in getting your dream job. If you suc
 
 Now, in-person interviews are expensive for companies. They want to make sure that you match your resume quite well in terms of your skills.
 
-So online coding interview exist, mainly to make sure that you are as good as you sound on paper and that it won't be a waste of time to bring you out for the in-person interview. The format of Technical Phone Screen is going to consist of an introduction of you introducing yourself to the interviewer and vice versa followed by questions.
+The format of Technical Phone Screen is going to consist of an introduction of you introducing yourself to the interviewer and vice versa followed by questions.
 
-They questions might be a programming questions where you are going to be coding in a shared Google Doc. They could be questions about Data Structures, Big-O analysis or Algorithm analysis, object oriented principles. 
+They questions might be a programming questions where you are going to be coding in a shared Google Doc. They could be questions about Data Structures, Big-O analysis, Algorithm analysis or object oriented principles. 
 
-They can also get into some other computer science topics like Bitwise manipulation, how do you write scripts, proper use of libraries for your language, as well as the right way to test your code.
+They can also get into some other computer science topics like Bitwise manipulation, writing scripts, proper use of libraries for your language as well as the right way to test your code.
 
 ## Prepare for Common Background Questions
 

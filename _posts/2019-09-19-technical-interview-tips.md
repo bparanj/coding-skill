@@ -21,6 +21,12 @@ This is important because you need to end the interview with a good impression.
 
 You will make the interviewer uncomfortable. If the company makes the headline for the wrong reason, do not ask any questions about that issue.
 
+You can figure out the team dynamics and culture by following these guidelines:
+
+- If the person is your potential manager, give that person a scenario and ask how would the person handle conflict between two employees. Why? You can figure out how you will be treated if you have conflicts at work.
+- If the person is your potential co-worker, ask the person for opinions about technology stack or if people at work hangout out after work.
+- If it's a big company, your interviewers won't work with you. But normally someone in the team will interview you. You can change your questions a bit to figure out the same things about your potential team.
+
 A good question to ask in the end is to talk about some brand new technology that gets everybody excited and ask for their opinion. Leave the interview on a good note because your interviewers are people and the first and last impression does matter. This demonstrates that you are humble. Be confident and at the same time respect the interviewers.
 
 ## Tip #3 : Be Confident in the Interview

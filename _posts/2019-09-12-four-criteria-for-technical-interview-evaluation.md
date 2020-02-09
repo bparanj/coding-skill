@@ -52,8 +52,7 @@ It really helps if you can spend time to prepare a few stories beforehand and st
 Gauge the interviewer's reactions to ensure they are not getting bored. Show that you can accept feedback and collaborate and remember that your first and last impressions count. Be careful not to spend too much time with pointless stories. You are spending your own coding time, if you decide to ramble about something that does not provide value.
 
 Above all, don't lose the interviewer. If you're rambling about technical jargon and the interviewer isn't responding, cut your story short. If you don't, the interviewer can become disinterested in you.  
-
-The interviewers want to know what you personally did, not what your team did and not what the project did. Emphasize your own role here, concisely and clearly.
+The interviewers want to know what you personally did, not what your team did. Emphasize your own role here, concisely and clearly.
 
 ### STAR Format
 
