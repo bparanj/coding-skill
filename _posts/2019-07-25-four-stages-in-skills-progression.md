@@ -21,6 +21,8 @@ You are able to use the skill, but only with effort.
 
 Performing the skill becomes automatic.
 
+![Skills Progression](/assets/images/skills.jpg)
+
 You reach the automaticity in the fourth stage of the skills progression. According to Dr. Olenka Bilash:
 
 _Automaticity applies to both teaching and learning a language.  In both cases the more often an activity is done, the more automatic it becomes. The theory of automaticity relates to theories of cognitive capacity and cognitive load, which suggest that at any given time we have a finite amount of attention to give to an activity or process. When a process becomes more automatic, less attention is needed and attention can therefore be given to other processes or tasks._

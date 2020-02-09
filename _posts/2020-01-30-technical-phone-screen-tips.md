@@ -84,9 +84,8 @@ One of the other big mistakes is just not being prepared. Not having your Skype 
 
 ### Failing to Highlight Your Strengths
 
-The last thing is not having your resume highlight your strengths. So you might have thought when you're writing your resume, that it would be a good idea to put in any language you've ever touched as a language you're proficient in. But this is a great way to make a mistake.
+The last thing is not highlighting your strengths in your resume. So you might have thought when writing your resume, that it would be a good idea to put in any language you've ever touched as a language you're proficient in. But this is a mistake.
 
-Let's say you've coded just a little bit in PHP. You used it once for a project four years ago. And now, during the actual phone screen, they're going to say, could you code up this algorithm in PHP. That can be really bad if you can't program in PHP. You're going to have to say something like, well, I'm actually not that proficient in PHP, let's switch to another language.
+Let's say you've coded just a little bit in PHP. You used it once for a project four years ago. And now, during the actual phone screen, they're going to say, could you code up this algorithm in PHP. That can be really bad if you can't program in PHP. You have to say something like: Well, I'm actually not that proficient in PHP, let's switch to another language.
 
-And if you do that a couple of times, that's going to be problematic, because they're going to ask what part of this resume is accurate and what part isn't? But it's also a mistake because you've just shown a weakness, because you didn't know a language that was on your resume. That if you just had proof, if you put it on your resume that you weren't proficient in PHP, that you had some knowledge of it, but that you were proficient in Java, you would have set yourself up for success. So this is where the resume really ties in well with the technical phone screen.
-
+And if you do that a couple of times, that's going to be problematic, because they're going to ask what part of this resume is accurate? But it's also a mistake because you've just shown a weakness, because you didn't know a language that was on your resume. If you had put it on your resume that you weren't proficient in PHP. But that you were proficient in Java, you would have set yourself up for success. So this is where the resume ties in well with the technical phone screen.

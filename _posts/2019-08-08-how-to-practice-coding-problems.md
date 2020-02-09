@@ -22,6 +22,28 @@ Be Consistent. Work on at least one problem a day to keep your skills sharp. Rep
 
 Write by hand. Practice writing out the problems by hand on paper or a whiteboard. It will help you better gauge your usage of time and appreciate how valuable time is in an interview.  In a real interview setting, it is not rare to write half pseudocode to save on time.
 
+## Identifying Gaps in Learning
+
+Coding problems can be used as diag­nostic tools to identify gaps in learning that needs to be addressed. The time spent on finding and fixing the gaps will save you time and deepen learning in the longer term.
+
+If your grasp of core material falls short of deep conceptual understanding, you will not be sure what is being asked or which conceptual tool should be used to solve the problem. Are the connections between concepts missing?
+
+   _Told to hammer, they could hammer. Told to put in a screw, they could use a screwdriver. But told to build a shelf, they’d be paralyzed even though it was just a combina­tion of concepts that they should have learned. - Salman Khan_
+                                      
+### Fixing Gaps and Lapses
+
+Go back and revisit your study material. Read different books on the same topic. You will see the explanations from different angles and the material will make more sense. Work on actively applying the concept in a new context.
+
+## Gaining Deeper Understanding
+
+Concepts build on one another. The basic concepts must be deeply understood to master more advanced concepts. Connect what you have studied to questions. Relate topics to their eventual appli­cation in the real world.
+ 
+Graph­ like structures on paper can illustrate which concepts are pre­-requisites. Devise a hierarchy or web of concepts that the system itself could advise students what to work on next.
+
+The confi­dence and self-esteem will be boosted and they will look forward to the challenge of the next, more difficult concept.
+
+People who are skilled at explaining concepts to others probably understand them deeply. Teach the subject to others so that you develop a deeper understanding. As you progress, keep revisiting the core ideas through the lenses of different, active experiences.
+	 
 ## Efficiency and Confidence
 
 The speed and fluidity at which you can analyze a problem, propose an algorithm and code the algorithm reveals a lot about a candidate.  If you solved the problem, try doing it again faster later.
