@@ -127,8 +127,7 @@ Books give you theory. Coding gives you the memory in your fingers and the neces
 
 ## Gather Advice
 
-Technical interviews vary based on the employer and even the interviewer. Spend time exploring tips from companies like Google and Microsoft to figure out what matters most. Talk to you professionals working those companies to learn from their mistakes and success. A useful resource for that: [RESOURCE LINK GOES HERE]
-
+Technical interviews vary based on the employer and even the interviewer. Spend time exploring tips from companies like Google and Microsoft to figure out what matters most. Talk to you professionals working those companies to learn from their mistakes and success. A useful resource for that: [Get Career Advice from Professionals](https://www.rooftopslushie.com)
 ## Downside of Leetcode
 
 For some of the solutions (at least in Python), everyone is trying to one up each other with unreadable and small code.
