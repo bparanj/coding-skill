@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+  <head>
+	<meta charset="utf-8">
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>How to Think Recursively - Coding Skill</title>
+
+  <link rel="stylesheet" href="/assets/css/styles.css">
+	<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>How to Think Recursively | Coding Skill</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="How to Think Recursively" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="In this article, we will look at multiplication problem and solve it recursevily and iteratively." />
+<meta property="og:description" content="In this article, we will look at multiplication problem and solve it recursevily and iteratively." />
+<link rel="canonical" href="http://localhost:4000/2019/06/20/thinking-recursively.html" />
+<meta property="og:url" content="http://localhost:4000/2019/06/20/thinking-recursively.html" />
+<meta property="og:site_name" content="Coding Skill" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-06-20T00:00:00-04:00" />
+<script type="application/ld+json">
+{"headline":"How to Think Recursively","url":"http://localhost:4000/2019/06/20/thinking-recursively.html","datePublished":"2019-06-20T00:00:00-04:00","dateModified":"2019-06-20T00:00:00-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2019/06/20/thinking-recursively.html"},"description":"In this article, we will look at multiplication problem and solve it recursevily and iteratively.","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+  <body>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="/">Coding Skill</a>
+		<form class="form-inline my-2 my-lg-0">			
+			<a class="btn btn-primary btn-lg" href="https://go.oncehub.com/BalaParanj" role="button">Schedule a Free Consultation</a>
+		    </form>
+  </div>	
+</nav>
+
+    <div class="container">
+			<div class="row">
+			  <div class="col-md-8">
+					<h1>How to Think Recursively</h1>
+
+<p>In this article, we will look at multiplication problem and solve it recursevily and iteratively.</p>
+
+<h2 id="algorithmically">Algorithmically</h2>
+
+<p>Recursion is a way to design solutions to problems by divide-and-conquer or decrease-and-conquer. Reduce a problem to simpler versions of the same problem.</p>
+
+<h2 id="semantically">Semantically</h2>
+
+<p>Recursion is a programming technique where a function calls itself. The solutions has one or more base cases that are easy to solve. Must solve the same problem on some other input with the goal of simplifying the larger problem input.</p>
+
+<h2 id="multiplication">Multiplication</h2>
+<h3 id="recursive-solution">Recursive Solution</h3>
+
+<p>Multiply two numbers using multiplication operator.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a * a = (a + a + a + a + a + a)
+</code></pre></div></div>
+
+<p>Add a to itself b times.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a * a = (a + a + a + a + a + a) 
+		b times
+	= a + (a + a + a + a + a)
+		b - 1 times
+  = a + a * (b-1)
+</code></pre></div></div>
+
+<p>The last line:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a + a * (b-1)
+</code></pre></div></div>
+
+<p>is called the Recursive Reduction. Notice that the original problem is reduced to a smaller problem that is similar to the original problem.</p>
+
+<h2 id="multiplication-1">Multiplication</h2>
+
+<h3 id="iterative-solution">Iterative Solution</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mult(a, b)
+  result = 0
+  while b &gt; 0
+    result += a
+    b -= 1
+  return result
+</code></pre></div></div>
+
+
+<hr/>
+<a class="btn btn-primary btn-lg" href="https://go.oncehub.com/BalaParanj" role="button">Schedule Your Free Consultation Now</a>
+
+			  </div>
+	
+			  <div class="col-md-4">
+			    <h3 class="my-3">Coding Interview Secrets</h3>
+			    <p>
+						If you are feeling frustrated and overwhelmed with coding interview preparation, sign up for FREE <a href='https://codinginterview.coach/'> coaching session </a> and we will figure it all out. Why is this free? Because I believe in Zig Ziglar's quote: You can get everything in life you want if you will just help enough other people get what they want.
+			    </p>
+			  </div>
+			</div>
+    </div>
+    
+    <br/>    <br/>
+    <script src="/assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+
+

@@ -19,6 +19,19 @@ During the first attempt to solve a problem, your goal is not to immediately fig
 - Learn as many new problem solving techniques as you can.
 - Develop your own toolbox for solving problems.
 
+There is no substitute for your ability to think in a systematic way. But you can refine your thinking process by asking yourself the questions:
+
+- Was the problem statement clear to you when you read it?
+- What did you think of doing first?
+- Were you reminded of a construct in general or a general structure of solution that you thought would be useful?
+- Have you previously seen problems that resemble this one?
+- Did you feel stuck at any point while working on this problem?
+- What did you choose as your test case?
+- Do you think you’ve covered all possible scenarios with your tests?
+- What program design techniques did you apply to solve this problem?
+- Are there any constructs of the programming language that you find difficult or confusing to use?
+- What issues make programming constructs difficult to use? For example, the keyword used, the syntax, the examples, the documentation for the construct, etc.
+
 Timebox your attempt to one hour. If you exceed your time limit, refer to the solution. Read the code. Understand the reasoning behind them. 
 
 ### Come Up with Questions
