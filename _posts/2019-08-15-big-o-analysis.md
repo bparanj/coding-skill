@@ -43,6 +43,8 @@ Exponential algorithms are quite terrible in running time. A classic example is 
 
 These algorithms are the slowest and don't show up that often. You might see this in combinatorial problems or the traveling salesman problem, where given n nodes, you need to find the optimal path from start to finish. In your first iteration, you have a selection of n cities to visit, then n-1 cities, then n-2 cities, n-3 cities, etc., until you reach the last city. That runtime is n * (n -1 ) * (n - 2) * (n -3 ) ... 1 = O(n!).
 
+![Complexity Classes](/assets/images/complexity-classes.png)
+
 ## Some Tips
 
 Do not overcomplicate this like saying "This is O(3 * k *  n2), where k is the number of comparisons." Most people don't care about this level of detail, and you can often get away with simply saying: "This is quadratic time because we have two for-loops, each one iterating from 1 to n."
