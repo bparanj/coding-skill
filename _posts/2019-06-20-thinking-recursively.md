@@ -16,16 +16,38 @@ Recursion is a programming technique where a function calls itself. The solution
 ## Multiplication
 ### Recursive Solution
 
-Multiply two numbers using multiplication operator.
+Multiply two numbers using multiplication operator. For instance:
 
 ```
-a * a = (a + a + a + a + a + a)
+5 * 3 = 5 + 5 + 5
+```
+We add 5, 3 times. This is the same as:
+
+```
+5 * 3 = 5 + 5 * (3 - 1)
+```
+
+We keep going until we multipy by 1. This is the base case.
+
+```
+5 * 3 = 5 + 5 + 5 * (2 - 1)
+```
+
+```
+5 * 3 = 5 + 5 + 5 * 1
+```
+
+We can generalize this as below:
+
+
+```
+a * b = (a + a + a + a + a + a)
 ```
 
 Add a to itself b times.
 
 ```
-a * a = (a + a + a + a + a + a) 
+a * b = (a + a + a + a + a + a) 
 		b times
 	= a + (a + a + a + a + a)
 		b - 1 times

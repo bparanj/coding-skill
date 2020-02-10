@@ -56,14 +56,31 @@
 <h2 id="multiplication">Multiplication</h2>
 <h3 id="recursive-solution">Recursive Solution</h3>
 
-<p>Multiply two numbers using multiplication operator.</p>
+<p>Multiply two numbers using multiplication operator. For instance:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a * a = (a + a + a + a + a + a)
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>5 * 3 = 5 + 5 + 5
+</code></pre></div></div>
+<p>We add 5, 3 times. This is the same as:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>5 * 3 = 5 + 5 * (3 - 1)
+</code></pre></div></div>
+
+<p>We keep going until we multipy by 1. This is the base case.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>5 * 3 = 5 + 5 + 5 * (2 - 1)
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>5 * 3 = 5 + 5 + 5 * 1
+</code></pre></div></div>
+
+<p>We can generalize this as below:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a * b = (a + a + a + a + a + a)
 </code></pre></div></div>
 
 <p>Add a to itself b times.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a * a = (a + a + a + a + a + a) 
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a * b = (a + a + a + a + a + a) 
 		b times
 	= a + (a + a + a + a + a)
 		b - 1 times
