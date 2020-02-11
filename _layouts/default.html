@@ -20,6 +20,10 @@
     
     <br/>    <br/>
     <script src="/assets/js/bootstrap.min.js"></script>
+    {% if jekyll.environment == 'production' %}
+          {% include analytics.html %}
+    {% endif %}
+    
   </body>
 </html>
 
