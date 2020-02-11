@@ -19,9 +19,13 @@ Anything that is on your resume is a fair game. So if you said you're an expert 
 
 They're interested in engineers who solve new problems. That's what you do during the job as a software engineer. This also puts more stress on you. 
 
+## Dealing with Nervousness
+
+If you are nervous, don’t think of this as an interview question. Think of it as a collaboration between you and a coworker to solve a problem the company has. This is more accurate, will lower your anxiety and likely get the interviewer to help you more.
+
 ## How to Succeed
 
-So now we know what they're looking for. How are you going to succeed? It's okay to question your interviewer. The interview is a two-way street. You are interviewing the company as much as they are interviewing you. An interview should be a conversation about what you enjoy in a software project, in a team, in a manager as well as what you find problematic. You can and you should ask questions. 
+So now we know what they're looking for. How are you going to succeed? It's okay to question your interviewer. The interview is a two-way street. You are interviewing the company as much as they are interviewing you. An interview should be a conversation about what you enjoy in a software project, team, manager as well as what you find problematic. You can and you should ask questions. 
 
 It should be a chance for you to talk about how you approach both technical and people problems. How you balance trade offs, and how you deal with things that don’t go your way. 
 
@@ -56,6 +60,12 @@ If you get stuck they may provide hints. They may try to help you. But they can 
 ### Listen to the Interviewer
 
 And finally, you've to listen to the interviewer. It's a high-pressure situation and the interviewer is asking you questions. You're trying to think it through. But if the interviewer makes comments or gives suggestions, listen to them. They're often trying to help you and you can't afford to miss those hints.
+
+Do not pretend to understand something that you don’t. It’s a very easy mistake to make. You’re chugging away at a problem, and your interviewer interrupts you to point something out. "Okay, I see we’re doing a post-order traversal of the tree." And you have no idea what that means. You just hope it’s not important or hope you can get away with pretending to know what that means. So you say, “Right.” At first, it looks like you’ve gotten away with it. But it comes up again later. “So, why did you choose to do a post-order traversal?”.
+
+You’re busted. Not only do you not know what post-order means, but now you look dishonest. Because saying “I don’t know what that means” at this point also means saying “I sort of pretended to know what that meant earlier.” Best to nip this kind of problem in the bud before you end up in that situation.
+
+When your interviewer says something you don’t understand, point it out immediately. Lean right in. Because letting them think you understand is going to make things messy later. Try to be as specific as possible about what you don’t understand. It makes your thinking sound much more organized. Huge Difference between “Huh?” and “What does post-order mean in this context?”
 
 ### Bring Your Projects
 

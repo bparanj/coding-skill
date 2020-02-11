@@ -103,9 +103,16 @@ Now when we iterate, we come up with a great solution, that we think at the high
 
 **Step 6 : Write Code**
 
-Finally in step 6 we finally write some code. So only after a very thorough analysis of the problem, you have a very good sense of what you want to implement, now you can start writing some code on the whiteboard.
+Finally in step 6 we finally write some code. So only after a very thorough analysis of the problem, you have a very good sense of what you want to implement. Now you can start writing some code on the whiteboard.
 
 Programming on a white board in the interview situation is quite different from typing it out in a computer. It's a good idea to practice on whiteboard during preparation.
 
 You can download the [Problem Solving Approach PDF](/assets/files/problem-solving-approach.pdf) to use as a guide for your preparation. This is based on a 45 minutes interview with few minutes at the end for asking questions to the interviewer. The article [Tecnical Interview Tips]({% post_url 2019-09-19-technical-interview-tips %}) has suggestions on questions you can ask at the end of the interview.
 
+**Step 7 : Test Your Solution**
+
+Write out a sample input. Something short enough that you’ll be able to get through the whole thing, but long enough that it’s not an edge case. 
+
+Then walk through your code line by line. As it changes the input, actually change it on the board. If it makes new variables, write those on the board as well. 
+
+You’re using your brain as the computer processor and the whiteboard as your computer memory. It’s tedious, but that’s the only way to debug code on the whiteboard. Once you’re done, do the same thing with all the common edge cases. Empty arrays, single-element arrays, negative numbers, disconnected graphs, etc.
