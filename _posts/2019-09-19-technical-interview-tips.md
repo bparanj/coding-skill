@@ -18,7 +18,8 @@ This is important because you need to end the interview with a good impression.
 
 - Do not ask the interviewer what they think about your solution. 
 - Do not ask any negative questions such as what's the worst part about their job. 
-
+- Do not ask any dumb questions. Dumb question is one that you can easily find the answer from Google.
+ 
 You will make the interviewer uncomfortable. If the company makes the headline for the wrong reason, do not ask any questions about that issue.
 
 You can figure out the team dynamics and culture by following these guidelines:
@@ -26,12 +27,15 @@ You can figure out the team dynamics and culture by following these guidelines:
 - If the person is your potential manager, give that person a scenario and ask how would the person handle conflict between two employees. You can figure out how you will be treated if you have conflicts at work.
 - If the person is your potential co-worker, ask the person for opinions about technology stack or if people at work hangout out after work.
 - If it's a big company, your interviewers won't work with you. But normally someone in the team will interview you. You can change your questions a bit to figure out the same things about your potential team.
+- A good question to ask in the end is to talk about some brand new technology that gets everybody excited and ask for their opinion. 
 
-A good question to ask in the end is to talk about some brand new technology that gets everybody excited and ask for their opinion. Leave the interview on a good note because your interviewers are people and the first and last impression does matter. This demonstrates that you are humble. Be confident and at the same time respect the interviewers.
+Leave the interview on a good note because your interviewers are people and the first and last impression does matter. This demonstrates that you are humble. Be confident and at the same time respect the interviewers.
 
 ## Tip #3 : Be Confident in the Interview
 
 You don't have to be a master but you are the person being hired to do the job. You're expected to have some competence, if you are double checking yourself every step of the way, it doesn't show confidence in what you are doing. It's about having a tone that is collaborative, that is confident but not overly confident. 
+
+Confidence shows up in how you talk about yourself. Language like: "I guess", "I assume" and "Maybe if I'm right" does not show confidence in the interview. 
 
 After finishing coding the solution, use the example that they gave in the beginning and run through the code to make sure there are no major bugs. You can also think of edge cases. This can take a lot of time if you have not practiced enough.
 
@@ -63,7 +67,7 @@ Oftentimes, you first read the code, then write a second version of the code. Bu
 
 A lot of developers get scared. After one phone interview, they stop interviewing. So don't get discouraged if you fail an interview, who cares, you have next year to do it again. You have many more companies to apply for a job. 
 
-## Tip #7 : Wait to Test
+## Tip #7 : Don't Wait to Test
 
 You should come up with interesting test cases yourself instead of holding out until the interviewer provides test cases that break your code. Your ability to proactively dry run test cases on your code to identify bugs is a key part of the evaluation.
 

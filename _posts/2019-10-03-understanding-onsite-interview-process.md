@@ -26,7 +26,7 @@ The first 5 minutes and last 5 minutes matters a lot. These are your first and l
 
 ### Making a Good Last Impression
 
-What to do in the last 5 minutes to make a good impression? This is a Two-Way interview. If you're good, the interviewer will need to sell you on the company because you could have multiple competing offers. 
+What to do in the last 5 minutes to make a good impression? This is a two-way interview. If you're good, the interviewer will need to sell you on the company because you could have multiple competing offers. 
 
 So, they will be prepared to explain why it's so great to work at their company. If you can get them to try to sell you on joining the company, their mindset is already being altered towards bringing you in.
 
@@ -49,7 +49,7 @@ It is also a good opportunity to learn about something interesting regarding the
 - How does the company embrace innovation?
 - Do the engineers have a chance to research and apply technologies that improve the product?
 
-If you are not just looking for a place to get bills paid, it is really important to match the company's internal processes and goals with your career goals.
+If you are not just looking for a job to pay your bills, it is important to match the company's internal processes and goals with your career goals.
 
 ## Coding Problems
 
@@ -97,7 +97,14 @@ You must be able to analyze the solution from a time space perspective. You must
 
 ## Your Action Plan
 
-- Prepare a strong answer to: So, tell me about yourself. What brings you here?
+Prepare a strong answer to: So, tell me about yourself. What brings you here? What are you here for? or How can we help you at some point? Know what you want in the role. 
+
+- What do you want to get out of this job? 
+- Is this the next step up for you to become a senior? 
+- Is this the next step towards management? 
+
+If you don't know what you want, they cannot help you. They will not know if this is a good fit for you. 
+
 - Have a cordial, concise, and friendly self-introduction that piques curiosity.
 - Be ready to talk about 2-3 technical projects concisely.
 - Identify key points you've done, not what your team did.

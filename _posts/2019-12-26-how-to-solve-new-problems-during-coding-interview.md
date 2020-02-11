@@ -17,9 +17,25 @@ The implementation of algorithms requires good programming skills. The solution 
 
 Coding style must be straightforward and concise. The programs are short - usually less than 50 lines of code. 
 
+## Approaching the Coding Problem
+
+- Is the problem too vague? Ask more questions.
+- Is there a formula to solve this problem? Use math first. Always.
+- Can you derive an equation from the problem statement?
+- Taking more than O(n log n) time? Consider sorting as an intermediate step to solve the problem.
+- Are any superlatives such as least, longest, shortest used? Think Greedy/Dynamic programming.
+- Did you see the word 'find' in the problem statement? Consider the hash table.
+- Unable to make use of the extra property given? Try solving the problem in reverse. Begin from the end of array, from top-right corner of a matrix.
+- Is the input overwhelming? Start with the smallest input and grow.
+- Is the problem too hard? See if you can pre-process or rearrange the problem to simplify it.
+- Does the problem refuse to die? Just eliminate a part of input at each step.
+- Don’t know how to make most operations logarithmic? How many data structures have you studied?
+
+Problem solving is an amalgamation of knowledge about math, data structures, algorithms, practice, intuition and some tricks. Start by learning what has already been invented over several decades.
+
 ## Algorithmic Problem Solving
 
-In this article we will discuss the strategy to use when you have to solve a new problem that you've never solved before.
+In this article we will discuss the strategy to use to solve a new problem that you've never solved before.
 
 Let's now look at a step by step approach to solving a new problem.
 
@@ -40,7 +56,7 @@ After you've asked a lot of questions to clarify the problem, the next step is t
 
 Working through an example is useful because it lets you recognize an emerging pattern and provides you the momentum to solve the problem.
 
-It also lets you take some time and think through the problem very concretely about what difficulties might be involved in the solution.
+This gives you some time to think through the problem very concretely about any difficulties in the solution.
 
 You might also find any hidden assumptions or implicit questions that you need to address again. If so go back to the first step of asking more questions to make sure that you've mapped out the scope of the solution.
 
@@ -50,7 +66,7 @@ Okay, so at this point we have a very good understanding of the problem and we'r
 
 **Step 3 : First Correct Solution**
 
-In the next stage of the strategy we come up with a first solution. You want to solve the problem, even if it's not a good approach. This is the brute force approach.
+In the next step we come up with a first solution. You want to solve the problem, even if it's not a good approach. This is the brute force approach.
 
 This approach does not have to be clever or elegant. But you want to make sure that you've got a correct solution.
 
@@ -71,11 +87,11 @@ Think through a little bit if you were to implement this first solution:
 - How would those data structures interact with the problem that you're working with? 
 - What performance would you get out of this implementation? 
 
-Think about any trade-offs in terms of using more memory to speed up the performance, or vice verse. So, we've got a solution. But we didn't spend a lot of time trying to make it clever or elegant.
+Think about any trade-offs in terms of using more memory to speed up the performance or vice verse. So, we've got a solution. But we didn't spend a lot of time trying to make it clever or elegant.
 
 **Step 5 : Refine Your Solution**
 
-So our next step of the strategy is to iterate this whole process of coming up with a candidate approach to solving the problem. Evaluating, testing and poking at it, making sure that it works correctly or if it doesn't, thinking about ways to fix it and refine your solution as much as you can.
+So our next step is to iterate this whole process of coming up with a candidate approach to solving the problem. Evaluating, testing and poking at it, making sure that it works correctly or if it doesn't, thinking about ways to fix it and refine your solution as much as you can.
 
 The interviewer will try to guide you towards iterating your solution, asking you if it could be made better, asking you if there are any trade-offs that you have in mind. 
 
@@ -87,7 +103,7 @@ Now when we iterate, we come up with a great solution, that we think at the high
 
 **Step 6 : Write Code**
 
-Finally in step 6 of our strategy, we finally write some code. So only after a very thorough analysis of the problem, you have a very good sense of what you want to implement, now you can start writing some code on the whiteboard.
+Finally in step 6 we finally write some code. So only after a very thorough analysis of the problem, you have a very good sense of what you want to implement, now you can start writing some code on the whiteboard.
 
 Programming on a white board in the interview situation is quite different from typing it out in a computer. It's a good idea to practice on whiteboard during preparation.
 

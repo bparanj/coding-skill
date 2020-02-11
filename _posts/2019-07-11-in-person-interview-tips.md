@@ -21,7 +21,11 @@ They're interested in engineers who solve new problems. That's what you do durin
 
 ## How to Succeed
 
-So now we know what they're looking for. How are you going to succeed? It's okay to question your interviewer. It's not a one-way street. You can and you should ask questions. 
+So now we know what they're looking for. How are you going to succeed? It's okay to question your interviewer. The interview is a two-way street. You are interviewing the company as much as they are interviewing you. An interview should be a conversation about what you enjoy in a software project, in a team, in a manager as well as what you find problematic. You can and you should ask questions. 
+
+It should be a chance for you to talk about how you approach both technical and people problems. How you balance trade offs, and how you deal with things that don’t go your way. 
+
+You should be able to defend your choice of technology but you should also know it well enough to be able to talk about its flaws or when it isn’t a good fit. You should be able to ask about the company’s processes, how they manage teams, how they resolve conflict and how they reward success.
 
 ### Frame the Problem
 
@@ -40,6 +44,8 @@ If you feel like you need to assume anything, you need to check with them before
 You also want to describe before you start coding how you plan on tackling the problem. Through that process of saying, well I plan on solving this problem using data structure x. And as you talk through how data structure x is going to be used you'll realize well, maybe data structure x wasn't the right fit. They may even prompt you, well, maybe you should try thinking about other data structures.
 
 It's important to give them a high level overview before you start coding. As you are working through the problem, the more you can talk to the interviewer about your thinking process, the better.
+
+There is information they have intentionally withheld in order to see if you pick up on it. So pick out a couple of reasonable algorithms to consider, mention them to the interviewer and ask for whatever information you would need to narrow down the choices.
 
 In a way they're testing you more on your thinking process, and how you go about solving problems than they are about solving specific problems during the interview.
 

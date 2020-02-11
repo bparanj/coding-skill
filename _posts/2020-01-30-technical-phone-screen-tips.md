@@ -42,7 +42,7 @@ The smoke-screen questions are language dependent. Search for "common interview 
 
 A lot of these may be quite language-specific, and since they're quick yes/no questions they don't make for great meaty interview questions. 
 
-If you're going into an interview, and you know it's going to be for something language-specific like "javascript frontend developer," "Objective-C iOS developer," or "Python backend developer" then it'll be good to brush up on these. 
+If you're going to interview for a position that is language-specific like "javascript frontend developer," "Objective-C iOS developer," or "Python backend developer" then it'll be good to brush up on these. 
 
 You could be developing in a language like Javascript and never use closures. But that's still a very common question for Javascript roles so don't let those catch you off guard.
 
@@ -52,13 +52,13 @@ For larger companies, these questions are rarer, they usually just ask you to do
 
 ## Internet Connection
 
-Make sure you have a good Internet connection and a phone connection. You want to make sure you have a back up as well. So maybe the land line fails and you have a cell phone as a back up or vice verse. You also want to make sure the Internet connection is solid. The last thing you want during your interview is to have your Internet connection cutting in and out while you're trying to do a programming exercise.
+Make sure you have a good Internet and a phone connection. Make sure you have a back up as well. So maybe the land line fails and you have a cell phone as a back up or vice verse. Make sure the Internet connection is good. You don't want your Internet connection cutting in and out while you're trying to do a programming exercise.
 
 ## Test Your Setup
 
-So it'd be great if you could have that wired and it'd be great if you could test it during the same time-frame as you're going to have your interview. You'll also want to make sure you already have your Google Hang-out and your Skype Account set up, to make sure that when you first fire up Skype, it doesn't do the update. So make sure it's already up and running before your interview starts.
+So it'd be great if you could have that wired and test it during the same time-frame as you're going to have your interview. You'll also want to make sure you already have your Google Hang-out and your Skype Account set up, to make sure that when you first fire up Skype, it doesn't  update. So make sure it's already up and running before your interview starts.
 
-And then all the required tools, your Skype, your Internet connection, you phone connection has to be tested before the interview. Grab a friend who is somewhere else. Both of you and set up Skype and try to mimic the exact phone interviews setting, to find out, well oh, the Internet isn't actually very good in the office this time of day, or things like that.
+All the required tools, your Skype, your Internet connection, you phone connection has to be tested before the interview. Grab a friend who is somewhere else. Both of you can set up Skype and try to mimic the exact phone interview setting, to find out if the Internet is good in the office this time of day or not.
 
 ## How to Carry Yourself
 
@@ -68,7 +68,7 @@ If you're going to do non-verbal cues, do big things like thumbs up or really lo
 
 ## Talking Points
 
-If you will be working in a non-visual environment like telephone, it's okay to have notes. I recommend keeping a pen and notepad handy, either if you have Skype or you're working on a telephone. Resume can also be your notes. But if you have completely non-visual you can have even more notes. 
+If you will be working in a non-visual environment like telephone, it's okay to have notes. Keep a pen and notepad handy, either if you have Skype or you're working on a telephone. Resume can also be your notes. But if you have completely non-visual you can have even more notes. 
 
 Your notes about the company or other things you want to highlight. Some talking points for the interview that you want to hit on. Ask some of the Joel Spolsky questions:
 
@@ -84,7 +84,7 @@ But don't rely on them too much. Every time they ask a question and if you're sh
 
 ## Relax Before the Interview
 
-You'll also want to make sure you have some way of relaxing beforehand. It's really easy to get stressed out before a phone interview.
+Make sure you have some way of relaxing beforehand. It's  easy to get stressed out before a phone interview.
 
 One of the keys to being relaxed is knowing that you're prepared. And the best way to be prepared is to practice and know your technical knowledge.
 
@@ -102,22 +102,22 @@ Let's look at a couple of pitfalls. They're very common in the technical phone s
 
 ### Silence
 
-The first is not talking. A candidate will be asked a question, and it goes dead silent for five minutes. And there's still nothing. And the interviewer will say, well, could you tell me what you're thinking now? And they'll get a quick, okay, yeah, just one sec. Another five minutes of no talking. This is not good.
+The first is not talking. A candidate will be asked a question and it goes dead silent for five minutes. And there's still nothing. And the interviewer will say, well, could you tell me what you're thinking now? And they'll get a quick, okay, yeah, just one sec. Another five minutes of no talking. This is not good.
 
 Make sure you have a dialogue with your interviewer. Now even if you have said just a couple things with the interviewer you want to make sure it's a full two-way dialogue. An example of a mistake here would be, they ask you a question, and you immediately start coding. You don't want to do that. You don't fully understand the question yet.
 
-Make sure you go back to the interviewer, ask some followup questions. Make sure you understand the question properly, so they could give you hints. They could say, oh, no, it's not actually this problem. We're trying to solve another problem instead. And that way when you solve a problem, you're solving the right one.
+Make sure you ask some followup questions. Make sure you understand the question properly, so they could give you hints. They could say, oh, no, it's not actually this problem. We're trying to solve another problem instead. And that way when you solve a problem, you're solving the right one.
 
 Likewise, you'll want to give them some high level ideas about what you're going to do with your coding. And then they can give you feedback, that seems like a reasonable direction or they might say, I think you might want to be thinking about this differently. You haven't thought about this scenario. So the more you have a conversation with them, the better.
 
 ### Not Prepared
 
-One of the other big mistakes is just not being prepared. Not having your Skype connection set up beforehand. Not having the technology knowledge you're supposed to have and just not being ready for the interview.
+One of the other big mistakes is just not being prepared. Not having your Skype connection set up beforehand. Not having the technology knowledge you're supposed to have and not being ready for the interview.
 
 ### Failing to Highlight Your Strengths
 
 The last thing is not highlighting your strengths in your resume. So you might have thought when writing your resume, that it would be a good idea to put in any language you've ever touched as a language you're proficient in. But this is a mistake.
 
-Let's say you've coded just a little bit in PHP. You used it once for a project four years ago. And now, during the actual phone screen, they're going to say, could you code up this algorithm in PHP. That can be really bad if you can't program in PHP. You have to say something like: Well, I'm actually not that proficient in PHP, let's switch to another language.
+Let's say you've coded just a little bit in PHP. During the actual phone screen, they're going to say, could you code up this algorithm in PHP. That can be really bad if you can't program in PHP. You have to say something like: Well, I'm actually not that proficient in PHP, let's switch to another language.
 
-And if you do that a couple of times, that's going to be problematic, because they're going to ask what part of this resume is accurate? But it's also a mistake because you've just shown a weakness, because you didn't know a language that was on your resume. If you had put it on your resume that you weren't proficient in PHP. But that you were proficient in Java, you would have set yourself up for success. So this is where the resume ties in well with the technical phone screen.
+And if you do that a couple of times, that's going to be problematic, because they're going to ask what part of this resume is accurate? But it's also a mistake because you've just shown a weakness. Because you didn't know a language that was on your resume. If you had put it on your resume that you weren't proficient in PHP. But that you were proficient in Java, you would have set yourself up for success. So this is where the resume ties in well with the technical phone screen.
