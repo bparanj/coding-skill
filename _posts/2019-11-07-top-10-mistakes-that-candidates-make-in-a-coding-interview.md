@@ -20,8 +20,11 @@ Prepare three to five stories that you can talk about to demonstrate your leader
 
 - Tell me about a technically challenging situation that you faced and how you resolved it. 
 - Tell me about a situation where there was conflict in your team and how you dealt with the situation.
+- How do you handle a difficult co-worker?
 
-It takes time to come up with a good story. Your story must have takeaways that demonstrate your strengths. So come prepared with good stories. What is the story that you want to tell people?
+It takes time to come up with a good story. Your story must have takeaways that demonstrate your strengths. So come prepared with good stories. 
+
+What is the story that you want to tell people? Do you strive for success and growth? Remember that you are applying to one of the top companies in the world, they would like to hire ambitious and above-average people.
 
 ### Mistake #3 : Not Taking Any Mock Interviews
 
@@ -53,7 +56,19 @@ Lack of communication means lack of analysis. You must talk about trade offs, ti
 
 ### Mistake #6 : Rushing into Coding
 
-The sixth mistake is rushing into the coding part too soon. When a new problem is presented, make sure you communicate your solution and get a clear go ahead from your interviewer before you hastily attempt to code.
+The sixth mistake is rushing into the coding part too soon. You’re a few minutes into the interview. You’re talking about the problem with your interviewer, batting around some ideas for how to get started. 
+
+Suddenly you have this sinking feeling that a lot of time has gone by and the whiteboard is still blank. You decide it’s time to get moving. Even though you don’t know yet what your code is even going to do, you start writing it anyway.
+
+So you write a function declaration with a name and some arguments. Maybe a closing brace at the bottom of the board. And there’s going to be a loop in here. So let’s throw a loop in there. I guess it’ll loop through that first argument. So you sketch out a loop. Maybe you call a subroutine in there that handles some tricky part you’re not sure yet how to handle. “I’ll write out that function later,” you say.
+
+And then you realize you’re sort of back to the drawing board. Because you still have to figure out what your code is going to do. But now you have all this half-baked code on the board, which might already be pointing you in the wrong direction. That instinct to get moving and start writing code ends up hurting you. Because now another 10 minutes has passed, you’re no closer to an algorithm. And you have messy, half-baked code scrawled all over the whiteboard.
+
+Instead, when that instinct kicks in, just pause. Take a moment. Breathe. Know that worrying about time isn’t going to make you move faster. You could even say out loud, “I’m starting to feel like I should start writing code soon, but I know it’s no use to start writing code before I know what it’s going to do.” 
+
+Just get back to the problem at hand and keep batting around ideas for how to solve the problem. Play around with a sample input on the whiteboard. Draw a picture of the data structure. Brainstorm. Trust that you’re not supposed to know the answer right away. That's what makes it a good coding interview problem.
+
+So when a new problem is presented, make sure you communicate your solution and get a clear go ahead from your interviewer before you hastily attempt to code.
 
 You might miss the edge cases and it may not be the most optimal solution. You modify the current code and fix any issues. Often, these fixes without any thinking do not address any underlying bigger problems in your code.
 
@@ -62,6 +77,10 @@ Don’t rush to code. First, talk about the solution. Talk about different desig
 Now, often times when you're rushing, you're a bit stressed and when you're stressed, you fumble and you get into a vicious circle. So definitely, you don't need to rush. 
 
 Yes, you only have 45 minutes, but you also have time to stop and think. Five minutes can give you a lot of time to think about the problem. It might seem long to you because you're interviewing and the long silence might be uncomfortable, but it’s okay to sometimes take two to three minutes to think. 
+
+If you don't plan your approach, you will most likely get stuck at some point. Getting stuck is fine, but you don't want to realize later on that you wasted valuable time coding something that doesn't solve the problem.
+
+So make sure you plan your algorithm before you start coding. Discuss it with the interviewer. 
 
 ### Mistake #7 : Sloppy Code
 

@@ -61,13 +61,29 @@ You should have thorough knowledge of mainstream languages like Java, C++, C and
 
 ## Computer Science Concepts
 
-The questions will cover data structures and algorithms. Approach all scripting as a coding exercise. The code should be clean and robust.  All problems will have a short elegant solution. If you start writing a lot of code, take a step back and rethink your approach. You might be heading in the wrong direction. You should ask clarifying questions and make sure you completely understand the problem before you start working on it.
+The questions will cover data structures and algorithms. Approach all scripting as a coding exercise. The code should be clean and robust. All problems will have a short elegant solution. If you start writing a lot of code, take a step back and rethink your approach. You might be heading in the wrong direction. 
+
+You should ask clarifying questions and make sure you completely understand the problem before you start working on it. It saves you from trouble later on. Interviewers tend to purposely ask vague questions to see if you can think critically about problems and edge cases before starting to code.
+
+For example, let's say you assume that the input array has only positive integers. You write a solution that only works for positive numbers. But the interviewer was expecting it to work for negative numbers too.
+
+You should know how to ask questions. It's something companies want to test. You can ask questions such as:
+
+- Can there be negative numbers in the input array?
+- Is the graph directed or undirected?
+- Can the graph have cycles?
+
+and so on.
 
 ## Communicate
 
-Talk to your interviewer and tell them what you're doing. If you stare at the whiteboard silently, they will not know if you're making headway or you're just stuck. 
+Interviewing should be a conversation. The coding interview is a chance to see how you think, how you solve problems. If you talk as you work, your thinking will be clearer to the interviewer. This is crucial to succeess.
 
-If you communicate well, they might say, "Looks good! Go ahead and code it," or "That might work but there is a more efficient solution." Interactivity takes practice - with yourself, a friend and even group study buddy.
+Before starting to whiteboard, propose a solution and simply ask your interviewer "How does that sound to you?”. They might say, "Looks good! Go ahead and code it," or "That might work but there is a more efficient solution." This gives your interviewer a chance to steer you back on track if you’re veering off course or to encourage you to continue with your current train of thought.
+
+Start at the top left hand corner of the whiteboard to maximize space to write and leave room in between lines. So you can add something in case you make a mistake. Writing on a whiteboard is extremely different than typing on a computer. 
+
+Talk to your interviewer and tell them what you're doing. If you stare at the whiteboard silently, they will not know if you're making headway or you're just stuck. Interactivity takes practice. Practice with a friend or a group study buddy.
 
 ## When You Get Stuck
 

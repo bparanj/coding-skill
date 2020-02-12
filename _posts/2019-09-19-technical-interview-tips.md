@@ -4,11 +4,21 @@ layout: post
 
 In this article we will look at some tips to help you get through the technical interview with flying colors.
 
-## Tip #1 : Time Management
+### Tip #1 : How to Play the Game
+
+Technical interview is a game. The tech interview culture is so flawed and there are so many opportunities to feel humiliated that it's easy to blame the process. There are many valid arguments why the current process is not a good way to find qualified candidates. But we have no choice but to play the game.
+
+Thinking of this process as a game removes a lot of the personal feelings from this whole ordeal and even opens up the idea that we can beat it.
+
+One of the biggest fears I have in quitting a job where I am unhappy is the fact that interviews totally suck. So I end up staying for years working on platforms or teams I dislike. Thinking of the interview process as gearing for the new World of Warcraft expansion and getting into a raiding guild is a happy way to think about it.
+
+It's so easy to become bitter and pissed off with the interview process. The lack of feedback with rejections can make you feel insecure. Knowing that it's a game keeps things in the right perspective.
+
+### Tip #2 : Time Management
 
 Make sure that you are keeping on track and working through the problem as quickly as possible. Cut out the chit chat, save as much time as you can. Give yourself more time to get through the whiteboard questions. This also gives you the time to talk about your projects and impress your interviewer. 
 
-## Tip #2 : End the Interview on a Good Note
+### Tip #3 : End the Interview on a Good Note
 
 The first impression matters. The way you present yourself, the way you talk and dress matters. Make sure to dress casual, dress a little bit better, don’t wear a business suit. Do not use too much oil on your hair. 
 
@@ -31,7 +41,7 @@ You can figure out the team dynamics and culture by following these guidelines:
 
 Leave the interview on a good note because your interviewers are people and the first and last impression does matter. This demonstrates that you are humble. Be confident and at the same time respect the interviewers.
 
-## Tip #3 : Be Confident in the Interview
+### Tip #4 : Be Confident in the Interview
 
 You don't have to be a master but you are the person being hired to do the job. You're expected to have some competence, if you are double checking yourself every step of the way, it doesn't show confidence in what you are doing. It's about having a tone that is collaborative, that is confident but not overly confident. 
 
@@ -47,13 +57,13 @@ Do not get bogged down in details and tedious code. If you spend too much time i
 
 You may need some pseudo code here and there, but try not to get too bogged down in details. The trick is managing your time properly. It's not about whether you get the question or not. It's about how fast you can do it. 
 
-## Tip #4 : Have a Good Introduction
+### Tip #5 : Have a Good Introduction
 
 Most interviewers don't read your entire resume. They may read it on their way to meet you. They may take a look at it when they are sitting down across from you. 
 
 Don't come across as too arrogant, too cocky or too proud of yourself. Talk about your recent work. People's opinions about you are formed within the first few moments of meeting you. 
 
-## Tip #5 : Bring Your Own Whiteboard Pens
+### Tip #6 : Bring Your Own Whiteboard Pens
 
 Sometimes the marker pens in the room run dry. You have to run around to find another marker pen. Sometimes code is not readable because the ink has almost run out. 
 
@@ -63,15 +73,17 @@ Marker pen that is a little bit thinner is better. You can squeeze more onto the
 
 Oftentimes, you first read the code, then write a second version of the code. But you don't want you to erase the first one. You want both side by side for revising the code for the second version. 
 
-## Tip #6 : Don't Get Discouraged
+### Tip #7 : Don't Get Discouraged
 
 A lot of developers get scared. After one phone interview, they stop interviewing. So don't get discouraged if you fail an interview, who cares, you have next year to do it again. You have many more companies to apply for a job. 
 
-## Tip #7 : Don't Wait to Test
+### Tip #8 : Don't Wait to Test
 
-You should come up with interesting test cases yourself instead of holding out until the interviewer provides test cases that break your code. Your ability to proactively dry run test cases on your code to identify bugs is a key part of the evaluation.
+You should come up with good test cases yourself instead of waiting until the interviewer provides test cases that break your code. Walk through test cases. Use the “0, 1 and Many” items to catch any potential edge cases where your code might fail. 
 
-## Tip #8 : Master the Programming Language
+Walking through your code is a great way to find any potential bugs. Your ability to proactively dry run test cases on your code to identify bugs is a key part of the evaluation.
+
+### Tip #9 : Master the Programming Language
 
 Knowing all language-specific data structures and libraries is useful during an interview. Create cheat-sheets of top non-trivial data structures/library functions that you can quickly review while practicing. 
 
@@ -85,7 +97,7 @@ Next, look at the internal implementations for all the data structures available
 - Implementations and complexity
 - Object oriented support and best practices
 
-## Tip #9 : Master Advanced Concepts
+### Tip #10 : Master Advanced Concepts
 
 Create a generic template for these concepts which you can modify and apply to any new problem. Topcoder tutorials are one of the best sources to learn such advanced data structures and algorithms.
 
@@ -106,4 +118,3 @@ Create a generic template for these concepts which you can modify and apply to a
 - NP-Complete (e.g. traveling salesman, the knapsack problem, vertex cover problem)
 - Combinatorics and Probability
 - Processes, threads, and concurrency in Operating Systems
-
