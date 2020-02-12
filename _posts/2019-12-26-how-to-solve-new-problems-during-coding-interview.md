@@ -111,8 +111,12 @@ You can download the [Problem Solving Approach PDF](/assets/files/problem-solvin
 
 **Step 7 : Test Your Solution**
 
+When you’re done writing the code, your interviewer will test your code by running it on an example. Don’t let them do the testing. Show how it works by walking through the example.
+
 Write out a sample input. Something short enough that you’ll be able to get through the whole thing, but long enough that it’s not an edge case. 
 
 Then walk through your code line by line. As it changes the input, actually change it on the board. If it makes new variables, write those on the board as well. 
 
 You’re using your brain as the computer processor and the whiteboard as your computer memory. It’s tedious, but that’s the only way to debug code on the whiteboard. Once you’re done, do the same thing with all the common edge cases. Empty arrays, single-element arrays, negative numbers, disconnected graphs, etc.
+
+You want to demonstrate your testing skills and show that you write reliable code. Don't let the interviewer catch any errors in your code. Having errors in code is fine, but make sure you verify the code and do your best at finding the errors yourself.
