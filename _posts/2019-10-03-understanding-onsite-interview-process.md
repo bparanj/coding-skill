@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Understanding the On-Site Interview Process
-excerpt: In this article we will see what to expect in an on-site interview and how do you come up with an action plan. What can you expect at an onsite interview? What kind of interviews will you get? How long are these interviews? We will cover all of that and share our recommendations on how to tackle them.
+excerpt: In this article we will see what to expect in an on-site interview and how do you come up with an action plan. What can you expect at an onsite interview? What kind of interviews will you get? How long are these interviews? We will cover all of that and see how to tackle them.
 ---
 
 If you did well on the phone interview, the next step is the onsite interview. Now, this is when you need to start taking things seriously. Because this is going to be your one chance and then if you don't get that you can't really apply again for another say 6 to 12 months or so.
@@ -14,7 +14,7 @@ It's standard to get 4 to 6 interviews. One of them is going be a lunch intervie
 
 ## Position Level
 
-The goal of the technical interviews is to evaluate your potential. Technical interviews require practicing and focusing on two key skills - coding and communication.
+The goal of the technical interviews is to evaluate your potential. Technical interviews require practicing and focusing on two key skills: coding and communication.
 
 For entry-level positions, you must focus on the white-boarding. This involves coding, data structures, algorithms and your communication skills. Other traits like demonstrating leadership are good, but many candidates flunk at coding. Make sure you are solid on the fundamentals.  
 
@@ -23,6 +23,14 @@ As you go higher up, there's going to be other topics like systems design and be
 ## First and Last Impression
 
 The first 5 minutes and last 5 minutes matters a lot. These are your first and last impressions. Everyone says they're passionate about coding, but if you can show that passion by explaining about a project you've done that will be ideal.
+
+At the end of the interview, interviewers ask if you have questions for them. This is your chance to interview the company. A good candidate will have you sell them on the company and explain why it's so great to work there. 
+
+Go in there thinking you'll have competing offers from other top-tier tech companies all offering similar salary ranges. So, you should have questions for each company about other aspects like the work, the team, the product, the working style, technology stack, etc. 
+
+What if the interviewer replies in a vague or convoluted manner? If the reply is confusing, would it be a potential signal that working in that company is not that good but the person is too awkward to let you know directly? A question about the working culture and the team dynamics etc will have the interviewer reply in a very safe, non-specific, confusing manner. This probably means that somethin is wrong with the company. 
+
+It's going to be a conflict of interest for the interviewer to tell you anything bad about the company because their job is to sell the position to you. It's like asking a car dealer why a car is bad. Rather, you want to ask them what is good, what they like. if the praise is not gushing, then you'll have your answer. A bit of tact is necessary.
 
 ### Making a Good Last Impression
 
@@ -35,9 +43,12 @@ Your questions are the last impression that you make. If you have no questions, 
 The questions only lasts for about two minutes. Just a quick, Hey before we end this, can I ask you a question?"
 
 - What makes you want to work here?
+- What will I be helping you build on this team?
 - What are the primary challenges of your current team?
 
 Share a quick comment about how you've also faced similar challenges. End with, "Thanks for sharing, it was a pleasure talking to you and that was an interesting question. I enjoyed tackling it."
+
+Showing specific interest in the company and project is very powerful in interviews. It might be more difficult to do that for a FANG company as opposed to a mid-sized startup though.
 
 It is also a good opportunity to learn about something interesting regarding their stack or internal processes, such as:
 
@@ -54,6 +65,12 @@ If you are not just looking for a job to pay your bills, it is important to matc
 ## Coding Problems
 
 The problems that the interviewer asks have specific requirements. They are are not from a pool of questions that is used for interviews. They must be short enough to be explained and solved reasonably quickly, yet complex enough that not everyone can solve them. Often these problems have challenging restrictions and may require algorithmic tricks or uncommonly used features of a programming language.
+
+Many times the interviewer would ask if I have solved that problem before. And offer to give me something else if I have one. Sometimes questions are really identical to what I have done in the past, other times, very similar. But we can not skip them all until we find what is the type of question I have never seen. 
+
+How do I handle a question that I know well? Should I say:  "Yes I have solved it before", and get a new question that I may not be able to solve that well?
+
+If you get a question that you know well, solve it quickly and present the solutions with confidence. A senior engineer would have seen variations of virtually every problem. So it is pointless to say "I've seen something like this before". Also, it is not so much whether you can solve it or not. it is how you solve it, how you analyze it, how fast you were able to do it. If you can knock a problem out of the park, do it. Just be careful because I think you'll find it's still not all that simple to do.
 
 ### Programming Languages
 
@@ -128,4 +145,4 @@ If you don't know what you want, they cannot help you. They will not know if thi
 - Be prepared to talk about the top 2-3 points on your resume.
 - Rearrange your resume a bit if you need to or add projects to them so you can point to them.
 
-Avoid arrogance. Many interviewers will dive straight into a coding problem -- that is ok. But if you can pique their curiosity enough to have them ask you more about some project you've done, you will start off stronger.
+Avoid arrogance. Many interviewers will dive straight into a coding problem, that is ok. But if you can pique their curiosity enough to have them ask you more about some project you've done, you will start off stronger.

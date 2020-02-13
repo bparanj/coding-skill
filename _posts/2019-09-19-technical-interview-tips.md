@@ -2,7 +2,13 @@
 layout: post
 ---
 
-In this article we will look at some tips to help you get through the technical interview with flying colors.
+In this article we will look at some tips to help you get through the technical interview with flying colors. This involves proper time management and keeping your pace on-track. If you can complete a problem with 10 minutes to spare, it will impress the interviewer.
+
+We discuss how to end it on a high note and the importance of the first and last impressions. An interview can be intimidating, but let your confidence and not arrogance show. There are common mistakes that candidates can make that will sink what could have been a successful interview.
+
+Show the ability to get things done, initiative in starting projects and not being an arrogant jerk. Eagerness to learn is a key trait that is highly valued.
+
+Be sure to show and not tell. Someone who is passionate about coding must have personal projects or open source contributions to back that up. If you can show some pet projects or discuss some trending industry news, that would show your enthusiasm.
 
 ### Tip #1 : How to Play the Game
 

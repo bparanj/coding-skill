@@ -6,6 +6,8 @@ excerpt: Learn how to overcome the top 10 mistakes. Practicing on a computer. No
 
 ## Mistakes Made During Interview Preparation
 
+We discuss the top 10 common mistakes that candidates will make during the interview. These can be simple things that you can easily fix. But only if you know to look out for them. We point these out for you to prepare you for your journey. Preparation is the key to success. A proper mindset as you start your preparation and go into the interview will make the difference between night and day.
+
 ### Mistake #1 : Coding on a Computer
 
 The first mistake is practicing the code on a computer because you feel comfortable. In a coding interview, most of the time you won't have a computer. You will have a whiteboard or even a piece of paper. So practicing in an environment similar to the actual environment is a good preparation tactic.
@@ -25,6 +27,19 @@ Prepare three to five stories that you can talk about to demonstrate your leader
 It takes time to come up with a good story. Your story must have takeaways that demonstrate your strengths. So come prepared with good stories. 
 
 What is the story that you want to tell people? Do you strive for success and growth? Remember that you are applying to one of the top companies in the world, they would like to hire ambitious and above-average people.
+
+What sort of behaviors are valued in tech? Are people looking for drinking buddies or people who will laugh at their jokes? Well, of course, but those aren't really what this is about. It is about the cultural-fit in which traits like initiative, collaboration, willingness to accept feedback, conflict management, consensus building, learning from failure, growth mindset, a get-it-done attitude are highly valued.
+
+Don't underestimate this portion. It is not technical, but it can swing your interview. The key is that many candidates actually pass the whiteboarding portion to some degree, but what can absolutely swing your interview is your behavior. 
+
+- Are you a go-getter? 
+- Do you have initiative and eagerness? 
+- Are you able to manage conflict and collaborate with cross-functional teams? 
+
+Preparing a number of stories that addresses these points to ensure you pass this area with flying colors. Do not try to go in there and wing it, because it will take time for you to come up with a truly inspiring story. The story consists of 3 points. The challenge, what you did and the result.
+
+Willingness to receive and implement feedback is crucial.
+Ability to garner consensus is a must. Eagerness to learn is fundamental to starting out.As a SWE, you fail all the time. And you fix your problems all the time. Then write docs or train others so they won't make the same mistake. Most of the time, it's really all about repetition and having avenues to present your ideas to your team. 
 
 ### Mistake #3 : Not Taking Any Mock Interviews
 
