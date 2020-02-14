@@ -83,5 +83,10 @@ Finally, make a commitment for what you're going to do to move the lead measures
 
 I can guide you in creating a customized action plan for your situation. [Sign up for your FREE session](https://go.oncehub.com/BalaParanj) and we will figure it all out. Why is this free? Because I believe in Zig Ziglar's quote:
 
->You can get everything in life you want if you will just help enough other people get what they want.
+<blockquote class="note">
+  <p>
+    You can get everything in life you want if you will just help enough other people get what they want.
+  </p>
+</blockquote>
+
 

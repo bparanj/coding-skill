@@ -21,5 +21,14 @@ You can keep taking mock interviews until just before the actual interview, take
 
 From a performance goal perspective, how do you know you are ready for the interview? You can define the desired outcome as the ability to tackle any technical interview questions in 45 minutes or less and reach an optimal solution. 
 
-You could come up with a readiness criteria like: When I can solve 90% of the problems I have worked on before and 70% of new problems, I am ready for the real interviews. Remember that there are no perfect candidates who know everything about computer science. You now have a measuring stick to evaluate your progress and decide whether you are ready to attend the real interview with confidence.
+You could come up with a readiness criteria like: 
+
+<blockquote class="note">
+  <strong>READINESS CRITERIA</strong> 
+  <p>
+    When I can solve 90% of the problems I have worked on before and 70% of new problems, I am ready for the real interviews.
+  </p>
+</blockquote>
+
+Remember that there are no perfect candidates who know everything about computer science. You now have a measuring stick to evaluate your progress and decide whether you are ready to attend the real interview with confidence.
 

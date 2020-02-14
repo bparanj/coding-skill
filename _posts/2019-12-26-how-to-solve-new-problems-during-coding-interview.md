@@ -97,7 +97,15 @@ The interviewer will try to guide you towards iterating your solution, asking yo
 
 Think about speed, accuracy and optimality. While optimality is important, make sure you have working code in the given time that completely solves the problem. Always try to build up from a brute force solution that is easy to code. If you end up overcomplicating things by focusing on optimality, try to snap out of it and ensure you have working code to show at the end. 
 
-Remember: working code wins.This shows your coding skills and also allows the interviewer to give hints if there is time left. The best solutions usually require less than 30 lines of code. Always remember to explain the complexity when you are confident you have a solution (without prompting from the interviewer is better).
+
+<blockquote class="note">
+  <strong>REMEMBER</strong> 
+  <p>
+    Working code wins. This shows your coding skills and also allows the interviewer to give hints if there is time left. 
+  </p>
+</blockquote>
+
+The best solutions usually require less than 30 lines of code. Always remember to explain the complexity when you are confident you have a solution (without prompting from the interviewer is better).
 
 Now when we iterate, we come up with a great solution, that we think at the high level will do a pretty good job. We've done an asymptotic analysis. We have a sense of how long asymptotically using Big O notation each of the operations involved will take.
 
@@ -119,5 +127,11 @@ Then walk through your code line by line. As it changes the input, change it on 
 
 You’re using your brain as the computer processor and the whiteboard as your computer memory. It’s tedious, but that’s the only way to debug code on the whiteboard. Once you’re done, do the same thing with all the common edge cases. Empty arrays, single-element arrays, negative numbers, disconnected graphs, etc.
 
-You want to demonstrate your testing skills and show that you write reliable code. Don't let the interviewer catch any errors in your code. Having errors in code is fine, but make sure you verify the code and do your best at finding the errors yourself.
+<blockquote class="note">
+  <strong>RELIABLE CODE</strong> 
+  <p>
+    You need to demonstrate your testing skills and show that you write reliable code. 
+  </p>
+</blockquote>
 
+Don't let the interviewer catch any errors in your code. Having errors in code is fine, but make sure you verify the code and do your best at finding the errors yourself.

@@ -118,7 +118,12 @@ Often, there is no right answer. So, show that you understand this fact and that
 
 Being able to do a quick analysis of time-space complexity before you even begin coding will win you big points. Most candidates can't visualize the algorithm and time-space complexity before-hand. But if you happen to come across a simple problem and know it, let them know earlier.
 
-Just don't go over board and over-analyze. Some candidates will spend 10 minutes in analysis-paralysis. When the interviewer seems in agreement, start writing the code.
+<blockquote class="note">
+  <strong>ANALYSIS PARALYSIS</strong> 
+  <p>
+    Don't go over board and over-analyze. Some candidates will spend 10 minutes in analysis-paralysis. When the interviewer seems in agreement, start writing the code.
+  </p>
+</blockquote>
 
 ## Action Items
 

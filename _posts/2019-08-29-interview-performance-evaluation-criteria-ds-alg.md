@@ -9,7 +9,12 @@ For some interview questions, data structures can also organize your code for a 
 
 Algorithms is about how you utilize these data structures to solve a task. This may involve understanding the concepts behind breadth-first-search, depth-first-search. Using stacks/queues instead of arrays to improve your time-space complexity or using hashmaps to look for duplicates. 
 
-There are only a limited number of algorithms. As you practice you will see the same problems time and again with slight variations.
+<blockquote class="note">
+  <strong>PROBLEM VARIATIONS</strong> 
+  <p>
+    There are only a limited number of algorithms. As you practice you will see the same problems time and again with slight variations.
+  </p>
+</blockquote>
 
 ## Action Items
 

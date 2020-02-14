@@ -28,8 +28,13 @@ Coding problems can be used as diag­nostic tools to identify gaps in learning t
 
 If your grasp of core material falls short of deep conceptual understanding, you will not be sure what is being asked or which conceptual tool should be used to solve the problem. Are the connections between concepts missing?
 
-   _Told to hammer, they could hammer. Told to put in a screw, they could use a screwdriver. But told to build a shelf, they’d be paralyzed even though it was just a combina­tion of concepts that they should have learned. - Salman Khan_
-                                      
+<blockquote class="note">
+  <strong>SALMAN KHAN - FOUNDER OF KHAN ACADEMY</strong> 
+  <p>
+    Told to hammer, they could hammer. Told to put in a screw, they could use a screwdriver. But told to build a shelf, they’d be paralyzed even though it was just a combina­tion of concepts that they should have learned.
+  </p>
+</blockquote>
+                                  
 ### Fixing Gaps and Lapses
 
 Go back and revisit your study material. Read different books on the same topic. You will see the explanations from different angles and the material will make more sense. Work on actively applying the concept in a new context.

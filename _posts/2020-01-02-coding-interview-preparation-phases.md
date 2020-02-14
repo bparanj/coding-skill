@@ -7,7 +7,14 @@ You've got to crawl before you can walk and you've got to walk before you can ru
 
 Everyone has differences in their existing knowledge. You have to identify your current preparation phase and start from that phase in your preparation. You can then prepare well for the coding interview by following the steps in each phase of the preparation as outlined in this article.
 
-Modifying the sequence of the three phases or skipping any of the phase will create problems. Let’s consider the three phases in the coding interview preparation and how you can progress from one phase to the next in a systematic way.
+<blockquote class="note">
+  <strong>SEQUENCE OF THE PHASES</strong> 
+  <p>
+    Modifying the sequence of the three phases or skipping any of the phase will create problems.
+  </p>
+</blockquote>
+
+Let’s consider the three phases in the coding interview preparation and how you can progress from one phase to the next in a systematic way.
 
 ### Crawl Phase
 

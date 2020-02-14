@@ -107,7 +107,7 @@ Time is critical. Speed is critical. But timing yourself is useless if you are v
 
 Once you are familiar with a specific problem class, try to track how much time you spend on each question. You should also have a limit on how much time you will spend on a single question. As you keep practicing, you can keep decreasing your limit and effectively increase the number of questions.
 
-## What Should I focus My Study On?
+## Where Should I focus My Study On?
 
 Weak points. And then popular problems. Find a list of problems the company you are interviewing at asks. No idea whether this is a myth or not (and CTCI addressed this as false, that companies repeat questions from a list) but I have friends that told me of getting exactly questions from these lists. It isn't critical but it can help.
 
@@ -128,8 +128,10 @@ Books give you theory. Coding gives you the memory in your fingers and the neces
 ## Gather Advice
 
 Technical interviews vary based on the employer and even the interviewer. Spend time exploring tips from companies like Google and Microsoft to figure out what matters most. Talk to you professionals working those companies to learn from their mistakes and success. A useful resource for that: [Get Career Advice from Professionals](https://www.rooftopslushie.com)
-## Downside of Leetcode
 
-For some of the solutions (at least in Python), everyone is trying to one up each other with unreadable and small code.
-
-Spending time on these discussions can be a waste of time since your code must be easy to understand for the interviewer.
+<blockquote class="note">
+  <strong>DOWNSIDE OF LEETCODE</strong> 
+  <p>
+    For some of the solutions, everyone is trying to one up each other with unreadable and small code. Spending time on these discussions can be a waste of time since your code must be easy to understand for the interviewer.
+  </p>
+</blockquote>

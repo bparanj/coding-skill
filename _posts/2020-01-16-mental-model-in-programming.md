@@ -17,7 +17,7 @@ I had lot of difficulty learning CSS. I read many tutorials, courses and even ha
 
 I bought Jon Duckett's best selling CSS book. In this book there was a key concept that he explains really well. This provided me the right mental model that I needed to understand all other CSS concepts.
 
-<blockquote class="css-pc7ote">
+<blockquote class="note">
   <strong>KEY CONCEPT</strong> 
   <p>
     Every html element gets treated as if it were in a separate box.
@@ -30,7 +30,7 @@ I was not able to come up with a question to clarify this concept even during fa
 
 Simpler mental models are sufficient for beginner level coding problems. Simpler mental models break as the difficulty of the coding problem increases. Complex mental models are required that either adds more details to existing simpler mental models or replace them with complex mental models to solve complex and difficult problems. 
 
-<blockquote class="css-pc7ote">
+<blockquote class="note">
   <strong>MENTAL MODEL</strong> 
   <p>
     A program comprises of text that you can see and read. This is static in nature. The mental model is the dynamic aspect of the program. It is like a movie that explains what happens behind the scenes as the the program executes line by line. You cannot see this dynamic aspect of program execution with your eyes.
@@ -97,7 +97,7 @@ Assignment is the basic command that allows the modification of the values assoc
 
 Expert programmers have the knowledge to understand the meaning behind an innocent looking statement such as an assignment. They have a good grasp of concepts such as the system stack and heap. They know how to make memory management decisions. They know whether to allocate memory dynamically or static memory is sufficient for a given problem. 
 
-<blockquote class="css-pc7ote">
+<blockquote class="note">
   <strong>MEMORY AND PROGRAMMING</strong> 
   <p>
     Memory management is important in some languages like C/C++ where the memory management is not hidden from a programmer.

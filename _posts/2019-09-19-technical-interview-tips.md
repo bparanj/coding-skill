@@ -18,7 +18,12 @@ Thinking of this process as a game removes a lot of the personal feelings from t
 
 One of the biggest fears I have in quitting a job where I am unhappy is the fact that interviews totally suck. So I end up staying for years working on platforms or teams I dislike. Thinking of the interview process as gearing for the new World of Warcraft expansion and getting into a raiding guild is a happy way to think about it.
 
-It's so easy to become bitter and pissed off with the interview process. The lack of feedback with rejections can make you feel insecure. Knowing that it's a game keeps things in the right perspective.
+<blockquote class="note">
+  <strong>RIGHT PERSPECTIVE</strong> 
+  <p>
+    It's easy to become bitter and pissed off with the interview process. The lack of feedback with rejections can make you feel insecure. Knowing that it's a game keeps things in the right perspective.
+  </p>
+</blockquote>
 
 ### Tip #2 : Time Management
 
@@ -51,7 +56,12 @@ Leave the interview on a good note because your interviewers are people and the 
 
 You don't have to be a master but you are the person being hired to do the job. You're expected to have some competence, if you are double checking yourself every step of the way, it doesn't show confidence in what you are doing. It's about having a tone that is collaborative, that is confident but not overly confident. 
 
-Confidence shows up in how you talk about yourself. Language like: "I guess", "I assume" and "Maybe if I'm right" does not show confidence in the interview. 
+<blockquote class="note">
+  <strong>WATCH YOUR LANGUAGE</strong> 
+  <p>
+    Confidence shows up in how you talk about yourself. Language like: "I guess", "I assume" and "Maybe if I'm right" does not show confidence in the interview. 
+  </p>
+</blockquote>
 
 After finishing coding the solution, use the example that they gave in the beginning and run through the code to make sure there are no major bugs. You can also think of edge cases. This can take a lot of time if you have not practiced enough.
 

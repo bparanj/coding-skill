@@ -71,7 +71,7 @@ It may actually be more worth it for you to find a tech startup that is using so
 
 Don't be discouraged if you don't get any big companies because startups are a good place to learn. Most internships, you don't get to negotiate. Especially for big tech companies they have a set amount and they make the offer Take It or Leave It.
 
-<blockquote class="css-pc7ote">
+<blockquote class="note">
   <strong>BOTTOM LINE</strong> 
   <p>
     Optimize for the long term. Yes, you might be getting a higher paying job. If you go for a trendy job, what if they don't open any doors anymore? Always make sure that you always think about your future. 
@@ -91,7 +91,7 @@ Well established large tech companies usually have level bands. So, if you come 
 
 So it's going to be something that is pretty much fair here and there. You can get screwed at startups. Startups don't really know that much about good compensation. They're going to offer you something that is very low. You know they don't have too much funds. But they can pay more in equity. 
 
-<blockquote class="css-pc7ote">
+<blockquote class="note">
   <strong>BOTTOM LINE</strong> 
   <p>
     High salary means higher taxes. So if money is your motivation, then you can consider picking a side business. 
@@ -119,7 +119,7 @@ Then, jumping jobs is one effective way to boost your income. Because you will a
 
 In the end, recruiters are not your adversary. They're not necessarily your trusted friend either though. This is about working together cordially to find a win-win situation that makes everyone happy. If you're happy, show it. People love to see excited, happy people and want to maintain that momentum and mood.
 
-<blockquote class="css-pc7ote">
+<blockquote class="note">
   <strong>BOTTOM LINE</strong> 
   <p>
     Remember to optimize for the long term. A few bucks here and there will look like spare change if you've positioned yourself well 10 years into the future.
@@ -138,7 +138,7 @@ The intellectual property of what you have created in the course of working for 
 
 In this case, I usually tell the company that I am participating in hackathons, doing my pet-projects and research and I would like to keep this property and ask to explicitly add this statement to the contract. If the company does not agree and you still want to work for them, ask to increase the salary.
 
-<blockquote class="css-pc7ote">
+<blockquote class="note">
   <strong>BOTTOM LINE</strong> 
   <p>
     Thoroughly read the contract, ask a lawyer to check it. Any additional requirements or restrictions may require clarification, changes in the contract, increase of the offer or not accepting the offer.
@@ -165,7 +165,7 @@ Does it surprise you to hear that a lot of people that work at top-tier tech com
 
 In Netflix culture, employees are like contractors who can be let go at any time they are underperforming and are actually encouraged to interview every single year in order to re-negotiate compensation. Many have to interview in order to try to obtain a counteroffer, just to get their annual raise.
 
-<blockquote class="css-pc7ote">
+<blockquote class="note">
   <strong>BOTTOM LINE</strong> 
   <p>
     Do not look at interviewing as a one-time sprint, but as a skill that should be honed like a marathon. It is a skill very much worth getting good at in this field.

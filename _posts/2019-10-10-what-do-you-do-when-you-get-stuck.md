@@ -4,7 +4,6 @@ title: What to Do When You are Stuck?
 excerpt: You are working on a coding problem and struggling to make progress to solve the problem. You look at a the solution for the problem, you are totally lost and cannot understand the code. How do you get past this obstacle?
 ---
 
-
 ## Working Backwards
 
 Sometimes, you are stuck, what do you do? Let's say you didn't make any progress. Somehow you did some troubleshooting, you went through the questionnaire and you were able to jot down things in your notebook and you went back to the study phase and then you came back, you still have difficulty with solving the problem. So sometimes you have to work backwards. This is the bottom-up approach to aid you in the assimilation process.
@@ -43,4 +42,6 @@ By working backwards, you spend time only on things that solves the big problem.
 - Where do I focus my efforts?
 - Push Beyond Your Current Skill Limit
 
-Success is beyond your current skill limit. You now have a way to push past your current skill boundary. When you practice things that are beyond your current skill level, you cannot do that for too long. One hour is maximum. As soon as you wake up, you have the most mental and physical energy. You can work on the most challenging problem as the first thing in the morning and get it out of the way. You can squeeze in the remaining 50% of your preparation during the rest of your day’s schedule. 
+Success is beyond your current skill limit. You now have a way to push past your current skill boundary. When you practice things that are beyond your current skill level, you cannot do that for too long. One hour is maximum. 
+
+As soon as you wake up, you have the most mental and physical energy. You can work on the most challenging problem as the first thing in the morning and get it out of the way. You can squeeze in the remaining 50% of your preparation during the rest of your day’s schedule. 

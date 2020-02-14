@@ -5,7 +5,7 @@ title: Imposter Syndrome and Stereotype Threat
 
 If you feel that you're not good enough, you're not alone. So in this article we're going to talk about the Imposter Syndrome and Stereotype Threat.
 
-We will see what contributes to Stereotype Threat and the Imposter Syndrome. We will also discuss strategies for overcoming them. In particular, we will see growth mindset as a strategy for overcoming Stereotype Threat and the Imposter Syndrome.
+We will see what contributes to Stereotype Threat and the Imposter Syndrome. We will also discuss strategies for overcoming them. In particular, we will see [growth mindset]({% post_url 2019-12-05-growth-mindset-the-right-perspective-on-failure %}) as a strategy for overcoming Stereotype Threat and the Imposter Syndrome.
 
 ## Imposter Syndrome
 

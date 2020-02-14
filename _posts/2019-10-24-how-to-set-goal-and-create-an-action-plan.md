@@ -8,7 +8,7 @@ excerpt: Yogi Berra said "If you don't know where you are going, you might wind 
 
 Set your career goal by using the format: From X to Y by when. Example: 
 
-<blockquote class="css-pc7ote">
+<blockquote class="note">
   <strong>CAREER GOAL</strong> 
   <p><i>
     From Bootcamp Graduate to Graduate Software Engineer at Google by August 15, 2020.
@@ -17,7 +17,7 @@ Set your career goal by using the format: From X to Y by when. Example:
 
 Graduate software engineer will have 0 years of experience. The time frame should neither be too short nor too long. Too short a time frame is not sufficient to prepare. Too much time makes the work expand. 
 
-<blockquote class="css-pc7ote">
+<blockquote class="note">
   <strong>PARKINSON'S LAW</strong> 
   <p><i>
     Work expands so as to fill the time available for its completion.
@@ -30,7 +30,7 @@ Parkinson’s Law should not be used to set unreasonable deadlines. Your time fr
 
 Even though you set your career goal in the format from X to Y by when, your performance goal for the interview must be in the format: 
 
-<blockquote class="css-pc7ote">
+<blockquote class="note">
   <strong>PERFORMANCE GOAL</strong> 
   <p><i>
     I want to solve any given problem for a senior developer level within 45 minutes time frame and come up with an optimized solution.
@@ -47,7 +47,7 @@ Restricting the size of the solution is one way to focus on solving problems tha
 
 Decide on how much time you have available for coding interview preparation. Write down in your notebook:
 
-<blockquote class="css-pc7ote">
+<blockquote class="note">
   <strong>TIME COMMITMENT</strong> 
   <p><i>
     I can dedicate ___ hours per day for study and deliberate practice.
@@ -99,7 +99,7 @@ What goes into your list depends on the position level. For senior level positio
 
 You are learning how to solve some common classes of problems that have already been classified. There are known ways to go about solving them efficiently. So if somebody gives you a problem, you must be able to select the right data structure to store the data and the right algorithm to use. 
 
-<blockquote class="css-pc7ote">
+<blockquote class="note">
   <strong>TIP</strong> 
   <p><i>
     Sorting and searching become an intermediate step in solving other problems.

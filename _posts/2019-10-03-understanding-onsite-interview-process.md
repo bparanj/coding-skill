@@ -60,7 +60,7 @@ It is also a good opportunity to learn about something interesting regarding the
 
 If you are not just looking for a job to pay your bills, it is important to match the company's internal processes and goals with your career goals.
 
-<blockquote class="css-pc7ote">
+<blockquote class="note">
   <strong>BOTTOM LINE</strong> 
   <p>
     Your questions are the last impression that you make. If you have no questions, it indicates that perhaps you're not all that interested in the role.
@@ -79,7 +79,7 @@ If you get a question that you know well, solve it quickly and present the solut
 
 Also, it is not so much whether you can solve it or not. it is how you solve it, how you analyze it, how fast you were able to do it. If you can knock a problem out of the park, do it. Just be careful because I think you'll find it's still not all that simple to do.
 
-<blockquote class="css-pc7ote">
+<blockquote class="note">
   <strong>PROGRAMMING LANGUAGES</strong> 
   <p>
     You should have thorough knowledge of mainstream languages like Java, C++, C, Python or languages specifically required for the job. Make sure you are comfortable with the use and syntax of these languages and brush up on them before the interview.
@@ -102,7 +102,7 @@ You should know how to ask questions. It's something companies want to test. You
 
 and so on.
 
-<blockquote class="css-pc7ote">
+<blockquote class="note">
   <strong>BOTTOM LINE</strong> 
   <p>
     Interviewers tend to purposely ask vague questions to see if you can think critically about problems and edge cases before starting to code.
@@ -119,7 +119,7 @@ Start at the top left hand corner of the whiteboard to maximize space to write a
 
 Talk to your interviewer and tell them what you're doing. If you stare at the whiteboard silently, they will not know if you're making headway or you're just stuck. 
 
-<blockquote class="css-pc7ote">
+<blockquote class="note">
   <strong>BOTTOM LINE</strong> 
   <p>
     Interactivity takes practice. Practice with a friend or a group study buddy.
@@ -152,7 +152,7 @@ The coding question will dive deeper and have multiple follow ups. Memorizing th
 
 You must be able to analyze the solution from a time space perspective. You must be equipped to come up with alternative versions of the solutions. You must be able to follow up and build on top of that.
 
-<blockquote class="css-pc7ote">
+<blockquote class="note">
   <strong>BOTTOM LINE</strong> 
   <p>
     Time management is one of the key things to peforming well during the interview.

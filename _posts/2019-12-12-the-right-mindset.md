@@ -3,13 +3,18 @@ layout: post
 excerpt: You are capable of becoming smarter. The right mindset sets you up for success in the long term.
 ---
 
-> Luck is what happens when preparation meets opportunity.
-> Seneca
-
+<blockquote class="note">
+  <strong>Seneca Says</strong> 
+  <p>
+    Luck is what happens when preparation meets opportunity.
+  </p>
+</blockquote>
 
 Worry only about the things you have control over. You have control over the time allocated to study the topics. Spend time in the early morning when you have the most mental and physical energy on the most challenging things to study. 
 
-And being distraction free is also under your control. That outcome is not in your control. But the learning process and solving problems are under your control. If you take control of the things that's under your control, eventually getting a job is just an outcome, the result will automatically follow. If you focus on the result and not the process, it becomes more difficult to achieve that outcome. Because you're stressed out about the result. If you make every day a success, I guarantee that you will succeed in your career. 
+And being distraction free is also under your control. That outcome is not in your control. But the learning process and solving problems are under your control. If you take control of the things that's under your control, eventually getting a job is just an outcome, the result will automatically follow. 
+
+If you focus on the result and not the process, it becomes more difficult to achieve that outcome. Because you're stressed out about the result. If you make every day a success, I guarantee that you will succeed in your career. 
 
 ## Becoming Intelligent
 

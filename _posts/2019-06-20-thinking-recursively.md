@@ -3,7 +3,14 @@ layout: post
 title: How to Think Recursively
 ---
 
-In this article, we will look at multiplication problem and solve it recursevily and iteratively.
+In this article, we will look at multiplication problem and solve it recursively and iteratively. Sometimes it is possible to define an algorithm in terms of itself. This process is called recursion. It is similar to mathematical induction.
+
+<blockquote class="note">
+  <strong>MATHEMATICAL INDUCTION</strong> 
+  <p>
+    Mathematical induction is an important proof technique used in mathematics. Mathematical induction proof consists of two steps and these are the base step and the inductive step.
+  </p>
+</blockquote>
 
 ## Algorithmically
 
@@ -74,3 +81,11 @@ mult(a, b)
     b -= 1
   return result
 ```
+
+<blockquote class="note">
+  <strong>RECURSIVE THINKING</strong> 
+  <p>
+    It is not natural for human mind to think recursively. Recursion and mathematical induction are based on the same idea. Think of recursion as an executable version of induction. When programming recursively, think inductively.
+  </p>
+</blockquote>
+

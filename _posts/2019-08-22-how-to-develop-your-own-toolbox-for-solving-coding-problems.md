@@ -70,7 +70,9 @@ There are only a handful of problem solving techniques.
 - Backtracking 
 - Greedy algorithms
 
-You're going to acquire these tools over time. Your skill is going to grow over time. Are you clear on how to go about solving a problem, knowing these problem solving techniques? Making the right high level decisions of the solution before you start coding is critical to avoiding reworking your code in the middle of the interview. This means you will be able to come up with optimal solution within 45 minutes. This is a top down approach to aid you in your assimilation process.
+You're going to acquire these tools over time. Your skill is going to grow over time. Are you clear on how to go about solving a problem, knowing these problem solving techniques? 
+
+Making the right high level decisions of the solution before you start coding is critical to avoiding reworking your code in the middle of the interview. This means you will be able to come up with optimal solution within 45 minutes. This is a top down approach to aid you in your assimilation process.
 
 #### Solution Comparison
 
@@ -85,7 +87,12 @@ These are some questions to guide you in your thinking process. Feel free to add
 
 Compare different solutions, deeply understand them and jot down observations in your notes. You can then move on to solving that coding problem and then look at the solved solution in a textbook. 
 
-The downside to looking at the solved problem in a textbook is that the book has gone through so many revisions, the perfect optimized solution they're showing is arrived over a long period. 
+<blockquote class="note">
+  <strong>PERFECT SOLUTION</strong> 
+  <p>
+    The downside to looking at the solved problem in a textbook is that the book has gone through so many revisions, the perfect optimized solution they're showing you is arrived over a long period. 
+  </p>
+</blockquote>
 
 When you're looking at the solution, there is no way that you can just solve for the very first time and come up with the perfect solution. But when you compare your solution with the textbook, then you start to see, why did they make this decision versus what I have decided. You start noticing all the differences. You need to find answers to these questions and jot them down in your notes. 
 
@@ -111,7 +118,14 @@ For a given problem:
 - Analyse your solution to further improve its space and time complexity.
 - Reflect
 
-You must learn to solve problems on your own. This will build the skills to solve problems you've never seen before in interviews. You're going to gain confidence over time. Progressively, you can start bumping up the complexity level of the problems to solve. You have to start small and gradually build your problem solving skills over time. 
+You must learn to solve problems on your own. This will build the skills to solve problems you've never seen before in interviews. You're going to gain confidence over time. 
+
+<blockquote class="note">
+  <strong>PROBLEM COMPLEXITY</strong> 
+  <p>
+    Progressively, you can start bumping up the complexity level of the problems to solve. You have to start small and gradually build your problem solving skills over time. 
+  </p>
+</blockquote>
 
 ### Focus on Quality of Work
 
@@ -143,7 +157,9 @@ If you have your own notes, reviewing your notes is the best way to prepare for 
 
 ### Refine Your Thinking Skill 
 
-Thinking skills is a prerequisite to problem solving skills. You have to write down your questions because your ability to ask good questions is a skill. When you come up with a good question, you have taken time to think, you are able to identify something that is not clear to you. You have to write it down. For instance, I don't understand why this data structure was chosen for this problem. I don't know why they're shifting elements from the end of the array instead of the beginning of the array. 
+Thinking skills is a prerequisite to problem solving skills. You have to write down your questions because your ability to ask good questions is a skill. When you come up with a good question, you have taken time to think, you are able to identify something that is not clear to you. You have to write it down. 
+
+For instance, I don't understand why this data structure was chosen for this problem. I don't know why they're shifting elements from the end of the array instead of the beginning of the array. 
 
 These questions lie within the fuzzy area of your mind. If you don't think through these issues and don't write them down, it becomes gaps in your knowledge. When you try to apply your knowledge, you will struggle to solve problems. Only if you have a good and deep understanding of the concepts, you'll be ready to move on to the next step which is applying that knowledge to start writing code. 
 

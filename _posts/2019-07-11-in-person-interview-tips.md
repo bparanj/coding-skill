@@ -5,7 +5,7 @@ title: In Person Interview Tips
 
 In this article, we will discuss the format of the in-person interview as well as a number of tips to help you succeed during that interview.
 
-If you get the in-person interview, it means that they were happy with your resume and you succeeded during the technical phone screen. At this point, they think you could be a potentially good fit for the job and now it really comes down to the in-person interview.
+If you get the in-person interview, it means that they were happy with your resume and you succeeded in the technical phone screen. At this point, they think you could be a potentially good fit for the job and now it really comes down to the in-person interview.
 
 ## Interview Format
 
@@ -51,7 +51,12 @@ It's important to give them a high level overview before you start coding. As yo
 
 There is information they have intentionally withheld in order to see if you pick up on it. So pick out a couple of reasonable algorithms to consider, mention them to the interviewer and ask for whatever information you would need to narrow down the choices.
 
-In a way they're testing you more on your thinking process, and how you go about solving problems than they are about solving specific problems during the interview.
+<blockquote class="note">
+  <strong>TIP</strong> 
+  <p>
+    In a way they're testing you more on your thinking process, and how you go about solving problems than they are about solving specific problems during the interview.
+  </p>
+</blockquote>
 
 ### Talk Out Aloud
 
@@ -66,6 +71,14 @@ Do not pretend to understand something that you don’t. It’s a very easy mist
 You’re busted. Not only do you not know what post-order means, but now you look dishonest. Because saying “I don’t know what that means” at this point also means saying “I sort of pretended to know what that meant earlier.” Best to nip this kind of problem in the bud before you end up in that situation.
 
 When your interviewer says something you don’t understand, point it out immediately. Lean right in. Because letting them think you understand is going to make things messy later. Try to be as specific as possible about what you don’t understand. It makes your thinking sound much more organized. Huge Difference between “Huh?” and “What does post-order mean in this context?”
+
+<blockquote class="note">
+  <strong>PRACTICE LISTENING</strong> 
+  <p>
+    Listening is a skill that can be developed by practicing. All you have to do is shut your mouth and listen to what someone has to say when you are interacting with someone.
+  </p>
+</blockquote>
+
 
 ### Bring Your Projects
 
