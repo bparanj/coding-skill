@@ -8,11 +8,21 @@ excerpt: Yogi Berra said "If you don't know where you are going, you might wind 
 
 Set your career goal by using the format: From X to Y by when. Example: 
 
-_From Bootcamp Graduate to Graduate Software Engineer at Google by August 15, 2020._
+<blockquote class="css-pc7ote">
+  <strong>CAREER GOAL</strong> 
+  <p><i>
+    From Bootcamp Graduate to Graduate Software Engineer at Google by August 15, 2020.
+  </i></p>
+</blockquote>
 
 Graduate software engineer will have 0 years of experience. The time frame should neither be too short nor too long. Too short a time frame is not sufficient to prepare. Too much time makes the work expand. 
 
-_Work expands so as to fill the time available for its completion._
+<blockquote class="css-pc7ote">
+  <strong>PARKINSON'S LAW</strong> 
+  <p><i>
+    Work expands so as to fill the time available for its completion.
+  </i></p>
+</blockquote>
 
 Parkinson’s Law should not be used to set unreasonable deadlines. Your time frame depends on whether you need to brush up on the concepts or you are learning them for the first time. Now write down your goal in a notebook.
 
@@ -20,7 +30,12 @@ Parkinson’s Law should not be used to set unreasonable deadlines. Your time fr
 
 Even though you set your career goal in the format from X to Y by when, your performance goal for the interview must be in the format: 
 
-_I want to solve any given problem for a senior developer level within 45 minutes time frame and come up with an optimized solution._
+<blockquote class="css-pc7ote">
+  <strong>PERFORMANCE GOAL</strong> 
+  <p><i>
+    I want to solve any given problem for a senior developer level within 45 minutes time frame and come up with an optimized solution.
+  </i></p>
+</blockquote>
 
 Because most of the technical interviews last only 40-45 minutes. The number of lines of code of the solution will be less than 50 lines of code. That's it. This assumes no redundant code in the solution. If you're spending time on problems that have 100 to 200 lines of code in the solution, you are not utilizing your preparation time properly.
 
@@ -32,7 +47,12 @@ Restricting the size of the solution is one way to focus on solving problems tha
 
 Decide on how much time you have available for coding interview preparation. Write down in your notebook:
 
-_I can dedicate ___ hours per day for study and deliberate practice._
+<blockquote class="css-pc7ote">
+  <strong>TIME COMMITMENT</strong> 
+  <p><i>
+    I can dedicate ___ hours per day for study and deliberate practice.
+  </i></p>
+</blockquote>
 
 **Prioritize Topics**
 
@@ -77,4 +97,11 @@ Make a list of topics to study for the interview and prioritize them. The famili
 
 What goes into your list depends on the position level. For senior level positions, you have to add advanced data structures and algorithms. You must know the scope of the material you need to master within the given time frame. What is the breadth and depth of knowledge you need to master for your situation?
 
-Sorting and searching become an intermediate step in solving other problems. You are learning how to solve some common classes of problems that have already been classified. There are known ways to go about solving them efficiently. So if somebody gives you a problem, you need to be able to pick the right data structure to store the data and decide on the right algorithm to use. 
+You are learning how to solve some common classes of problems that have already been classified. There are known ways to go about solving them efficiently. So if somebody gives you a problem, you must be able to select the right data structure to store the data and the right algorithm to use. 
+
+<blockquote class="css-pc7ote">
+  <strong>TIP</strong> 
+  <p><i>
+    Sorting and searching become an intermediate step in solving other problems.
+  </i></p>
+</blockquote>

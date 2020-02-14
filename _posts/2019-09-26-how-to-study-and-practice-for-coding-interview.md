@@ -4,8 +4,12 @@ title: How to Study and Practice for Coding Interview
 excerpt: Both study and practice are essential. There is no shortcut. What do you need to study for your level? Decide on the scope. You already have a prioritized list of topics to study. You now know what to study, let’s see how to study.
 ---
 
-_The more I practice, the luckier I get._
-								Ben Hogan (Golfer)
+<blockquote class="css-pc7ote">
+  <strong>Ben Hogan (Golfer)</strong> 
+  <p>
+    The more I practice, the luckier I get.
+  </p>
+</blockquote>
 
 ## Study and Practice
 
@@ -17,7 +21,7 @@ Here's the wrong way to go about studying. Keep watching free videos all day, pa
 
 ### The Right Approach
 
-The right approach to studying is to actively engage with the study materials. For example, you want to learn about trees. Let's see how you would go about learning trees.
+The right approach to studying is to actively engage with the study materials. For example, let's say that you want to learn about trees, here is how you would go about learning trees.
 
 #### The Tree
 
@@ -93,7 +97,14 @@ This same learning sequence can be applied to learn other topics in your study l
 
 Consuming too much content delays practicing. Practice must begin as soon as you have enough knowledge to apply them to write code. Studying is one aspect. Practice is another critical aspect. There are two approaches to studying that I recommend. It will be covered in upcoming articles.
 
-It is a good idea to practice on paper or a whiteboard. However, it is good idea to submit the code on an online judge platform. It helps you not only identify missing test cases, but also gives you access to comparative analysis of your performance and code of other people on the platform. You need to be mindful of wasting time by going through the discussion topics on these platforms. It can distract you from your study plan.
+It is a good idea to practice on paper or a whiteboard. However, it is a good idea to submit the code on an online judge platform. You can not only identify missing test cases, but also gives you access to comparative analysis of your performance and code of other people on the platform. 
+
+<blockquote class="css-pc7ote">
+  <strong>TIME SINK</strong> 
+  <p>
+    You need to be careful not to waste time by going through the discussion topics on interview preparation platforms. It can distract you from your study plan.
+  </p>
+</blockquote>
 
 ### Blogging
 

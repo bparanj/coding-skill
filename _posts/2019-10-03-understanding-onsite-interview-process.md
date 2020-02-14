@@ -28,7 +28,7 @@ At the end of the interview, interviewers ask if you have questions for them. Th
 
 Go in there thinking you'll have competing offers from other top-tier tech companies all offering similar salary ranges. So, you should have questions for each company about other aspects like the work, the team, the product, the working style, technology stack, etc. 
 
-What if the interviewer replies in a vague or convoluted manner? If the reply is confusing, would it be a potential signal that working in that company is not that good but the person is too awkward to let you know directly? A question about the working culture and the team dynamics etc will have the interviewer reply in a very safe, non-specific, confusing manner. This probably means that somethin is wrong with the company. 
+What if the interviewer replies in a vague or convoluted manner? If the reply is confusing, would it be a potential signal that working in that company is not that good but the person is too awkward to let you know directly? A question about the working culture and the team dynamics etc will have the interviewer reply in a very safe, non-specific, confusing manner. This probably means that something is wrong with the company. 
 
 It's going to be a conflict of interest for the interviewer to tell you anything bad about the company because their job is to sell the position to you. It's like asking a car dealer why a car is bad. Rather, you want to ask them what is good, what they like. if the praise is not gushing, then you'll have your answer. A bit of tact is necessary.
 
@@ -37,8 +37,6 @@ It's going to be a conflict of interest for the interviewer to tell you anything
 What to do in the last 5 minutes to make a good impression? This is a two-way interview. If you're good, the interviewer will need to sell you on the company because you could have multiple competing offers. 
 
 So, they will be prepared to explain why it's so great to work at their company. If you can get them to try to sell you on joining the company, their mindset is already being altered towards bringing you in.
-
-Your questions are the last impression that you make. If you have no questions, it indicates that perhaps you're not all that interested in the role.
 
 The questions only lasts for about two minutes. Just a quick, Hey before we end this, can I ask you a question?"
 
@@ -62,6 +60,13 @@ It is also a good opportunity to learn about something interesting regarding the
 
 If you are not just looking for a job to pay your bills, it is important to match the company's internal processes and goals with your career goals.
 
+<blockquote class="css-pc7ote">
+  <strong>BOTTOM LINE</strong> 
+  <p>
+    Your questions are the last impression that you make. If you have no questions, it indicates that perhaps you're not all that interested in the role.
+  </p>
+</blockquote>
+
 ## Coding Problems
 
 The problems that the interviewer asks have specific requirements. They are are not from a pool of questions that is used for interviews. They must be short enough to be explained and solved reasonably quickly, yet complex enough that not everyone can solve them. Often these problems have challenging restrictions and may require algorithmic tricks or uncommonly used features of a programming language.
@@ -70,17 +75,22 @@ Many times the interviewer would ask if I have solved that problem before. And o
 
 How do I handle a question that I know well? Should I say:  "Yes I have solved it before", and get a new question that I may not be able to solve that well?
 
-If you get a question that you know well, solve it quickly and present the solutions with confidence. A senior engineer would have seen variations of virtually every problem. So it is pointless to say "I've seen something like this before". Also, it is not so much whether you can solve it or not. it is how you solve it, how you analyze it, how fast you were able to do it. If you can knock a problem out of the park, do it. Just be careful because I think you'll find it's still not all that simple to do.
+If you get a question that you know well, solve it quickly and present the solutions with confidence. A senior engineer would have seen variations of virtually every problem. So it is pointless to say "I've seen something like this before". 
 
-### Programming Languages
+Also, it is not so much whether you can solve it or not. it is how you solve it, how you analyze it, how fast you were able to do it. If you can knock a problem out of the park, do it. Just be careful because I think you'll find it's still not all that simple to do.
 
-You should have thorough knowledge of mainstream languages like Java, C++, C and Python, or languages specifically required for the job. Make sure you are comfortable with the use and syntax of these languages and brush up on them before the interview.
+<blockquote class="css-pc7ote">
+  <strong>PROGRAMMING LANGUAGES</strong> 
+  <p>
+    You should have thorough knowledge of mainstream languages like Java, C++, C, Python or languages specifically required for the job. Make sure you are comfortable with the use and syntax of these languages and brush up on them before the interview.
+  </p>
+</blockquote>
 
 ## Computer Science Concepts
 
 The questions will cover data structures and algorithms. Approach all scripting as a coding exercise. The code should be clean and robust. All problems will have a short elegant solution. If you start writing a lot of code, take a step back and rethink your approach. You might be heading in the wrong direction. 
 
-You should ask clarifying questions and make sure you completely understand the problem before you start working on it. It saves you from trouble later on. Interviewers tend to purposely ask vague questions to see if you can think critically about problems and edge cases before starting to code.
+You should ask clarifying questions and make sure you completely understand the problem before you start working on it. It saves you from trouble later on. 
 
 For example, let's say you assume that the input array has only positive integers. You write a solution that only works for positive numbers. But the interviewer was expecting it to work for negative numbers too.
 
@@ -92,15 +102,29 @@ You should know how to ask questions. It's something companies want to test. You
 
 and so on.
 
+<blockquote class="css-pc7ote">
+  <strong>BOTTOM LINE</strong> 
+  <p>
+    Interviewers tend to purposely ask vague questions to see if you can think critically about problems and edge cases before starting to code.
+  </p>
+</blockquote>
+
 ## Communicate
 
-Interviewing should be a conversation. The coding interview is a chance to see how you think, how you solve problems. If you talk as you work, your thinking will be clearer to the interviewer. This is crucial to succeess.
+Interviewing should be a conversation. The coding interview is a chance to see how you think, how you solve problems. If you talk as you work, your thinking will be clearer to the interviewer. This is crucial to success.
 
 Before starting to whiteboard, propose a solution and simply ask your interviewer "How does that sound to you?”. They might say, "Looks good! Go ahead and code it," or "That might work but there is a more efficient solution." This gives your interviewer a chance to steer you back on track if you’re veering off course or to encourage you to continue with your current train of thought.
 
 Start at the top left hand corner of the whiteboard to maximize space to write and leave room in between lines. So you can add something in case you make a mistake. Writing on a whiteboard is extremely different than typing on a computer. 
 
-Talk to your interviewer and tell them what you're doing. If you stare at the whiteboard silently, they will not know if you're making headway or you're just stuck. Interactivity takes practice. Practice with a friend or a group study buddy.
+Talk to your interviewer and tell them what you're doing. If you stare at the whiteboard silently, they will not know if you're making headway or you're just stuck. 
+
+<blockquote class="css-pc7ote">
+  <strong>BOTTOM LINE</strong> 
+  <p>
+    Interactivity takes practice. Practice with a friend or a group study buddy.
+  </p>
+</blockquote>
 
 ## When You Get Stuck
 
@@ -122,15 +146,22 @@ Conclusion     - 5 minutes
 
 Usually there are follow up problems. If you can get through at least two followup problems it can show that you are more qualified. 
 
-That means that you probably have just 10 to 15 minutes to get through a question. You need to be on top of your game here. Time management is one of the key things here.
+That means that you probably have just 10 to 15 minutes to get through a question. You need to be on top of your game here.
 
 The coding question will dive deeper and have multiple follow ups. Memorizing the solution to a question will not work in this case. 
 
 You must be able to analyze the solution from a time space perspective. You must be equipped to come up with alternative versions of the solutions. You must be able to follow up and build on top of that.
 
+<blockquote class="css-pc7ote">
+  <strong>BOTTOM LINE</strong> 
+  <p>
+    Time management is one of the key things to peforming well during the interview.
+  </p>
+</blockquote>
+
 ## Your Action Plan
 
-Prepare a strong answer to: So, tell me about yourself. What brings you here? What are you here for? or How can we help you at some point? Know what you want in the role. 
+Prepare a strong answer to: So, tell me about yourself. What brings you here? What are you here for? How can we help you at some point? Know what you want in the role. 
 
 - What do you want to get out of this job? 
 - Is this the next step up for you to become a senior? 
