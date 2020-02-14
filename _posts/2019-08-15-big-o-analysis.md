@@ -53,7 +53,12 @@ One more tip - do not say "This is O(m + v + e)," when you haven't defined what 
 
 Most interviewers will focus on time-complexity, but it is great to also consider space-complexity too. Algorithms are commonly tradeoffs between time and space. For instance, you may be able to take a polynomial algorithm and convert it to an O(n) algorithm, but it requires the creation of a hashmap of size O(n). That's a good trade-off to be able to talk about because additional space is needed.
 
-You usually don't need to know omega and theta, though they're not that difficult. It's just the best case and average case.
+<blockquote class="note">
+  <strong>BEST CASE AND AVERAGE CASE</strong> 
+  <p>
+    You usually don't need to know omega and theta, though they're not that difficult. It's just the best case and average case.
+  </p>
+</blockquote>
 
 When assessing time vs space complexity, it would be generally better to focus on reducing time complexity at the expense of space complexity. The tradeoffs for the example of the polynomial algorithm in reducing the time complexity to O(n) at the expense of a hashmap of size O(n). Space complexity would impact mostly usage of resources (memory) but as long as it doesn't blow up, optimizing the time efficiency comes first.
 

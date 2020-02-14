@@ -35,7 +35,12 @@ Simply passing the white-boarding question does not mean that you did well. You 
 
 Try to propose a few different designs and discuss the trade-offs in terms of time and space requirements. If you can indicate the Big O complexity before even coding, that would be ideal.
 
-You will also shine if you are able to tackle ambiguity. Many questions are intentionally ambiguous. Clarify the question and problem-space quickly without wasting too much time so that you can move forward.
+<blockquote class="note">
+  <strong>DEALING WITH AMBIGUITY</strong> 
+  <p>
+    You will shine if you are able to tackle ambiguity. Many questions are intentionally ambiguous. Clarify the question and problem-space quickly without wasting too much time so that you can move forward.
+  </p>
+</blockquote>
 
 Devote sufficient time to discuss design but don't spend too much time. Leave yourself sufficient time to solve the problem. Speed is key.
 
@@ -45,7 +50,12 @@ The ability to communicate clearly and effectively is crucial because coding is 
 
 Many candidates as they are coding will say things like "uhmm... hold on... ah.... wait... give me 2 seconds... oh...nevermind...". The words come out as a jumble of stuttered words. Some candidates talk in a too technical and incomprehensible way: "then we increment the variable i by the variable j minus one and check if j is equal to k."
 
-This has to do with clarity. You must be able to explain a technical challenge clearly and concisely. It must inspire  and grasp the attention of the interviewer. This involves explaining the challenge, explaining what you did personally, and the result. 
+<blockquote class="note">
+  <strong>CLARITY</strong> 
+  <p>
+    You must be able to explain a technical challenge clearly and concisely. It must inspire and grasp the attention of the interviewer. This involves explaining the challenge, explaining what you did personally and the result. 
+  </p>
+</blockquote>
  
 It really helps if you can spend time to prepare a few stories beforehand and steer conversations towards those stories. You don't necessarily need to answer the interviewer's questions directly, if you can gently steer the conversation towards something more interesting.
 
@@ -110,7 +120,14 @@ Common for brute-force like testing every numerical password combination.
 
 Let's imagine you need to find all duplicate items in an array. You can solve that using a Hashmap in a single pass.  Or, you can simply sort the array and then look through it for similar elements next to each other. They're both valid solutions, and they're both just as good. The first version uses more space but less time O(n). The second version uses less space (almost zero space) but O(n*log(n)) time.  
 
-It will boost your rating if you can point out the trade-offs between time and space. These two are always being traded off. You will almost always want to go for faster time, since space/memory is cheap. But highlighting this fact will help demonstrate the trade off.
+It will boost your rating if you can point out the trade-offs between time and space. These two are always being traded off. 
+
+<blockquote class="note">
+  <strong>TIME OR SPACE</strong> 
+  <p>
+    You will almost always want to go for faster time, since space/memory is cheap. But highlighting this fact will help demonstrate the trade off.
+  </p>
+</blockquote>
 
 Many candidates will solve the problem brilliantly, yet with no explanation of trade-offs. They will fail the interview. There are often problems where there is no definite solution. Rather, there are multiple competing solutions, none of them is perfect.
 

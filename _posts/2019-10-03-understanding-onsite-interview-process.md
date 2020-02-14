@@ -26,7 +26,12 @@ The first 5 minutes and last 5 minutes matters a lot. These are your first and l
 
 At the end of the interview, interviewers ask if you have questions for them. This is your chance to interview the company. A good candidate will have you sell them on the company and explain why it's so great to work there. 
 
-Go in there thinking you'll have competing offers from other top-tier tech companies all offering similar salary ranges. So, you should have questions for each company about other aspects like the work, the team, the product, the working style, technology stack, etc. 
+<blockquote class="note">
+  <strong>ATTITUDE</strong> 
+  <p>
+    Go into the interview thinking you'll have competing offers from other top-tier tech companies all offering similar salary ranges. So, you should have questions for each company about other aspects like the work, the team, the product, the working style, technology stack, etc. 
+  </p>
+</blockquote>
 
 What if the interviewer replies in a vague or convoluted manner? If the reply is confusing, would it be a potential signal that working in that company is not that good but the person is too awkward to let you know directly? A question about the working culture and the team dynamics etc will have the interviewer reply in a very safe, non-specific, confusing manner. This probably means that something is wrong with the company. 
 

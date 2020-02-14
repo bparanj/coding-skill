@@ -27,9 +27,14 @@ Do the coding drills, in isolation. Later, you can integrate these coding drills
 Practice coding drills every day. The reason is that the time will decrease over time and eventually those drills will be at your fingertips. You're building your muscle memory. You gain speed over time and it becomes automatic. You will now be able to code at the speed of thought.
  
 It also frees up your mental power. So it's really critical to design your own coding drills and practice them every day. Once you have those drills in place, you can do those things as a warm up in the morning. 
- 
-In an interview, you should not spend any mental energy on smaller things. This frees up some of your mental horsepower during a stressful interview environment and you are more likely to solve a problem you have not seen before.
 
+<blockquote class="note">
+  <strong>MENTAL HORSEPOWER</strong> 
+  <p>
+    In an interview, you should not spend any mental energy on smaller things. This frees up some of your mental horsepower during a stressful interview environment and you are more likely to solve a problem you have not seen before.
+  </p>
+</blockquote>
+ 
 ## Basic Building Blocks
 
 Over time, you will build a huge catalogue of coding drills. These drills can be reused in different solutions. Because they form the basic building blocks to solve problems.

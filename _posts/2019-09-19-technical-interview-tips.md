@@ -50,7 +50,12 @@ You can figure out the team dynamics and culture by following these guidelines:
 - If it's a big company, your interviewers won't work with you. But normally someone in the team will interview you. You can change your questions a bit to figure out the same things about your potential team.
 - A good question to ask in the end is to talk about some brand new technology that gets everybody excited and ask for their opinion. 
 
-Leave the interview on a good note because your interviewers are people and the first and last impression does matter. This demonstrates that you are humble. Be confident and at the same time respect the interviewers.
+<blockquote class="note">
+  <strong>BE HUMBLE</strong> 
+  <p>
+    Leave the interview on a good note because your interviewers are people and the first and last impression does matter. This demonstrates that you are humble. Be confident and at the same time respect the interviewers.
+  </p>
+</blockquote>
 
 ### Tip #4 : Be Confident in the Interview
 
@@ -67,7 +72,12 @@ After finishing coding the solution, use the example that they gave in the begin
 
 Do not spend time explaining your code at a very detailed level by talking about the values of the variables and how the data structure looks like as the program is executed. This will waste your time.
 
-You may have to explain the solution at a detailed level only if they are confused about your code. In this case, they want to make sure your solution is right.
+<blockquote class="note">
+  <strong>WHEN TO DEEP DIVE</strong> 
+  <p>
+    You may have to explain the solution at a detailed level only if they are confused about your code. In this case, they want to make sure your solution is right.
+  </p>
+</blockquote>
 
 Do not get bogged down in details and tedious code. If you spend too much time in edge cases, try to abstract away the details. You can create a method and say that you will take care of it later and get into the meat of the algorithm. 
 
@@ -85,7 +95,14 @@ Sometimes the marker pens in the room run dry. You have to run around to find an
 
 You want to give yourself the best possible shot to make your code look beautiful. Get a few good marker pens. Do not risk losing your limited time in interview searching for marker pens.
 
-Marker pen that is a little bit thinner is better. You can squeeze more onto the board. Thinner pens prevents squatting to write or drawing arrows to show the sequence of the code. Start writing on the top left corner of the whiteboard. 
+Marker pen that is a little bit thinner is better. You can squeeze more onto the board. Thinner pens prevents squatting to write or drawing arrows to show the sequence of the code. 
+
+<blockquote class="note">
+  <strong>TIP</strong> 
+  <p>
+    Start writing on the top left corner of the whiteboard. 
+  </p>
+</blockquote>
 
 Oftentimes, you first read the code, then write a second version of the code. But you don't want you to erase the first one. You want both side by side for revising the code for the second version. 
 

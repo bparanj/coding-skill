@@ -22,7 +22,12 @@ What determines our intelligence? One school of thought is that you are either b
 
 You don't just work on things that are easy for your muscles to do. You do things that your muscles have to struggle and strain. Then they rebuild themselves and come back stronger.
 
-Struggling is a signal to your body to devote more resources to that part of the body. We see that exact same thing with the brain that is constantly being challenged. Your brain is like a muscle, the more you use it, the stronger it gets. The best way to grow it isn't to do things that are easy for you. What helps your brain is when you struggle with things.
+<blockquote class="note">
+  <strong>SMARTER BRAIN</strong> 
+  <p>
+    Struggling is a signal to your body to devote more resources to that part of the body. We see that exact same thing with the brain that is constantly being challenged. Your brain is like a muscle, the more you use it, the stronger it gets. The best way to grow the brain muscle is to do things that are not easy for you. Struggling with things helps your brain to become smarter.
+  </p>
+</blockquote>
 
 Your brain grows the most not when you get a question right, but when you get a question wrong. When you are facing those times of little bit of adversity or frustration, you can feel good about the fact that those are the times that you are growing the most.
 

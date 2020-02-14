@@ -15,7 +15,12 @@ In the software engineer interviews, whether you have three or five of them duri
 
 In solving the problem, you're going to use data structures and you'll probably do some kind of runtime analysis of the problem. Other Computer Science topics may include bitwise manipulation, logic problems or testing.
 
-Anything that is on your resume is a fair game. So if you said you're an expert at something, and you're proficient at something, this is their opportunity to ask you about it and they will.
+<blockquote class="note">
+  <strong>FAIR GAME</strong> 
+  <p>
+    Anything that is on your resume is a fair game. So if you said you're an expert at something and you're proficient at something, this is their opportunity to ask you about it and they will.
+  </p>
+</blockquote>
 
 They're interested in engineers who solve new problems. That's what you do during the job as a software engineer. This also puts more stress on you. 
 
@@ -27,7 +32,12 @@ If you are nervous, don’t think of this as an interview question. Think of it 
 
 So now we know what they're looking for. How are you going to succeed? It's okay to question your interviewer. The interview is a two-way street. You are interviewing the company as much as they are interviewing you. An interview should be a conversation about what you enjoy in a software project, team, manager as well as what you find problematic. You can and you should ask questions. 
 
-It should be a chance for you to talk about how you approach both technical and people problems. How you balance trade offs, and how you deal with things that don’t go your way. 
+<blockquote class="note">
+  <strong>WHAT TO TALK ABOUT</strong> 
+  <p>
+    It should be a chance for you to talk about how you approach both technical and people problems. How you balance trade offs and how you deal with things that don’t go your way.
+  </p>
+</blockquote>
 
 You should be able to defend your choice of technology but you should also know it well enough to be able to talk about its flaws or when it isn’t a good fit. You should be able to ask about the company’s processes, how they manage teams, how they resolve conflict and how they reward success.
 

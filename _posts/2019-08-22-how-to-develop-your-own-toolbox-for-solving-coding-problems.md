@@ -147,11 +147,25 @@ Take time to understand the solution as much as possible, take notes and review 
 
 Think with pen and paper. Write down your thoughts. Analyze your choice of data structure and algorithms. You are thinking about your technical decisions and making recall easier later when you need it.
 
-The act of writing exercises our brains in ways that typing on the computer cannot. According to research in the Developmental Science journal, the best way to learn something is to write it out on paper. Handwriting activates large regions of the brain responsible for thinking, language, healing and working memory. 
+<blockquote class="note">
+  <strong>EXERCISING YOUR BRAIN</strong> 
+  <p>
+    The act of writing exercises our brains in ways that typing on the computer cannot.
+  </p>
+</blockquote>
+
+According to research in the Developmental Science journal, the best way to learn something is to write it out on paper. Handwriting activates large regions of the brain responsible for thinking, language, healing and working memory. 
 
 You're organizing your thoughts when taking notes. Your notes help you to organize your knowledge in a way that is easier for you to remember. 
 
-The study time will be much shorter with your notes. Your notes must outline how you understood a specific algorithm or a specific solution. Understanding your own thought process takes far less time than understanding other people's solutions. Only you can determine where you got stuck in the past and where you need to focus more of your attention. You must be able to read and understand your notes quickly.
+<blockquote class="note">
+  <strong>NOTE TAKING</strong> 
+  <p>
+    Your notes must outline how you understood a specific algorithm or a specific solution. You must be able to read and understand your notes quickly.
+  </p>
+</blockquote>
+
+The study time will be much shorter with your notes. Understanding your own thought process takes far less time than understanding other people's solutions. Only you can determine where you got stuck in the past and where you need to focus more of your attention. 
 
 If you have your own notes, reviewing your notes is the best way to prepare for the next time you have an interview. Because it's going to compress the study time you need to brush up on these topics. If your notes become blog posts, you can review your own blog posts. Now you can sharpen your thinking process by reviewing your study notes with insights. 
 
@@ -184,7 +198,14 @@ If you skip reflecting, you will feel more overwhelmed as you progress. Because,
 
 It can also uncover your mistakes, so you can fill in the gaps in your knowledge. Most of the time, you don't have to memorize anything if you understand the concept really well. If you have to memorize something, the secret is to use spaced repetition.
 
-Look at the solution and think about the solution. You will gain a deeper understanding of the solution. You will develop some insights. After solving the problem, take five to ten minutes to reflect on the solution. Any solution can be improved.
+<blockquote class="note">
+  <strong>INSIGHTS</strong> 
+  <p>
+    Look at the solution and think about the solution. You will gain a deeper understanding of the solution. You will develop some insights. 
+  </p>
+</blockquote>
+
+After solving the problem, take five to ten minutes to reflect on the solution. Any solution can be improved.
 
 - How can I improve it?  
 - What could I have done differently? 

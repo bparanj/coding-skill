@@ -59,7 +59,12 @@ Without looking at references or your notes, solve the problem for the second ti
 
 Challenge yourself to write the brute force solution, analyze it and write the iterative version of a recursive solution. See if you can create custom data structures like a Grid class, Point class or Binary Search Tree class to add object-oriented structure to your code.  
 
-The fluidity and speed will set you apart from other candidates. Many candidates solve a problem and still do not receive offers, because they cannot solve the problems fluidly and quickly.
+<blockquote class="note">
+  <strong>FLUIDITY AND SPEED</strong> 
+  <p>
+    The fluidity and speed will set you apart from other candidates. Many candidates solve a problem and still do not receive offers, because they cannot solve the problems fluidly and quickly.
+  </p>
+</blockquote>
 
 After this second attempt, search for similar or related problems. Solving similar problems will deepen your understanding of the newly learned algorithm. This process will familiarize you with your new skills, so you can understand them. 
 
@@ -67,7 +72,12 @@ Make note of how much time it takes you to solve a specific problem. This keeps 
 
 The main goal is to learn new techniques and algorithms by solving a lot of problems and using that experience to tackle the problems in the interview. Repeat this process to master the core algorithms.
 
-You can test yourself by solving the same problems again. Tackling similar problems can also test your understanding of the concepts.
+<blockquote class="note">
+  <strong>TEST YOUR UNDERSTANDING</strong> 
+  <p>
+    You can test yourself by solving the same problems again. Tackling similar problems can also test your understanding of the concepts.
+  </p>
+</blockquote>
 
 We learn by experience. We learn by seeing others solve problems and by solving problems by ourselves. Being exposed to different problem-solving techniques and seeing how different algorithms are designed helps us to tackle the next challenging problem that we are given. By considering a number of different algorithms, we can begin to develop pattern recognition so that the next time a similar problem arises, we are able to solve it.
 
@@ -75,7 +85,12 @@ We learn by experience. We learn by seeing others solve problems and by solving 
 
 Categorize the practice problems. This will help you connect the dots, find similarities between different problems, deepen your understanding of specific algorithms and help you recognize common patterns.
 
-After solving a lot of similar problems, make note of patterns that can be hints to solve problems in that category.
+<blockquote class="note">
+  <strong>HINTS</strong> 
+  <p>
+    After solving a lot of similar problems, make note of patterns that can be hints to solve problems in that category.
+  </p>
+</blockquote>
 
 Complex problems may contain elements of multiple categories. Even difficult problems can be broken down into smaller problems. Determine what category each smaller problem fits into and use the appropriate pattern to solve it.
 

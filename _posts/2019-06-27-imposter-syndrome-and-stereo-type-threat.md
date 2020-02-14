@@ -19,7 +19,12 @@ It can be very stressful. The Imposter Syndrome can be detrimental to your perfo
 
 It can make you not take appropriate credit for your work, because you'll be found out that you didn't really do the work well enough. You've somehow snuck it by and nobody else really figured out. So you won't stand up and take appropriate credit. It can make you doubt your abilities in high pressure situations.
 
-In interview situations, you don't want these Imposter Syndrome thoughts running through your head, when you're trying to focus on technical explanations and technical content. 
+<blockquote class="note">
+  <strong>IMPOSTER SYNDROME AND INTERVIEW</strong> 
+  <p>
+    In interview situations, you don't want Imposter Syndrome thoughts running through your head, when you're trying to focus on technical explanations and technical content.
+  </p>
+</blockquote>
 
 And then at the end of the day, it's extremely stressful. It can  make you very unhappy. So the Imposter Syndrome is real. Unfortunately, it's not always just in your head, external factors can also influence these thoughts that are running through your head.
 
