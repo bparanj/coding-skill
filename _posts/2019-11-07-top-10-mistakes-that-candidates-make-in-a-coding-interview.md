@@ -12,7 +12,14 @@ We discuss the top 10 common mistakes that candidates will make during the inter
 
 The first mistake is practicing the code on a computer because you feel comfortable. In a coding interview, most of the time you won't have a computer. You will have a whiteboard or even a piece of paper. So practicing in an environment similar to the actual environment is a good preparation tactic.
 
-You should not practice too much on the computer. As you start writing you may find that your handwriting is slow, writing variable names, method signatures and so will take a lot of time. Use a pen and paper to practice coding problems.
+You should not practice too much on the computer. As you start writing you may find that your handwriting is slow, writing variable names, method signatures and so on will take a lot of time. 
+
+<blockquote class="css-pc7ote">
+  <strong>BOTTOM LINE</strong> 
+  <p>
+    Use a pen and paper to practice coding problems.
+  </p>
+</blockquote>
 
 ### Mistake #2 : Not Rehearsing Behavioral Questions
 
@@ -36,10 +43,17 @@ Don't underestimate this portion. It is not technical, but it can swing your int
 - Do you have initiative and eagerness? 
 - Are you able to manage conflict and collaborate with cross-functional teams? 
 
-Preparing a number of stories that addresses these points to ensure you pass this area with flying colors. Do not try to go in there and wing it, because it will take time for you to come up with a truly inspiring story. The story consists of 3 points. The challenge, what you did and the result.
+Preparing a number of stories that addresses these points to ensure you pass this area with flying colors. The story consists of 3 points. The challenge, what you did and the result.
 
 Willingness to receive and implement feedback is crucial.
-Ability to garner consensus is a must. Eagerness to learn is fundamental to starting out.As a SWE, you fail all the time. And you fix your problems all the time. Then write docs or train others so they won't make the same mistake. Most of the time, it's really all about repetition and having avenues to present your ideas to your team. 
+Ability to garner consensus is a must. Eagerness to learn is fundamental to starting out. As a SWE, you fail all the time. And you fix your problems all the time. Then write docs or train others so they won't make the same mistake. Most of the time, it's about repetition and having avenues to present your ideas to your team. 
+
+<blockquote class="css-pc7ote">
+  <strong>BOTTOM LINE</strong> 
+  <p>
+    Do not go into the interview and wing it, because it will take time for you to come up with a truly inspiring story.
+  </p>
+</blockquote>
 
 ### Mistake #3 : Not Taking Any Mock Interviews
 
@@ -57,7 +71,14 @@ Study as many different algorithms as you can so that none of them will throw yo
 
 Instead of analyzing the problem to solve it, if you are trying to remember the memorized answer, it can be harmful. Because you're not applying your problem solving skills to solve the problem.
 
-Your ability to analyze the problem is very important. If you can give a good analysis on time, space, data structure usage and right alternatives, even if you didn't complete solving the whole problem it may still be good enough. It's about the thought process and not necessarily about whether you can solve the whole problem.
+Your ability to analyze the problem is very important. If you can give a good analysis on time, space, data structure usage and right alternatives, even if you didn't complete solving the whole problem it may still be good enough.
+
+<blockquote class="css-pc7ote">
+  <strong>BOTTOM LINE</strong> 
+  <p>
+    It's about the thought process and not necessarily about whether you can solve the whole problem.
+  </p>
+</blockquote>
 
 ## Mistakes Made During the Coding Interview
 
@@ -95,7 +116,12 @@ Yes, you only have 45 minutes, but you also have time to stop and think. Five mi
 
 If you don't plan your approach, you will most likely get stuck at some point. Getting stuck is fine, but you don't want to realize later on that you wasted valuable time coding something that doesn't solve the problem.
 
-So make sure you plan your algorithm before you start coding. Discuss it with the interviewer. 
+<blockquote class="css-pc7ote">
+  <strong>BOTTOM LINE</strong> 
+  <p>
+    Make sure you plan your algorithm before you start coding. Discuss the solution with the interviewer and get a clear go ahead to write code. 
+  </p>
+</blockquote>
 
 ### Mistake #7 : Sloppy Code
 
@@ -103,7 +129,12 @@ The seventh mistake is sloppy code. This is related to rushing to code. Sloppy c
 
 Often times interviewers will take a picture of your solution. It gets transcribed into a document so that it can go to the hiring committee who can review your code. Take some time to clean up the code. If at the very end, you have an algorithm and you think that it's pretty good and you kind of have the interviewers approval on that, then, take a minute or two to cleanup.
 
-Don't spend too much time on this, but take a little bit of time to clean up and make sure that it looks good. It only takes a minute to clean up the method signatures and check the input and output parameters. If you don’t, they will think that is the best you can do.
+<blockquote class="css-pc7ote">
+  <strong>BOTTOM LINE</strong> 
+  <p>
+    Take a little bit of time to clean up and make sure that the code looks good. It only takes a minute to clean up the method signatures and check the input and output parameters. If you don’t, they will think that is the best you can do.
+  </p>
+</blockquote>
 
 ### Mistake #8 : Not Revising Your Code
 
@@ -113,17 +144,22 @@ The eighth mistake is not revising your code. Often times, after finishing codin
 
 The ninth mistake is fixing mistakes carelessly. Often times this is related to sloppy coding or rushing into coding. You start coding and then you realize there are some edge cases missing. You add an if statement to fix that edge case. 
 
-But your code has fundamentally something wrong with it. Instead of trying to fix it immediately, step back. Think about your code. Is this important for all these cases? Then make sure that your code is right before fixing any mistakes. This is about having a big picture view of the solution. You must be able to see the forest.
+But your code has fundamentally something wrong with it. Instead of trying to fix it immediately, step back. Think about your code. Is this important for all these cases? Then make sure that your code is right before fixing any mistakes. 
 
 There's nothing worse than when you fix one error and then the interviewer asks you about another case. You fix that and then they ask you about another case. You don't want too much help like that because then the interviewer will think you're sloppy and careless. Too many careless errors will sink you.
 
 So, when you see a mistake, fix it, take a step back, take another quick look. This is about knowing what you're doing and being able to comprehend your code and being quick at it. Fix anything else that needs to be fixed and then you can say, “Okay, I think this pretty much does what we're looking for here”. This is the general gist of the algorithm. You're not guaranteeing that the whole thing is perfect. 
 
+<blockquote class="css-pc7ote">
+  <strong>BOTTOM LINE</strong> 
+  <p>
+    Fixing mistakes the right way demands the ability to view the big picture of the solution. You must be able to see the forest instead of focusing on the trees.
+  </p>
+</blockquote>
+
 ### Mistake #10 : Giving Up Easily
 
 The last mistake is giving up too easily. When you are given a problem in the interview, you say: “Oh, I don't know how to do this. I give up, I can't do this”. Part of the interview is about getting signal from you. 
-
-So it's possible that they give you a harder question to see how you struggle with it and how you learn than if they give you a question that you know already. 
 
 So you're supposed to struggle a little bit. Any positive self talk that keeps you working through the problem is a good tactic. If you don’t worry about the result and consider this as an opportunity to learn as much as you can in the interview, you will be in a better position to tackle the problem.
 
@@ -138,3 +174,10 @@ Generally you get something that you can slowly build on top of that thing. They
 Sometimes an interviewer might ask you a question, that is not well calibrated and even they don't know the answer to that question. They want to see how far you can go. 
 
 So if you feel bad about it, maybe you just got an uncalibrated question and you should still plow through the rest of the interview and do as best as you can. Because their feedback will not be counted.
+
+<blockquote class="css-pc7ote">
+  <strong>BOTTOM LINE</strong> 
+  <p>
+    The interviewer may give you a harder question to see how you struggle with it and how you learn than if they give you a question that you know already.
+  </p>
+</blockquote>

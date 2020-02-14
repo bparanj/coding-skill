@@ -47,7 +47,7 @@ The signing bonus is like I'll sign this for you right now and and you give me a
 
 Some companies take longer to give you an offer. You can apply for companies that you don't have any desire to work first for practice. Then start applying to companies you care for more because you are more serious about them. 
 
-Try to line that up such that all the offers come at the same time so I can negotiate. Because a lot of the times when you get an offer, they also give you an expiry date. They say you have to make up your mind in two weeks. You're either not going to get the sign on offer or we're just not going to give you the offer. 
+Try to line that up such that all the offers come at the same time so I can negotiate. Because often when you get an offer, they also give you an expiry date. They say you have to make up your mind in two weeks. You're either not going to get the sign on offer or we're just not going to give you the offer. 
 
 You can rank the companies in tiers. Apply to the A tier first but even before that you can apply to a few bigger companies just so that you can get that practice round in. Then apply for those A tier companies and see if you can get any of those. 
 
@@ -61,17 +61,22 @@ You don't necessarily need to get the counter offer yet you can say, in order fo
 
 #### Startups
 
-Don't disregard those startups or lower tier companies, because they will build the foundation for you to get into those big tech companies. It is only towards the end of their fifth or sixth internship that they get Google, Facebook and all those big companies. 
+Don't disregard those startups or lower tier companies, because they will build the foundation for you to get into those big tech companies. It is only towards the end of their fifth or sixth internship that many get Google, Facebook and other big companies. 
 
 Startups are a great way to get your first job. Startups may not pay enough, but they can be part of your training experience. They'll get you on the path to making more. You don't want to sabotage your own career path, by taking a job that you don't like. A job that doesn't prepare you for the right technologies. But it may pay a lot more. 
 
-So if you're learning like Fortran or some old outdated technology, or you're doing say SQL databases and you don't really want to get into it, but it seems to pay pretty good. 
+So if you're learning like Fortran or some old outdated technology, or you're working with SQL databases and you don't really want to get into it, but it seems to pay pretty good. 
 
 It may actually be more worth it for you to find a tech startup that is using some pretty hot technology that you think has a good future that you want to get more into and just go ahead and join that startup to work for say six months to a year. And then you're going to be well on your way to plan to work for a bigger and better company that you're going to be really excited about later on, while learning a lot at that startup.
 
-Optimize for the long term. Yes, you might be getting a higher paying job. If you go for a trendy job, what if they don't open any doors anymore? Always make sure that you always think about your future. 
-
 Don't be discouraged if you don't get any big companies because startups are a good place to learn. Most internships, you don't get to negotiate. Especially for big tech companies they have a set amount and they make the offer Take It or Leave It.
+
+<blockquote class="css-pc7ote">
+  <strong>BOTTOM LINE</strong> 
+  <p>
+    Optimize for the long term. Yes, you might be getting a higher paying job. If you go for a trendy job, what if they don't open any doors anymore? Always make sure that you always think about your future. 
+  </p>
+</blockquote>
 
 #### Internships
  
@@ -80,11 +85,18 @@ You don't want to leave too much money on the table. See if you can bump it up. 
 
 #### Handling Low Ball Offers
 
-You can figure out if the offer is a low ball offer if you check salary on websites like levell.fyi. They show for example a new grad, how much do they get paid for each company, and then they'll show you the low end and the high end so you kind of guess where your offer stands. If it's already at the high end, it's probably really hard to negotiate for more. But if it's on the low end maybe just asking, they'll say, okay.
+You can figure out if the offer is a low ball offer if you check salary on websites like levels.fyi. They show for example a new grad, how much they get paid for each company, and then they'll show you the low end and the high end so you kind of guess where your offer stands. If it's already at the high end, it's probably really hard to negotiate for more. But if it's on the low end maybe just asking, they'll say, okay.
 
 Well established large tech companies usually have level bands. So, if you come in at Level III. There's a band for that and they're not going to lowball you too much because they want to retain you, they want you to be happy and they know that if you start comparing numbers which everybody eventually at some point will they don't want to lose you.
 
-So it's going to be something that is pretty much fair here and there. You can get screwed at startups. Startups don't really know that much about good compensation. They're going to offer you something and you know they don't have too much funds and it may be very low. Then they can pay more in equity. High salary means higher taxes. So if money is really your motivation, then you know maybe consider picking a side business.
+So it's going to be something that is pretty much fair here and there. You can get screwed at startups. Startups don't really know that much about good compensation. They're going to offer you something that is very low. You know they don't have too much funds. But they can pay more in equity. 
+
+<blockquote class="css-pc7ote">
+  <strong>BOTTOM LINE</strong> 
+  <p>
+    High salary means higher taxes. So if money is your motivation, then you can consider picking a side business. 
+  </p>
+</blockquote>
 
 #### Exploding Offers
 
@@ -107,7 +119,12 @@ Then, jumping jobs is one effective way to boost your income. Because you will a
 
 In the end, recruiters are not your adversary. They're not necessarily your trusted friend either though. This is about working together cordially to find a win-win situation that makes everyone happy. If you're happy, show it. People love to see excited, happy people and want to maintain that momentum and mood.
 
-And lastly, just remember to optimize for the long term. A few bucks here and there will look like spare change if you've positioned yourself well 10 years into the future.
+<blockquote class="css-pc7ote">
+  <strong>BOTTOM LINE</strong> 
+  <p>
+    Remember to optimize for the long term. A few bucks here and there will look like spare change if you've positioned yourself well 10 years into the future.
+  </p>
+</blockquote>
 
 ### Non-competition Clauses
 
@@ -121,7 +138,12 @@ The intellectual property of what you have created in the course of working for 
 
 In this case, I usually tell the company that I am participating in hackathons, doing my pet-projects and research and I would like to keep this property and ask to explicitly add this statement to the contract. If the company does not agree and you still want to work for them, ask to increase the salary.
 
-Thoroughly read the contract, ask some lawyer to check it. Any additional requirements or restrictions may require clarification, changes in the contract, increase of the offer or not accepting the offer.
+<blockquote class="css-pc7ote">
+  <strong>BOTTOM LINE</strong> 
+  <p>
+    Thoroughly read the contract, ask a lawyer to check it. Any additional requirements or restrictions may require clarification, changes in the contract, increase of the offer or not accepting the offer.
+  </p>
+</blockquote>
 
 ### Sign On Bonuses
 
@@ -139,8 +161,13 @@ It's a game. If you list low-end companies, recruiters may wonder why you're not
 
 Interviewing is a skill that we believe can be practiced and mastered, just like any other skill. Riding a bicycle is hard the first time, but once you get the hang of it it becomes routine.  This is one of the most valuable life-long skills that you can have because there will be interviews throughout your entire life.
 
-Does it surprise you to hear that a lot of people that work at top-tier tech companies like Google, Facebook, or Netflix still push themselves to continue to interview elsewhere?  Why? Well, job-hopping is one of the best ways to increase compensation because competing companies have to either match or beat your current compensation.  Plus, there is usually a sign-on bonus included. The employees who aren't confident in their interviewing skills stay stuck in their jobs, immobilized.
+Does it surprise you to hear that a lot of people that work at top-tier tech companies like Google, Facebook, or Netflix still push themselves to continue to interview elsewhere? Why? Well, job-hopping is one of the best ways to increase compensation because competing companies have to either match or beat your current compensation.  Plus, there is usually a sign-on bonus included. The employees who aren't confident in their interviewing skills stay stuck in their jobs, immobilized.
 
 In Netflix culture, employees are like contractors who can be let go at any time they are underperforming and are actually encouraged to interview every single year in order to re-negotiate compensation. Many have to interview in order to try to obtain a counteroffer, just to get their annual raise.
 
-So, we encourage you to not look at interviewing as a "one-time" sprint, but as a skill that should be honed like a marathon. It is a skill very much worth getting good at in this field.
+<blockquote class="css-pc7ote">
+  <strong>BOTTOM LINE</strong> 
+  <p>
+    Do not look at interviewing as a one-time sprint, but as a skill that should be honed like a marathon. It is a skill very much worth getting good at in this field.
+  </p>
+</blockquote>
