@@ -27,25 +27,25 @@ STAR Explanation Method
 
 So in the situation part, you talk about the situation in which you were solving a problem. 
 
-Who was involved? 
-What is the context of the problem you were trying to solve? 
+- Who was involved? 
+- What is the context of the problem you were trying to solve? 
 
 Then you'll go on to the task. 
 
-What was the problem you were trying to solve? 
-Why should people really care about it? 
+- What was the problem you were trying to solve? 
+- Why should people really care about it? 
 
 Then you can go on to the action. 
 
-What was the solution that you presented? 
-What did you do? 
+- What was the solution that you presented? 
+- What did you do? 
 
 And then, of course: 
 
-What was the result? 
-Did it solve the problem? 
-How did you know? 
-How do you know? 
+- What was the result? 
+- Did it solve the problem? 
+- How did you know? 
+- How do you know? 
 
 So, all of these parts need to be present in your technical explanation. 
 
@@ -55,9 +55,9 @@ So, what we're going to do is divide this into three articles. First, we focus o
 
 In the next article, we'll talk about the solution. 
 
-What was your technical solution? 
-Why did it solve the problem? 
-Why was it innovative and creative? 
+- What was your technical solution? 
+- Why did it solve the problem? 
+- Why was it innovative and creative? 
 
 That part roughly corresponds to the A and R, the Action and the Result. And then in the last part, we'll talk about technical communication and group work skills, the important soft skills. 
 
