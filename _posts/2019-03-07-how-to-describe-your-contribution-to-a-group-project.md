@@ -7,7 +7,7 @@ In the previous article [Presentation - Eye Contact, Speaking, and Projecting Ex
 
 In a previous article [Presentation - Responding to Your Audience]({% post_url 2019-02-28-presentation-responding-to-your-audience %}) we've looked at very tricky skills of how to answer questions on your technical explanations effectively and appropriately. 
 
-The last thing we're going to focus on here in our soft skills lesson, is about how to talk about your contribution to group work. So by the end of this article, you'll be able to appropriately describe your contribution to a group project. 
+The last thing we're going to discuss in our soft skills lesson, is about how to talk about your contribution to group work. So by the end of this article, you'll be able to appropriately describe your contribution to a group project. 
 
 ### How do You Work in a Team?
 

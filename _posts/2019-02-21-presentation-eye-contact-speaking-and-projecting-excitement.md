@@ -3,7 +3,7 @@ layout: post
 title: Presentation - Eye Contact, Speaking, and Projecting Excitement
 ---
 
-The last aspect that we're going to talk about is communication skills. The important part here is not that you stand up and present for some audience, but that you communicate with your audience. You're trying to convey to these interviewers that you have a good solution to a problem. 
+In this article we're going to talk about communication skills. The important part here is not that you stand up and present for some audience, but that you communicate with your audience. You're trying to convey to these interviewers that you have a good solution to a problem. 
 
 ### Communication Skills
 
@@ -11,11 +11,16 @@ The communication skills are a big part of what's going to make you successful. 
 
 You must be able to turn your presentation into a conversation with another person. 
 
-Interviewer: So, tell me about a project that you worked on. 
+<blockquote class="note">
+  <strong>RESPONDING TO PROJECT QUESTION</strong> 
+  <p>
+    Interviewer: So, tell me about a project that you worked on. 
 
-You: Sure, let me tell you about {your project name}.
+    You: Sure, let me tell you about {your project name}.
+  </p>
+</blockquote>
 
-Think about and come up with the answer for this question for your project. So at the end of the day this is a conversation. You're in conversation with the people that you're presenting to. You've got something really exciting to tell them, and you want them to care and you want them to understand. So how do you use these soft skills to make that happen? 
+Think about and come up with the answer for this question for your project. So at the end of the day this is a conversation. You're in conversation with the people that you're presenting to. You've got something really exciting to tell them, and you want them to care and understand. So how do you use these soft skills to make that happen? 
 
 ### Practice Soft Skills
 

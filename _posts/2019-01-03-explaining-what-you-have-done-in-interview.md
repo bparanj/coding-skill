@@ -28,21 +28,21 @@ The most important thing about answering this question is, you're going to answe
 
 In this article series we will discuss the following topics:
  
-- Clearly and confidently present a project you worked on.
-- Describe how your description of a project you've worked on will be viewed and evaluated.
-- Present a problem in a compelling way.
-- Break a problem down from high-level description to low-level details.
-- Present a problem in a way that is tailored to your audience and the time allowed.
-- Identify and fix the common pitfall of mixing your problem and solution together.
-- Identify and fix the common pitfall of pitching your problem to the wrong audience.
-- Articulate your technical solution clearly.
-- Identify and fix a common pitfall in presenting your solution: Trying to sound smart.
-- Identify and fix a common pitfall in presenting your solution: Presenting all your work, in order.
-- Describe how to use visual aids appropriately in your description.
-- Appropriately use eye contact, body language and other soft skills to make your audience care about your problem.
-- Make your talk a conversation with your audience.
-- Answer technical questions about your presentation appropriately.
-- Describe your contribution to a group project.
+- [Clearly and confidently present a project you worked on]({% post_url 2019-02-07-presenting-your-solution %}).
+- [Describe how your description of a project you've worked on will be viewed and evaluated](% post_url 2019-01-10-key-aspects-of-personal-narrative %).
+- [Present a problem in a compelling way](% post_url 2019-01-17-focus-on-the-problem-make-the-problem-compelling %).
+- [Break a problem down from high-level description to low-level details]({% post_url 2019-01-17-focus-on-the-problem-make-the-problem-compelling %}).
+- [Present a problem in a way that is tailored to your audience and the time allowed]({% post_url 2019-02-07-presenting-your-solution %}).
+- [Identify and fix the common pitfall of mixing your problem and solution together](% post_url 2019-01-24-common-pitfall-mixing-problem-and-solution %).
+- [Identify and fix the common pitfall of pitching your problem to the wrong audience]({% post_url 2019-01-31-common-pitfall-assuming-too-much %}).
+- [Articulate your technical solution clearly]({% post_url 2019-02-07-presenting-your-solution %}).
+- [Identify and fix a common pitfall in presenting your solution: Trying to sound smart]({% post_url 2019-02-07-presenting-your-solution %}).
+- [Identify and fix a common pitfall in presenting your solution: Presenting all your work, in order](% post_url 2019-02-14-presenting-your-solution-common-pitfall-chronology %).
+- [Describe how to use visual aids appropriately in your description](% post_url 2019-02-07-presenting-your-solution %).
+- [Appropriately use eye contact, body language and other soft skills to make your audience care about your problem](% post_url 2019-02-21-presentation-eye-contact-speaking-and-projecting-excitement %).
+- [Make your talk a conversation with your audience]({% post_url 2019-02-21-presentation-eye-contact-speaking-and-projecting-excitement %}).
+- [Answer technical questions about your presentation appropriately](% post_url 2019-02-28-presentation-responding-to-your-audience %).
+- [Describe your contribution to a group project](% post_url 2019-03-07-how-to-describe-your-contribution-to-a-group-project %).
 
 So by the end of this article series, you'll be able to give a solid answer to this question. Your answer must focus on three aspects:
 
