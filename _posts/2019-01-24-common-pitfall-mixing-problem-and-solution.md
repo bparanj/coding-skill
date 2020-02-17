@@ -21,8 +21,14 @@ Do not jump from the high level problem to the details of your solution. You nee
 
 Listen to the interviewer and make sure they understand why you are doing something in your explanation. So the key take away from this is that solutions matter. 
 
+<blockquote class="note">
+  <strong>BOTTOM LINE</strong> 
+  <p>
+    Just because you created something cool doesn't mean people will know why it's cool unless they understand the important problem it was solving.
+  </p>
+</blockquote>
+
 ## Conclusion
 
 Your interviewers really do care about the solution you came up with, but if it's a solution without a problem, they don't care as much. So take your time. 
 
-Just because you created something cool doesn't mean people will know why it's cool unless they understand the important problem it was solving.

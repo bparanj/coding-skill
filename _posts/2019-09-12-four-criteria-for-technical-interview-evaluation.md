@@ -3,7 +3,9 @@ layout: post
 title: Four Criteria for Technical Interview Evaluation
 ---
 
-Let's discuss how your performance is evaluated in the interview process. There are four criteria that will determine whether you get an offer or not. Once you know what they are, you can work on improving them. Even if you pass the coding interview, you may not pass the hiring committee. Because you might have failed on one of the criteria that is not related to coding. You need to score well on all criteria to proceed further. 
+Let's discuss how your performance is evaluated in the interview process. There are four criteria that will determine whether you get an offer or not. Once you know what they are, you can work on improving them. 
+
+Even if you pass the coding interview, you may not pass the hiring committee. Because you might have failed on one of the criteria that is not related to coding. You need to score well on all criteria to proceed further. 
 
 ## Coding
 
@@ -29,7 +31,14 @@ We discuss this aspect in more detail in the article on [Interview Performance E
 
 ## Design
 
-Design separates the pros from the amateurs. Design shows your analysis skills such as time-space analysis and alternative approaches. You must show your ability to analyze a solution, regardless of whether you get the solution right or not.
+Design separates the pros from the amateurs. Design shows your analysis skills such as time-space analysis and alternative approaches. 
+
+<blockquote class="note">
+  <strong>TIP</strong> 
+  <p>
+    You must show your ability to analyze a solution, regardless of whether you get the solution right or not.
+  </p>
+</blockquote>
 
 Simply passing the white-boarding question does not mean that you did well. You should talk aloud so that you can explain the trade-offs that you are making.
 
@@ -62,7 +71,13 @@ It really helps if you can spend time to prepare a few stories beforehand and st
 Gauge the interviewer's reactions to ensure they are not getting bored. Show that you can accept feedback and collaborate and remember that your first and last impressions count. Be careful not to spend too much time with pointless stories. You are spending your own coding time, if you decide to ramble about something that does not provide value.
 
 Above all, don't lose the interviewer. If you're rambling about technical jargon and the interviewer isn't responding, cut your story short. If you don't, the interviewer can become disinterested in you.  
-The interviewers want to know what you personally did, not what your team did. Emphasize your own role here, concisely and clearly.
+
+<blockquote class="note">
+  <strong>BOTTOM LINE</strong> 
+  <p>
+    The interviewers want to know what you personally did, not what your team did. Emphasize your own role here, concisely and clearly.
+  </p>
+</blockquote>
 
 ### STAR Format
 
@@ -86,7 +101,9 @@ The end result of your actions.
 
 ## Speed and Efficiency 
 
-Interviewers may first ask you to write a problem recursively, then iteratively, then without using additional space, and so forth. These additional restrictions test your knowledge of trading off time for space. Questions build on top of itself by increasingly adding restrictions or pushing for faster time, so that interviewers can get some signal on the candidate's ability beyond just pass or fail.  
+Interviewers may first ask you to write a problem recursively, then iteratively, then without using additional space, and so forth. These additional restrictions test your knowledge of trading off time for space. 
+
+Questions build on top of itself by increasingly adding restrictions or pushing for faster time, so that interviewers can get some signal on the candidate's ability beyond just pass or fail.  
 
 This is why fluidity and confidence is essential. So, even if you have heard these problems before, it helps to become good at these and see how the pros solve these problems. This helps you to recognize patterns in code and crafting elegant and simple solutions.
 
@@ -118,7 +135,7 @@ Common for brute-force like testing every numerical password combination.
 
 #### Think about Time vs Space
 
-Let's imagine you need to find all duplicate items in an array. You can solve that using a Hashmap in a single pass.  Or, you can simply sort the array and then look through it for similar elements next to each other. They're both valid solutions, and they're both just as good. The first version uses more space but less time O(n). The second version uses less space (almost zero space) but O(n*log(n)) time.  
+Let's imagine you need to find all duplicate items in an array. You can solve that using a Hashmap in a single pass. Or, you can simply sort the array and then look through it for similar elements next to each other. They're both valid solutions, and they're both just as good. The first version uses more space but less time O(n). The second version uses less space (almost zero space) but O(n*log(n)) time.  
 
 It will boost your rating if you can point out the trade-offs between time and space. These two are always being traded off. 
 

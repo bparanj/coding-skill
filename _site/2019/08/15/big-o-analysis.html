@@ -85,7 +85,9 @@
 
 <h3 id="quadratic-or-cubic--polynomial-on2-or-on3">Quadratic or Cubic / Polynomial O(n2) or O(n3)</h3>
 
-<p>Brute force algorithms often run in O(n2) or O(n3) time where you may be looping within a loop. It’s easy to identify if you see a for-loop inside a for-loop, where for each element i you iterate through another element j, for instance. A common scenario is, given two arrays, find the common elements in each array where you would simply go through each element and check whether it exists in the other array. This would execute in O(n*m) time, where n and m are the sizes of each array. It’s still great to name these brute force algorithms if you can identify them.</p>
+<p>Brute force algorithms often run in O(n2) or O(n3) time where you may be looping within a loop. It’s easy to identify if you see a for-loop inside a for-loop, where for each element i you iterate through another element j, for instance.</p>
+
+<p>A common scenario is, given two arrays, find the common elements in each array where you would simply go through each element and check whether it exists in the other array. This would execute in O(n*m) time, where n and m are the sizes of each array. It’s still great to name these brute force algorithms if you can identify them.</p>
 
 <h3 id="exponential-o2n">Exponential O(2n)</h3>
 
@@ -93,7 +95,9 @@
 
 <h3 id="factorial-on">Factorial O(n!)</h3>
 
-<p>These algorithms are the slowest and don’t show up that often. You might see this in combinatorial problems or the traveling salesman problem, where given n nodes, you need to find the optimal path from start to finish. In your first iteration, you have a selection of n cities to visit, then n-1 cities, then n-2 cities, n-3 cities, etc., until you reach the last city. That runtime is n * (n -1 ) * (n - 2) * (n -3 ) … 1 = O(n!).</p>
+<p>These algorithms are the slowest and don’t show up that often. You might see this in combinatorial problems or the traveling salesman problem, where given n nodes, you need to find the optimal path from start to finish.</p>
+
+<p>In your first iteration, you have a selection of n cities to visit, then n-1 cities, then n-2 cities, n-3 cities, etc., until you reach the last city. That runtime is n * (n -1 ) * (n - 2) * (n -3 ) … 1 = O(n!).</p>
 
 <p><img src="/assets/images/complexity-classes.png" alt="Complexity Classes" /></p>
 

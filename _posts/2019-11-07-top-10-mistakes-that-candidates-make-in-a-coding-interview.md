@@ -6,7 +6,9 @@ excerpt: Learn how to overcome the top 10 mistakes. Practicing on a computer. No
 
 ## Mistakes Made During Interview Preparation
 
-We discuss the top 10 common mistakes that candidates will make during the interview. These can be simple things that you can easily fix. But only if you know to look out for them. We point these out for you to prepare you for your journey. Preparation is the key to success. A proper mindset as you start your preparation and go into the interview will make the difference between night and day.
+We discuss the top 10 common mistakes that candidates will make during the interview. These can be simple things that you can easily fix. But only if you know to look out for them. 
+
+We point these out for you to prepare you for your journey. Preparation is the key to success. A proper mindset as you start your preparation and go into the interview will make the difference between night and day.
 
 ### Mistake #1 : Coding on a Computer
 
@@ -35,7 +37,9 @@ It takes time to come up with a good story. Your story must have takeaways that 
 
 What is the story that you want to tell people? Do you strive for success and growth? Remember that you are applying to one of the top companies in the world, they would like to hire ambitious and above-average people.
 
-What sort of behaviors are valued in tech? Are people looking for drinking buddies or people who will laugh at their jokes? Well, of course, but those aren't really what this is about. It is about the cultural-fit in which traits like initiative, collaboration, willingness to accept feedback, conflict management, consensus building, learning from failure, growth mindset, a get-it-done attitude are highly valued.
+What sort of behaviors are valued in tech? Are people looking for drinking buddies or people who will laugh at their jokes? Well, of course, but those aren't really what this is about. 
+
+It is about the cultural-fit in which traits like initiative, collaboration, willingness to accept feedback, conflict management, consensus building, learning from failure, growth mindset, a get-it-done attitude are highly valued.
 
 Don't underestimate this portion. It is not technical, but it can swing your interview. The key is that many candidates pass the whiteboarding portion to some degree, but your behavior can swing the interview your way. 
 
@@ -98,13 +102,20 @@ Suddenly you have this sinking feeling that a lot of time has gone by and the wh
 
 So you write a function declaration with a name and some arguments. Maybe a closing brace at the bottom of the board. And there’s going to be a loop in here. So let’s throw a loop in there. I guess it’ll loop through that first argument. So you sketch out a loop. Maybe you call a subroutine in there that handles some tricky part you’re not sure yet how to handle. “I’ll write out that function later,” you say.
 
-And then you realize you’re sort of back to the drawing board. Because you still have to figure out what your code is going to do. But now you have all this half-baked code on the board, which might already be pointing you in the wrong direction. That instinct to get moving and start writing code ends up hurting you. Because now another 10 minutes has passed, you’re no closer to an algorithm. And you have messy, half-baked code scrawled all over the whiteboard.
+And then you realize you’re sort of back to the drawing board. Because you still have to figure out what your code is going to do. But now you have all this half-baked code on the board, which might already be pointing you in the wrong direction. 
+
+That instinct to get moving and start writing code ends up hurting you. Because now another 10 minutes has passed, you’re no closer to an algorithm. And you have messy, half-baked code scrawled all over the whiteboard.
 
 Instead, when that instinct kicks in, just pause. Take a moment. Breathe. Know that worrying about time isn’t going to make you move faster. You could even say out loud, “I’m starting to feel like I should start writing code soon, but I know it’s no use to start writing code before I know what it’s going to do.” 
 
 Just get back to the problem at hand and keep batting around ideas for how to solve the problem. Play around with a sample input on the whiteboard. Draw a picture of the data structure. Brainstorm. Trust that you’re not supposed to know the answer right away. That's what makes it a good coding interview problem.
 
-So when a new problem is presented, make sure you communicate your solution and get a clear go ahead from your interviewer before you hastily attempt to code.
+<blockquote class="note">
+  <strong>TIP</strong> 
+  <p>
+    When a new problem is presented, make sure you communicate your solution and get a clear go ahead from your interviewer before you hastily attempt to code.
+  </p>
+</blockquote>
 
 You might miss the edge cases and it may not be the most optimal solution. You modify the current code and fix any issues. Often, these fixes without any thinking do not address any underlying bigger problems in your code.
 
@@ -127,7 +138,9 @@ If you don't plan your approach, you will most likely get stuck at some point. G
 
 The seventh mistake is sloppy code. This is related to rushing to code. Sloppy code implies confusing variable names and syntax mistakes. You want something that's beautifully written, cohesive and concise which is easier for your interviewer to understand.
 
-Often times interviewers will take a picture of your solution. It gets transcribed into a document so that it can go to the hiring committee who can review your code. Take some time to clean up the code. If at the very end, you have an algorithm and you think that it's pretty good and you kind of have the interviewers approval on that, then, take a minute or two to cleanup.
+Often times interviewers will take a picture of your solution. It gets transcribed into a document so that it can go to the hiring committee who can review your code.
+
+Take some time to clean up the code. If at the very end, you have an algorithm and you think that it's pretty good and you kind of have the interviewers approval on that, then, take a minute or two to cleanup.
 
 <blockquote class="note">
   <strong>BOTTOM LINE</strong> 
@@ -148,7 +161,9 @@ But your code has fundamentally something wrong with it. Instead of trying to fi
 
 There's nothing worse than when you fix one error and then the interviewer asks you about another case. You fix that and then they ask you about another case. You don't want too much help like that because then the interviewer will think you're sloppy and careless. Too many careless errors will sink you.
 
-So, when you see a mistake, fix it, take a step back, take another quick look. This is about knowing what you're doing and being able to comprehend your code and being quick at it. Fix anything else that needs to be fixed and then you can say, “Okay, I think this pretty much does what we're looking for here”. This is the general gist of the algorithm. You're not guaranteeing that the whole thing is perfect. 
+So, when you see a mistake, fix it, take a step back, take another quick look. This is about knowing what you're doing and being able to comprehend your code and being quick at it. 
+
+Fix anything else that needs to be fixed and then you can say, “Okay, I think this pretty much does what we're looking for here”. This is the general gist of the algorithm. You're not guaranteeing that the whole thing is perfect. 
 
 <blockquote class="note">
   <strong>BOTTOM LINE</strong> 
@@ -165,9 +180,16 @@ So you're supposed to struggle a little bit. Any positive self talk that keeps y
 
 So, take a deep breath, relax and just do your best. At first you may panic, if you start analyzing the problem, the interviewer sometimes might give you hints. Sometimes you might get an epiphany. You can gain momentum and confidence as you work through the problem. So, don't give up that easily.
 
-Usually in the first few moments when you hear the question, there's a bit of fear about whether you know this one. As your brain is trying to figure out, what could this be? The more you get into it, the more you start to realize, okay, you should have this one. Most of the questions are not supposed to be very complicated. It's not going to use some crazy algorithm and crazy data structure that you've never heard of before. 
+Usually in the first few moments when you hear the question, there's a bit of fear about whether you know this one. As your brain is trying to figure out, what could this be? The more you get into it, the more you start to realize, okay, you should have this one. 
 
-Whatever the question, you should be able to accomplish using what you know with stacks queues, hashmaps, tree traversals, arrays and so on. You just put these basic building blocks together. 
+Most of the questions are not supposed to be very complicated. It's not going to use some crazy algorithm and crazy data structure that you've never heard of before. 
+
+<blockquote class="note">
+  <strong>TIP</strong> 
+  <p>
+    Whatever the question, you should be able to accomplish using what you know with stacks queues, hashmaps, tree traversals, arrays and so on. You just put these basic building blocks together.
+  </p>
+</blockquote>
 
 Generally you get something that you can slowly build on top of that thing. They want to see how far you can go. They will increase the complexity of the white board problem until they get you to the edge of your knowledge. The intention is to see your personality. Do you crack under pressure and panic or do you stay calm and work through the problem?
 

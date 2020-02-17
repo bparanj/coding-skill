@@ -12,6 +12,8 @@ In this article, we will look at multiplication problem and solve it recursively
   </p>
 </blockquote>
 
+The article [Recursion and Mathematical Induction]({% post_url 2020-02-13-recursion-and-mathematical-induction %}) explains how they are related to each other in more detail.
+
 ## Algorithmically
 
 Recursion is a way to design solutions to problems by divide-and-conquer or decrease-and-conquer. Reduce a problem to simpler versions of the same problem.

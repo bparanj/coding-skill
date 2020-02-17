@@ -19,7 +19,12 @@ Well a common pitfall is to simply talk about all that work that you did as if y
 
 You do not want to portray yourself as somebody who comes up with complicated solutions. We're after simplicity and elegance. Yes, it might be challenging to get to that simple solution. But it's not a good idea to make your solution sound complex and hard to understand. 
 
-So as hard as it is and as hard as you work, your goal is to boil down the solution into something elegant, creative and fairly simple. 
+<blockquote class="note">
+  <strong>BOTTOM LINE</strong> 
+  <p>
+    Your goal is to shape the solution into something elegant, creative and fairly simple. 
+  </p>
+</blockquote>
 
 ### When to Talk About Dead Ends
 

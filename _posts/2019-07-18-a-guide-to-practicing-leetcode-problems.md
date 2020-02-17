@@ -25,7 +25,9 @@ Things like bit shifting. This is more rare and I don't think this is as importa
 
 ### String
 
-These are problems that often deal with strings like permutations, backtracking problems that have use take an exhaustive approach in producing decompositions of a string to search a possibility space (which is often a brute force way of solving a problem since it will be exponential in time), etc. String problems are often solved most optimally in O(n) time or O(s1 + s2) time (linear with respect to each string) if we are given two strings.
+These are problems that often deal with strings like permutations, backtracking problems that have use take an exhaustive approach in producing decompositions of a string to search a possibility space (which is often a brute force way of solving a problem since it will be exponential in time), etc. 
+
+String problems are often solved most optimally in O(n) time or O(s1 + s2) time (linear with respect to each string) if we are given two strings.
 
 ### Dynamic Programming
 
@@ -101,7 +103,9 @@ It is a good strategy to pick few questions from different topics in algorithm a
 
 ## Should I Time Myself?
 
-Time is critical. Speed is critical. But timing yourself is useless if you are very uncomfortable with a specific problem class. I suggest solving many problems (peeping the solutions often is fine, just gain comfort) in your weak points. Then when you get sick of jumping to answers you will soon take the leap and just solve the problem yourself because you will become familiar with the techniques required for the approach. This is how backtracking was for me. I went from total confusion to it becoming a default way of thinking.
+Time is critical. Speed is critical. But timing yourself is useless if you are very uncomfortable with a specific problem class. I suggest solving many problems (peeping the solutions often is fine, just gain comfort) in your weak points. 
+
+Then when you get sick of jumping to answers you will soon take the leap and just solve the problem yourself because you will become familiar with the techniques required for the approach. This is how backtracking was for me. I went from total confusion to it becoming a default way of thinking.
 
 ### Track Time 
 

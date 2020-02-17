@@ -33,7 +33,9 @@ Most of the sorting operate in "n log n" time. This includes popular sorting alg
 
 ### Quadratic or Cubic / Polynomial O(n2) or O(n3)  
 
-Brute force algorithms often run in O(n2) or O(n3) time where you may be looping within a loop. It's easy to identify if you see a for-loop inside a for-loop, where for each element i you iterate through another element j, for instance. A common scenario is, given two arrays, find the common elements in each array where you would simply go through each element and check whether it exists in the other array. This would execute in O(n*m) time, where n and m are the sizes of each array. It's still great to name these brute force algorithms if you can identify them.
+Brute force algorithms often run in O(n2) or O(n3) time where you may be looping within a loop. It's easy to identify if you see a for-loop inside a for-loop, where for each element i you iterate through another element j, for instance. 
+
+A common scenario is, given two arrays, find the common elements in each array where you would simply go through each element and check whether it exists in the other array. This would execute in O(n*m) time, where n and m are the sizes of each array. It's still great to name these brute force algorithms if you can identify them.
 
 ### Exponential O(2n)
 
@@ -41,7 +43,9 @@ Exponential algorithms are quite terrible in running time. A classic example is 
 
 ### Factorial O(n!)  
 
-These algorithms are the slowest and don't show up that often. You might see this in combinatorial problems or the traveling salesman problem, where given n nodes, you need to find the optimal path from start to finish. In your first iteration, you have a selection of n cities to visit, then n-1 cities, then n-2 cities, n-3 cities, etc., until you reach the last city. That runtime is n * (n -1 ) * (n - 2) * (n -3 ) ... 1 = O(n!).
+These algorithms are the slowest and don't show up that often. You might see this in combinatorial problems or the traveling salesman problem, where given n nodes, you need to find the optimal path from start to finish. 
+
+In your first iteration, you have a selection of n cities to visit, then n-1 cities, then n-2 cities, n-3 cities, etc., until you reach the last city. That runtime is n * (n -1 ) * (n - 2) * (n -3 ) ... 1 = O(n!).
 
 ![Complexity Classes](/assets/images/complexity-classes.png)
 

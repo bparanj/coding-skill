@@ -6,7 +6,12 @@ In this article we will discuss some tips to succeed in the online coding interv
 
 Technical Phone Screen is the first hurdle in getting your dream job. If you succeed in the online coding interview, you will be invited to an in-person interview. 
 
-Now, in-person interviews are expensive for companies. They want to make sure that you match your resume quite well in terms of your skills.
+<blockquote class="note">
+  <strong>BOTTOM LINE</strong> 
+  <p>
+    In-person interviews are expensive for companies. They want to make sure that you match your resume quite well in terms of your skills.
+  </p>
+</blockquote> 
 
 The format of Technical Phone Screen is going to consist of introducing yourself to the interviewer and vice versa followed by questions.
 
@@ -46,7 +51,12 @@ If you're going to interview for a position that is language-specific like "java
 
 You could be developing in a language like Javascript and never use closures. But that's still a very common question for Javascript roles so don't let those catch you off guard.
 
-Smoke screen test is usually domain specific. If it's a startup, they ask a lot about language specific things depending on the language they use. 
+<blockquote class="note">
+  <strong>TIP</strong> 
+  <p>
+    Smoke screen test is usually domain specific. If it's a startup, they ask a lot about language specific things depending on the language they use.
+  </p>
+</blockquote> 
 
 For larger companies, these questions are rarer, they usually just ask you to do a coding interview. If they do ask you yes/no or definition questions, make sure you know about object oriented programming concepts, OS concepts, concurrency, networking, and language specific questions.
 
@@ -62,7 +72,9 @@ All the required tools, your Skype, your Internet connection, you phone connecti
 
 ## How to Carry Yourself
 
-Now if you are going to be using Google Hang-out or Skype for your interview, make sure that you look at the camera, not yourself. It's much more genuine to the person seeing you if you're looking at the camera. Avoid small, non-verbal cues. You don't want slight nod of the head because if you do that, it may not come through, depending on the Internet connection.
+Now if you are going to be using Google Hang-out or Skype for your interview, make sure that you look at the camera, not yourself. It's much more genuine to the person seeing you if you're looking at the camera. 
+
+Avoid small, non-verbal cues. You don't want slight nod of the head because if you do that, it may not come through, depending on the Internet connection.
 
 If you're going to do non-verbal cues, do big things like thumbs up or really long exaggerated nods. Or just use a verbal cue and say, oh yeah, I understand or okay. 
 
@@ -120,4 +132,6 @@ The last thing is not highlighting your strengths in your resume. So you might h
 
 Let's say you've coded just a little bit in PHP. During the actual phone screen, they're going to say, could you code up this algorithm in PHP. That can be really bad if you can't program in PHP. You have to say something like: Well, I'm actually not that proficient in PHP, let's switch to another language.
 
-And if you do that a couple of times, that's going to be problematic, because they're going to ask what part of this resume is accurate? But it's also a mistake because you've just shown a weakness. Because you didn't know a language that was on your resume. If you had put it on your resume that you weren't proficient in PHP. But that you were proficient in Java, you would have set yourself up for success. So this is where the resume ties in well with the technical phone screen.
+And if you do that a couple of times, that's going to be problematic, because they're going to ask what part of this resume is accurate? But it's also a mistake because you've just shown a weakness. 
+
+Because you didn't know a language that was on your resume. If you had put it on your resume that you weren't proficient in PHP. But that you were proficient in Java, you would have set yourself up for success. So this is where the resume ties in well with the technical phone screen.

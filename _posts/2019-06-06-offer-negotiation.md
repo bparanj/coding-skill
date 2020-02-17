@@ -7,7 +7,9 @@ Properly negotiating your offer can save you a lot in this lucrative field. Keep
 
 ## How to Handle your Offer Negotiation
 
-The number one mistake is thinking I'm happy to just get an offer at this company. That's why I don't need to negotiate, I'm already happy with what I got. Don't think like that, you have to understand you are a hot commodity and always negotiate. They're not going to get back at you or think that you're stingy. The recruiters are separate from your team members and managers. Don't just settle for less. You're worth a lot more than that.
+The number one mistake is thinking I'm happy to just get an offer at this company. That's why I don't need to negotiate, I'm already happy with what I got. Don't think like that, you have to understand you are a hot commodity and always negotiate. 
+
+They're not going to get back at you or think that you're stingy. The recruiters are separate from your team members and managers. Don't just settle for less. You're worth a lot more than that.
 
 ### Negotiating and Accepting the Offer
  
@@ -101,16 +103,20 @@ So it's going to be something that is pretty much fair here and there. You can g
 #### Exploding Offers
 
 One trick that people play sometimes is the exploding offers. It means that they're not going to give you the offer if you don't accept it. They'll say if you don’t accept this offer, we will rescind the offer.
+
 That happens a lot during internships. They pressure you to sign it. There are exploding sign ons, where if you don't sign it this week the sign on is not going to be there. They may say the offer is valid for two weeks. They can usually give you another week or so if you ask for an extension. 
 
 One other thing you can do is you can go ahead and accept the offer. If you get a really good offer later on, maybe you can renege on that offer. The company is not going to like you for that. But if you talk with them and say, Hey, you know, this was another company that you really want to get into, then maybe they will say okay yeah fine. 
 
 Reneging the offer happens a lot more often than you think. And especially in California, it is not legal. Because all employment is at will, from both sides, so don't think the jury can get arrested. The only thing that might happen is that they might put you on a blacklist. 
+
 But for big companies they will not blacklist. Make sure that in the future if you still want to apply there, you're free to apply there again. So always be nice to your recruiters. Make sure that you are collaborating with your recruiter. 
 
 #### Attitude during Negotiation
 
-You want to join the company and you want to be happy about it. You want to set up an agreement where you're excited to join the company and they're providing you sufficient compensation to justify that excitement. It's not like, hey, you're not paying enough and then you're just you versus the recruiters. How can you two work together to come up with an agreement that's going to be positive for the future for you.
+You want to join the company and you want to be happy about it. You want to set up an agreement where you're excited to join the company and they're providing you sufficient compensation to justify that excitement. 
+
+It's not like, hey, you're not paying enough and then you're just you versus the recruiters. How can you two work together to come up with an agreement that's going to be positive for the future for you.
  
 If you're junior in your career stage, the compensation may not be very substantial. You should definitely negotiate for more. Think about your career path and position yourself in a good place for the next 2-4 years.  
 
@@ -161,7 +167,7 @@ It's a game. If you list low-end companies, recruiters may wonder why you're not
 
 Interviewing is a skill that we believe can be practiced and mastered, just like any other skill. Riding a bicycle is hard the first time, but once you get the hang of it it becomes routine.  This is one of the most valuable life-long skills that you can have because there will be interviews throughout your entire life.
 
-Does it surprise you to hear that a lot of people that work at top-tier tech companies like Google, Facebook, or Netflix still push themselves to continue to interview elsewhere? Why? Well, job-hopping is one of the best ways to increase compensation because competing companies have to either match or beat your current compensation.  Plus, there is usually a sign-on bonus included. The employees who aren't confident in their interviewing skills stay stuck in their jobs, immobilized.
+Does it surprise you to hear that a lot of people that work at top-tier tech companies like Google, Facebook, or Netflix still push themselves to continue to interview elsewhere? Why? Well, job-hopping is one of the best ways to increase compensation because competing companies have to either match or beat your current compensation. Plus, there is usually a sign-on bonus included. The employees who aren't confident in their interviewing skills stay stuck in their jobs, immobilized.
 
 In Netflix culture, employees are like contractors who can be let go at any time they are underperforming and are actually encouraged to interview every single year in order to re-negotiate compensation. Many have to interview in order to try to obtain a counteroffer, just to get their annual raise.
 
