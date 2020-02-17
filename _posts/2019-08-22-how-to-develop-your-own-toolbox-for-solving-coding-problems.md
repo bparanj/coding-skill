@@ -63,12 +63,14 @@ That's why you keep repeating this process so it becomes part of you and you sta
 
 A deep understanding of the solution for a specific problem can help you solve many similar problems in the future. Understand the solution and jot down the techniques used in the solution. 
 
-There are only a handful of problem solving techniques.
+There are only a handful of problem solving strategies.
 
-- Divide and conquer 
-- Dynamic programming 
+- Divide and Conquer 
+- Dynamic Programming 
 - Backtracking 
-- Greedy algorithms
+- Greedy Method
+- Branch and Bound
+- Basic Search and Traversal Techniques
 
 You're going to acquire these tools over time. Your skill is going to grow over time. Are you clear on how to go about solving a problem, knowing these problem solving techniques? 
 

@@ -1,5 +1,6 @@
 ---
 layout: post
+excerpt: In this article, you will learn some tips on deliberate practice.
 ---
 
 - Practice doing it right. 
