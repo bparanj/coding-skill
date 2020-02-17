@@ -16,7 +16,12 @@ A knowledge of design is needed to create good algorithms. Tools of analysis pro
 
 The number of basic design strategies is small. All the algorithms you wish to study can easily fit into these categories. For example, mergesort and quicksort are examples of the divide-and-conquer strategy while Kruskal's minimum spanning tree algorithm and Dijkstra's single source shortest path algorithm are straightforward examples of the greedy strategy. 
 
-An understanding of these strategies is an essential first step towards acquiring the skills of design. However there is no cookbook approach to algorithm design by assuming that each algorithm must derive from only a single technique. 
+<blockquote class="note">
+  <strong>DESIGN SKILLS</strong> 
+  <p>
+    An understanding of these strategies is an essential first step towards acquiring the skills of design. However there is no cookbook approach to algorithm design by assuming that each algorithm must derive from only a single technique. 
+  </p>
+</blockquote>
 
 First each strategy is described in general terms. A program template is given which outlines the form that the computation will take if this strategy can be applied.
 
