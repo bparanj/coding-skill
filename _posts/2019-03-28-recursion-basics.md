@@ -78,7 +78,7 @@ Some design techniques are inherently recursive and so recursion is a natural wa
 Recursion incurs overhead of repeated procedure calls. In the early stages of algorithm design we can use recursion. Once we are satisfied that we have a good algorithm, the recursion can be removed by translating the algorithm into an equivalent one that uses iteration. 
 
 <blockquote class="note">
-  <strong>RECURSION TO ITERATION</strong> 
+  <strong>TRANSLATING RECURSION TO ITERATION</strong> 
   <p>
     Translating a recursive procedure into an equivalent procedure which uses iteration involves replacing all recursive procedure calls and return statements by equivalent non-recursive code.
   </p>
@@ -92,8 +92,8 @@ The rules are for the general case. Often there are occasions when simpler rules
 def gcd(a, b)
   while b != 0
     t = b
-	b = a % b
-	a = t
+    b = a % b
+    a = t
   end
   return a
 end
