@@ -58,6 +58,33 @@ sum(4) = sum(3) + 4
 	   = 10
 ```
 
+We can implement this in code. Here is the C language function to compute sum of first n positive numbers:
+
+```c
+int sum(unsigned int n) {
+  if (n == 0)
+    return 0;
+
+  if (n == 1)
+    return 1;
+
+  return n + sum(n-1);
+}
+```
+
+You can see the last line that makes the recursive call is using the same form we saw earlier:
+
+```
+sum(n) = sum(n-1) + n
+```
+
+<blockquote class="note">
+  <strong>STACK OVERFLOW</strong> 
+  <p>
+    If you miss the base case, the function will get into an infinite recursion causing the stack overflow error.
+  </p>
+</blockquote>
+
 ## Multiplication
 ### Recursive Solution
 
@@ -111,7 +138,7 @@ is called the Recursive Reduction. Notice that the original problem is reduced t
 
 ### Iterative Solution
 
-```
+```python
 mult(a, b)
   result = 0
   while b > 0
@@ -127,3 +154,51 @@ mult(a, b)
   </p>
 </blockquote>
 
+## Exponent
+
+### Problem Statement
+
+Compute the n<sup>th</sup> power of a number X<sup>n</sup>.
+
+### Mathematical Definition
+
+The mathematical function is defined as follows:
+
+For n = 0, X<sup>n</sup> = 1
+
+Otherwise if n > 0 X<sup>n</sup> = X * X<sup>n-1</sup>
+
+### Program
+
+The C implementation of exponentiation:
+
+```c
+int power(int x, int n) {
+  if (0 == n)
+    return 1;
+  else if (1 == x)
+    return x;
+  else
+    return x * power(x, n-1);
+}
+```
+
+<blockquote class="note">
+  <strong>TIME AND MEMORY</strong> 
+  <p>
+    The recursive solution takes more time and more memory than the corresponding iterative solution.
+  </p>
+</blockquote>
+
+In situations where both iterative and recursive solutions are equally easy to code, choose iterative solution. The advantage of recursion is that sometimes a solution that is very complex to understand can be easily visualized recursively. We just need to solve the problem for the base case and leave the rest of the problem to be solved by recursion. Tower of Hanoi problem is an example.
+
+## Head Recursion and Tail Recursion
+
+If the recursive call is made before the function performs its own task, then it is called Head Recursion. If recursive call is made at the end, then it is Tail Recursion.
+
+<blockquote class="note">
+  <strong>TIP</strong> 
+  <p>
+    A tail recursion is very easy to re-write in the form of a loop. 
+  </p>
+</blockquote>

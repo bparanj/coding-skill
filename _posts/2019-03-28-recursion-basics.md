@@ -86,7 +86,9 @@ Recursion incurs overhead of repeated procedure calls. In the early stages of al
 
 At the beginning of the procedure, code is inserted which declares a stack and initializes it to be empty. In the most general case, the stack will be used to hold the values of parameters, local variables, function value and return address for each recursive call.
 
-The rules are for the general case. Often there are occasions when simpler rules apply. For example if the last statement of a procedure is a recursive call, then remove it by simply evaluating the new values of the parameters and branching to the beginning. A stack is not needed. The gcd procedure is an example. Removing its recursion yields the following program:
+The rules are for the general case. Often there are occasions when simpler rules apply. For example if the last statement of a procedure is a recursive call, then remove it by simply evaluating the new values of the parameters and branching to the beginning. A stack is not needed. 
+
+The gcd procedure is an example. Removing its recursion yields the following program:
 
 ```ruby
 def gcd(a, b)
