@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+  <head>
+	<meta charset="utf-8">
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>The Greedy Method - Coding Skill</title>
+
+  <link rel="stylesheet" href="/assets/css/styles.css">
+	<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>The Greedy Method | Coding Skill</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="The Greedy Method" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="The greedy method is the most straightforward design technique. It can be applied to a wide variety of problems. Most of these problems have n inputs and require us to obtain a subset that satisfies some constraints. Any subset that satisfies these constraints is called a feasible solution." />
+<meta property="og:description" content="The greedy method is the most straightforward design technique. It can be applied to a wide variety of problems. Most of these problems have n inputs and require us to obtain a subset that satisfies some constraints. Any subset that satisfies these constraints is called a feasible solution." />
+<meta property="og:site_name" content="Coding Skill" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-04-11T00:00:00-04:00" />
+<script type="application/ld+json">
+{"url":"/2019/04/11/greedy-method.html","headline":"The Greedy Method","dateModified":"2019-04-11T00:00:00-04:00","datePublished":"2019-04-11T00:00:00-04:00","description":"The greedy method is the most straightforward design technique. It can be applied to a wide variety of problems. Most of these problems have n inputs and require us to obtain a subset that satisfies some constraints. Any subset that satisfies these constraints is called a feasible solution.","mainEntityOfPage":{"@type":"WebPage","@id":"/2019/04/11/greedy-method.html"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+  
+  <style>
+  .note {
+      background-color: #f7f7f7;
+      line-height: 26px;
+      margin: 30px 0;
+      padding: 26px 30px 12px 30px;
+      border-left-style: solid;
+      border-left-width: 4px;
+      border-color: #008000;
+  	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  		border-radius: 5px;
+  }
+  </style>
+  <body>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="/">Coding Skill</a>
+		<form class="form-inline my-2 my-lg-0">			
+			<a class="btn btn-primary btn-lg" href="https://go.oncehub.com/BalaParanj" role="button">Schedule a Free Consultation</a>
+		    </form>
+  </div>	
+</nav>
+
+    <div class="container">
+			<div class="row">
+			  <div class="col-md-8">
+					<h1>The Greedy Method</h1>
+
+<p>The greedy method is the most straightforward design technique. It can be applied to a wide variety of problems. Most of these problems have n inputs and require us to obtain a subset that satisfies some constraints. Any subset that satisfies these constraints is called a feasible solution.</p>
+
+<p>We are required to find a feasible solution that either maximizes or minimizes a given objective function. A feasible solution that does this is called an optimal solution. There is usually an obvious way to determine a feasible solution, but not necessarily an optimal solution.</p>
+
+<p>The greedy method suggests that one can devise an algorithm which works in stages, considering one input at a time. At each stage, a decision is made regarding whether or not a particular input is in an optimal solution. This is done by considering the inputs in an order determined by some selection procedure.</p>
+
+<p>If the inclusion of the next input into the partially constructed optimal solution will result in an infeasible solution, then this input is not added to the partial solution. The selection procedure itself is based on some optimization measure.</p>
+
+<p>This measure may not be the objective function. In fact, several different optimization measures may be plausible for a given problem. Most of these, however, will result in algorithms that generate suboptimal solutions.</p>
+
+<h3 id="greedy-method-program-template">Greedy Method Program Template</h3>
+
+<p>We can describe the greedy method abstractly, but more precisely than above by considering the following program template:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="sr">/* The parameter input array contains the n inputs */</span>
+<span class="k">def</span> <span class="nf">greedy</span><span class="p">(</span><span class="n">input</span><span class="p">,</span> <span class="n">n</span><span class="p">)</span>
+  <span class="sr">/* Initialize the solution to empty */</span>
+  <span class="n">solution</span> <span class="o">=</span> <span class="p">{}</span>
+  <span class="k">for</span> <span class="n">i</span> <span class="k">in</span> <span class="mi">1</span> <span class="n">to</span> <span class="n">n</span> 
+    <span class="n">x</span> <span class="o">=</span> <span class="nb">select</span><span class="p">(</span><span class="n">input</span><span class="p">)</span>
+	  <span class="k">if</span> <span class="n">feasible</span><span class="p">(</span><span class="n">solution</span><span class="p">,</span> <span class="n">x</span><span class="p">)</span>
+	    <span class="n">solution</span> <span class="o">=</span> <span class="n">union</span><span class="p">(</span><span class="n">solution</span><span class="p">,</span> <span class="n">x</span><span class="p">)</span>
+	  <span class="k">end</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p>The function select() selects an input from the input array, removes it and assigns its value to x. The feasible() returns true if x can be included into the solution vector. The union() combines x with solution and updates the objective function. Procedure greedy() describes the essential way that a greedy based algorithm will look, once a particular problem is chosen and the procedures select(), feasible() and union() are properly implemented.</p>
+
+<blockquote class="note">
+  <strong>TIP</strong> 
+  <p>
+    Problems such as knapsack and job sequencing can be solved by using the program template for the greedy method.
+  </p>
+</blockquote>
+
+
+<hr/>
+<a class="btn btn-primary btn-lg" href="https://go.oncehub.com/BalaParanj" role="button">Schedule Your Free Consultation Now</a>
+
+			  </div>
+	
+			  <div class="col-md-4">
+			    <h3 class="my-3">Coding Interview Secrets</h3>
+			    <p>
+						If you are feeling frustrated and overwhelmed with coding interview preparation, sign up for FREE <a href='https://codinginterview.coach/'> coaching session </a> and we will figure it all out. Why is this free? Because I believe in Zig Ziglar's quote: You can get everything in life you want if you will just help enough other people get what they want.
+			    </p>
+			  </div>
+			</div>
+    </div>
+    
+    <br/>    <br/>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    
+          <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-358645-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-358645-13');
+</script>
+
+    
+    
+  </body>
+</html>
+
+
+

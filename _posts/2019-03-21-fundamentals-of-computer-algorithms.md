@@ -27,11 +27,11 @@ First each strategy is described in general terms. A program template is given w
 
 The basic design techniques are: 
 
-- Divide and Conquer 
-- The Greedy method
-- Dynamic Programming
+- [Divide and Conquer]({% post_url 2019-04-04-divide-and-conquer %}) 
+- [The Greedy Method]({% post_url 2019-04-11-greedy-method %}) 
+- [Dynamic Programming]({% post_url 2019-04-18-dynamic-programming %}) 
 - Search and Traversal
-- Backtracking  
+- [Backtracking]({% post_url 2019-04-28-backtracking %})   
 - Branch and Bound
 
 For each problem we emphasize how the solution can be arrived at by considering a design principle and showing that it applies. Perhaps alternative strategies are investigated and discarded. 
