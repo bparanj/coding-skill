@@ -31,7 +31,7 @@ The basic design techniques are:
 - [The Greedy Method]({% post_url 2019-04-11-greedy-method %}) 
 - [Dynamic Programming]({% post_url 2019-04-18-dynamic-programming %}) 
 - Search and Traversal
-- [Backtracking]({% post_url 2019-04-28-backtracking %})   
+- [Backtracking]({% post_url 2019-04-25-backtracking %})   
 - Branch and Bound
 
 For each problem we emphasize how the solution can be arrived at by considering a design principle and showing that it applies. Perhaps alternative strategies are investigated and discarded. 

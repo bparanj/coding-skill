@@ -47,7 +47,7 @@ Whenever you are asked to provide a solution, you should first define and frame 
 
 ### Clarifications
 
-If you don't understand the problem or you get stuck at any point, you can ask for help or clarification. They're happy to clarify the problem that you're trying to solve.
+If you don't understand the problem or you get stuck at any point, you can ask for help or clarification. They're happy to clarify the problem that you're trying to solve. You can read the article [How to Ask Clarification Questions]({% post_url 2019-05-02-how-to-ask-clarification-questions %}) to learn more about what questions to ask.
 
 ### Assumptions
 
