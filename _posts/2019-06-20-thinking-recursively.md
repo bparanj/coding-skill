@@ -22,6 +22,42 @@ Recursion is a way to design solutions to problems by divide-and-conquer or decr
 
 Recursion is a programming technique where a function calls itself. The solutions has one or more base cases that are easy to solve. Must solve the same problem on some other input with the goal of simplifying the larger problem input.
 
+## Summation
+
+A recursive function is a function that is defined by itself or that calls itself. The sum function is given as an example, which is defined as follows:
+
+```
+sum(n) = 1 + 2 + ... + n
+```
+
+That means, the first n natural numbers are added. So, for n = 4 we get:
+
+```
+sum(4) = 1 + 2 + 3 + 4 = 10
+```
+
+If we want to calculate the result of the sum function for a certain n and we already know the result for n - 1, n just has to be added to this result:
+
+```
+sum(n) = sum(n-1) + n
+```
+
+Such a definition is called a recursive step. In order to calculate the sum function for some n in this way, we still need the base case for the smallest n:
+
+```
+sum(1) = 1
+```
+
+Using these definitions, we are now able to calculate the sum function for some n:
+
+```
+sum(4) = sum(3) + 4
+       = (sum(2) + 3) + 4
+	   = ((sum(1) + 2) + 3) + 4
+	   = ((1 + 2) + 3) + 4
+	   = 10
+```
+
 ## Multiplication
 ### Recursive Solution
 

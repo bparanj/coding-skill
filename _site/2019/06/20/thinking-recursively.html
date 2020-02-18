@@ -21,7 +21,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-06-20T00:00:00-04:00" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"/2019/06/20/thinking-recursively.html"},"url":"/2019/06/20/thinking-recursively.html","description":"In this article, we will look at multiplication problem and solve it recursively and iteratively. Sometimes it is possible to define an algorithm in terms of itself. This process is called recursion. It is similar to mathematical induction.","headline":"How to Think Recursively","dateModified":"2019-06-20T00:00:00-04:00","datePublished":"2019-06-20T00:00:00-04:00","@context":"https://schema.org"}</script>
+{"url":"/2019/06/20/thinking-recursively.html","headline":"How to Think Recursively","dateModified":"2019-06-20T00:00:00-04:00","datePublished":"2019-06-20T00:00:00-04:00","description":"In this article, we will look at multiplication problem and solve it recursively and iteratively. Sometimes it is possible to define an algorithm in terms of itself. This process is called recursion. It is similar to mathematical induction.","mainEntityOfPage":{"@type":"WebPage","@id":"/2019/06/20/thinking-recursively.html"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -73,6 +73,37 @@
 <h2 id="semantically">Semantically</h2>
 
 <p>Recursion is a programming technique where a function calls itself. The solutions has one or more base cases that are easy to solve. Must solve the same problem on some other input with the goal of simplifying the larger problem input.</p>
+
+<h2 id="summation">Summation</h2>
+
+<p>A recursive function is a function that is defined by itself or that calls itself. The sum function is given as an example, which is defined as follows:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sum(n) = 1 + 2 + ... + n
+</code></pre></div></div>
+
+<p>That means, the first n natural numbers are added. So, for n = 4 we get:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sum(4) = 1 + 2 + 3 + 4 = 10
+</code></pre></div></div>
+
+<p>If we want to calculate the result of the sum function for a certain n and we already know the result for n - 1, n just has to be added to this result:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sum(n) = sum(n-1) + n
+</code></pre></div></div>
+
+<p>Such a definition is called a recursive step. In order to calculate the sum function for some n in this way, we still need the base case for the smallest n:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sum(1) = 1
+</code></pre></div></div>
+
+<p>Using these definitions, we are now able to calculate the sum function for some n:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sum(4) = sum(3) + 4
+       = (sum(2) + 3) + 4
+	   = ((sum(1) + 2) + 3) + 4
+	   = ((1 + 2) + 3) + 4
+	   = 10
+</code></pre></div></div>
 
 <h2 id="multiplication">Multiplication</h2>
 <h3 id="recursive-solution">Recursive Solution</h3>
