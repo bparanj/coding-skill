@@ -55,7 +55,20 @@
 			  <div class="col-md-8">
 					<h1>Dynamic Programming</h1>
 
-<p>Dynamic Programming is an algorithm design method that can be used when the solution to a problem may be viewed as the result of a sequence of decisions. Some examples are Knapsack, Optimal Merge Patterns and Shortest Path.</p>
+<p>Dynamic programming is a general-purpose algorithm design technique that is most often used to solve combinatorial optimization problems, where we are looking for the best possible input to some function chosen from an exponentially large search space.</p>
+
+<p>There are two parts to dynamic programming. The first part is a programming technique: dynamic programming is essentially divide and conquer run in reverse: we solve a big instance of a problem by breaking it up recursively into smaller instances; but instead of carrying out the computation recursively from the top down, we start from the bottom with the smallest instances of the problem, solving each increasingly large instance in turn and storing the result in a table.</p>
+
+<p>The second part is a design principle: in building up our table, we are careful always to preserve alternative solutions we may need later, by delaying commitment to particular choices to the extent that we can.</p>
+
+<p>The bottom-up aspect of dynamic programming is most useful when a straightforward recursion would produce many duplicate subproblems. It is most efficient when we can enumerate a class of subproblems that doesn’t include too many extraneous cases that we don’t need for our original problem.</p>
+
+<blockquote class="note">
+  <strong>TIP</strong> 
+  <p>
+    Dynamic Programming is an algorithm design method that can be used when the solution to a problem may be viewed as the result of a sequence of decisions.
+  </p>
+</blockquote>
 
 <p>For some of the problems that may be viewed in this way, an optimal sequence of decisions may be found by making the decisions one at a time and never making an erroneous decision.</p>
 
@@ -82,6 +95,49 @@
 
 <p>An important feature of the dynamic programming approach is that optimal solutions to subproblems are retained so as to avoid recomputing their values. The use of these tabulated values makes it natural to recast the recursive equations into an iterative program.</p>
 
+<blockquote class="note">
+  <strong>KEY TAKE AWAYS</strong> 
+  <p>
+    Dynamic Programming is a widely used concept. It is often used for optimization. It refers to simplifying a complicated problem by breaking it down into simpler sub-problems in a recursive manner usually by applying the Bottom Up Approach. 
+  </p>
+</blockquote>
+
+<h3 id="problem-requirements">Problem Requirements</h3>
+
+<p>There are two key attributes that a problem must have in order for dynamic programming to be applicable:</p>
+
+<ul>
+  <li>Overlapping Subproblems</li>
+  <li>Optimal Substructure</li>
+</ul>
+
+<p>Overlapping Subproblems means that results of smaller versions of the problem are reused multiple times in order to arrive at the solution to the original problem.</p>
+
+<p>Optimal Substructure means that there is a method of calculating a problem from its subproblems.</p>
+
+<blockquote class="note">
+  <strong>OPTIMIZATION</strong> 
+  <p>
+    Dynamic Programming uses a concept called Memoization to achieve its optimization.
+  </p>
+</blockquote>
+
+<h3 id="solution-components">Solution Components</h3>
+
+<p>A Dynamic Programming Solution has 2 main components, the State and the Transition</p>
+
+<ul>
+  <li>The State refers to a subproblem of the original problem.</li>
+  <li>The Transition is the method to solve a problem based on its subproblems.</li>
+</ul>
+
+<p>The time taken by a Dynamic Programming Solution can be calculated as:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>No. of States * Transition Time 
+</code></pre></div></div>
+
+<p>Thus if a solution has N<sup>2</sup> states and the transition is O(N), then the solution would take roughly O(N<sup>3</sup>) time.</p>
+
 <h3 id="is-dynamic-programming-applicable">Is Dynamic Programming Applicable?</h3>
 
 <p>Ask yourself the following questions:</p>
@@ -91,7 +147,7 @@
     <p>Is it possible to divide the problem into subproblems of the same type?</p>
   </li>
   <li>
-    <p>Are the subproblems overlappin?</p>
+    <p>Are the subproblems overlapping?</p>
   </li>
   <li>
     <p>Are we optimizing, maximizing or minimizing something or counting the total number of possible ways to do something?</p>

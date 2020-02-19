@@ -3,7 +3,10 @@ layout: post
 title: The Greedy Method
 ---
 
-The greedy method is the most straightforward design technique. It can be applied to a wide variety of problems. Most of these problems have n inputs and require us to obtain a subset that satisfies some constraints. Any subset that satisfies these constraints is called a feasible solution. 
+
+The Greedy Method is the most straightforward design technique. In each step we choose the most beneficial option in every step without looking into the future. The choice depends only on current profit.
+
+It can be applied to a wide variety of problems. Most of these problems have n inputs and require us to obtain a subset that satisfies some constraints. Any subset that satisfies these constraints is called a feasible solution. 
 
 We are required to find a feasible solution that either maximizes or minimizes a given objective function. A feasible solution that does this is called an optimal solution. There is usually an obvious way to determine a feasible solution, but not necessarily an optimal solution.
 
@@ -17,6 +20,13 @@ We are required to find a feasible solution that either maximizes or minimizes a
 If the inclusion of the next input into the partially constructed optimal solution will result in an infeasible solution, then this input is not added to the partial solution. The selection procedure itself is based on some optimization measure. 
 
 This measure may not be the objective function. In fact, several different optimization measures may be plausible for a given problem. Most of these, however, will result in algorithms that generate suboptimal solutions.
+
+<blockquote class="note">
+  <strong>TIP</strong> 
+  <p>
+    The Greedy Method is usually a good approach when each profit can be picked up in every step, so no choice blocks another one.
+  </p>
+</blockquote>
 
 ### Greedy Method Program Template
 

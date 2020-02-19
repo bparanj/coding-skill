@@ -202,3 +202,5 @@ If the recursive call is made before the function performs its own task, then it
     A tail recursion is very easy to re-write in the form of a loop. 
   </p>
 </blockquote>
+
+Tail-recursive functions can always be translated directly into iterative functions. The reason is that when we do the tail call, we are effectively replacing the current copy of the function with a new copy with new arguments. We can reuse the parent copy by assigning new values to its arguments and jumping back to the top of the function.
