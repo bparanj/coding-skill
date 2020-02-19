@@ -102,3 +102,10 @@ end
 ```
 
 The objective of removing recursion is to produce a more efficient but computationally equivalent iterative program. In some languages the compiler translates recursive procedures into efficient code.
+
+<blockquote class="note">
+  <strong>WHEN TO USE RECURSION</strong> 
+  <p>
+    The class of backtracking algorithms emerges as an ideal application of recursion, but the most obvious candidates for the use of recursion are algorithms operating on data whose structure is defined recursively.
+  </p>
+</blockquote>

@@ -48,6 +48,13 @@ Ask yourself the questions:
 - Do you know which problem solving technique to apply for this problem?
 - Where exactly are you having difficulty solving the problem? 
 
+<blockquote class="note">
+  <strong>TIP</strong> 
+  <p>
+    The structure and choice of algorithms often depend strongly on the structure of the underlying data.
+  </p>
+</blockquote>
+
 You have to write down the answers to these questions:
 
 - Why did you fail?  
@@ -61,14 +68,21 @@ You are building your problem solving skills as you go along. These problems are
 
 That's why you keep repeating this process so it becomes part of you and you start recognizing the things that you’ve done in the past. You know the reason why you were not able to do it, then you address the gaps in your knowledge. You will study to fill those gaps. Your study time becomes efficient because you're addressing only your problem areas.
 
-A deep understanding of the solution for a specific problem can help you solve many similar problems in the future. Understand the solution and jot down the techniques used in the solution. 
+<blockquote class="note">
+  <strong>BOTTOM LINE</strong> 
+  <p>
+    A deep understanding of the solution for a specific problem can help you solve many similar problems in the future. Understand the solution and jot down the techniques used in the solution.
+  </p>
+</blockquote>
+
+#### Problem Solving Strategies
 
 There are only a handful of problem solving strategies.
 
-- Divide and Conquer 
-- Dynamic Programming 
-- Backtracking 
-- Greedy Method
+- [Divide and Conquer]({% post_url 2019-04-04-divide-and-conquer %}) 
+- [Dynamic Programming]({% post_url 2019-04-18-dynamic-programming %})  
+- [Backtracking]({% post_url 2019-04-25-backtracking %}) 
+- [Greedy Method]({% post_url 2019-04-11-greedy-method %}) 
 - Branch and Bound
 - Basic Search and Traversal Techniques
 
@@ -215,6 +229,11 @@ After solving the problem, take five to ten minutes to reflect on the solution. 
 - Why does it not work? 
 - What are the trade offs I could make? 
 
-And as you go review your notes, every few days you're going to start noticing certain patterns. And you will develop insights from your own notes. Review your notes as the first thing in the morning before you jump into any new material. Constantly brush up on your old notes before moving on to the next topic.
+And as you go review your notes, every few days you're going to start noticing certain patterns. And you will develop insights from your own notes. Review your notes as the first thing in the morning before you jump into any new material. Constantly brush up on your old notes before moving on to the next topic. Write a blog post to organize your thinking process.
 
-Write a blog post to organize your thinking process. What changes will be required in the solution if you vary the problem slightly? Every problem has variations. You will now be able to solve the variations of the problem.
+<blockquote class="note">
+  <strong>PROBLEM VARIATIONS</strong> 
+  <p>
+    What changes will be required in the solution if you vary the problem slightly? Every problem has variations. You will now be able to solve variations of the problem.
+  </p>
+</blockquote>
