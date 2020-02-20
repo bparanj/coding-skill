@@ -15,15 +15,15 @@ There are a number of approaches to designing algorithms:
 
 - Exhaustive Search 
 - [Divide and Conquer]({% post_url 2019-04-04-divide-and-conquer %})
--  greedy
- randomized, 
- parallelization, 
- back-tracking, 
- heuristic, 
- reduction, 
- approximation
+- [Greedy Method]({% post_url 2019-04-11-greedy-method %})
+- Randomized
+- Parallelization
+- [Backtracking]({% post_url 2019-04-25-backtracking %})
+- Heuristic
+- [Reduction](#reduction)
+- Approximation
  
- , etc.
+And so on.
 
 You already need to know the basic data structures and algorithms to read this book. The authors recommend the book Algorithms by Dasgupta, Papadirnitriou, and Vazirani because it is succinct and beautifully written.
 
@@ -156,4 +156,6 @@ Run through your problem one step at a time, keeping track of the single best so
 
 ## Conclusion
 
-In upcoming articles, we will see the forest as well as the trees by discussing both the big picture as well as the lower level details that fit into the higher level structure. The high level strategic decisions are data structures, algorithms and problem solving strategies and the tactical decisions at the code level are coding patterns, coding drills and the semantics. You need a good grasp of both aspects to become a problem solver capable of solving new problems.
+In upcoming articles, we will see the forest as well as the trees by discussing both the big picture as well as the lower level details that fit into the higher level structure. 
+
+The high level strategic decisions are data structures, algorithms and problem solving strategies and the tactical decisions at the code level are coding patterns, coding drills and the semantics. You need a good grasp of both aspects to become a problem solver capable of solving new problems.
