@@ -14,8 +14,8 @@ The problems that use BFS usually ask to find the fewest number of steps or the 
 
 Similarly you can identify problem types such as:
 
-- Backtracking
-- Dynamic Programming
+- [Backtracking]({% post_url 2019-04-25-backtracking %})
+- [Dynamic Programming]({% post_url 2019-04-18-dynamic-programming %})
 - Linear Programming
 
 And so on. 
@@ -28,7 +28,7 @@ Solution for a similar problem can be discovered by adjusting the solution to a 
 
 ## Map Data Structures to Problems
 
-One of the challenges to solving a coding problem is picking the right data structure. Given a problem, you need to first recognize what data structure to use to solve that problem. Schedule a call with me by clicking the button below to get acess to a list of problems that is mapped to data structures.
+One of the challenges to solving a coding problem is picking the right data structure. Given a problem, you need to first recognize what data structure to use to solve that problem. [Schedule a call](https://go.oncehub.com/BalaParanj) with me to get acess to a list of problems that is mapped to data structures.
 
 ## Map Problem Solving Strategy to Problems
 

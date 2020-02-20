@@ -7,7 +7,22 @@ In this article, we will cover the basics of recursion with a few examples. We w
 
 ### Recursion
 
-Recursion is a powerful programming technique. Now, let's take look at a few examples.
+Recursion is a powerful programming technique. We discussed reduction in the article [Problem Solving Techniques for Coding Interview]({% post_url 2020-01-23-problem-solving-techniques-for-coding-interview %})
+
+#### Simplify and Delegate
+
+Recursion is a powerful kind of reduction, which can be described as follows:
+
+- If the given instance of the problem can be solved directly, solve it directly.
+- Otherwise, reduce it to one or more simpler instances of the same problem
+
+Your only task is to simplify the original problem or to solve it directly when simplification is either unnecessary or impossible.
+
+Eventually, the recursive reductions must lead to an elementary base case that can be solved by some other method. 
+
+Otherwise, the recursive algorithm will loop forever. The most common way to satisfy this condition is to reduce to one or more smaller instances of the same problem. 
+
+Now, let's take look at a few examples.
 
 #### Fibonacci Example
 

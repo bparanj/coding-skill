@@ -16,7 +16,7 @@ The article [Recursion and Mathematical Induction]({% post_url 2020-02-13-recurs
 
 ## Algorithmically
 
-Recursion is a way to design solutions to problems by divide-and-conquer or decrease-and-conquer. Reduce a problem to simpler versions of the same problem.
+Recursion is a way to design solutions to problems by [Divide and Conquer]({% post_url 2019-04-04-divide-and-conquer %}) or decrease-and-conquer. Reduce a problem to simpler versions of the same problem.
 
 ## Semantically
 

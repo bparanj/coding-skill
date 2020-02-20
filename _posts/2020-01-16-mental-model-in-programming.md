@@ -28,7 +28,9 @@ I was not able to come up with a question to clarify this concept even during fa
 
 ## Simple and Complex Mental Models
 
-Simpler mental models are sufficient for beginner level coding problems. Simpler mental models break as the difficulty of the coding problem increases. Complex mental models are required that either adds more details to existing simpler mental models or replace them with complex mental models to solve complex and difficult problems. 
+Simpler mental models are sufficient for beginner level coding problems. Simpler mental models break as the difficulty of the coding problem increases. 
+
+Complex mental models are required that either adds more details to existing simpler mental models or replace them with complex mental models to solve complex and difficult problems. 
 
 <blockquote class="note">
   <strong>MENTAL MODEL</strong> 
@@ -41,7 +43,9 @@ What does the movie look like? A program is read from a file stored in an extern
 
 For intance, if you open a word processor by clicking on an icon, it is loaded into memory. If you open your resume, this is the data and it is also loaded into the memory so that the word processor can access and modify it if the user changes it.
 
-The instructions in the word processor program is executed in the CPU and you are able to interact with the user interface. The area in the memory where the program is loaded is called the code segment. The area in the memory where the static data declared by the programmer is loaded is called the data segment. The stack segment contains the system stack, which is used as temporary storage. The heap segment is a pool of memory used for dynamically allocated memory, such as with malloc() in C.
+The instructions in the word processor program is executed in the CPU and you are able to interact with the user interface. The area in the memory where the program is loaded is called the code segment. 
+
+The area in the memory where the static data declared by the programmer is loaded is called the data segment. The stack segment contains the system stack, which is used as temporary storage. The heap segment is a pool of memory used for dynamically allocated memory, such as with malloc() in C.
 
 Let's consider recursion, which is a difficult topic for beginners to understand. Experts have the mental model to understand recursion deeply and they are able to choose between tail recursion or head recursion based on the problem. They know about the system stack, frames for the procedure calls and how the values of variables are bound to the recursive calls.
 
@@ -53,9 +57,16 @@ Von Neumann Computer Architecture provides a simplified model of a computer for 
 
 ## Design Simulation
 
-As programmers we can visualize the data structures and algorithms to reason, understand and predict the behavior of a program. Expert programmers organize their programming knowledge in sophisticated, flexible and viable mental models. They organize their representations of code chunks into larger conceptual-programming structures according to the function performed by the code. They form abstract representations based upon the purpose of the code.
+As programmers we can visualize the data structures and algorithms to reason, understand and predict the behavior of a program. Expert programmers organize their programming knowledge in sophisticated, flexible and viable mental models. 
 
-On their own, design diagrams remain passive abstractions. This is why experts draw examples alongside the diagrams when they simulate a design. Externalizing their thoughts, juxtaposing the simulation with their design and envisioning the execution in context, forces them to interpret what they drew and to test their design more thoroughly in the process.
+They organize their representations of code chunks into larger conceptual-programming structures according to the function performed by the code. They form abstract representations based upon the purpose of the code.
+
+<blockquote class="note">
+  <strong>TESTING DESIGN</strong> 
+  <p>
+    On their own, design diagrams remain passive abstractions. This is why experts draw examples alongside the diagrams when they simulate a design. Externalizing their thoughts, juxtaposing the simulation with their design and envisioning the execution in context, forces them to interpret what they drew and to test their design more thoroughly in the process.
+  </p>
+</blockquote>
 
 ### Visualizing Data Structure
 
@@ -95,7 +106,9 @@ Assignment is the basic command that allows the modification of the values assoc
 
 ## Applying the Mental Model
 
-Expert programmers have the knowledge to understand the meaning behind an innocent looking statement such as an assignment. They have a good grasp of concepts such as the system stack and heap. They know how to make memory management decisions. They know whether to allocate memory dynamically or static memory is sufficient for a given problem. 
+Expert programmers have the knowledge to understand the meaning behind an innocent looking statement such as an assignment. They have a good grasp of concepts such as the system stack and heap. 
+
+They know how to make memory management decisions. They know whether to allocate memory dynamically or static memory is sufficient for a given problem. 
 
 <blockquote class="note">
   <strong>MEMORY AND PROGRAMMING</strong> 

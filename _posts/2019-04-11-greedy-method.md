@@ -3,7 +3,6 @@ layout: post
 title: The Greedy Method
 ---
 
-
 The Greedy Method is the most straightforward design technique. In each step we choose the most beneficial option in every step without looking into the future. The choice depends only on current profit.
 
 It can be applied to a wide variety of problems. Most of these problems have n inputs and require us to obtain a subset that satisfies some constraints. Any subset that satisfies these constraints is called a feasible solution. 

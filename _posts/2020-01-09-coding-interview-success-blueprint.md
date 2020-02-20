@@ -14,7 +14,14 @@ There are rules for doing this. We call those rules, disciplines and there are f
 
 **Focus**
 
-Discipline one is focus on the wildly important. And what that means is to select a single, wildly important goal, in addition to everything else that has to happen in your life. Think about when you achieved something truly significant. How many things were you focused on? Focus is the first irrefutable law of execution.
+Discipline one is focus on the wildly important. And what that means is to select a single, wildly important goal, in addition to everything else that has to happen in your life. Think about when you achieved something truly significant. How many things were you focused on? 
+
+<blockquote class="note">
+  <strong>FOCUS</strong> 
+  <p>
+    Focus is the first irrefutable law of execution.
+  </p>
+</blockquote>
 
 There are two key aspects to the first discipline. They both begin with the letter F. The first we've talked about that's focus.
 
@@ -24,7 +31,14 @@ The second is finish line. The wildly important goal has to have a finish line. 
 
 Even if that was really important to you. There's no specific finish line associated with that. So you might think of a result associated with coding better and define the goal around that, for instance, getting your dream job by the end of the year. 
 
-If you wanted to gain coding skills, you wouldn't just say gain coding skills, you put it in the form of going from Software Engineer to say Software Engineer at Google by March 1. There's a specific finish line for people to really succeed. There's a switch in our heads we call the game on switch and we want to throw the game on switch. The first discipline of execution requires that we narrow the focus and define the finish line.
+If you wanted to gain coding skills, you wouldn't just say gain coding skills, you put it in the form of going from Software Engineer to say Software Engineer at Google by March 1. There's a specific finish line for people to really succeed. There's a switch in our heads we call the game on switch and we want to throw the game on switch.
+
+<blockquote class="note">
+  <strong>FINISH LINE</strong> 
+  <p>
+    The first discipline of execution requires that we narrow the focus and define the finish line.
+  </p>
+</blockquote>
 
 ## Discipline 2: Act on the Lead Measures
 
@@ -40,7 +54,9 @@ Those are the same two characteristics of a lead measure. If your goal is to get
 
 If you said study and practice, you're on exactly the right page. We can influence our study and our number topics mastered, our number of coding problems practiced much more directly than we can influence getting the dream job, and it is predictive of gaining coding skills. 
 
-Now you may at this point, be saying to yourself, wow, this is brilliant. How do you guys do it? Are you telling me that if I want to get my dream job, I should study and practice? There's a huge difference between knowing that we should study and practice and knowing how many topics we've mastered, and how many coding problems we have practiced. The only people that know that data are the people that are gaining coding skills.
+Now you may at this point, be saying to yourself, wow, this is brilliant. How do you guys do it? Are you telling me that if I want to get my dream job, I should study and practice? 
+
+There's a huge difference between knowing that we should study and practice and knowing how many topics we've mastered, and how many coding problems we have practiced. The only people that know that data are the people that are gaining coding skills.
 
 ## Discipline 3: Keep a Compelling Scoreboard
 
@@ -50,7 +66,14 @@ Discipline three is keep a compelling scoreboard. It is the discipline of engage
 
 Could you tell even if you couldn't hear them, just by watching them whether or not they were keeping score? What would you look for? What would give it away? Would there be a change in intensity? Would there be more celebration? Would they be more likely to play by the rules? 
 
-If they're keeping score, you're going to see all that more. There's a huge difference in people's behavior. There is a huge difference in your behavior when you're keeping score.
+If they're keeping score, you're going to see all that more. There's a huge difference in people's behavior.
+
+<blockquote class="note">
+  <strong>KEEPING SCORE</strong> 
+  <p>
+    There is a huge difference in your behavior when you're keeping score.
+  </p>
+</blockquote>
 
 **Characteristics of a Compelling Scoreboard**
 
@@ -77,7 +100,16 @@ Report on the commitments that you made last week, every week. You're going to m
 
 **Review and Update the Scoreboard**
 
-Finally, make a commitment for what you're going to do to move the lead measures next week. There's a reason that we call these the four Disciplines of Execution. These require discipline, this delivers, breakthrough results, in the words of Jim Rohn: "We must all suffer from one of two pains, the pain of discipline, or the pain of regret". We really like the pain of discipline.
+Finally, make a commitment for what you're going to do to move the lead measures next week. There's a reason that we call these the four Disciplines of Execution. These require discipline, this delivers, breakthrough results, in the words of Jim Rohn: 
+
+<blockquote class="note">
+  <strong>Jim Rohn</strong> 
+  <p>
+    We must all suffer from one of two pains, the pain of discipline, or the pain of regret.
+  </p>
+</blockquote>
+
+We really like the pain of discipline.
 
 ## Customized Action Plan
 

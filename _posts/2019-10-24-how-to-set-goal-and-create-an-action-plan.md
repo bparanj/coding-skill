@@ -88,11 +88,11 @@ Make a list of topics to study for the interview and prioritize them. The famili
 
 **Algorithm Techniques**
 
-- Brute force 
-- Divide and conquer / Recursion
-- Greedy Algorithms
-- Dynamic Programming (advanced level)
-- Backtracking
+- [Brute Force]({% post_url 2020-01-23-problem-solving-techniques-for-coding-interview %}) 
+- [Divide and Conquer]({% post_url 2019-04-04-divide-and-conquer %}) / [Recursion]({% post_url 2019-03-28-recursion-basics %})
+- [Greedy Method]({% post_url 2019-04-11-greedy-method %})
+- [Dynamic Programming]({% post_url 2019-04-18-dynamic-programming %}) (advanced level)
+- [Backtracking]({% post_url 2019-04-25-backtracking %})
 - NP-hard problems
 
 What goes into your list depends on the position level. For senior level positions, you have to add advanced data structures and algorithms. You must know the scope of the material you need to master within the given time frame. What is the breadth and depth of knowledge you need to master for your situation?

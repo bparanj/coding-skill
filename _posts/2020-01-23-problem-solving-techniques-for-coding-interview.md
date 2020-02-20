@@ -11,7 +11,19 @@ In a coding interview you have to demonstrate to your interviewer that you posse
 - The tools to go from an algorithm to a working program.
 - The analytical techniques required to determhe the computational complexity of your solution.
 
-There are a number of approaches to designing algorithms: exhaustive search, divide-and-conquer, greedy, randomized, parallelization, back-tracking, heuristic, reduction, approximation, etc.
+There are a number of approaches to designing algorithms: 
+
+- Exhaustive Search 
+- [Divide and Conquer]({% post_url 2019-04-04-divide-and-conquer %})
+-  greedy
+ randomized, 
+ parallelization, 
+ back-tracking, 
+ heuristic, 
+ reduction, 
+ approximation
+ 
+ , etc.
 
 You already need to know the basic data structures and algorithms to read this book. The authors recommend the book Algorithms by Dasgupta, Papadirnitriou, and Vazirani because it is succinct and beautifully written.
 
@@ -21,7 +33,7 @@ You still need to learn which technique to apply to a given problem. Let's brief
 
 ### Divide and Conquer
 
-Can you divide the problem into two or more smaller independent sUbproblems and solve the original problem using solutions to the subproblems?
+Can you divide the problem into two or more smaller independent subproblems and solve the original problem using solutions to the subproblems?
 
 ### Recursion and Dynamic Programmmg
 
@@ -49,7 +61,7 @@ Can you find a solution to small concrete instances of the problem and then buil
 
 ### Reduction
 
-Reductions are one of the most important concepts in the study of algorithms and their limitations, and they can also have great practical utility.
+Reduction is the single most common technique used in designing algorithms. Reducing one problem X to another problem Y means to write an algorithm for X that uses an algorithm for Y as a black box. 
 
 A problem A reduces to a problem B, if an algorithm that solves B can be easily translated into one that solves A. For example, the problem of computing the median element of an array reduces to the problem of sorting the array. 
 
