@@ -15,13 +15,13 @@
 <meta name="generator" content="Jekyll v4.0.0" />
 <meta property="og:title" content="Backtracking" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="In the search for fundamental principles of algorithm design, backtracking represents one of the most general techniques. Many problems which deal with searching for a set of solutions or which as for an optimal solution satisfying some constraints can be solved using the backtracking formulation." />
-<meta property="og:description" content="In the search for fundamental principles of algorithm design, backtracking represents one of the most general techniques. Many problems which deal with searching for a set of solutions or which as for an optimal solution satisfying some constraints can be solved using the backtracking formulation." />
+<meta name="description" content="A backtracking algorithm tries to construct a solution to a computational problem incrementally, one small piece at a time. Whenever the algorithm needs to decide between multiple alternatives to the next component of the solution, it recursively evaluates every alternative and then chooses the best one." />
+<meta property="og:description" content="A backtracking algorithm tries to construct a solution to a computational problem incrementally, one small piece at a time. Whenever the algorithm needs to decide between multiple alternatives to the next component of the solution, it recursively evaluates every alternative and then chooses the best one." />
 <meta property="og:site_name" content="Coding Skill" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-04-25T00:00:00-04:00" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"/2019/04/25/backtracking.html"},"url":"/2019/04/25/backtracking.html","description":"In the search for fundamental principles of algorithm design, backtracking represents one of the most general techniques. Many problems which deal with searching for a set of solutions or which as for an optimal solution satisfying some constraints can be solved using the backtracking formulation.","headline":"Backtracking","dateModified":"2019-04-25T00:00:00-04:00","datePublished":"2019-04-25T00:00:00-04:00","@context":"https://schema.org"}</script>
+{"url":"/2019/04/25/backtracking.html","headline":"Backtracking","dateModified":"2019-04-25T00:00:00-04:00","datePublished":"2019-04-25T00:00:00-04:00","description":"A backtracking algorithm tries to construct a solution to a computational problem incrementally, one small piece at a time. Whenever the algorithm needs to decide between multiple alternatives to the next component of the solution, it recursively evaluates every alternative and then chooses the best one.","mainEntityOfPage":{"@type":"WebPage","@id":"/2019/04/25/backtracking.html"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -55,9 +55,26 @@
 			  <div class="col-md-8">
 					<h1>Backtracking</h1>
 
-<p>In the search for fundamental principles of algorithm design, backtracking represents one of the most general techniques. Many problems which deal with searching for a set of solutions or which as for an optimal solution satisfying some constraints can be solved using the backtracking formulation.</p>
+<p>A backtracking algorithm tries to construct a solution to a computational problem incrementally, one small piece at a time. Whenever the algorithm needs to decide between multiple alternatives to the next component of the solution, it recursively evaluates every alternative and then chooses the best one.</p>
+
+<p>A particularly intriguing programming endeavor is the subject of so-called general problem solving. The task is to determine algorithms for finding solutions to specific problems not by following a fixed rule of computation, but by trial and error.</p>
+
+<p><img src="/assets/images/backtracking.png" alt="Backtracking" /></p>
+
+<p>The common pattern is to decompose the trial-and-error process onto partial tasks. Often these tasks are most naturally expressed in recursive terms and consist of the exploration of a finite number of subtasks.</p>
+
+<p>We may generally view the entire process as a trial or search process that gradually builds up and scans a tree of subtasks. In many problems this search tree grows very rapidly, often exponentially, depending on a given parameter. The search effort increases accordingly. Frequently, the search tree can be pruned by the use of heuristics only, thereby reducing computation to tolerable bounds.</p>
+
+<blockquote class="note">
+  <strong>BACKTRACKING</strong> 
+  <p>
+   In the search for fundamental principles of algorithm design, backtracking represents one of the most general techniques. Many problems which deal with searching for a set of solutions or which as for an optimal solution satisfying some constraints can be solved using the backtracking formulation. 
+  </p>
+</blockquote>
 
 <p>In order to apply the backtrack method, the desired solution must be expressible as an n-tuple (x<sub>1</sub> , …., x<sub>n</sub>) where the x<sub>i</sub> are chosen from some finite set S<sub>i</sub>. Often the problem to be solved calls for finding one vector which maximizes (or minimizes or satisfies) a criterion function P(x<sub>1</sub>, ….., x<sub>n</sub>).</p>
+
+<p>The general principle consists of breaking up problem-solving tasks into subtasks and applying recursion.</p>
 
 <h2 id="iterative-backtracking-program-template">Iterative Backtracking Program Template</h2>
 
@@ -67,6 +84,20 @@
 <p><img src="/assets/images/backtrack-recursive.png" alt="Recursive Backtracking Method" /></p>
 
 <p>Reference: Fundamentals of Computer Algorithms by Horowitz and Sahni</p>
+
+<h2 id="the-general-pattern">The General Pattern</h2>
+
+<p>Backtracking algorithms are commonly used to make a sequence of decisions, with the goal of building a recursively defined structure satisfying certain constraints. Often this goal structure is itself a sequence.</p>
+
+<p>In each recursive call to the backtracking algorithm, we need to make exactly one decision, and our choice must be consistent with all previous decisions.</p>
+
+<p>Thus, each recursive call requires not only the portion of the input data we have not yet processed, but also a suitable summary of the decisions we have already made. For the sake of efficiency, the summary of past decisions should be as small as possible.</p>
+
+<p>When we design new recursive backtracking algorithms, we must figure out in advance what information we will need about past decisions in the middle of the algorithm. If this information is nontrivial, our recursive algorithm might need to solve a more general problem than the one we were originally asked to solve.</p>
+
+<p>An example of this kind of generalization: To find the median of an unsorted array in linear time, we derive an algorithm to select the kth smallest element for arbitrary k.</p>
+
+<p>Finally, once we’ve figured out what recursive problem we really need to solve, we solve that problem by recursive brute force: Try all possibilities for the next decision that are consistent with past decisions, and let the recursion magic do the rest. No being clever here. No skipping “obviously” stupid choices. Try everything. You can make the algorithm faster later.</p>
 
 
 <hr/>

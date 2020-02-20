@@ -22,7 +22,7 @@ Recursion is a way to design solutions to problems by [Divide and Conquer]({% po
 
 Recursion is a programming technique where a function calls itself. The solutions has one or more base cases that are easy to solve. Must solve the same problem on some other input with the goal of simplifying the larger problem input.
 
-Notice that the method does not return a value in the inductive step, it returns a function instead. The values of the new function that is returned has smaller data that gradually moves the program towards the base case.
+Notice that the method does not return a value in the inductive step, it returns a function instead. Each time a procedure is activated recursively, a new set of local, bound variables is created. Although they have the same names as their corresponding elements in the set local to the previous instance of the procedure, their values are distinct.
 
 ## Summation
 
@@ -206,3 +206,27 @@ If the recursive call is made before the function performs its own task, then it
 </blockquote>
 
 Tail-recursive functions can always be translated directly into iterative functions. The reason is that when we do the tail call, we are effectively replacing the current copy of the function with a new copy with new arguments. We can reuse the parent copy by assigning new values to its arguments and jumping back to the top of the function.
+
+## When Not to Use Recursion
+
+Recursive algorithms are particularly appropriate when the underlying problem or the data to be treated are defined in recursive terms. This does not mean that such recursive definitions guarantee that a recursive algorithm is the best way to solve the problem. 
+
+<blockquote class="note">
+  <strong>TIP</strong> 
+  <p>
+    If there is only one single recursive call either at the end or the beginning, then we must avoid using recursion.
+  </p>
+</blockquote>
+
+Every recursive program can be transformed into an iterative one. This involves the explicit handling of a recursion stack and these operations will often obscure the essence of a program to such an extent that it becomes difficult to comprehend.
+
+Algorithms which by their nature are recursive rather than iterative should be formulated as recursive procedures. A good example is QuickSort.
+
+We can use recursion in cases the underlying data structures let the choice of recursive solutions appear obvious and natural.
+
+<blockquote class="note">
+  <strong>TIP</strong> 
+  <p>
+    Recursive algorithms are appropriate when the problem to be solved, or the function to be computed, or the data structure to be processed are already defined in recursive terms.
+  </p>
+</blockquote>
