@@ -38,10 +38,15 @@ You should know how to create basic data types such as queues, stacks, hashmaps,
 
 But most interviewers are not looking for you to use some builtin method. The reason is that many languages like say Javascript will not have the same built-ins as Python. So, the questions are designed to be solved without builtins most of the time. 
 
-The exception may be for some structures like Heap, in which it is just too complicated to write from scratch in an interview setting, so you can assume that it exists and save on time.
+<blockquote class="note">
+  <strong>TIP</strong> 
+  <p>
+    The exception may be for some structures like Heap, in which it is just too complicated to write from scratch in an interview setting, so you can assume that it exists and save on time.
+  </p>
+</blockquote>
 
 ## Handling a Question You Have Seen Before
 
-You can solve the problem quickly. Good candidates will have seen every type of question at some point. The interviewer is not evaluating you on whether you can solve it but how you solve it. 
+Solve the problem quickly. Good candidates will have seen every type of question at some point. The interviewer is not evaluating you on whether you can solve it but how you solve it. 
 
 Demonstrate that you can solve it both recursively and iteratively with proper time-space complexity analysis and elegant code. Dsicuss the pros and cons of the alternatives.

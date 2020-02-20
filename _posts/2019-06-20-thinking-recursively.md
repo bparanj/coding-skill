@@ -3,7 +3,7 @@ layout: post
 title: How to Think Recursively
 ---
 
-In this article, we will look at multiplication problem and solve it recursively and iteratively. Sometimes it is possible to define an algorithm in terms of itself. This process is called recursion. It is similar to mathematical induction.
+In this article, we will look at some example problems and solve it recursively and iteratively. Sometimes it is possible to define an algorithm in terms of itself. This process is called recursion. It is similar to mathematical induction.
 
 <blockquote class="note">
   <strong>MATHEMATICAL INDUCTION</strong> 
@@ -21,6 +21,8 @@ Recursion is a way to design solutions to problems by divide-and-conquer or decr
 ## Semantically
 
 Recursion is a programming technique where a function calls itself. The solutions has one or more base cases that are easy to solve. Must solve the same problem on some other input with the goal of simplifying the larger problem input.
+
+Notice that the method does not return a value in the inductive step, it returns a function instead. The values of the new function that is returned has smaller data that gradually moves the program towards the base case.
 
 ## Summation
 

@@ -48,6 +48,8 @@ Ask yourself the questions:
 - Do you know which problem solving technique to apply for this problem?
 - Where exactly are you having difficulty solving the problem? 
 
+Develop the skills to translate high-level descriptions into working code in your favorite programming language. There is no substitute for the detailed understanding of an algorithm that comes from providing your own working implementation of it.
+
 <blockquote class="note">
   <strong>TIP</strong> 
   <p>
@@ -58,9 +60,49 @@ Ask yourself the questions:
 You have to write down the answers to these questions:
 
 - Why did you fail?  
-- What mistakes did you make? 
+- What mistakes did you make?
 
-Because this will help you overcome your obstacles. 
+As long as you fail in new ways, you’ll grow smarter and more informed each time. Rather than torturing yourself for what you might have done differently, use that immediate flash of insight to improve and adapt your strategy. This will help you overcome your obstacles.  
+
+### Choosing the Right Data Structure
+
+Data structures are used in almost every program, so knowing when and how to use them is an essential skill for a skilled programmer. The purpose of a data structure is to organize data so you can access it quickly. 
+
+One of the basic techniques for improving algorithms is to structure the data in such a way that the resulting operations can be efficiently carried out. You must be familiar with stack, queue, set, tree, graph, heap and hashing.
+
+<blockquote class="note">
+  <strong>CHOICE OF DATA STRUCTURES</strong> 
+  <p>
+    There are many different data structures, each optimized for a different set of operations.
+  </p>
+</blockquote>
+
+The queue data structure, used in implementation of breadth-first search, sequentially organizes data so that removing an object from the front or adding an object to the back takes constant time. 
+
+The stack data structure, which is crucial in iterative implementation of depth-first search, lets you remove an object from or add an object to the front in constant time.
+
+- What are the pros and cons of different data structures?
+- How should you choose which one to use in a program? 
+
+In general, the more operations a data structure supports, the slower the operations and the greater the space overhead. 
+
+<blockquote class="note">
+  <strong>Albert Einstein</strong> 
+  <p>
+    Make things as simple as possible, but not simpler.
+  </p>
+</blockquote>
+
+When implementing a program, it’s important that you think carefully about exactly which operations you’ll use over and over again. For example, do you care only about tracking which objects are stored in a data structure, or do you also want them ordered in a specific way? 
+
+Once you understand your program’s needs, you can follow the principle of parsimony and choose a data structure that supports all the desired operations and no superfluous ones
+
+<blockquote class="note">
+  <strong>Principle of Parsimony</strong> 
+  <p>
+    Choose the simplest data structure that supports all the operations required by your application.
+  </p>
+</blockquote>
 
 ### Building Your Problem Solving Skills
 
@@ -110,7 +152,7 @@ Compare different solutions, deeply understand them and jot down observations in
   </p>
 </blockquote>
 
-When you're looking at the solution, there is no way that you can just solve for the very first time and come up with the perfect solution. But when you compare your solution with the textbook, then you start to see, why did they make this decision versus what I have decided. You start noticing all the differences. You need to find answers to these questions and jot them down in your notes. 
+When you're looking at the solution, there is no way that you can just solve for the very first time and come up with the perfect solution. But when you compare your solution with the textbook, then you start to see, why they made this decision versus what you have decided. You start noticing all the differences. You need to find answers to these questions and jot them down in your notes. 
 
 #### Followup Questions
 
@@ -170,7 +212,7 @@ Think with pen and paper. Write down your thoughts. Analyze your choice of data 
   </p>
 </blockquote>
 
-According to research in the Developmental Science journal, the best way to learn something is to write it out on paper. Handwriting activates large regions of the brain responsible for thinking, language, healing and working memory. 
+According to research in the _Developmental Science Journal_, the best way to learn something is to write it out on paper. Handwriting activates large regions of the brain responsible for thinking, language, healing and working memory. 
 
 You're organizing your thoughts when taking notes. Your notes help you to organize your knowledge in a way that is easier for you to remember. 
 
@@ -204,13 +246,13 @@ You do this by questioning every assumption you think you know about a given pro
 - Change trajectory of creating from iterating on existing thinking to one of genuine innovation.
 - Retain and use knowledge effectively because you understand the fundamental building blocks.
 
-For example, you see a problem represented as a graph. Do we really need a graph to solve the problem? What are the alternative representations that we can use to solve the problem? If you apply First Principles Thinking you will be able to challenge the current knowledge and invent new solutions to old problems.
+For example, you see a problem represented as a graph. Do we really need a graph to solve the problem? What are the alternative representations that we can use to solve the problem? If you apply _First Principles Thinking_ you will be able to challenge the current knowledge and invent new solutions to old problems.
 
 ### Reflection and Review
 
 It is natural to rush into solving as many practice problems as possible to meet the preparation deadline. This can be stressful, especially when there are many topics to learn. Take time to reflect on the solution. It's wise to slow down and reflect.
 
-If you skip reflecting, you will feel more overwhelmed as you progress. Because, you will forget things you have already learned. Reflection is a way to deepen your understanding of the material. 
+If you skip reflection, you will feel more overwhelmed as you progress. Because, you will forget things you have already learned. Reflection is a way to deepen your understanding of the material. 
 
 It can also uncover your mistakes, so you can fill in the gaps in your knowledge. Most of the time, you don't have to memorize anything if you understand the concept really well. If you have to memorize something, the secret is to use spaced repetition.
 

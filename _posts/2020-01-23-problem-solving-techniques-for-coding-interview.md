@@ -49,7 +49,22 @@ Can you find a solution to small concrete instances of the problem and then buil
 
 ### Reduction
 
-Can you use a problem with a known solution as a subroutine?
+Reductions are one of the most important concepts in the study of algorithms and their limitations, and they can also have great practical utility.
+
+A problem A reduces to a problem B, if an algorithm that solves B can be easily translated into one that solves A. For example, the problem of computing the median element of an array reduces to the problem of sorting the array. 
+
+You should always be on the lookout for reductions. Whenever you encounter a seemingly new problem, always ask: 
+
+- Is the problem a disguised version of one you already know how to solve? 
+- Can you reduce the general version of the problem to a special case?
+- Can you use a problem with a known solution as a subroutine?
+
+<blockquote class="note">
+  <strong>TIP</strong> 
+  <p>
+    You should always be on the lookout for reductions to problems you already know how to solve.
+  </p>
+</blockquote>
 
 ### Graph Modeling
 
@@ -85,7 +100,6 @@ Is there symmetry in the input space or solution space that can be exploited?
     Expert programmers do not rely on a set of rules. But the journey to becoming an expert programmer cannot bypass the phase where you need a set of rules to learn problem solving in the context of solving coding problems.
   </p>
 </blockquote>
-
 
 ## Algorithm Design
 
