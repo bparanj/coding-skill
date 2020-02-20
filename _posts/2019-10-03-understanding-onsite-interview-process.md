@@ -133,9 +133,48 @@ Talk to your interviewer and tell them what you're doing. If you stare at the wh
 
 ## When You Get Stuck
 
-These questions are designed to be challenging. If everyone could solve them, then the employer is not going to be able to judge your proficiency. 
+If you get stuck, you can try some of the following general problem solving tips:
 
-Don't get frustrated. Ask for assistance or explore a different approach. Keep showing interest in the problem and do not give up. Part of the interview is testing whether you have a passion for solving challenging problems.
+- Make sure that you understand the problem. If it contains ambiguities, ask for clarification.
+
+- Restate the problem to be sure that you understand it. If you have made a bad assumption, the interviewer may correct you.
+
+- Compare the problem to other problems that you have seen in the past.
+
+- Break the problem into smaller pieces. If the problem is large, look for pieces that you can solve separately.
+
+- Focus on the details. Sometimes the smaller details are easier to handle.
+
+- Focus on the big picture. Sometimes the details don't make sense except when seen together as a whole.
+
+- Make a list of the facts that you know.
+
+- Make a list of the facts that you would like to know. List ways that you might learn those facts.
+
+- Make a table of values. See if you can extend the table to new values.
+
+- Guess and check. You can solve some problems by making a guess and then adjusting to get the result that you need.
+
+- Think outside the box. If the problem is about numbers, think about letters, shapes, and other nonnumeric values. If the problem is about letters, think about numbers.
+
+- Brainstorm. Talk out loud about the kinds of approaches that you might take. This may be a good time to let the interviewer know what techniques you understand. "Binary subdivision probably won’t work.... The problem is naturally recursive, but that would lead to an infinite series of operations...." Again, the interviewer may correct you. At a minimum, you’ll be telling the interviewer some of the techniques that you know.
+
+- Draw a picture if one makes sense. Sometimes seeing a problem graphically instead of textually can help.
+
+- If you get stuck with one approach, try another. The interviewer doesn't want to see you struggling to use the wrong approach long after it's clear that it won't work.
+
+The questions are designed to be challenging. If everyone could solve them, then the employer is not going to be able to judge your proficiency. 
+
+<blockquote class="note">
+  <strong>SOLVING PROBLEMS</strong> 
+  <p>
+    Don't get frustrated. Ask for assistance or explore a different approach. Keep showing interest in the problem and do not give up. Part of the interview is testing whether you have a passion for solving challenging problems.
+  </p>
+</blockquote>
+
+Good interviewers don't necessarily expect you to solve every problem. In fact, they will probably learn more about you when you don't solve a problem. Rather than wanting to know the answer, the best interviewers want to see how you approach an unfamiliar problem. 
+
+They want to see whether you throw up your hands and say the problem is unreasonable in a job interview. Or perhaps you analyze the problem and come up with a promising line of reasoning for using algorithmic approaches to attack the problem. "Gosh, I don't know. Maybe I'd search the Internet," would be a bad answer. "It seems like a recursive divide-and-conquer approach might work" would be a much better answer.
 
 ## Duration 
 

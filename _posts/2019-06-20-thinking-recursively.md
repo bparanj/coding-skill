@@ -22,7 +22,25 @@ Recursion is a way to design solutions to problems by [Divide and Conquer]({% po
 
 Recursion is a programming technique where a function calls itself. The solutions has one or more base cases that are easy to solve. Must solve the same problem on some other input with the goal of simplifying the larger problem input.
 
+Recursion can also be single, when the method calls itself once or multiple, when the method calls itself multiple times.
+
 Notice that the method does not return a value in the inductive step, it returns a function instead. Each time a procedure is activated recursively, a new set of local, bound variables is created. Although they have the same names as their corresponding elements in the set local to the previous instance of the procedure, their values are distinct.
+
+## Stack Depth
+
+Normally, a computer allocates two areas of memory for a program: the stack and the heap.
+
+The stack is used to store information about method calls. When a piece of code calls a method, information about the call is placed on the stack. When the method returns, that information is popped off the stack, so the program can resume execution just after the point where it called the method. 
+
+The list of methods that were called to get to a particular point of execution is called the call stack.
+
+The heap is another piece of memory that the program can use to create variables and perform calculations.
+
+Typically, the stack is much smaller than the heap. The stack usually is large enough for normal programs because your code typically doesn’t include methods calling other methods to a very great depth. However, recursive algorithms can sometimes create extremely deep call stacks and exhaust the stack space, causing the program to crash.
+
+The article [Recursion Basics]({% post_url 2019-03-28-recursion-basics %}) has a section on _Removing Recursion_ that explains how you can prevent this kind of deep recursion from exhausting the stack space and crashing the program.
+
+For this reason, it’s important to evaluate the maximum depth of recursion that a recursive algorithm requires in addition to studying its run time and memory requirements.
 
 ## Summation
 
@@ -196,7 +214,62 @@ In situations where both iterative and recursive solutions are equally easy to c
 
 ## Head Recursion and Tail Recursion
 
-If the recursive call is made before the function performs its own task, then it is called Head Recursion. If recursive call is made at the end, then it is Tail Recursion.
+If the recursive call is made before the function performs its own task, then it is called Head Recursion. 
+
+Tail recursion occurs when the last thing a singly recursive algorithm does before returning is call itself.
+
+For example, consider the following implementation of the Factorial algorithm:
+
+```
+Integer: Factorial(Integer: n)
+      If (n == 0) Then Return 1
+      Integer: result = n * Factorial(n - 1)
+      Return result
+  End Factorial
+```
+
+The algorithm starts by checking to see whether it needs to call itself recur- sively or whether it can simply return the value 1. If the algorithm must call itself, it does so, multiplies the returned result by n, and returns the result.
+
+You can convert this recursive version of the algorithm into a nonrecursive version by using a loop. Within the loop, the algorithm performs whatever tasks the original algorithm did.
+
+Before the end of the loop, the algorithm should set its parameters to the values they had during the recursive call. If the algorithm returns a value, as the Factorial algorithm does, you need to create a variable to keep track of the return value.
+
+When the loop repeats, the parameters are set for the recursive call, so the algorithm does whatever the recursive call did.
+
+The loop should end when the condition occurs that originally ended the recursion.
+
+For the Factorial algorithm, the stopping condition is:
+
+```
+n == 0
+```
+
+so that condition controls the loop. When the algorithm calls itself recursively, it decreases its parameter n by 1, so the non-recursive version should also decrease n by 1 before the end of the loop.
+
+The following pseudocode shows the new nonrecursive version of the Factorial algorithm:
+
+```
+Integer: Factorial(Integer: n)
+      // Make a variable to keep track of the returned value.
+      // Initialize it to 1 so we can multiply it by returned results.
+      // (The result is 1 if we do not enter the loop at all.)
+      Integer: result = 1
+      // Start a loop controlled by the recursion stopping condition.
+      While (n != 0)
+          // Save the result from this "recursive" call.
+          result = result * n
+          // Prepare for "recursion."
+n=n- 1 Loop
+      // Return the accumulated result.
+      Return result
+  End Factorial
+```
+
+This algorithm looks a lot longer than it really is because of all the comments.
+
+Removing tail recursion is straightforward enough that some compilers can do it automatically to reduce stack space requirements.
+
+Of course, the problem with the Factorial algorithm isn’t the depth of recursion, it’s the fact that the results become too big to store in data types of fixed size.
 
 <blockquote class="note">
   <strong>TIP</strong> 
@@ -223,6 +296,10 @@ Every recursive program can be transformed into an iterative one. This involves 
 Algorithms which by their nature are recursive rather than iterative should be formulated as recursive procedures. A good example is QuickSort.
 
 We can use recursion in cases the underlying data structures let the choice of recursive solutions appear obvious and natural.
+
+For example, trees are naturally recursive because branches divide into smaller branches that divide into still smaller branches and so on. For that reason, algorithms that build, draw, and search trees are often recursive.
+
+Some problems are naturally recursive. They have a structure that allows a recursive algorithm to easily keep track of its progress and find a solution. 
 
 <blockquote class="note">
   <strong>TIP</strong> 

@@ -38,6 +38,13 @@ For each problem we emphasize how the solution can be arrived at by considering 
 
 A clean separation is made between how the computation will proceed and decisions about data representation when that is possible. The best case and the worst case data of the resulting algorithm is made clear. Then an analysis of the time and space requirements is done. 
 
+<blockquote class="note">
+  <strong>BRANCH AND BOUND</strong> 
+  <p>
+    As a branch-and-bound algorithm searches a tree, it keeps track of the best solution it has found so far and the best possible solution that it can find from the current point in the tree. If the best possible solution from that point cannot beat the current best solution, the algorithm abandons that node and considers other paths through the tree. Branch and bound can be much faster than exhaustive search for finding an optimal solution, but it doesn't change the algorithm's Big O run time.
+  </p>
+</blockquote>
+
 ### How to Devise Algorithms
 
 The act of creating an algorithm is an art which may never be fully automated. This book provides various design techniques which have proven to be useful in that they have often yielded good algorithms. By mastering these design strategies, it will become easier for you to devise new and useful algorithms. 

@@ -24,7 +24,7 @@ Otherwise, the recursive algorithm will loop forever. The most common way to sat
 
 Now, let's take look at a few examples.
 
-#### Fibonacci Example
+#### Fibonacci Sequence
 
 The Fibonacci sequence 1,1,2,3,5,8,13,21,34 is defined as:
 
@@ -43,7 +43,9 @@ The virtue of this program is that it is almost syntactically identical to the m
 
 The major source of the inefficiency is not because of recursion. The reason is that many values are recomputed many times. For example, f(n-2) is computed twice, f(n-3) is computed three times and f(n-4) is computed five times. 
 
-#### Greatest Common Divisor Example 
+#### Greatest Common Divisor 
+
+The greatest common divisor (GCD) of two integers is the largest integer that evenly divides both of the numbers. For example, GCD(60, 24) is 12 because 12 is the largest integer that evenly divides both 60 and 24.
 
 Compute the GCD of two nonnegative integers. Given 22 and 8, we compute gcd as follows:
 
@@ -57,10 +59,17 @@ The GCD of 21 and 13 is computed as follows:
 gcd(21, 13) = gcd(13,8) = gcd(8,5) = gcd(5,3) = gcd(3,2) = gcd(2,1) = gcd(1,0) = 1
 ```
 
+<blockquote class="note">
+  <strong>MODULUS OPERATOR</strong> 
+  <p>
+    The modulus operator, which is written as % (percent symbol) in Ruby, means the remainder after division. For example, 13 % 4 is 1 because 13 divided by 4 is 3 with a remainder of 1.
+  </p>
+</blockquote>
+
 We begin by computing 21 mod 13. This gives us 8 as the result. You can observe that b becomes a and we again compute 13 mod 8 and so on. 
 
 ```
-> 21 % 13
+ > 21 % 13
  => 8
  > 13 % 8
  => 5
@@ -92,10 +101,12 @@ Some design techniques are inherently recursive and so recursion is a natural wa
 
 Recursion incurs overhead of repeated procedure calls. In the early stages of algorithm design we can use recursion. Once we are satisfied that we have a good algorithm, the recursion can be removed by translating the algorithm into an equivalent one that uses iteration. 
 
+Translating a recursive procedure into an equivalent procedure which uses iteration involves replacing all recursive procedure calls and return statements by equivalent non-recursive code.
+
 <blockquote class="note">
-  <strong>TRANSLATING RECURSION TO ITERATION</strong> 
+  <strong>GENERAL RECURSION REMOVAL</strong> 
   <p>
-    Translating a recursive procedure into an equivalent procedure which uses iteration involves replacing all recursive procedure calls and return statements by equivalent non-recursive code.
+    You can remove recursion more generally by mimicking how a program calls a method recursively. Push variables onto stacks before recursion, and pop them off afterward.
   </p>
 </blockquote>
 
@@ -117,6 +128,8 @@ end
 ```
 
 The objective of removing recursion is to produce a more efficient but computationally equivalent iterative program. In some languages the compiler translates recursive procedures into efficient code.
+
+Sometimes, you can remove recursion by starting with the smallest pieces of data and using them to build larger ones rather than starting at the largest scale and recursively dividing the data. This is called Bottom-up programming.
 
 <blockquote class="note">
   <strong>WHEN TO USE RECURSION</strong> 

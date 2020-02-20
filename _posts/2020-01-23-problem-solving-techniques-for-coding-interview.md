@@ -27,13 +27,22 @@ And so on.
 
 You already need to know the basic data structures and algorithms to read this book. The authors recommend the book Algorithms by Dasgupta, Papadirnitriou, and Vazirani because it is succinct and beautifully written.
 
+
+<blockquote class="note">
+  <strong>HEURISTICS</strong> 
+  <p>
+    Many trees are enormous for large problem sizes, so often they cannot be solved exactly, and you must turn to heuristics. Heuristics that can apply to any decision tree include random search, improving paths, and simulated annealing. Hill climbing and sorted hill climbing often can give good results extremely quickly, although you need to define what hill climbing means for a particular problem.
+  </p>
+</blockquote>
+
 The book Algorithms for Interviews by Aziz and Prakash covers some common problem solving techniques. It works through several coding problems to illustrate how to apply these problem solving techniques to a coding problem. 
 
 You still need to learn which technique to apply to a given problem. Let's briefly look at these problem solving techniques. 
 
 ### Divide and Conquer
 
-Can you divide the problem into two or more smaller independent subproblems and solve the original problem using solutions to the subproblems?
+- Can you break the problem into pieces that are easier to solve?
+- Can you divide the problem into two or more smaller independent subproblems and solve the original problem using solutions to the subproblems?
 
 ### Recursion and Dynamic Programmmg
 
@@ -49,7 +58,11 @@ Is there a problem that subsumes your probem and is easier to solve?
 
 ### Data Structures
 
-Is there a data structure that directly maps to the given problem?
+- Is there a data structure that directly maps to the given problem?
+
+- Does a certain data structure such as linked list, array, stack, queue, tree, balanced tree, network map naturally to the problem? 
+
+- Does a certain data structure have behaviors similar to the ones that you need to solve the problem?
 
 ### Iterative Refinement
 
@@ -105,6 +118,42 @@ Can you store some of your computation and look it up later to save work?
 ### Symmetry
 
 Is there symmetry in the input space or solution space that can be exploited?
+
+### Randomization
+
+Does the problem include worst cases that could be avoided with randomization?
+
+### Probability
+
+Can you think of a probabilistic method that uses guesses to find a solution or that solves the problem with a given probability?
+
+<blockquote class="note">
+  <strong>PROBABILISTIC ALGORITHM</strong> 
+  <p>
+    An algorithm that produces a result with a given certainty is probabilistic. For example, the Fermat primality test detects nonprime numbers at least 50 percent of the time. If you repeat the test many times, you can conclude that a number is prime with great certainty.
+  </p>
+</blockquote>
+
+### Adaptive Techniques
+
+- Can you think of an approach that focuses on specific parts of the problem? 
+- Are there really only a few true areas of interest, with the rest of the problem being there to confuse the issue?
+
+<blockquote class="note">
+  <strong>ADAPTIVE TECHNIQUES</strong> 
+  <p>
+    Many algorithms can be improved if you focus more work on the parts of the problem that are the most difficult and you spend less work on parts of the problem that are easy to handle.
+  </p>
+</blockquote>
+
+### Problem Structure
+
+- Is the problem’s structure naturally recursive, hierarchical, or similar to a network? 
+- Can you use tree or network algorithms to search the data?
+
+### Decision Trees
+
+Can you apply decision tree search methods to the problem? Often you can, but it would take too long. You might say, "Well, we could try examining all possible combinations of the data, but that would take forever. Perhaps a divide-and-conquer approach would be better."
 
 <blockquote class="note">
   <strong>RULES</strong> 

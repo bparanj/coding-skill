@@ -57,7 +57,16 @@
 
 <p>A backtracking algorithm tries to construct a solution to a computational problem incrementally, one small piece at a time. Whenever the algorithm needs to decide between multiple alternatives to the next component of the solution, it recursively evaluates every alternative and then chooses the best one.</p>
 
-<p>A particularly intriguing programming endeavor is the subject of so-called general problem solving. The task is to determine algorithms for finding solutions to specific problems not by following a fixed rule of computation, but by trial and error.</p>
+<p>Backtracking algorithms use recursion to search for the best solution to complicated problems. These algorithms recursively build partial test solutions to solve the problem. When they find that a test solution cannot lead to a usable final solution, they backtrack, discarding that test solution and continuing the search from an earlier test solution.</p>
+
+<blockquote class="note">
+  <strong>GENERAL PROBLEM SOLVING</strong> 
+  <p>
+    A particularly intriguing programming endeavor is the subject of so-called general problem solving. The task is to determine algorithms for finding solutions to specific problems not by following a fixed rule of computation, but by trial and error.
+  </p>
+</blockquote>
+
+<p>Backtracking is useful when you can incrementally build partial solutions, and you can sometimes quickly determine that a partial solution cannot lead to a complete solution. In that case, you can stop improving that partial solution, backtrack to the previous partial solution, and continue the search from there.</p>
 
 <p><img src="/assets/images/backtracking.png" alt="Backtracking" /></p>
 
@@ -81,6 +90,46 @@
 <p><img src="/assets/images/backtrack-iterative.png" alt="Iterative Backtracking Method" /></p>
 
 <h2 id="recursive-backtracking-program-template">Recursive Backtracking Program Template</h2>
+
+<p>The following pseudocode shows the general backtracking approach at a high level:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  // Explore this test solution.
+  // Return false if it cannot be extended to a full solution.
+  // Return true if a recursive call to LeadsToSolution finds
+  // a full solution.
+  Boolean: LeadsToSolution(Solution: test_solution)
+      // If we can already tell that this partial solution cannot
+      // lead to a full solution, return false.
+      If &lt;test_solution cannot solve the problem&gt; Then Return false
+      // If this is a full solution, return true.
+      If &lt;test_solution is a full solution&gt; Then Return true
+      
+      // Extend the partial solution.
+      
+      Loop &lt;over all possible extensions to test_solution&gt;      
+      
+        &lt;Extend test_solution&gt;
+              // Recursively see if this leads to a solution.
+              If (LeadsToSolution(test_solution)) Then Return true
+              // This extension did not lead to a solution. Undo the change.
+              &lt;Undo the extension&gt;
+          End Loop
+          // If we get here, this partial solution cannot
+          // lead to a full solution.
+          Return false
+      End LeadsToSolution
+</code></pre></div></div>
+
+<p>The LeadsToSolution algorithm takes as a parameter whatever data it needs to keep track of a partial solution. It returns true if that partial solution leads to a full solution.</p>
+
+<p>The algorithm begins by testing the partial solution to see if it is illegal. If the test solution so far cannot lead to a feasible solution, the algorithm returns false. The calling instance of LeadsToSolution abandons this test solution and works on others.</p>
+
+<p>If the test solution looks valid so far, the algorithm loops over all the possible ways that it can extend the solution toward a full solution. For each extension, the algorithm calls itself recursively to see whether the extended solution will work. If the recursive call returns false, that extension doesn’t work, so the algorithm undoes the extension and tries again with a new extension.</p>
+
+<p>If the algorithm tries all possible extensions to the test solution and cannot find a feasible solution, it returns false so that the calling instance of LeadsToSolution can abandon this test solution.</p>
+
+<p>You can think of the quest for a solution as a search through a hypothetical decision tree. Each branch in the tree corresponds to a particular decision attempting to solve the problem.</p>
+
 <p><img src="/assets/images/backtrack-recursive.png" alt="Recursive Backtracking Method" /></p>
 
 <p>Reference: Fundamentals of Computer Algorithms by Horowitz and Sahni</p>
@@ -95,9 +144,18 @@
 
 <p>When we design new recursive backtracking algorithms, we must figure out in advance what information we will need about past decisions in the middle of the algorithm. If this information is nontrivial, our recursive algorithm might need to solve a more general problem than the one we were originally asked to solve.</p>
 
-<p>An example of this kind of generalization: To find the median of an unsorted array in linear time, we derive an algorithm to select the kth smallest element for arbitrary k.</p>
+<blockquote class="note">
+  <strong>EXAMPLE</strong> 
+  <p>
+    An example of this kind of generalization: To find the median of an unsorted array in linear time, we derive an algorithm to select the kth smallest element for arbitrary k.
+  </p>
+</blockquote>
 
 <p>Finally, once we’ve figured out what recursive problem we really need to solve, we solve that problem by recursive brute force: Try all possibilities for the next decision that are consistent with past decisions, and let the recursion magic do the rest. No being clever here. No skipping “obviously” stupid choices. Try everything. You can make the algorithm faster later.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Backtracking is a technique where a recursive algorithm considers partial solutions. If it cannot extend a partial solution to a full solution, the algorithm discards the partial solution, backtracks to the previous feasible test solution, and continues searching from there. Examples include the eight queens problem and the knight’s tour problem.</p>
 
 
 <hr/>
