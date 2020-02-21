@@ -7,6 +7,13 @@ In this article, we will discuss the format of the in-person interview as well a
 
 If you get the in-person interview, it means that they were happy with your resume and you succeeded in the technical phone screen. At this point, they think you could be a potentially good fit for the job and now it really comes down to the in-person interview.
 
+You must demonstrate to your interviewer that you possess several key skills:
+
+- The ability to rigorously formulate real-world problems.
+- The skills to solve problems and design algorithms.
+- The tools to go from an algorithm to a tested program.
+- The analytical techniques required to determine the computational complexity of your solution.
+
 ## Interview Format
 
 The format of the in-person interview consists of a number of interviews with engineers or managers.

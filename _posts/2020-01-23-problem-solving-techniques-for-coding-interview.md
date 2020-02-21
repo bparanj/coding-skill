@@ -19,14 +19,20 @@ There are a number of approaches to designing algorithms:
 - [Randomized](#randomization)
 - Parallelization
 - [Backtracking]({% post_url 2019-04-25-backtracking %})
-- Heuristic
+- Heuristics
 - [Reduction](#reduction)
 - Approximation
  
 And so on.
 
-You already need to know the basic data structures and algorithms to read this book. The authors recommend the book Algorithms by Dasgupta, Papadirnitriou, and Vazirani because it is succinct and beautifully written.
+<blockquote class="note">
+  <strong>EXHAUSTIVE SEARCH</strong> 
+  <p>
+    Exhaustive Search is simply a brute-force approach to combinatorial problems. It suggests generating each and every element of the problem domain, selecting those of them that satisfy all the constraints, and then finding a desired element.
+  </p>
+</blockquote>
 
+You already need to know the basic data structures and algorithms to read this book. The authors recommend the book Algorithms by Dasgupta, Papadirnitriou, and Vazirani because it is succinct and beautifully written.
 
 <blockquote class="note">
   <strong>HEURISTICS</strong> 
@@ -170,7 +176,7 @@ The following classification is adapted from Anany Levitin, Introduction to the 
 
 ### Brute Force
 
-Try all possible solutions until you find the right one.
+Brute force is a straightforward approach to solving a problem, usually directly based on the problem statement and definitions of the concepts involved. In this approach we try all possible solutions until we find the right one.
 
 ### Divide and Conquer
 

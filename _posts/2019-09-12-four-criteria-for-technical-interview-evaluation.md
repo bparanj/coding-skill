@@ -117,9 +117,9 @@ Very few programs are O(1) time.
 
 Most optimal algorithms will be in a linear pass, or even a few linear passes O(k*n).  
 
-#### Quadratic Time O(n^2) 
+#### Quadratic Time O(n<sup>2</sup>) 
 
-Most brute-force solutions will require O(n^2) time or slower, like checking if you have everything on your shopping list.
+Most brute-force solutions will require O(n<sup>2</sup>) time or slower, like checking if you have everything on your shopping list.
 
 #### Logarithmic Time O(log(n))
 
@@ -129,7 +129,7 @@ This is very common for tree traversals like binary search.
 
 This is very common for sorting algorithms.
 
-#### Exponential Time O(10^n) 
+#### Exponential Time O(10<sup>n</sup>) 
 
 Common for brute-force like testing every numerical password combination.
 
