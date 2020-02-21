@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Recursion and Mathematical Induction
-excerpt: Recursion and Mathematical Induction are closely related concepts. This article looks at how they are related. This is the notes from the paper Computational Recursion and Mathematical Induction by Uri Leron, Rina Zazkis.
+excerpt: Recursion and Mathematical Induction are closely related concepts. This article looks at how they are related. These are the notes from the paper Computational Recursion and Mathematical Induction by Uri Leron, Rina Zazkis.
 ---
 
 A good way to learn mathematical induction is to

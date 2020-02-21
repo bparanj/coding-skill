@@ -8,7 +8,12 @@ We discuss how to end it on a high note and the importance of the first and last
 
 Show the ability to get things done, initiative in starting projects and not being an arrogant jerk. Eagerness to learn is a key trait that is highly valued.
 
-Be sure to show and not tell. Someone who is passionate about coding must have personal projects or open source contributions to back that up. If you can show some pet projects or discuss some trending industry news, that would show your enthusiasm.
+<blockquote class="note">
+  <strong>SHOW</strong> 
+  <p>
+    Be sure to show and not tell. Someone who is passionate about coding must have personal projects or open source contributions to back that up. If you can show some pet projects or discuss some trending industry news, that would show your enthusiasm.
+  </p>
+</blockquote>
 
 ### Tip #1 : How to Play the Game
 
@@ -27,7 +32,14 @@ One of the biggest fears I have in quitting a job where I am unhappy is the fact
 
 ### Tip #2 : Time Management
 
-Make sure that you are keeping on track and working through the problem as quickly as possible. Cut out the chit chat, save as much time as you can. Give yourself more time to get through the whiteboard questions. This also gives you the time to talk about your projects and impress your interviewer. 
+Make sure that you are keeping on track and working through the problem as quickly as possible. Cut out the chit chat, save as much time as you can. 
+
+<blockquote class="note">
+  <strong>GOOD IMPRESSION</strong> 
+  <p>
+    Give yourself more time to get through the whiteboard questions. This also gives you the time to talk about your projects and impress your interviewer.
+  </p>
+</blockquote>
 
 ### Tip #3 : End the Interview on a Good Note
 
@@ -85,9 +97,14 @@ You may need some pseudo code here and there, but try not to get too bogged down
 
 ### Tip #5 : Have a Good Introduction
 
-Most interviewers don't read your entire resume. They may read it on their way to meet you. They may take a look at it when they are sitting down across from you. 
+Most interviewers don't read your entire resume. They may read it on their way to meet you. They may take a look at it when they are sitting down across from you. Talk about your recent work.
 
-Don't come across as too arrogant, too cocky or too proud of yourself. Talk about your recent work. People's opinions about you are formed within the first few moments of meeting you. 
+<blockquote class="note">
+  <strong>HUMILITY</strong> 
+  <p>
+    Don't come across as too arrogant, too cocky or too proud of yourself. People's opinions about you are formed within the first few moments of meeting you.
+  </p>
+</blockquote>
 
 ### Tip #6 : Bring Your Own Whiteboard Pens
 
@@ -114,7 +131,14 @@ A lot of developers get scared. After one phone interview, they stop interviewin
 
 You should come up with good test cases yourself instead of waiting until the interviewer provides test cases that break your code. Walk through test cases. Use the “0, 1 and Many” items to catch any potential edge cases where your code might fail. 
 
-Walking through your code is a great way to find any potential bugs. Your ability to proactively dry run test cases on your code to identify bugs is a key part of the evaluation.
+Walking through your code is a great way to find any potential bugs. 
+
+<blockquote class="note">
+  <strong>TIP</strong> 
+  <p>
+    Your ability to proactively dry run test cases on your code to identify bugs is a key part of the evaluation.
+  </p>
+</blockquote>
 
 ### Tip #9 : Master the Programming Language
 

@@ -86,7 +86,7 @@ The classical imperative paradigm uses modifiable variables. According to this m
 
 ![Mental Model of a Variable](/assets/images/mental-model-variable.png)
 
-A programming newbie will have a simple mental model for a variable.
+*A programming newbie will have a simple mental model for a variable.*
 
 In mathematics, a variable represents a value that is unknown but when such a value is defined the link thus created cannot be modified later.
 

@@ -15,7 +15,12 @@ At the end of that particular time frame, take a mock interview. The mock interv
 
 You will reach the milestone if you do well in the mock interview. Otherwise, you need to add things that are not still clear to your study list and carry them over to the next month. You still need to master that material. 
 
-Mock interviews identify your problem areas. If you have 10 topics to study you will have 10 milestones, each of the 10 mock interview evaluates your progress. 
+<blockquote class="note">
+  <strong>PROBLEM AREAS</strong> 
+  <p>
+    Mock interviews identify your problem areas. If you have 10 topics to study you will have 10 milestones, each of the 10 mock interview evaluates your progress.
+  </p>
+</blockquote>
 
 CTCI is a good question bank that you can use for mock interviews. Mock interviews build your confidence over time. You're constantly evaluating yourself, where you are and how you are progressing. This is your success path.
 

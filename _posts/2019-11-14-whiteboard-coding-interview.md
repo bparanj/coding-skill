@@ -13,7 +13,14 @@ Sometimes a candidate can verbalize the solution and yet cannot write code to im
 
 One of the best ways to demonstrate your coding ability is through Object-Oriented programming, which could automatically get you a few points indicating that you can write more structured code.
 
-Be careful about recursion. Most interview loops will involve at least one or numerous recursive solutions. We think we can write recursion, but practice ensures you can write it quickly and elegantly. Often recursion will involve a helper function that has function parameters capable of passing around more state.
+Be careful about recursion. Most interview problems will involve at least one or numerous recursive solutions. We think we can write recursion, but practice ensures you can write it quickly and elegantly. 
+
+<blockquote class="note">
+  <strong>HELPER FUNCTION</strong> 
+  <p>
+    Often recursion will involve a helper function that has function parameters capable of passing around more state.
+  </p>
+</blockquote>
 
 Being able to convert a recursive solution to an iterative one will almost surely help you ace an interview. If you are given a recursive question, turn the tables on the interviewer and show that you can not only solve it elegantly but can take that a step further and throw in an iterative solution, while explaining the pros/cons of recursion vs iteration (ie., not being bound by the recursion stack space).
 

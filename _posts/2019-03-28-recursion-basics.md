@@ -3,7 +3,7 @@ layout: post
 title: Recursion Basics
 ---
 
-In this article, we will cover the basics of recursion with a few examples. We will see how to translate recursion into a iterative equivalent.
+In this article, we will cover the basics of recursion with a few examples. We will see how to translate recursion into an iterative equivalent.
 
 ### Recursion
 

@@ -2,7 +2,7 @@
 layout: post
 ---
 
-In this article we will discuss some tips to succeed in the online coding interview. You should be comfortable with what's involved in online programming interview, as well as how to succeed and set yourself up for success.
+In this article we will discuss some tips to succeed in the online coding interview. You should be comfortable with what's involved in online programming interviews, as well as how to succeed and set yourself up for success.
 
 Technical Phone Screen is the first hurdle in getting your dream job. If you succeed in the online coding interview, you will be invited to an in-person interview. 
 

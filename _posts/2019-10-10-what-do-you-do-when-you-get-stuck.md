@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What to Do When You are Stuck?
-excerpt: You are working on a coding problem and struggling to make progress to solve the problem. You look at a the solution for the problem, you are totally lost and cannot understand the code. How do you get past this obstacle?
+excerpt: You are working on a coding problem and struggling to make progress to solve the problem. You look at the solution for the problem, you are totally lost and cannot understand the code. How do you get past this obstacle?
 ---
 
 ## Working Backwards
@@ -49,4 +49,9 @@ By working backwards, you spend time only on things that solves the big problem.
 
 Success is beyond your current skill limit. You now have a way to push past your current skill boundary. When you practice things that are beyond your current skill level, you cannot do that for too long. One hour is maximum. 
 
-As soon as you wake up, you have the most mental and physical energy. You can work on the most challenging problem as the first thing in the morning and get it out of the way. You can squeeze in the remaining 50% of your preparation during the rest of your day’s schedule. 
+<blockquote class="note">
+  <strong>GOLDEN HOUR</strong> 
+  <p>
+    As soon as you wake up, you have the most mental and physical energy. You can work on the most challenging problem as the first thing in the morning and get it out of the way. You can squeeze in the remaining 50% of your preparation during the rest of your day’s schedule.
+  </p>
+</blockquote> 

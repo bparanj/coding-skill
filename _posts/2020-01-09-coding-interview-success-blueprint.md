@@ -56,7 +56,12 @@ If you said study and practice, you're on exactly the right page. We can influen
 
 Now you may at this point, be saying to yourself, wow, this is brilliant. How do you guys do it? Are you telling me that if I want to get my dream job, I should study and practice? 
 
-There's a huge difference between knowing that we should study and practice and knowing how many topics we've mastered, and how many coding problems we have practiced. The only people that know that data are the people that are gaining coding skills.
+<blockquote class="note">
+  <strong>BOTTOM LINE</strong> 
+  <p>
+    There's a huge difference between knowing that we should study and practice and knowing how many topics we've mastered, and how many coding problems we have practiced. The only people that know that data are the people that are gaining coding skills.
+  </p>
+</blockquote>
 
 ## Discipline 3: Keep a Compelling Scoreboard
 

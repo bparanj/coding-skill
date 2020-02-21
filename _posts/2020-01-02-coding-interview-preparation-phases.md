@@ -70,7 +70,12 @@ Identify the obstacles to solving the problem. Coding problems can be used as di
 
 Are the connections between concepts missing? Revisit your study materials to gain a deeper understanding of the concepts. Read different books on the same topic. You will see the explanations from different angles and the material will make more sense. You will be able to form links between concepts.
 
-The time spent on finding and fixing the gaps will save you time and deepen learning in the longer term. Work on actively applying the concept in a new context. This is a top down approach to assimilation process.
+<blockquote class="note">
+  <strong>TOP DOWN APPROACH</strong> 
+  <p>
+    The time spent on finding and fixing the gaps will save you time and deepen learning in the longer term. Work on actively applying the concept in a new context. This is a top down approach to assimilation process.
+  </p>
+</blockquote>
 
 **Step 5 : Work Backwards**
 
@@ -120,13 +125,20 @@ Teach the subject to others so that you develop a deeper understanding. Only whe
 
 You can form a study group and start teaching the complex algorithms/data structures to others by helping your friends prepare in 1:1 coaching sessions. 
 
-You can also blog about challenging concepts and share your unique approaches to those topics.
+<blockquote class="note">
+  <strong>BLOGGING</strong> 
+  <p>
+    You can also blog about challenging concepts and share your unique approaches to those topics.
+  </p>
+</blockquote>
 
 **Step 7 : Evaluate Progress**
 
 Take mock interviews to evaluate your progress and identify your problem areas to work on.
 
-Conduct mock interviews for your friends to improve your interviewing skills. By putting yourself in the shoes of the interviewer, you notice things about a candidate that stand out and can improve your own performance. Print out and use [Mock Interview Evaluation Criteria]({% post_url 2019-08-01-mock-interview-evaluation-criteria %}) while you conduct the interview to familiarize yourself with the evaluation criteria. Rate your friend's performance on a scale of 1 to 5 during the interview.
+Conduct mock interviews for your friends to improve your interviewing skills. By putting yourself in the shoes of the interviewer, you notice things about a candidate that stand out and can improve your own performance. 
+
+Print out and use [Mock Interview Evaluation Criteria]({% post_url 2019-08-01-mock-interview-evaluation-criteria %}) while you conduct the interview to familiarize yourself with the evaluation criteria. Rate your friend's performance on a scale of 1 to 5 during the interview.
 
 ## Conclusion
 

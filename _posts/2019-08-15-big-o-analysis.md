@@ -31,13 +31,13 @@ Logarithmic algorithms are often seen in trees. It's best to think of logarithmi
 
 Most of the sorting operate in "n log n" time. This includes popular sorting algorithms like quicksort, mergesort or heapsort. Actually, quicksort is O(n2) time in the worst-case scenario generally.
 
-### Quadratic or Cubic / Polynomial O(n2) or O(n3)  
+### Quadratic or Cubic / Polynomial O(n<sup>2</sup>) or O(n<sup>3</sup>)  
 
-Brute force algorithms often run in O(n2) or O(n3) time where you may be looping within a loop. It's easy to identify if you see a for-loop inside a for-loop, where for each element i you iterate through another element j, for instance. 
+Brute force algorithms often run in O(n<sup>2</sup>) or O(n<sup>3</sup>) time where you may be looping within a loop. It's easy to identify if you see a for-loop inside a for-loop, where for each element i you iterate through another element j, for instance. 
 
 A common scenario is, given two arrays, find the common elements in each array where you would simply go through each element and check whether it exists in the other array. This would execute in O(n*m) time, where n and m are the sizes of each array. It's still great to name these brute force algorithms if you can identify them.
 
-### Exponential O(2n)
+### Exponential O(2<sup>n</sup>)
 
 Exponential algorithms are quite terrible in running time. A classic example is determining every permutation of a set of n bits (it would take 2n combinations). Another example is computing the fibonacci sequence fib(n) = fib(n-1) + fib(n-2), where for each item, it requires the computation of two more subproblems.  
 
@@ -51,7 +51,7 @@ In your first iteration, you have a selection of n cities to visit, then n-1 cit
 
 ## Some Tips
 
-Do not overcomplicate this like saying "This is O(3 * k *  n2), where k is the number of comparisons." Most people don't care about this level of detail, and you can often get away with simply saying: "This is quadratic time because we have two for-loops, each one iterating from 1 to n."
+Do not overcomplicate this like saying "This is O(3 * k *  n<sup>2</sup>), where k is the number of comparisons." Most people don't care about this level of detail, and you can often get away with simply saying: "This is quadratic time because we have two for-loops, each one iterating from 1 to n."
 
 One more tip - do not say "This is O(m + v + e)," when you haven't defined what m, v, or e are. You generally want to say "... where m is the height of the matrix, v is the number of vertices, e is the number of edges, etc.," Once you start reciting formulas without defining the constants you're using, your analysis will appear amateurish.
 

@@ -25,7 +25,7 @@ There is no substitute for your ability to think in a systematic way. But you ca
 - What did you think of doing first?
 - Were you reminded of a construct in general or a general structure of solution that you thought would be useful?
 - Have you previously seen problems that resemble this one?
-- Did you feel stuck at any point while working on this problem?
+- Did you feel stuck at any point while working on this problem? Read [What to do when you get stuck](https://www.codingskill.net/2019/10/03/understanding-onsite-interview-process.html#when-you-get-stuck).
 - What did you choose as your test case?
 - Do you think you’ve covered all possible scenarios with your tests?
 - What program design techniques did you apply to solve this problem?

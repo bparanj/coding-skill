@@ -3,7 +3,7 @@ layout: post
 title: A Guide to Practicing Leetcode Problems
 ---
 
-This guide answers questions people often have about interview coding problems and things to watch out.
+This guide answers questions people often have about interview coding problems and some pitfalls to avoid.
 
 ## List of Topics You Need To Know Well
 
@@ -35,7 +35,7 @@ One of the most difficult subjects. Subproblems is the key. If you can identify 
 
 ### Recursion / Backtracking
 
-At some point you will naturally think of solutions in a recursive manner (if backtracking could be a possible approach used). Problems that use backtracking often say: "generate all", "compute every". This indicates an expression of exhaustively expressing all the possibilities of a decision space. Recursion is beautiful for this type of problem.
+At some point you will naturally think of solutions in a recursive manner (if backtracking could be a possible approach to use). Problems that use [backtracking]({% post_url 2019-04-25-backtracking %}) often say: "generate all", "compute every". This indicates an expression of exhaustively expressing all the possibilities of a decision space. [Recursion]({% post_url 2019-03-28-recursion-basics %}) is beautiful for this type of problem.
 
 ### Graph
 
@@ -43,7 +43,7 @@ Know DFS and BFS. DFS uses a stack (either implicit with the call stack and recu
 
 ### Greedy Algorithms
 
-These are algorithms that take the locally most optimal solution to achieve a global optimal. In contrast to problems that use dynamic programming (which is characterized by caching previous subproblems to find a global optimum), greedy algorithms take locally optimal choices.
+These are algorithms that take the locally most optimal solution to achieve a global optimal. In contrast to problems that use dynamic programming (which is characterized by caching previous subproblems to find a global optimum), [greedy algorithms]({% post_url 2019-04-11-greedy-method %}) take locally optimal choices.
 
 Not all greedy approaches one comes up with will work 100% of the time so it hinges on being able to use deductive logic to prove that a given approach will always work
 

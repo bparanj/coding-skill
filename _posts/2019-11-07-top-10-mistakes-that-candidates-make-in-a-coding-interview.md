@@ -63,7 +63,12 @@ Ability to garner consensus is a must. Eagerness to learn is fundamental to star
 
 The third mistake is not taking any mock interviews. It's important to take mock interviews. Because, you have to communicate well. This requires practicing how to communicate while you're coding in an interview setting. 
 
-You might be nervous during the interview, but if you've practiced it several times you'll get good at it.
+<blockquote class="note">
+  <strong>TIP</strong> 
+  <p>
+    You might be nervous during the interview, but if you've practiced it several times you'll get good at it.
+  </p>
+</blockquote>
 
 ### Mistake #4 : Memorizing the Problems and the Solutions
 
@@ -92,7 +97,13 @@ The fifth mistake is not solving problems out loud. Before you start writing the
 
 They care about your thought process, you will be checking off one of the evaluation criteria of the interview performance. They can guide you in the right direction, if you're going in the wrong direction. So it pays you to think out loud.
 
-Lack of communication means lack of analysis. You must talk about trade offs, time-space complexity, alternatives you are considering such as recursive vs iterative solution and so on. 
+<blockquote class="note">
+  <strong>COMMUNICATION</strong> 
+  <p>
+    Lack of communication means lack of analysis. You must talk about trade offs, time-space complexity, alternatives you are considering such as recursive vs iterative solution and so on.
+  </p>
+</blockquote>
+
 
 ### Mistake #6 : Rushing into Coding
 
@@ -151,7 +162,14 @@ Take some time to clean up the code. If at the very end, you have an algorithm a
 
 ### Mistake #8 : Not Revising Your Code
 
-The eighth mistake is not revising your code. Often times, after finishing coding you may still have syntax errors. It may sound nitpicky, but it's still important. It shows that you are detail oriented to the interviewer. 
+The eighth mistake is not revising your code. Often times, after finishing coding you may still have syntax errors. Correct any errors that you find. It may sound nitpicky, but it's still important. 
+
+<blockquote class="note">
+  <strong>ATTENTION TO DETAILS</strong> 
+  <p>
+    Fixing any syntax errors shows that you are detail oriented to the interviewer. 
+  </p>
+</blockquote>
 
 ### Mistake #9 : Fixing Mistakes Carelessly
 

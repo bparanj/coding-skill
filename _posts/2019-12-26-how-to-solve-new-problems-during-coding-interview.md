@@ -70,7 +70,7 @@ In the next step we come up with a first solution. You want to solve the problem
 
 This approach does not have to be clever or elegant. But you want to make sure that you've got a correct solution.
 
-If you're stuck, vocalize your thoughts on where exactly you're stuck and maybe ask the interviewer something like "This approach should work right?". 
+If you're stuck, vocalize your thoughts on where exactly you're stuck and maybe ask the interviewer something like "This approach should work right?". Read [What to do when you get stuck](https://www.codingskill.net/2019/10/03/understanding-onsite-interview-process.html#when-you-get-stuck).
 
 Usually, they'll guide you the right way. If the interviewers rule out an approach for the presented problem, follow the instructions and try something different. 
 

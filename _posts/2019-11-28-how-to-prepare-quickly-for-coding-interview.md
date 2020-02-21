@@ -32,10 +32,17 @@ One of the challenges to solving a coding problem is picking the right data stru
 
 ## Map Problem Solving Strategy to Problems
 
-Dynamic Programming can be divided into top-down and bottom-up design. If you can quickly identify which problems require a Dynamic Programming algorithm, you can use one of these two strategies to quickly tackle the problem.
+[Dynamic Programming]({% post_url 2019-04-18-dynamic-programming %}) can be divided into top-down and bottom-up design. If you can quickly identify which problems require a Dynamic Programming algorithm, you can use one of these two strategies to quickly tackle the problem.
 
 ## Structure of the Solution
 
 If you squint your eyes and look at the source code, you will see the shape of the code caused by indentation. This is the structure of the solution. Remember the problem type and the structure to solve that problem type. The structure does not depend on a specific programming language. For instance: does the solution really require nested loops? 
 
 Some of the structure in the solution can be mapped to time complexity. Create a table that maps structure and time complexity. As you study and observe the relationship between structure and time complexity, this table will grow over time.
+
+<blockquote class="note">
+  <strong>STRUCTURE</strong> 
+  <p>
+    One way to learn about the structure is to look at the pseudocode of the solution.
+  </p>
+</blockquote>

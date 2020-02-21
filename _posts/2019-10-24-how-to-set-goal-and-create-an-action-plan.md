@@ -88,7 +88,7 @@ Make a list of topics to study for the interview and prioritize them. The famili
 
 **Algorithm Techniques**
 
-- [Brute Force]({% post_url 2020-01-23-problem-solving-techniques-for-coding-interview %}) 
+- [Brute Force](https://www.codingskill.net/2020/01/23/problem-solving-techniques-for-coding-interview.html#brute-force) 
 - [Divide and Conquer]({% post_url 2019-04-04-divide-and-conquer %}) / [Recursion]({% post_url 2019-03-28-recursion-basics %})
 - [Greedy Method]({% post_url 2019-04-11-greedy-method %})
 - [Dynamic Programming]({% post_url 2019-04-18-dynamic-programming %}) (advanced level)

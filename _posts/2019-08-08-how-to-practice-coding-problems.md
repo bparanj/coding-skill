@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to Practice Coding Problems
-excerpt: Once you acquire the basic concepts, it is time to apply the concept to solve a problem. This is a challenging step in solving the problem. You will see the right way to go about tacking coding interview problems.
+excerpt: Once you acquire the basic concepts, it is time to apply the concept to solve a problem. This is a challenging step in solving the problem. You will see the right way to go about tackling coding interview problems.
 ---
 
 ## Applying the Concepts
@@ -43,12 +43,34 @@ Go back and revisit your study material. Read different books on the same topic.
 
 Concepts build on one another. The basic concepts must be deeply understood to master more advanced concepts. Connect what you have studied to questions. Relate topics to their eventual appli­cation in the real world.
  
-Graph­ like structures on paper can illustrate which concepts are pre­-requisites. Devise a hierarchy or web of concepts that the system itself could advise students what to work on next.
+### Understanding Algorithms
 
-The confi­dence and self-esteem will be boosted and they will look forward to the challenge of the next, more difficult concept.
+To understand an algorithm, you need to understand certain facts about it, such as the following:
 
-People who are skilled at explaining concepts to others probably understand them deeply. Teach the subject to others so that you develop a deeper understanding. As you progress, keep revisiting the core ideas through the lenses of different, active experiences.
-	 
+#### Behavior
+
+Does the algorithm always find the best solution?
+
+#### Speed
+
+How does speed vary with the number of inputs?
+
+#### Memory Requirements
+
+- Are they reasonable? 
+- How does memory use vary with the number of inputs?
+
+#### Main Techniques 
+
+Can you reuse those techniques?
+
+<blockquote class="note">
+  <strong>TEACHING</strong> 
+  <p>
+    People who are skilled at explaining concepts to others probably understand them deeply. Teach the subject to others so that you develop a deeper understanding. As you progress, keep revisiting the core ideas through the lenses of different, active experiences.
+  </p>
+</blockquote>
+ 
 ## Efficiency and Confidence
 
 The speed and fluidity at which you can analyze a problem, propose an algorithm and code the algorithm reveals a lot about a candidate.  If you solved the problem, try doing it again faster later.
@@ -96,7 +118,14 @@ Complex problems may contain elements of multiple categories. Even difficult pro
 
 ## Repetition
 
-Repetition is key to mastering a skill. Master problem solving strategies by applying them repeatedly to solve problems. You must be able to apply them during interviews without consciously thinking about them. Remember the techniques you use to solve certain categories of problems. Make a list of questions about the solution that is not yet clear to you.
+Repetition is key to mastering a skill. Master problem solving strategies by applying them repeatedly to solve problems. You must be able to apply them during interviews without consciously thinking about them. Make a list of questions about the solution that is not yet clear to you.
+
+<blockquote class="note">
+  <strong>TECHNIQUES</strong> 
+  <p>
+    Remember the techniques you use to solve certain categories of problems.
+  </p>
+</blockquote>
 
 This may sound like a slow process, but you're investing in your own future. This is the right approach because you cannot build a house without a strong foundation.
 
