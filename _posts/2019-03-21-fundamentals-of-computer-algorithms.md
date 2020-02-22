@@ -38,6 +38,12 @@ For each problem we emphasize how the solution can be arrived at by considering 
 
 A clean separation is made between how the computation will proceed and decisions about data representation when that is possible. The best case and the worst case data of the resulting algorithm is made clear. Then an analysis of the time and space requirements is done. 
 
+#### Branch and Bound
+
+Branch-and-bound design technique is similar to backtracking in the sense that it generates a search tree and looks for one or more solutions. However, while backtracking searches for a solution or a set of solutions that sat- isfy certain properties (including maximization or minimization), branch-and-bound algorithms are typically concerned with only maximization or minimization of a given function. 
+
+Moreover, in branch-and-bound algorithms, a bound is calculated at each node x on the possible value of any solution given by nodes that may later be generated in the subtree rooted at x. If the bound calculated is worse than a previous bound, the subtree rooted at x is blocked, i.e., none of its children are generated.
+
 <blockquote class="note">
   <strong>BRANCH AND BOUND</strong> 
   <p>

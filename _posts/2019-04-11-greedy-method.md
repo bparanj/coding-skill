@@ -27,6 +27,18 @@ This measure may not be the objective function. In fact, several different optim
   </p>
 </blockquote>
 
+As in the case of dynamic programming algorithms, greedy algorithms are usually designed to solve optimization problems in which a quantity is to be minimized or maximized. 
+
+However, unlike dynamic programming algorithms, greedy algorithms typically consist of an iterative procedure that tries to find a local optimal solution. In some instances, these local optimal solutions translate to global optimal solutions. 
+
+In others, they fail to give optimal solutions. A greedy algorithm makes a correct guess on the basis of little calculation without worrying about the future. Thus, it builds a solution step by step. Each step increases the size of the partial solution and is based on local optimization. 
+
+The choice made is that which produces the largest immediate gain while maintaining feasibility. Since each step consists of little work based on a small amount of information, the resulting algorithms are typically efficient. 
+
+The hard part in the design of a greedy algorithm is proving that the algorithm does indeed solve the problem it is designed for. This is to be contrasted with recursive algorithms that usually have very simple inductive proofs.
+
+Some of the most prominent problems for which the greedy strategy works, i.e., gives an optimal solution: the single-source shortest path problem, minimum cost spanning trees (Prim’s and Kruskal’s algorithms), and Huffman codes.
+
 ### Greedy Method Program Template
 
 We can describe the greedy method abstractly, but more precisely than above by considering the following program template:

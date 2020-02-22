@@ -4,7 +4,26 @@ title: Dynamic Programming
 excerpt: Dynamic Programming is an algorithm design method that can be used when the solution to a problem may be viewed as the result of a sequence of decisions. Some examples are Knapsack, Optimal Merge Patterns and Shortest Path.
 ---
 
+Dynamic Programming is a powerful algorithm design technique that is widely used to solve combinatorial optimization problems. An algorithm that employs this technique is not recursive by itself, but the underlying solution of the problem is usually stated in the form of a recursive function. 
+
+### Bottom-Up Evaluation
+
+Unlike the case in divide-and-conquer algorithms, immediate implementation of the recurrence results in identical recursive calls that are executed more than once. For this reason, this technique resorts to evaluating the recurrence in a bottom-up manner, saving intermediate results that are used later on to compute the desired solution. 
+
+### Combinatorial Optimization Problems
+
 Dynamic programming is a general-purpose algorithm design technique that is most often used to solve combinatorial optimization problems, where we are looking for the best possible input to some function chosen from an exponentially large search space.
+
+It is also used to improve the time complexity of the brute-force methods to solve some of the NP-hard problems.
+
+<blockquote class="note">
+  <strong>BOTTOM LINE</strong> 
+  <p>
+    This technique applies to many combinatorial optimization problems to derive efficient algorithms.
+  </p>
+</blockquote>
+
+### Parts of Dynamic Programming
 
 There are two parts to dynamic programming. The first part is a programming technique: dynamic programming is essentially [Divide and Conquer]({% post_url 2019-04-04-divide-and-conquer %}) run in reverse: we solve a big instance of a problem by breaking it up recursively into smaller instances; but instead of carrying out the computation recursively from the top down, we start from the bottom with the smallest instances of the problem, solving each increasingly large instance in turn and storing the result in a table. 
 
