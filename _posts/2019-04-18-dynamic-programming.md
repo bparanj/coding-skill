@@ -140,3 +140,9 @@ If a subproblem is solved multiple times, then cache its solution and use the ca
 #### Step 4 - Solve Bottom Up. 
 
 In this step we eliminate recursion and redefine our solution in forward direction starting from the most basic case. We store only the results that will be required later.
+
+## Conclusion
+
+The divide-and-conquer, graph exploration, and greedy choice yield definitive algorithms for a variety of important computational tasks. The drawback of these tools is that they can only be used on very specific types of problems. 
+
+Dynamic programming and linear programming techniques have a very broad applicability that can be invoked when more specialized methods fail. Predictably, this generality often comes with a cost in efficiency.

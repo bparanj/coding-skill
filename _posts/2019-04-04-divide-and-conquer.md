@@ -39,7 +39,7 @@ The combine(x, y) is a function which determines the solution to input[p, q] usi
 T(n) = compute(n), n small
        2T(n/2) + f(n), otherwise
 ```
-	   
+
 T(n) - Time for solve() on n inputs.
 compute(n) - Time to compute the answer directly for small inputs
 f(n) - Time for divide and combine
@@ -59,17 +59,31 @@ The iterative form of divide and conquer program template:
 
 ```ruby
 def solve(p, q)
-  /* declare a stack of appropriate size */
-  /* set the stack to empty */
+  # declare a stack of appropriate size
+  # set the stack to empty 
   top = Stack.new
   
   while(!small(p, q))
     m = divide(p, q)
   end
   while top != 0
-    /* decrement top  */
-    /* process the second recursive call */
-    /* combine two solutions into one */
+    # decrement top
+    # process the second recursive call
+    # combine two solutions into one
   end
 end
 ```
+
+The divide-and-conquer strategy solves a problem by:
+
+1. Breaking it into subproblems that are themselves smaller instances of the same type of problem
+2. Recursively solving these subproblems 
+3. Combining the solutions to the subproblems
+
+The real work is done piecemeal, in three different places:
+
+1. In the partitioning of problems into subproblems
+2. At the very tail end of the recursion, when the subproblems are so small that they are solved outright
+3. In the gluing together of partial answers. 
+
+These are held together and coordinated by the algorithm’s core recursive structure.

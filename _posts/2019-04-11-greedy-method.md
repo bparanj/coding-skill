@@ -39,12 +39,19 @@ The hard part in the design of a greedy algorithm is proving that the algorithm 
 
 Some of the most prominent problems for which the greedy strategy works, i.e., gives an optimal solution: the single-source shortest path problem, minimum cost spanning trees (Prim’s and Kruskal’s algorithms), and Huffman codes.
 
+<blockquote class="note">
+  <strong>BOTTOM LINE</strong> 
+  <p>
+    Greedy algorithms build up a solution piece by piece, always choosing the next piece that offers the most obvious and immediate benefit. Although such an approach can be disastrous for some computational tasks, there are many for which it is optimal. For example minimum spanning trees.
+  </p>
+</blockquote>
+
 ### Greedy Method Program Template
 
 We can describe the greedy method abstractly, but more precisely than above by considering the following program template:
 
 ```ruby
-# The parameter input array contains the n inputs
+ # The parameter input array contains the n inputs
 def greedy(input, n)
   # Initialize the solution to empty
   solution = {}

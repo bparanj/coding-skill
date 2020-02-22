@@ -20,6 +20,22 @@ Similarly you can identify problem types such as:
 
 And so on. 
 
+#### Linear Programming
+
+Many of the problems for which we want algorithms are optimization tasks: 
+
+- The shortest path 
+- The cheapest spanning tree 
+- The longest increasing subsequence
+
+and so on. In such cases, we seek a solution that: 
+
+1. Satisfies certain constraints (for instance, the path must use edges of the graph and lead from s to t, the tree must touch all nodes, the subsequence must be increasing); and 
+
+2. Is the best possible, with respect to some well-defined criterion, among all solutions that satisfy these constraints.
+
+Linear programming describes a broad class of optimization tasks in which both the con- straints and the optimization criterion are linear functions. It turns out an enormous number of problems can be expressed in this way
+
 ## Map Problem Types to Solution Types
 
 Read the problem description and write down the problem hints. The hints are useful to detect the problem type. Identify the hints in the problem statement and determine the type of the solution.
