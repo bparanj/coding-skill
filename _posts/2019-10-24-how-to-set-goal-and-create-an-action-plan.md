@@ -4,7 +4,7 @@ title: How to Set Goal and Create an Action Plan
 excerpt: Yogi Berra said "If you don't know where you are going, you might wind up someplace else". Learn how to set your career goal and performance goal. This drives your customized action plan for coding interview preparation.
 ---
 
-**Goal**
+### Goal
 
 Set your career goal by using the format: From X to Y by when. Example: 
 
@@ -26,7 +26,7 @@ Graduate software engineer will have 0 years of experience. The time frame shoul
 
 Parkinson’s Law should not be used to set unreasonable deadlines. Your time frame depends on whether you need to brush up on the concepts or you are learning them for the first time. Now write down your goal in a notebook.
 
-**Performance Goal**
+### Performance Goal
 
 Even though you set your career goal in the format from X to Y by when, your performance goal for the interview must be in the format: 
 
@@ -43,7 +43,7 @@ So the time constraint narrows down the kind of problems that you can expect in 
 
 Restricting the size of the solution is one way to focus on solving problems that you will likely encounter in a coding interview. This compresses the time required to prepare. 
 
-**Daily Action Plan**
+### Daily Action Plan
 
 Decide on how much time you have available for coding interview preparation. Write down in your notebook:
 
@@ -54,11 +54,11 @@ Decide on how much time you have available for coding interview preparation. Wri
   </i></p>
 </blockquote>
 
-**Prioritize Topics**
+### Prioritize Topics
 
 Make a list of topics to study for the interview and prioritize them. The familiar topics will go to the bottom of your list. You can use the following topics as your starting point:
 
-**Data Structures and Abstract Data Types**
+### Data Structures and Abstract Data Types
 
 - Array
 - String
@@ -78,7 +78,7 @@ Make a list of topics to study for the interview and prioritize them. The famili
 - Skip List
 - Trie
 
-**Algorithms**
+### Algorithms
 
 - Binary search
 - Sorting: Selection Sort, Insertion Sort, Bubble Sort, Quick Sort, Merge Sort, Radix/Bucket Sort, Heap Sort
@@ -86,13 +86,22 @@ Make a list of topics to study for the interview and prioritize them. The famili
 - Tree traversal: pre-order, post-order, in-order, level-order (which is BFS)
 - Traversals (On multiple data structures)
 
-**Algorithm Techniques**
+### Algorithm Design Techniques
 
-- [Brute Force](https://www.codingskill.net/2020/01/23/problem-solving-techniques-for-coding-interview.html#brute-force) 
+An algorithm design technique (or "strategy" or "paradigm") is a general approach to solving problems algorithmically that is applicable to a variety of problems from different areas of computing.
+
+They distill a few key ideas that have proven to be useful in designing algorithms.
+
+- [Brute Force](https://www.codingskill.net/2020/01/23/problem-solving-techniques-for-coding-interview.html#brute-force) or or Exhaustive Search
 - [Divide and Conquer]({% post_url 2019-04-04-divide-and-conquer %}) / [Recursion]({% post_url 2019-03-28-recursion-basics %})
-- [Greedy Method]({% post_url 2019-04-11-greedy-method %})
+- [Greedy Method]({% post_url 2019-04-11-greedy-method %}) and Hill Climbing
 - [Dynamic Programming]({% post_url 2019-04-18-dynamic-programming %}) (advanced level)
 - [Backtracking]({% post_url 2019-04-25-backtracking %})
+- [Recursion]({% post_url 2019-03-28-recursion-basics %})
+- Branch and Bound
+- Least Cost Algorithms
+- Constricting Bounds
+- Heuristics
 - NP-hard problems
 
 What goes into your list depends on the position level. For senior level positions, you have to add advanced data structures and algorithms. You must know the scope of the material you need to master within the given time frame. What is the breadth and depth of knowledge you need to master for your situation?
@@ -105,3 +114,25 @@ You are learning how to solve some common classes of problems that have already 
     Sorting and searching become an intermediate step in solving other problems.
   </i></p>
 </blockquote>
+
+### Important Problem Types
+
+The most important problem types:
+
+- Sorting
+- Searching
+- String processing
+- Graph problems 
+- Combinatorial problems 
+- Geometric problems 
+- Numerical problems
+
+#### Sorting
+
+Sorting is used as an auxiliary step in several important algorithms. For instance, the greedy approach — an important algorithm design technique requires a sorted input.
+
+#### Combinatorial Problems
+
+These are problems that ask, explicitly or implicitly, to find a combinatorial object—such as a permutation, a combination, or a subset that satisfies certain constraints.
+
+Reference : Introduction to the Design and Analysis of Algorithms by Anany Levitin

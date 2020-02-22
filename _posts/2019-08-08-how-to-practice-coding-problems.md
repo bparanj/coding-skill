@@ -62,7 +62,7 @@ How does speed vary with the number of inputs?
 
 #### Main Techniques 
 
-Can you reuse those techniques?
+The main techniques the algorithm uses. Can you reuse those techniques to solve similar problems?
 
 <blockquote class="note">
   <strong>TEACHING</strong> 

@@ -163,6 +163,8 @@ If you get stuck, you can try some of the following general problem solving tips
 
 - If you get stuck with one approach, try another. The interviewer doesn't want to see you struggling to use the wrong approach long after it's clear that it won't work.
 
+- Even if you can't solve a problem, if you recognize a structure similar to those used in one of the algorithms, you can suggest similar strategies and perhaps get partial credit.
+
 The questions are designed to be challenging. If everyone could solve them, then the employer is not going to be able to judge your proficiency. 
 
 <blockquote class="note">

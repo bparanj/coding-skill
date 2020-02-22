@@ -32,7 +32,7 @@ There is no substitute for your ability to think in a systematic way. But you ca
 - Are there any constructs of the programming language that you find difficult or confusing to use?
 - What issues make programming constructs difficult to use? For example, the keyword used, the syntax, the examples, the documentation for the construct, etc.
 
-Timebox your attempt to one hour. If you exceed your time limit, refer to the solution. Read the code. Understand the reasoning behind them. 
+Timebox your attempt to one hour. If you exceed your time limit, refer to the solution. Read the code. Understand the reasoning behind them.
 
 ### Come Up with Questions
 

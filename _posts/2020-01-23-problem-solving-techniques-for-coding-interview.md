@@ -11,6 +11,8 @@ In a coding interview you have to demonstrate to your interviewer that you posse
 - The tools to go from an algorithm to a working program.
 - The analytical techniques required to determhe the computational complexity of your solution.
 
+You must demonstrate that you are familiar with approaches that you can use to solve problems.
+
 There are a number of approaches to designing algorithms: 
 
 - Exhaustive Search 
@@ -186,9 +188,14 @@ Split the problem into two or more subproblems, solve the subproblems recursivel
 
 Reduce the problem to a single smaller problem, solve that problem recursively, and then use that solution to solve the original problem.
 
+Decrease and Conquer is a simpler strategy than Divide and Conquer. Decrease and Conquer is applicable to more problems than Divide and Conquer.
+
 ### Transform and Conquer
 
-Either (a) transform the input to a form that makes the problem easy to solve, or (b) transform the input into the input to another problem whose solution solves the original problem.
+Either: 
+
+- Transform the input to a form that makes the problem easy to solve or 
+- Transform the input into the input to another problem whose solution solves the original problem.
 
 ### Use Space
 
@@ -211,6 +218,6 @@ Run through your problem one step at a time, keeping track of the single best so
 
 ## Conclusion
 
-In upcoming articles, we will see the forest as well as the trees by discussing both the big picture as well as the lower level details that fit into the higher level structure. 
-
 The high level strategic decisions are data structures, algorithms and problem solving strategies and the tactical decisions at the code level are coding patterns, coding drills and the semantics. You need a good grasp of both aspects to become a problem solver capable of solving new problems.
+
+In upcoming articles, we will see the forest as well as the trees by discussing both the big picture as well as the lower level details that fit into the higher level structure. 
