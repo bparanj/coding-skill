@@ -4,7 +4,7 @@ title: Dynamic Programming
 excerpt: Dynamic Programming is an algorithm design method that can be used when the solution to a problem may be viewed as the result of a sequence of decisions. Some examples are Knapsack, Optimal Merge Patterns and Shortest Path.
 ---
 
-Dynamic Programming is a powerful algorithm design technique that is widely used to solve combinatorial optimization problems. An algorithm that employs this technique is not recursive by itself, but the underlying solution of the problem is usually stated in the form of a recursive function. 
+Dynamic Programming is a powerful algorithm design technique that is widely used to solve [combinatorial optimization problems](/2019/10/24/how-to-set-goal-and-create-an-action-plan.html#combinatorial-problems). An algorithm that employs this technique is not recursive by itself, but the underlying solution of the problem is usually stated in the form of a recursive function. 
 
 ### Bottom-Up Evaluation
 
@@ -40,7 +40,7 @@ The bottom-up aspect of dynamic programming is most useful when a straightforwar
  
 For some of the problems that may be viewed in this way, an optimal sequence of decisions may be found by making the decisions one at a time and never making an erroneous decision. 
 
-This is true for all problems solvable by the greedy method. For many other problems, it is not possible to make stepwise decisions (based only on local information) in such a manner that the sequence of decisions made is optimal. 
+This is true for all problems solvable by the [greedy method]({% post_url 2019-04-11-greedy-method %}). For many other problems, it is not possible to make stepwise decisions (based only on local information) in such a manner that the sequence of decisions made is optimal. 
 
 One way to solve problems for which it is not possible to make a sequence of stepwise decisions leading to an optimal decision sequence is to try out all possible decision sequences. We could enumerate all decision sequences and then pick out the best. 
 
@@ -59,7 +59,7 @@ This principle states that an optimal sequence of decisions has the property tha
 
 ### Greedy Method vs Dynamic Programming
 
-Thus, the essential difference between the greedy method and dynamic programming is that in the greedy method only one decision sequence is ever generated. In dynamic programming, many decision sequences may be generated. However, sequences containing suboptimal subsequences cannot be optimal (if the principle of optimality holds) and so will not be generated.
+Thus, the essential difference between the [greedy method]({% post_url 2019-04-11-greedy-method %}) and dynamic programming is that in the greedy method only one decision sequence is ever generated. In dynamic programming, many decision sequences may be generated. However, sequences containing suboptimal subsequences cannot be optimal (if the principle of optimality holds) and so will not be generated.
 
 An important feature of the dynamic programming approach is that optimal solutions to subproblems are retained so as to avoid recomputing their values. The use of these tabulated values makes it natural to recast the recursive equations into an iterative program. 
 
@@ -143,6 +143,6 @@ In this step we eliminate recursion and redefine our solution in forward directi
 
 ## Conclusion
 
-The divide-and-conquer, graph exploration, and greedy choice yield definitive algorithms for a variety of important computational tasks. The drawback of these tools is that they can only be used on very specific types of problems. 
+The [Divide and Conquer]({% post_url 2019-04-04-divide-and-conquer %}), graph exploration, and greedy choice yield definitive algorithms for a variety of important computational tasks. The drawback of these tools is that they can only be used on very specific types of problems. 
 
-Dynamic programming and linear programming techniques have a very broad applicability that can be invoked when more specialized methods fail. Predictably, this generality often comes with a cost in efficiency.
+Dynamic programming and [linear programming](/2019/11/28/how-to-prepare-quickly-for-coding-interview.html#linear-programming) techniques have a very broad applicability that can be invoked when more specialized methods fail. Predictably, this generality often comes with a cost in efficiency.

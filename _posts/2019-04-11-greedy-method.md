@@ -5,7 +5,7 @@ title: The Greedy Method
 
 The Greedy Method is the most straightforward design technique. In each step we choose the most beneficial option in every step without looking into the future. The choice depends only on current profit.
 
-It can be applied to a wide variety of problems. Most of these problems have n inputs and require us to obtain a subset that satisfies some constraints. Any subset that satisfies these constraints is called a feasible solution. 
+It can be applied to a wide variety of problems. Most of these problems have **n** inputs and require us to obtain a subset that satisfies some constraints. Any subset that satisfies these constraints is called a feasible solution. 
 
 We are required to find a feasible solution that either maximizes or minimizes a given objective function. A feasible solution that does this is called an optimal solution. There is usually an obvious way to determine a feasible solution, but not necessarily an optimal solution.
 
@@ -64,7 +64,7 @@ def greedy(input, n)
 end
 ```
 
-The function select() selects an input from the input array, removes it and assigns its value to x. The feasible() returns true if x can be included into the solution vector. The union() combines x with solution and updates the objective function. Procedure greedy() describes the essential way that a greedy based algorithm will look, once a particular problem is chosen and the procedures select(), feasible() and union() are properly implemented.
+The function _select()_ selects an input from the input array, removes it and assigns its value to x. The _feasible()_ returns true if x can be included into the solution vector. The _union()_ combines x with solution and updates the objective function. The procedure _greedy()_ describes the essential way that a greedy based algorithm will look, once a particular problem is chosen and the procedures _select()_, _feasible()_ and _union()_ are properly implemented.
 
 <blockquote class="note">
   <strong>TIP</strong> 

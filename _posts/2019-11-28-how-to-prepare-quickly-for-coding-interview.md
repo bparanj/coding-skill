@@ -16,7 +16,7 @@ Similarly you can identify problem types such as:
 
 - [Backtracking]({% post_url 2019-04-25-backtracking %})
 - [Dynamic Programming]({% post_url 2019-04-18-dynamic-programming %})
-- Linear Programming
+- [Linear Programming](/2019/11/28/how-to-prepare-quickly-for-coding-interview.html#linear-programming)
 
 And so on. 
 
