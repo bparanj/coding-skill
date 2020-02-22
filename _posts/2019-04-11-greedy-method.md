@@ -91,3 +91,11 @@ The function _select()_ selects an input from the input array, removes it and as
     Problems such as knapsack and job sequencing can be solved by using the greedy method program template.
   </p>
 </blockquote>
+
+## Conclusion
+
+Greedy algorithms solve problems by making a sequence of myopic and irrevocable decisions. For many problems, they are easy to devise and often blazingly fast. Most greedy algorithms are not guaranteed to be correct. Examples include scheduling problems, optimal compression, and minimum spanning trees of graphs.
+
+**Reference**
+
+- Problems on Algorithms by Ian Parberry

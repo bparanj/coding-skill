@@ -144,15 +144,10 @@ Can you think of a probabilistic method that uses guesses to find a solution or 
 
 ### Adaptive Techniques
 
+Many algorithms can be improved if you focus more work on the parts of the problem that are the most difficult and you spend less work on parts of the problem that are easy to handle.
+
 - Can you think of an approach that focuses on specific parts of the problem? 
 - Are there really only a few true areas of interest, with the rest of the problem being there to confuse the issue?
-
-<blockquote class="note">
-  <strong>ADAPTIVE TECHNIQUES</strong> 
-  <p>
-    Many algorithms can be improved if you focus more work on the parts of the problem that are the most difficult and you spend less work on parts of the problem that are easy to handle.
-  </p>
-</blockquote>
 
 ### Problem Structure
 

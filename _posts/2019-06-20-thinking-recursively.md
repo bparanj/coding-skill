@@ -272,9 +272,9 @@ Removing tail recursion is straightforward enough that some compilers can do it 
 Of course, the problem with the Factorial algorithm isn’t the depth of recursion, it’s the fact that the results become too big to store in data types of fixed size.
 
 <blockquote class="note">
-  <strong>TIP</strong> 
+  <strong>TAIL RECURSION REMOVAL</strong> 
   <p>
-    A tail recursion is very easy to re-write in the form of a loop. 
+    A tail recursion is very easy to re-write in the form of a loop. You can replace tail recursion with a loop that resets parameters before the end of the loop.
   </p>
 </blockquote>
 

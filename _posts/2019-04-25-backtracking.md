@@ -127,4 +127,8 @@ Finally, once we've figured out what recursive problem we really need to solve, 
 
 Backtracking is a technique where a recursive algorithm considers partial solutions. If it cannot extend a partial solution to a full solution, the algorithm discards the partial solution, backtracks to the previous feasible test solution, and continues searching from there. Examples include the eight queens problem and the knight’s tour problem.
 
-Reference: Fundamentals of Computer Algorithms by Horowitz and Sahni
+**References**
+
+- Fundamentals of Computer Algorithms by Horowitz and Sahni
+- Essential Algorithms A Practical Approach to Computer Algorithms using Python and C by Rod Stephens
+

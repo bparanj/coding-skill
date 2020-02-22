@@ -49,6 +49,13 @@ The virtue of this program is that it is almost syntactically identical to the m
 
 The major source of the inefficiency is not because of recursion. The reason is that many values are recomputed many times. For example, f(n-2) is computed twice, f(n-3) is computed three times and f(n-4) is computed five times. 
 
+<blockquote class="note">
+  <strong>DYNAMIC PROGRAMMING</strong> 
+  <p>
+    If a calculation such as the Fibonacci numbers must recalculate the same values many times, you can save time by storing values in a lookup table so that you need to calculate them only once.
+  </p>
+</blockquote>
+
 #### Greatest Common Divisor 
 
 The greatest common divisor (GCD) of two integers is the largest integer that evenly divides both of the numbers. For example, GCD(60, 24) is 12 because 12 is the largest integer that evenly divides both 60 and 24.
