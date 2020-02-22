@@ -79,7 +79,7 @@ There are two key attributes that a problem must have in order for dynamic progr
 
 Overlapping Subproblems means that results of smaller versions of the problem are reused multiple times in order to arrive at the solution to the original problem.
 
-Optimal Substructure means that there is a method of calculating a problem from its subproblems.
+Optimal Substructure means that an optimal solution to a problem contains optimal solutions to sub problems.
 
 <blockquote class="note">
   <strong>OPTIMIZATION</strong> 
@@ -87,6 +87,17 @@ Optimal Substructure means that there is a method of calculating a problem from 
     Dynamic Programming uses a concept called Memoization to achieve its optimization.
   </p>
 </blockquote>
+
+Dynamic programming uses memoization to maintain a table of sub problems that already been solved. So it reduces the exponential complexity to polynomial complexity (O(n<sup>2</sup>), O(n<sup>3</sup>), etc.) for many problems. Memoization means caching. 
+
+<blockquote class="note">
+  <strong>QUICK TIP</strong> 
+  <p>
+    Dynamic Programming = Recursion + Memoization
+  </p>
+</blockquote>
+
+If the subproblems are independent and there is no repetition in calculation then memoization has no effect, so recursion can be used instead of dynamic programming.
 
 ### Solution Components
 
@@ -140,6 +151,21 @@ If a subproblem is solved multiple times, then cache its solution and use the ca
 #### Step 4 - Solve Bottom Up. 
 
 In this step we eliminate recursion and redefine our solution in forward direction starting from the most basic case. We store only the results that will be required later.
+
+### Dynamic Programming Approaches
+
+There are two approaches for solving Dynamic Programming problems:
+
+- Bottom Up Dynamic Programming
+- Top Down Dynamic Programming
+
+#### Bottom Up Dynamic Programming
+
+In this method, we evaluate the function starting with the smallest possible input argument value and then we step through possible values, slowly increasing the input argument value. We store the computed values in a hashtable. As larger arguments are evaluated, pre-computed values for smaller arguments can be used.
+
+#### Top Down Dynamic Programming
+
+In this method, the problem is broken into sub problems. Each of these sub problems is solved. The solutions are remembered, in case they need to be solved. Also, we save each computed value as the final action of the recursive function. As the first action, we check if pre-computed value exists.
 
 ## Conclusion
 

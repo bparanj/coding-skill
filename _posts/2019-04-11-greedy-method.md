@@ -37,7 +37,7 @@ The choice made is that which produces the largest immediate gain while maintain
 
 The hard part in the design of a greedy algorithm is proving that the algorithm does indeed solve the problem it is designed for. This is to be contrasted with recursive algorithms that usually have very simple inductive proofs.
 
-Some of the most prominent problems for which the greedy strategy works, i.e., gives an optimal solution: the single-source shortest path problem, minimum cost spanning trees (Prim’s and Kruskal’s algorithms), and Huffman codes.
+Some of the most prominent problems for which the greedy strategy works, i.e., gives an optimal solution: the single-source shortest path problem, minimum cost spanning trees (Prim's and Kruskal's algorithms), and Huffman codes.
 
 <blockquote class="note">
   <strong>BOTTOM LINE</strong> 
@@ -45,6 +45,25 @@ Some of the most prominent problems for which the greedy strategy works, i.e., g
     Greedy algorithms build up a solution piece by piece, always choosing the next piece that offers the most obvious and immediate benefit. Although such an approach can be disastrous for some computational tasks, there are many for which it is optimal. For example minimum spanning trees.
   </p>
 </blockquote>
+
+### Elements of Greedy Algorithms
+
+The two basic properties of optimal Greedy algorithms are:
+
+1. Greedy choice property
+2. Optimal substructure
+
+#### Greedy Choice Property
+
+The globally optimal solution can be obtained by making a locally optimal solution (Greedy). The choice may depend on earlier choices but not on the future. It iteratively makes on Greedy choice after another and reduces the given problem to a smaller one.
+
+#### Optimal Substructure
+
+A problem exhibits optimal substructure if an optimal solution to the problem contains optimal solutions to the subproblems. That means we can solve subproblems and build up the solutions to solve larger problems.
+
+### Advantages and Disadvantages
+
+The main advantage of the Greedy method is that it is straightforward, easy to understand and code. Once we make a decision, we do not have to spend timd re-examining the already computed values. Its main disadvantage is that for many problems there is no greedy algorithm. This means, in many cases there is no guarantee that making locally optimal improvements in a locally optimal solution gives the optimal global solution.
 
 ### Greedy Method Program Template
 

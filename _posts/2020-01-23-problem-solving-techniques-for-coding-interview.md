@@ -192,7 +192,11 @@ Decrease and Conquer is a simpler strategy than Divide and Conquer. Decrease and
 
 ### Transform and Conquer
 
-Either: 
+In this method we solve a difficult problem by transforming it into a known problem for which we have asymptotically optimal algorithms. In this method, the goal is to find a reducing algorithm whose complexity is not dominated by the resulting reduced algorithms. 
+
+For example, the selection algorithm for finding the median in a list involves first sorting the list and then finding out the middle element in the sorted list. This technique is also called as reduction.
+
+We either: 
 
 - Transform the input to a form that makes the problem easy to solve or 
 - Transform the input into the input to another problem whose solution solves the original problem.

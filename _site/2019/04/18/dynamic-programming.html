@@ -21,7 +21,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-04-18T00:00:00-04:00" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"/2019/04/18/dynamic-programming.html"},"url":"/2019/04/18/dynamic-programming.html","description":"Dynamic Programming is an algorithm design method that can be used when the solution to a problem may be viewed as the result of a sequence of decisions. Some examples are Knapsack, Optimal Merge Patterns and Shortest Path.","headline":"Dynamic Programming","dateModified":"2019-04-18T00:00:00-04:00","datePublished":"2019-04-18T00:00:00-04:00","@context":"https://schema.org"}</script>
+{"url":"/2019/04/18/dynamic-programming.html","headline":"Dynamic Programming","dateModified":"2019-04-18T00:00:00-04:00","datePublished":"2019-04-18T00:00:00-04:00","description":"Dynamic Programming is an algorithm design method that can be used when the solution to a problem may be viewed as the result of a sequence of decisions. Some examples are Knapsack, Optimal Merge Patterns and Shortest Path.","mainEntityOfPage":{"@type":"WebPage","@id":"/2019/04/18/dynamic-programming.html"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -132,7 +132,7 @@
 
 <p>Overlapping Subproblems means that results of smaller versions of the problem are reused multiple times in order to arrive at the solution to the original problem.</p>
 
-<p>Optimal Substructure means that there is a method of calculating a problem from its subproblems.</p>
+<p>Optimal Substructure means that an optimal solution to a problem contains optimal solutions to sub problems.</p>
 
 <blockquote class="note">
   <strong>OPTIMIZATION</strong> 
@@ -140,6 +140,17 @@
     Dynamic Programming uses a concept called Memoization to achieve its optimization.
   </p>
 </blockquote>
+
+<p>Dynamic programming uses memoization to maintain a table of sub problems that already been solved. So it reduces the exponential complexity to polynomial complexity (O(n<sup>2</sup>), O(n<sup>3</sup>), etc.) for many problems. Memoization means caching.</p>
+
+<blockquote class="note">
+  <strong>QUICK TIP</strong> 
+  <p>
+    Dynamic Programming = Recursion + Memoization
+  </p>
+</blockquote>
+
+<p>If the subproblems are independent and there is no repetition in calculation then memoization has no effect, so recursion can be used instead of dynamic programming.</p>
 
 <h3 id="solution-components">Solution Components</h3>
 
@@ -206,6 +217,23 @@
 <h4 id="step-4---solve-bottom-up">Step 4 - Solve Bottom Up.</h4>
 
 <p>In this step we eliminate recursion and redefine our solution in forward direction starting from the most basic case. We store only the results that will be required later.</p>
+
+<h3 id="dynamic-programming-approaches">Dynamic Programming Approaches</h3>
+
+<p>There are two approaches for solving Dynamic Programming problems:</p>
+
+<ul>
+  <li>Bottom Up Dynamic Programming</li>
+  <li>Top Down Dynamic Programming</li>
+</ul>
+
+<h4 id="bottom-up-dynamic-programming">Bottom Up Dynamic Programming</h4>
+
+<p>In this method, we evaluate the function starting with the smallest possible input argument value and then we step through possible values, slowly increasing the input argument value. We store the computed values in a hashtable. As larger arguments are evaluated, pre-computed values for smaller arguments can be used.</p>
+
+<h4 id="top-down-dynamic-programming">Top Down Dynamic Programming</h4>
+
+<p>In this method, the problem is broken into sub problems. Each of these sub problems is solved. The solutions are remembered, in case they need to be solved. Also, we save each computed value as the final action of the recursive function. As the first action, we check if pre-computed value exists.</p>
 
 <h2 id="conclusion">Conclusion</h2>
 

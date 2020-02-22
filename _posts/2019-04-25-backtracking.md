@@ -2,7 +2,6 @@
 layout: post
 ---
 
-
 A backtracking algorithm tries to construct a solution to a computational problem incrementally, one small piece at a time. Whenever the algorithm needs to decide between multiple alternatives to the next component of the solution, it recursively evaluates every alternative and then chooses the best one.
 
 Backtracking algorithms use recursion to search for the best solution to complicated problems. These algorithms recursively build partial test solutions to solve the problem. When they find that a test solution cannot lead to a usable final solution, they backtrack, discarding that test solution and continuing the search from an earlier test solution.
@@ -35,6 +34,10 @@ Moreover, for virtually all of these problems, there does not exist an algorithm
 
 Backtracking is a general technique for organizing the search. This algorithm design technique can be described as an organized exhaustive search which often avoids searching all possibilities. It is generally suitable for solving problems where a potentially large but a finite number of solutions have to be inspected.
 
+Backtracking is an improvement of the brute force approach. It systematically searches for a solution to a problem among all available options. 
+
+We start with on possible option out of many available options and try to solve the problem if we are able to solve the problem with the selected move. Then we will print the solution otherwise we will backtrack and select some other option and try to solve it. If none of the options work out, we will claim that there is no solution for the problem.
+
 In order to apply the backtrack method, the desired solution must be expressible as an n-tuple (x<sub>1</sub> , ...., x<sub>n</sub>) where the x<sub>i</sub> are chosen from some finite set S<sub>i</sub>. Often the problem to be solved calls for finding one vector which maximizes (or minimizes or satisfies) a criterion function P(x<sub>1</sub>, ....., x<sub>n</sub>). 
 
 The general principle consists of breaking up problem-solving tasks into subtasks and applying recursion.
@@ -48,31 +51,30 @@ The general principle consists of breaking up problem-solving tasks into subtask
 The following pseudocode shows the general backtracking approach at a high level:
 
 ```
-  // Explore this test solution.
-  // Return false if it cannot be extended to a full solution.
-  // Return true if a recursive call to LeadsToSolution finds
-  // a full solution.
-  Boolean: LeadsToSolution(Solution: test_solution)
-      // If we can already tell that this partial solution cannot
-      // lead to a full solution, return false.
-      If <test_solution cannot solve the problem> Then Return false
-      // If this is a full solution, return true.
-      If <test_solution is a full solution> Then Return true
-      
-      // Extend the partial solution.
-      
-      Loop <over all possible extensions to test_solution>      
-      
-        <Extend test_solution>
-              // Recursively see if this leads to a solution.
-              If (LeadsToSolution(test_solution)) Then Return true
-              // This extension did not lead to a solution. Undo the change.
-              <Undo the extension>
-          End Loop
-          // If we get here, this partial solution cannot
-          // lead to a full solution.
-          Return false
-      End LeadsToSolution
+// Explore this test solution.
+// Return false if it cannot be extended to a full solution.
+// Return true if a recursive call to LeadsToSolution finds
+// a full solution.
+Boolean: LeadsToSolution(Solution: test_solution)
+  // If we can already tell that this partial solution cannot
+  // lead to a full solution, return false.
+  If <test_solution cannot solve the problem> Then Return false
+  // If this is a full solution, return true.
+  If <test_solution is a full solution> Then Return true
+
+  // Extend the partial solution.
+
+  Loop <over all possible extensions to test_solution>      
+    <Extend test_solution>
+    // Recursively see if this leads to a solution.
+    If (LeadsToSolution(test_solution)) Then Return true
+    // This extension did not lead to a solution. Undo the change.
+    <Undo the extension>
+  End Loop
+  // If we get here, this partial solution cannot
+  // lead to a full solution.
+  Return false
+End LeadsToSolution
 ```
 
 The LeadsToSolution algorithm takes as a parameter whatever data it needs to keep track of a partial solution. It returns true if that partial solution leads to a full solution.
@@ -87,7 +89,20 @@ You can think of the quest for a solution as a search through a hypothetical dec
 
 ![Recursive Backtracking Method](/assets/images/backtrack-recursive.png)
 
-Reference: Fundamentals of Computer Algorithms by Horowitz and Sahni
+Backtracking allows us to deal with situations in which a raw brute-force approach would explode into an impossible number of options to consider. 
+
+At each node, we eliminate choices that are obviously not possible and proceed to recursively check only those that have potential. We back up only as far as needed to reach a previous decision point with an as-yet-unexplored alternative. 
+
+In general, that will be at the most recent decision point. Eventually, more and more of these decision points will have been fully explored and we will have to backtrack further and further. 
+
+If we backtrack all the way to our initial state and have explored all alternatives from there, we can conclude the particular problem is unsolvable. In such a case, we have done all the work of the exhaustive recursion and know that there is no viable solution possible.
+
+<blockquote class="note">
+  <strong>TIP</strong> 
+  <p>
+    Backtracking speeds the exhaustive search by pruning.
+  </p>
+</blockquote>
 
 ## The General Pattern
 
@@ -111,3 +126,5 @@ Finally, once we've figured out what recursive problem we really need to solve, 
 ## Conclusion
 
 Backtracking is a technique where a recursive algorithm considers partial solutions. If it cannot extend a partial solution to a full solution, the algorithm discards the partial solution, backtracks to the previous feasible test solution, and continues searching from there. Examples include the eight queens problem and the knight’s tour problem.
+
+Reference: Fundamentals of Computer Algorithms by Horowitz and Sahni

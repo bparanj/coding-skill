@@ -20,13 +20,19 @@ Your only task is to simplify the original problem or to solve it directly when 
 
 Eventually, the recursive reductions must lead to an elementary base case that can be solved by some other method. 
 
-Otherwise, the recursive algorithm will loop forever. The most common way to satisfy this condition is to reduce to one or more smaller instances of the same problem. 
+Otherwise, the recursive algorithm will loop forever. The most common way to satisfy this condition is to reduce to one or more smaller instances of the same problem. So the sequence of smaller problems must eventually converge on the base case.
 
-Now, let's take look at a few examples.
+### Why Recursion?
 
-#### Fibonacci Sequence
+Recursive code is generally concise and easy to write than iterative equivalent. Recursion is most useful for tasks than can be defined in terms of similar subtasks. For example, sort, search and traversal problems often have simple recursive solutions.
 
-The Fibonacci sequence 1,1,2,3,5,8,13,21,34 is defined as:
+### Recursion and Memory
+
+Each recursive call makes a new copy of that method in memory. Once a method ends and returns some data, the copy of that returning method is removed from memory.
+
+### Fibonacci Sequence
+
+Now, let's take look at a few examples. The Fibonacci sequence 1,1,2,3,5,8,13,21,34 is defined as:
 
 ![Fibonacci Sequence](/assets/images/fibonacci.png)
 
@@ -94,6 +100,14 @@ end
 ```
 
 Recursion can be used for problems that are not mathematical functions. For instance, we can search for a given number in an array by using recursion. By using recursion the need for a looping statement is removed.
+
+### Recursion vs Iteration
+
+A recursive approach mirrors the problem that we are solving. A recursive approach makes it simpler to solve a problem that may not be obvious to solve. But recursion incurs overhead for each recursive call. Because it needs space on the stack frame.
+
+If we get infinite recursion, the program will run out of memory and result in stack overflow error. Any problem that can be solved recursively can also be solved iteratively. 
+
+A recursive algorithm can be translated to its iterative equivalent using a stack, but it's usually more trouble than its worth.
 
 ### Removing Recursion
 
