@@ -5,18 +5,21 @@ title: The Greedy Method
 
 The Greedy Method is the most straightforward design technique. In each step we choose the most beneficial option in every step without looking into the future. The choice depends only on current profit.
 
+### Applicability
+
 It can be applied to a wide variety of problems. Most of these problems have **n** inputs and require us to obtain a subset that satisfies some constraints. Any subset that satisfies these constraints is called a feasible solution. 
+
+### Find a Feasible Solution
 
 We are required to find a feasible solution that either maximizes or minimizes a given objective function. A feasible solution that does this is called an optimal solution. There is usually an obvious way to determine a feasible solution, but not necessarily an optimal solution.
 
-<blockquote class="note">
-  <strong>THE ESSENCE OF GREEDY METHOD</strong> 
-  <p>
-    The greedy method suggests that one can devise an algorithm which works in stages, considering one input at a time. At each stage, a decision is made regarding whether or not a particular input is in an optimal solution. This is done by considering the inputs in an order determined by some selection procedure.
-  </p>
-</blockquote>
+### Selection Procedure
+
+The greedy method suggests that one can devise an algorithm which works in stages, considering one input at a time. At each stage, a decision is made regarding whether or not a particular input is in an optimal solution. This is done by considering the inputs in an order determined by some selection procedure.
 
 If the inclusion of the next input into the partially constructed optimal solution will result in an infeasible solution, then this input is not added to the partial solution. The selection procedure itself is based on some optimization measure. 
+
+### Objective Function
 
 This measure may not be the objective function. In fact, several different optimization measures may be plausible for a given problem. Most of these, however, will result in algorithms that generate suboptimal solutions.
 
@@ -27,6 +30,8 @@ This measure may not be the objective function. In fact, several different optim
   </p>
 </blockquote>
 
+### Comparison with Dynamic Programming
+
 As in the case of dynamic programming algorithms, greedy algorithms are usually designed to solve optimization problems in which a quantity is to be minimized or maximized. 
 
 However, unlike dynamic programming algorithms, greedy algorithms typically consist of an iterative procedure that tries to find a local optimal solution. In some instances, these local optimal solutions translate to global optimal solutions. 
@@ -35,7 +40,11 @@ In others, they fail to give optimal solutions. A greedy algorithm makes a corre
 
 The choice made is that which produces the largest immediate gain while maintaining feasibility. Since each step consists of little work based on a small amount of information, the resulting algorithms are typically efficient. 
 
+### Design of Greedy Algorithm
+
 The hard part in the design of a greedy algorithm is proving that the algorithm does indeed solve the problem it is designed for. This is to be contrasted with recursive algorithms that usually have very simple inductive proofs.
+
+### Examples of Greedy Algorithm
 
 Some of the most prominent problems for which the greedy strategy works, i.e., gives an optimal solution: 
 
@@ -52,12 +61,20 @@ Some of the most prominent problems for which the greedy strategy works, i.e., g
   </p>
 </blockquote>
 
-### Elements of Greedy Algorithms
+### Optimization Problems
 
-The two basic properties of optimal Greedy algorithms are:
+Greedy algorithms are generally used to solve optimization problems. To find the solution that minimizes or maximizes some value (cost/profit/count etc.).
 
-1. Greedy choice property
-2. Optimal substructure
+In greedy algorithm, solution is constructed through a sequence of steps. At each step, choice is made which is locally optimal. We always take the next data to be processed depending upon the dataset which we have already processed and then choose the next optimum data to be processed.
+
+Greedy algorithms does not always give optimum solution. For some problems, greedy algorithm gives an optimal solution. For most, they do not, but can be useful for fast approximations.
+
+### Characteristics of Greedy Strategy
+
+Greedy is a strategy that works well on optimization problems with the following characteristics:
+
+1. Greedy choice: A global optimum can be arrived at by selecting a local optimum.
+2. Optimal substructure: An optimal solution to the problem is made from optimal solutions of subproblems.
 
 #### Greedy Choice Property
 
