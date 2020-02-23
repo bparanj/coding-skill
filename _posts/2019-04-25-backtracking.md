@@ -4,6 +4,44 @@ layout: post
 
 A backtracking algorithm tries to construct a solution to a computational problem incrementally, one small piece at a time. Whenever the algorithm needs to decide between multiple alternatives to the next component of the solution, it recursively evaluates every alternative and then chooses the best one.
 
+Imagine someone gave you a lock with a number (three digit lock, number range from 1 to 9). Moreover, you do not have the exact password key for the lock. You need to test every combination until you got the right one. 
+
+Obviously, you need to test starting from something like “111”, then “112” and so on. You will get your key before you reach “999”. This is backtracking.
+
+Let's say the lock produces a clicking sound when correct digit is selected for any level. If we can listen to this sound such intelligence / heuristics will help you to reach your goal much faster. 
+
+These functions are called Pruning function or bounding functions. Backtracking is a method by which solution is found by exhaustively searching through large but finite number of states, with some pruning or bounding function that will narrow down our search. 
+
+<blockquote class="note">
+  <strong>WHEN TO APPLY</strong> 
+  <p>
+    Problems (NP hard problems) that lack any other method we use backtracking.
+  </p>
+</blockquote>
+
+Backtracking problems have the following components:
+
+1. Initial state
+2. Target / Goal state
+3. Intermediate states
+4. Path from the initial state to the target / goal state
+5. Operators to get from one state to another
+6. Pruning function (optional)
+
+The solving process of backtracking algorithm starts with the construction of state’s tree, whose nodes represents the states. The root node is the initial state and one or more leaf node will be our target state. Each edge of the tree represents some operation. The solution is obtained by searching the tree until a Target state is found.
+
+Backtracking uses depth-first search:
+
+1. Store the initial state in a stack
+2. While the stack is not empty, repeat:
+3. Read a node from the stack.
+4. While there are available operators, do:
+    a. Apply an operator to generate a child
+    b. If the child is a goal state – return solution
+    c. If it is a new state, and pruning function does not    discard it push the child into the stack.
+
+### Recursion
+
 Backtracking algorithms use recursion to search for the best solution to complicated problems. These algorithms recursively build partial test solutions to solve the problem. When they find that a test solution cannot lead to a usable final solution, they backtrack, discarding that test solution and continuing the search from an earlier test solution.
 
 <blockquote class="note">
@@ -13,11 +51,17 @@ Backtracking algorithms use recursion to search for the best solution to complic
   </p>
 </blockquote>
 
+### Partial Solutions
+
 Backtracking is useful when you can incrementally build partial solutions, and you can sometimes quickly determine that a partial solution cannot lead to a complete solution. In that case, you can stop improving that partial solution, backtrack to the previous partial solution, and continue the search from there.
 
 ![Backtracking](/assets/images/backtracking.png)
 
+### Partial Tasks
+
 The common pattern is to decompose the trial-and-error process onto partial tasks. Often these tasks are most naturally expressed in recursive terms and consist of the exploration of a finite number of subtasks. 
+
+### Pruning
 
 We may generally view the entire process as a trial or search process that gradually builds up and scans a tree of subtasks. In many problems this search tree grows very rapidly, often exponentially, depending on a given parameter. The search effort increases accordingly. Frequently, the search tree can be pruned by the use of heuristics only, thereby reducing computation to tolerable bounds.
 
@@ -28,15 +72,21 @@ We may generally view the entire process as a trial or search process that gradu
   </p>
 </blockquote>
 
+### Exhaustive Search
+
 In many real-world problems, as in most of the NP-hard problems, a solution can be obtained by exhaustively searching through a large but finite number of possibilities. 
 
 Moreover, for virtually all of these problems, there does not exist an algorithm that uses a method other than exhaustive search. Hence, the need arose for developing systematic techniques of searching, with the hope of cutting down the search space to possibly a much smaller space. 
 
 Backtracking is a general technique for organizing the search. This algorithm design technique can be described as an organized exhaustive search which often avoids searching all possibilities. It is generally suitable for solving problems where a potentially large but a finite number of solutions have to be inspected.
 
+### Brute Force and Backtracking
+
 Backtracking is an improvement of the brute force approach. It systematically searches for a solution to a problem among all available options. 
 
 We start with on possible option out of many available options and try to solve the problem if we are able to solve the problem with the selected move. Then we will print the solution otherwise we will backtrack and select some other option and try to solve it. If none of the options work out, we will claim that there is no solution for the problem.
+
+### Applying Backtrack Method
 
 In order to apply the backtrack method, the desired solution must be expressible as an n-tuple (x<sub>1</sub> , ...., x<sub>n</sub>) where the x<sub>i</sub> are chosen from some finite set S<sub>i</sub>. Often the problem to be solved calls for finding one vector which maximizes (or minimizes or satisfies) a criterion function P(x<sub>1</sub>, ....., x<sub>n</sub>). 
 

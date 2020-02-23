@@ -175,15 +175,45 @@ The following classification is adapted from Anany Levitin, Introduction to the 
 
 Brute force is a straightforward approach to solving a problem, usually directly based on the problem statement and definitions of the concepts involved. In this approach we try all possible solutions until we find the right one.
 
+It is one of the easiest approaches to solve a particular problem. It is useful for solving small size dataset
+problem. Some examples of brute force algorithms are:
+
+- Bubble-Sort
+- Selection-Sort
+- Sequential search in an array
+- Computing power(a, n) by multiplying a, n times.
+- Convex hull problem
+- String matching
+- Exhaustive search: Traveling salesman, Knapsack, and Assignment problems
+
 ### Divide and Conquer
 
-Split the problem into two or more subproblems, solve the subproblems recursively, and then combine the solutions.
+Split the problem into two or more subproblems, solve the subproblems recursively, and then combine the solutions. Examples of divide-and-conquer algorithms using recursion:
+
+- Merge-Sort algorithm 
+- Quicksort algorithm 
+- Computing the length of the longest path in a binary tree 
+- Computing Fibonacci numbers
+
+Quick-hull is an example of Divide and Conquer without recursion.
 
 ### Decrease and Conquer
 
-Reduce the problem to a single smaller problem, solve that problem recursively, and then use that solution to solve the original problem.
+In Divide and Conquer the size of the problem is reduced by a factor (half, one-third, etc.), While in Decrease and Conquer the size of the problem is reduced by a constant.
 
-Decrease and Conquer is a simpler strategy than Divide and Conquer. Decrease and Conquer is applicable to more problems than Divide and Conquer.
+We reduce the problem to a single smaller problem, solve that problem recursively, and then use that solution to solve the original problem.
+
+Decrease and Conquer is a simpler strategy than Divide and Conquer. Decrease and Conquer is applicable to more problems than Divide and Conquer. Examples of decrease-and-conquer algorithms:
+
+- Computing power(a, n) by calculating power(a, n/2) using recursion.
+- Binary search in a sorted array (using recursion)
+- Searching in BST
+- Insertion Sort
+- Graph traversal algorithms (DFS and BFS)
+- Topological sort
+- Warshall's algorithm (using recursion)
+- Permutations (Minimal change approach, Johnson-Trotter algorithm)
+- Computing a median, Topological sorting, Fake-coin problem (Ternary search)
 
 ### Transform and Conquer
 
@@ -195,6 +225,18 @@ We either:
 
 - Transform the input to a form that makes the problem easy to solve or 
 - Transform the input into the input to another problem whose solution solves the original problem.
+
+This works as two-stage procedure. First, the problem is transformed into a known problem for which we know optimal solution. In the second stage, the problem is solved. The most common type of transformation is sorting of an array.
+
+For example, given an array of numbers find the two closest number. The brute force solution for this problem will take distance between each element in the array and
+will try to keep the minimum distance pair. This approach has a Time Complexity of O(n<sup>2</sup>).
+
+In Transform and Conquer solution, we first sort the array in O(n log n) time and then find the closest number by scanning the array in another O(n). This has the total Time Complexity of O(n log n).
+
+Examples:
+
+- Gaussian elimination
+- Heaps and Heapsort
 
 ### Use Space
 

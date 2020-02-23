@@ -37,7 +37,13 @@ The choice made is that which produces the largest immediate gain while maintain
 
 The hard part in the design of a greedy algorithm is proving that the algorithm does indeed solve the problem it is designed for. This is to be contrasted with recursive algorithms that usually have very simple inductive proofs.
 
-Some of the most prominent problems for which the greedy strategy works, i.e., gives an optimal solution: the single-source shortest path problem, minimum cost spanning trees (Prim's and Kruskal's algorithms), and Huffman codes.
+Some of the most prominent problems for which the greedy strategy works, i.e., gives an optimal solution: 
+
+- Dijkstra’s algorithm for single-source shortest path problem
+- Minimum cost spanning trees (Prim's and Kruskal's algorithms)
+- Huffman codes.
+- Greedy algorithm for the Knapsack problem
+- The coin exchange problem
 
 <blockquote class="note">
   <strong>BOTTOM LINE</strong> 

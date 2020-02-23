@@ -6,6 +6,12 @@ excerpt: Dynamic Programming is an algorithm design method that can be used when
 
 Dynamic Programming is a powerful algorithm design technique that is widely used to solve [combinatorial optimization problems](/2019/10/24/how-to-set-goal-and-create-an-action-plan.html#combinatorial-problems). An algorithm that employs this technique is not recursive by itself, but the underlying solution of the problem is usually stated in the form of a recursive function. 
 
+Examples:
+
+- Fibonacci numbers computed by iteration
+- Warshall’s algorithm for transitive closure implemented by iterations
+- Floyd’s algorithms for all-pairs shortest paths
+
 ### Bottom-Up Evaluation
 
 Unlike the case in divide-and-conquer algorithms, immediate implementation of the recurrence results in identical recursive calls that are executed more than once. For this reason, this technique resorts to evaluating the recurrence in a bottom-up manner, saving intermediate results that are used later on to compute the desired solution. 
