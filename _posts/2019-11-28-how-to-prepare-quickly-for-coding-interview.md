@@ -44,7 +44,7 @@ Solution for a similar problem can be discovered by adjusting the solution to a 
 
 ## Map Data Structures to Problems
 
-One of the challenges to solving a coding problem is picking the right data structure. Given a problem, you need to first recognize what data structure to use to solve that problem. [Schedule a call](https://go.oncehub.com/BalaParanj) with me to get acess to a list of problems that is mapped to data structures.
+One of the challenges to solving a coding problem is picking the right data structure. Given a problem, you need to first recognize what data structure to use to solve that problem. [Schedule a call](https://go.oncehub.com/BalaParanj) with me to get access to a list of problems that is mapped to data structures.
 
 ## Map Problem Solving Strategy to Problems
 
