@@ -3,7 +3,13 @@ layout: post
 title: Divide and Conquer Strategy
 ---
 
-Given a function to compute on n inputs, the divide and conquer strategy splits the input into k distinct subsets, yielding k subproblems. These subproblems must be solved and then a method must be found to combine subsolutions into a solution of the whole. 
+One big problem may be hard to solve, but two problems that are half the size may be significantly easier. In these cases, divide-and-conquer algorithms fare well by doing just that: splitting the problem into smaller subproblems, solving the subproblems independently, and combining the solutions of subproblems into a solution of the original problem. 
+
+The situation is usually more complicated than this and after splitting one problem into subproblems, a divide-and-conquer algorithm usually splits these subproblems into even smaller sub-subproblems and so on, until it reaches a point at which it no longer needs to recurse. 
+
+A critical step in many divide-and-conquer algorithms is the recombining of solutions to subproblems into a solution for a larger problem.
+
+Given a function to compute on **n** inputs, the divide and conquer strategy splits the input into k distinct subsets, yielding k subproblems. These subproblems must be solved and then a method must be found to combine subsolutions into a solution of the whole. 
 
 If the subproblems are large, then the divide and conquer strategy may possibly be reapplied. Often the subproblems resulting from a divide and conquer design are of the same type as the original problem. For those cases, the reapplication of the divide and conquer principle is naturally expressed by a recursive procedure. 
 

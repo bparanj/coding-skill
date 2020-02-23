@@ -78,7 +78,7 @@ Greedy is a strategy that works well on optimization problems with the following
 
 #### Greedy Choice Property
 
-The globally optimal solution can be obtained by making a locally optimal solution (Greedy). The choice may depend on earlier choices but not on the future. It iteratively makes on Greedy choice after another and reduces the given problem to a smaller one.
+The globally optimal solution can be obtained by making a locally optimal solution (Greedy). The choice may depend on earlier choices but not on the future. It iteratively makes one Greedy choice after another and reduces the given problem to a smaller one.
 
 #### Optimal Substructure
 
@@ -93,7 +93,7 @@ The main advantage of the Greedy method is that it is straightforward, easy to u
 We can describe the greedy method abstractly, but more precisely than above by considering the following program template:
 
 ```ruby
- # The parameter input array contains the n inputs
+  # The parameter input array contains the n inputs
 def greedy(input, n)
   # Initialize the solution to empty
   solution = {}
@@ -114,6 +114,71 @@ The function _select()_ selects an input from the input array, removes it and as
     Problems such as knapsack and job sequencing can be solved by using the greedy method program template.
   </p>
 </blockquote>
+
+
+### Coin Change using US currency
+
+Many algorithms are iterative procedures that choose among a number of alternatives at each iteration. For example, a cashier can view the Change Problem as a series of decisions he has to make: which coin (among d denominations) to return first, which to return second, and so on. Some of these alternatives may lead to correct solutions.
+
+Greedy algorithms choose the "most attractive" alternative at each iteration, for example, the largest denomination possible. In the case of the US denominations, the order is quarters, dimes, nickels and finally pennies to make change. 
+
+This greedy strategy can produce incorrect results when certain new denominations are included.
+
+Input: n - a positive integer.
+Output: minimum number of quarters, dimes, nickels, and pennies to make change for n. 
+
+Assumption: We assume that we have an infinite supply of coins of each denomination: {1, 5, 10, 25}
+
+Consider the greedy strategy: To make change for n find a coin of maximum possible value ≤ n, include it in your solution, continue recursively to solve the subproblem of making change for n minus the value of the coin selected.
+
+We repeatedly choose a coin ≤ to the current amount, resulting in a new amount. In the greedy algorithm, we always choose the largest coin value possible without exceeding the total amount.
+
+```ruby
+def change(n)
+  # constant
+  C = {1, 5, 10, 25} 
+  # set that will hold the solution set
+  S = {} 
+  value = n
+  
+  while value != 0
+    x = largest item in set C such that x < value
+    if no such item 
+      return "No Solution"
+    end
+    S = S + x
+    v = v - x
+  end
+  return S
+end
+```
+
+We can apply the Greedy Program Template to the outline of the solution.
+
+```ruby
+def change(n)
+  # coin denominations (constant)
+  coins = {1, 5, 10, 25} 
+  # Initialize the solution to empty
+  solution = {}
+  value = n
+  
+  while value != 0
+    x = select(n)
+    if !feasible(x, v) 
+      return "No Solution"
+    end
+    solution = solution + x
+    v = v - x
+  end
+  return solution  
+end
+
+def feasible(x, value)
+  # find largest item in set coins 
+  # {1, 5, 10, 25} such that x < value
+end
+```
 
 ## Conclusion
 

@@ -40,7 +40,7 @@ A clean separation is made between how the computation will proceed and decision
 
 #### Branch and Bound
 
-Branch and bound method is used when we can evaluate cost of visiting each node by a utility functions. At each step, we choose the node with lowest cost to proceed further. Branch-and bound algorithms are implemented using a priority queue. In branch and bound, we traverse the nodes in breadth-first manner.
+Branch and bound method is used when we can evaluate cost of visiting each node by a utility functions. At each step, we choose the node with lowest cost to proceed further. Branch and Bound algorithms are implemented using a priority queue. In branch and bound, we traverse the nodes in breadth-first manner.
 
 Branch-and-bound design technique is similar to backtracking in the sense that it generates a search tree and looks for one or more solutions. However, while backtracking searches for a solution or a set of solutions that sat- isfy certain properties (including maximization or minimization), branch-and-bound algorithms are typically concerned with only maximization or minimization of a given function. 
 

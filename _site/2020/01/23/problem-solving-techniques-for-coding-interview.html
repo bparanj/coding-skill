@@ -82,21 +82,17 @@
 
 <p>And so on.</p>
 
-<blockquote class="note">
-  <strong>EXHAUSTIVE SEARCH</strong> 
-  <p>
-    Exhaustive Search is simply a brute-force approach to combinatorial problems. It suggests generating each and every element of the problem domain, selecting those of them that satisfy all the constraints, and then finding a desired element.
-  </p>
-</blockquote>
+<h3 id="exhaustive-search">Exhaustive Search</h3>
 
-<p>You already need to know the basic data structures and algorithms to read this book. The authors recommend the book Algorithms by Dasgupta, Papadirnitriou, and Vazirani because it is succinct and beautifully written.</p>
+<p>Exhaustive Search is simply a <a href="#brute-force">Brute Force</a> approach to combinatorial problems. It suggests generating each and every element of the problem domain, selecting those of them that satisfy all the constraints, and then finding a desired element.</p>
 
-<blockquote class="note">
-  <strong>HEURISTICS</strong> 
-  <p>
-    Many trees are enormous for large problem sizes, so often they cannot be solved exactly, and you must turn to heuristics. Heuristics that can apply to any decision tree include random search, improving paths, and simulated annealing. Hill climbing and sorted hill climbing often can give good results extremely quickly, although you need to define what hill climbing means for a particular problem.
-  </p>
-</blockquote>
+<p>In certain cases, as we explore the various alternatives in a brute force algorithm, we discover that we can omit a large number of alternatives, a technique that is often called <a href="/2019/03/21/fundamentals-of-computer-algorithms.html#branch-and-bound">Branch and Bound</a>.</p>
+
+<h3 id="heuristics">Heuristics</h3>
+
+<p>Many trees are enormous for large problem sizes, so often they cannot be solved exactly, and you must turn to heuristics. Heuristics that can apply to any decision tree include random search, improving paths, and simulated annealing. Hill climbing and sorted hill climbing often can give good results extremely quickly, although you need to define what hill climbing means for a particular problem.</p>
+
+<h3 id="applying-problem-solving-techniques">Applying Problem Solving Techniques</h3>
 
 <p>The book Algorithms for Interviews by Aziz and Prakash covers some common problem solving techniques. It works through several coding problems to illustrate how to apply these problem solving techniques to a coding problem.</p>
 
@@ -257,6 +253,8 @@ problem. Some examples of brute force algorithms are:</p>
   <li>Exhaustive search: Traveling salesman, Knapsack, and Assignment problems</li>
 </ul>
 
+<p>In general, brute force algorithms are too slow to be practical for anything but the smallest instances and you should always think how to avoid the brute force algorithms or how to finesse them into faster versions.</p>
+
 <h3 id="divide-and-conquer-1">Divide and Conquer</h3>
 
 <p>Split the problem into two or more subproblems, solve the subproblems recursively, and then combine the solutions. Examples of divide-and-conquer algorithms using recursion:</p>
@@ -323,7 +321,7 @@ will try to keep the minimum distance pair. This approach has a Time Complexity 
 
 <h3 id="dynamic-programming">Dynamic Programming</h3>
 
-<p>Construct a table of solutions for increasingly large subproblems, where each new entry in the table is computed using previous entries in the table.</p>
+<p>Construct a table of solutions for increasingly large subproblems, where each new entry in the table is computed using previous entries in the table. Read more on <a href="/2019/04/18/dynamic-programming.html">Dynamic Programming</a></p>
 
 <h3 id="greedy-method">Greedy method</h3>
 
@@ -339,6 +337,8 @@ will try to keep the minimum distance pair. This approach has a Time Complexity 
 <h2 id="conclusion">Conclusion</h2>
 
 <p>The high level strategic decisions are data structures, algorithms and problem solving strategies and the tactical decisions at the code level are coding patterns, coding drills and the semantics. You need a good grasp of both aspects to become a problem solver capable of solving new problems.</p>
+
+<p>You already need to know the basic data structures and algorithms to read this book. The authors recommend the book Algorithms by Dasgupta, Papadirnitriou, and Vazirani because it is succinct and beautifully written.</p>
 
 <p>In upcoming articles, we will see the forest as well as the trees by discussing both the big picture as well as the lower level details that fit into the higher level structure.</p>
 

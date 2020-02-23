@@ -134,7 +134,7 @@
 
 <h4 id="greedy-choice-property">Greedy Choice Property</h4>
 
-<p>The globally optimal solution can be obtained by making a locally optimal solution (Greedy). The choice may depend on earlier choices but not on the future. It iteratively makes on Greedy choice after another and reduces the given problem to a smaller one.</p>
+<p>The globally optimal solution can be obtained by making a locally optimal solution (Greedy). The choice may depend on earlier choices but not on the future. It iteratively makes one Greedy choice after another and reduces the given problem to a smaller one.</p>
 
 <h4 id="optimal-substructure">Optimal Substructure</h4>
 
@@ -148,7 +148,7 @@
 
 <p>We can describe the greedy method abstractly, but more precisely than above by considering the following program template:</p>
 
-<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="c1"># The parameter input array contains the n inputs</span>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="c1"># The parameter input array contains the n inputs</span>
 <span class="k">def</span> <span class="nf">greedy</span><span class="p">(</span><span class="n">input</span><span class="p">,</span> <span class="n">n</span><span class="p">)</span>
   <span class="c1"># Initialize the solution to empty</span>
   <span class="n">solution</span> <span class="o">=</span> <span class="p">{}</span>
@@ -169,6 +169,68 @@
     Problems such as knapsack and job sequencing can be solved by using the greedy method program template.
   </p>
 </blockquote>
+
+<h3 id="coin-change-using-us-currency">Coin Change using US currency</h3>
+
+<p>Many algorithms are iterative procedures that choose among a number of alternatives at each iteration. For example, a cashier can view the Change Problem as a series of decisions he has to make: which coin (among d denominations) to return first, which to return second, and so on. Some of these alternatives may lead to correct solutions.</p>
+
+<p>Greedy algorithms choose the “most attractive” alternative at each iteration, for example, the largest denomination possible. In the case of the US denominations, the order is quarters, dimes, nickels and finally pennies to make change.</p>
+
+<p>This greedy strategy can produce incorrect results when certain new denominations are included.</p>
+
+<p>Input: n - a positive integer.
+Output: minimum number of quarters, dimes, nickels, and pennies to make change for n.</p>
+
+<p>Assumption: We assume that we have an infinite supply of coins of each denomination: {1, 5, 10, 25}</p>
+
+<p>Consider the greedy strategy: To make change for n find a coin of maximum possible value ≤ n, include it in your solution, continue recursively to solve the subproblem of making change for n minus the value of the coin selected.</p>
+
+<p>We repeatedly choose a coin ≤ to the current amount, resulting in a new amount. In the greedy algorithm, we always choose the largest coin value possible without exceeding the total amount.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">change</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+  <span class="c1"># constant</span>
+  <span class="no">C</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">25</span><span class="p">}</span> 
+  <span class="c1"># set that will hold the solution set</span>
+  <span class="no">S</span> <span class="o">=</span> <span class="p">{}</span> 
+  <span class="n">value</span> <span class="o">=</span> <span class="n">n</span>
+  
+  <span class="k">while</span> <span class="n">value</span> <span class="o">!=</span> <span class="mi">0</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="n">largest</span> <span class="n">item</span> <span class="k">in</span> <span class="n">set</span> <span class="no">C</span> <span class="n">such</span> <span class="n">that</span> <span class="n">x</span> <span class="o">&lt;</span> <span class="n">value</span>
+    <span class="k">if</span> <span class="n">no</span> <span class="n">such</span> <span class="n">item</span> 
+      <span class="k">return</span> <span class="s2">"No Solution"</span>
+    <span class="k">end</span>
+    <span class="no">S</span> <span class="o">=</span> <span class="no">S</span> <span class="o">+</span> <span class="n">x</span>
+    <span class="n">v</span> <span class="o">=</span> <span class="n">v</span> <span class="o">-</span> <span class="n">x</span>
+  <span class="k">end</span>
+  <span class="k">return</span> <span class="no">S</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p>We can apply the Greedy Program Template to the outline of the solution.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">change</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+  <span class="c1"># coin denominations (constant)</span>
+  <span class="n">coins</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">25</span><span class="p">}</span> 
+  <span class="c1"># Initialize the solution to empty</span>
+  <span class="n">solution</span> <span class="o">=</span> <span class="p">{}</span>
+  <span class="n">value</span> <span class="o">=</span> <span class="n">n</span>
+  
+  <span class="k">while</span> <span class="n">value</span> <span class="o">!=</span> <span class="mi">0</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="nb">select</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+    <span class="k">if</span> <span class="o">!</span><span class="n">feasible</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">v</span><span class="p">)</span> 
+      <span class="k">return</span> <span class="s2">"No Solution"</span>
+    <span class="k">end</span>
+    <span class="n">solution</span> <span class="o">=</span> <span class="n">solution</span> <span class="o">+</span> <span class="n">x</span>
+    <span class="n">v</span> <span class="o">=</span> <span class="n">v</span> <span class="o">-</span> <span class="n">x</span>
+  <span class="k">end</span>
+  <span class="k">return</span> <span class="n">solution</span>  
+<span class="k">end</span>
+
+<span class="k">def</span> <span class="nf">feasible</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">value</span><span class="p">)</span>
+  <span class="c1"># find largest item in set coins </span>
+  <span class="c1"># {1, 5, 10, 25} such that x &lt; value</span>
+<span class="k">end</span>
+</code></pre></div></div>
 
 <h2 id="conclusion">Conclusion</h2>
 

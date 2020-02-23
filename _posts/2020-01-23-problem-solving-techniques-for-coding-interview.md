@@ -27,21 +27,17 @@ There are a number of approaches to designing algorithms:
  
 And so on.
 
-<blockquote class="note">
-  <strong>EXHAUSTIVE SEARCH</strong> 
-  <p>
-    Exhaustive Search is simply a brute-force approach to combinatorial problems. It suggests generating each and every element of the problem domain, selecting those of them that satisfy all the constraints, and then finding a desired element.
-  </p>
-</blockquote>
+### Exhaustive Search 
 
-You already need to know the basic data structures and algorithms to read this book. The authors recommend the book Algorithms by Dasgupta, Papadirnitriou, and Vazirani because it is succinct and beautifully written.
+Exhaustive Search is simply a [Brute Force](#brute-force) approach to combinatorial problems. It suggests generating each and every element of the problem domain, selecting those of them that satisfy all the constraints, and then finding a desired element.
 
-<blockquote class="note">
-  <strong>HEURISTICS</strong> 
-  <p>
-    Many trees are enormous for large problem sizes, so often they cannot be solved exactly, and you must turn to heuristics. Heuristics that can apply to any decision tree include random search, improving paths, and simulated annealing. Hill climbing and sorted hill climbing often can give good results extremely quickly, although you need to define what hill climbing means for a particular problem.
-  </p>
-</blockquote>
+In certain cases, as we explore the various alternatives in a brute force algorithm, we discover that we can omit a large number of alternatives, a technique that is often called [Branch and Bound](/2019/03/21/fundamentals-of-computer-algorithms.html#branch-and-bound).
+
+### Heuristics
+
+Many trees are enormous for large problem sizes, so often they cannot be solved exactly, and you must turn to heuristics. Heuristics that can apply to any decision tree include random search, improving paths, and simulated annealing. Hill climbing and sorted hill climbing often can give good results extremely quickly, although you need to define what hill climbing means for a particular problem.
+
+### Applying Problem Solving Techniques
 
 The book Algorithms for Interviews by Aziz and Prakash covers some common problem solving techniques. It works through several coding problems to illustrate how to apply these problem solving techniques to a coding problem. 
 
@@ -186,6 +182,8 @@ problem. Some examples of brute force algorithms are:
 - String matching
 - Exhaustive search: Traveling salesman, Knapsack, and Assignment problems
 
+In general, brute force algorithms are too slow to be practical for anything but the smallest instances and you should always think how to avoid the brute force algorithms or how to finesse them into faster versions.
+
 ### Divide and Conquer
 
 Split the problem into two or more subproblems, solve the subproblems recursively, and then combine the solutions. Examples of divide-and-conquer algorithms using recursion:
@@ -244,7 +242,7 @@ Solve the problem using some auxiliary data structure.
 
 ### Dynamic Programming
 
-Construct a table of solutions for increasingly large subproblems, where each new entry in the table is computed using previous entries in the table.
+Construct a table of solutions for increasingly large subproblems, where each new entry in the table is computed using previous entries in the table. Read more on [Dynamic Programming]({% post_url 2019-04-18-dynamic-programming %})
 
 ### Greedy method
 
@@ -260,5 +258,7 @@ Run through your problem one step at a time, keeping track of the single best so
 ## Conclusion
 
 The high level strategic decisions are data structures, algorithms and problem solving strategies and the tactical decisions at the code level are coding patterns, coding drills and the semantics. You need a good grasp of both aspects to become a problem solver capable of solving new problems.
+
+You already need to know the basic data structures and algorithms to read this book. The authors recommend the book Algorithms by Dasgupta, Papadirnitriou, and Vazirani because it is succinct and beautifully written.
 
 In upcoming articles, we will see the forest as well as the trees by discussing both the big picture as well as the lower level details that fit into the higher level structure. 
