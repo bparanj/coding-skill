@@ -3,6 +3,8 @@ layout: post
 title: Practice is the Key to Success
 ---
 
+In this article, we will cover two different kinds of practice naive practice and purposeful practice. The right kind of practice plays a big role in acquiring the coding skill and achieving mastery in programming.
+
 ### Naive Practice
 
 Doing something repeatedly and expecting that the repetition alone will improve one's performance.

@@ -44,7 +44,9 @@ Deliberate practice is characterized by the following traits:
 
 Improving performance goes hand in hand with improving mental representations; as one's performance improves, the representations become more detailed and effective, in turn making it possible to improve even more. Mental representations make it possible to monitor how one is doing, both in practice and in actual performance. They show the right way to do something and allow one to notice when doing something wrong and to correct it.
 
-- Deliberate practice involves building or modifying previously acquired skills by focusing on particular aspects of those skills and working to improve them specifically; over time this step-by-step improvement will eventually lead to expert performance. Because of the way that new skills are built on top of existing skills, it is important for coaches to provide beginners with the  correct fundamental skills in order to minimize the chances that the student will have to relearn those fundamental skills later when at a more advanced level
+- Deliberate practice involves building or modifying previously acquired skills by focusing on particular aspects of those skills and working to improve them specifically; over time this step-by-step improvement will eventually lead to expert performance. 
+
+Because of the way that new skills are built on top of existing skills, it is important for coaches to provide beginners with the  correct fundamental skills in order to minimize the chances that the student will have to relearn those fundamental skills later when at a more advanced level
 
 ### Applying the Principles of Deliberate Practice
 
@@ -136,11 +138,15 @@ Advancement will be quicker under the tutelage of someone who knows the best ord
 
 Thus, one of the most important things you can do for your success is to find a good teacher and work with him.
 
-A good teacher does not have to be one of the best in the world. He should be accomplished in the field. Teachers will only be able to guide you to the level that they or their previous students have attained. Any reasonably skilled teacher will do for a beginner. Once you have been training for a few years, you will need a teacher who is more advanced.
+A good teacher does not have to be one of the best in the world. He should be accomplished in the field. Teachers will only be able to guide you to the level that they or their previous students have attained. 
+
+Any reasonably skilled teacher will do for a beginner. Once you have been training for a few years, you will need a teacher who is more advanced.
 
 A good teacher should also have some skill and experience in teaching in that field. Many accomplished performers are terrible teachers because they have no idea how to teach. In reading reviews of an instructor, look for specific descriptions of progress the students have made and obstacles they have overcome.
 
-Query a prospective teacher about practice exercises. You want a teacher who will guide you as much as possible for self-practice sessions, not only telling you what to practice on but what particular aspects you should be paying attention to, what errors you have been making and how to recognize good performance. One of the most important things a teacher can do is help you develop your own mental representations so that you can monitor and correct your own performance. 
+Query a prospective teacher about practice exercises. You want a teacher who will guide you as much as possible for self-practice sessions, not only telling you what to practice on but what particular aspects you should be paying attention to, what errors you have been making and how to recognize good performance. 
+
+One of the most important things a teacher can do is help you develop your own mental representations so that you can monitor and correct your own performance. 
 
 You may need to change teachers as you yourself change. If you find yourself at a point where you are no longer improving quickly or at all, look for a new instructor.
 
@@ -226,11 +232,11 @@ Look for anything that might interfere with your training and find ways to minim
 
 For deliberate practice to be effective, you need to push yourself outside your comfort zone and maintain your focus, but those are mentally draining activities. Expert performers do two things:
 
-1. Get enough sleep and keep healthy. 
+- Get enough sleep and keep healthy. 
 
 If you are tired or sick, it's much harder to maintain focus and easier to slack off.
 
-2. Limit the length of your practice sessions to about an hour.
+- Limit the length of your practice sessions to about an hour.
 
 You cannot maintain intense concentration for much longer than that. When you are first starting out, it's likely to be less. If you want to practice for longer than an hour, go for an hour and take a break.
 
@@ -256,7 +262,9 @@ Belief is important. If you stop believing that you can reach a goal, either bec
 
 One of the strongest forms of extrinsic motivation is social motivation. One of the simplest and most direct is the approval and admiration of others. One of the best ways to create and sustain social motivation is to surround yourself with people who will encourage, support and challenge you in your endeavors.
 
-Surrounding yourself with supportive people is easiest in activities that are done in groups or teams. If you have a group of friends who are in the same positions - you have a built-in support system. These people understand the  effort you are putting into your practice, they can share training tips with you and they can appreciate your victories and commiserate with you over your difficulties. They count on you and you can count on them.
+Surrounding yourself with supportive people is easiest in activities that are done in groups or teams. If you have a group of friends who are in the same positions - you have a built-in support system. 
+
+These people understand the  effort you are putting into your practice, they can share training tips with you and they can appreciate your victories and commiserate with you over your difficulties. They count on you and you can count on them.
 
 Put together a group of people all interested in the same thing and use the group's comaraderie and shared goals as extra motivation in reaching your own goals. This can maintain motivation. Make sure that the other members of the group have similar goals for improvement.
 

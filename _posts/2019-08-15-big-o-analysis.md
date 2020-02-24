@@ -29,7 +29,7 @@ Logarithmic algorithms are often seen in trees. It's best to think of logarithmi
 
 ### Superlinear O(n*log(n))  
 
-Most of the sorting operate in "n log n" time. This includes popular sorting algorithms like quicksort, mergesort or heapsort. Actually, quicksort is O(n2) time in the worst-case scenario generally.
+Most of the sorting operate in (n log n) time. This includes popular sorting algorithms like quicksort, mergesort or heapsort. Actually, quicksort is O(n<sup>2</sup> time in the worst-case scenario generally.
 
 ### Quadratic or Cubic / Polynomial O(n<sup>2</sup>) or O(n<sup>3</sup>)  
 
