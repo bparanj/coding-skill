@@ -21,7 +21,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-03-21T00:00:00-04:00" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"/2019/03/21/fundamentals-of-computer-algorithms.html"},"url":"/2019/03/21/fundamentals-of-computer-algorithms.html","description":"In this article we will discuss the book Fundamentals of Computer Algorithms by Horowitz and Sahni.","headline":"Fundamentals of Computer Algorithms","dateModified":"2019-03-21T00:00:00-04:00","datePublished":"2019-03-21T00:00:00-04:00","@context":"https://schema.org"}</script>
+{"url":"/2019/03/21/fundamentals-of-computer-algorithms.html","headline":"Fundamentals of Computer Algorithms","dateModified":"2019-03-21T00:00:00-04:00","datePublished":"2019-03-21T00:00:00-04:00","description":"In this article we will discuss the book Fundamentals of Computer Algorithms by Horowitz and Sahni.","mainEntityOfPage":{"@type":"WebPage","@id":"/2019/03/21/fundamentals-of-computer-algorithms.html"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -107,6 +107,14 @@
     As a branch-and-bound algorithm searches a tree, it keeps track of the best solution it has found so far and the best possible solution that it can find from the current point in the tree. If the best possible solution from that point cannot beat the current best solution, the algorithm abandons that node and considers other paths through the tree. Branch and bound can be much faster than exhaustive search for finding an optimal solution, but it doesn't change the algorithm's Big O run time.
   </p>
 </blockquote>
+
+<h4 id="a-algorithm">A* Algorithm</h4>
+
+<p>A* is sort of an elaboration on branch-and-bound. In branch-and-bound, at each iteration we expand the shortest path that we have found so far.</p>
+
+<p>In A*, instead of just picking the path with the shortest length so far, we pick the path with the shortest estimated total length from start to goal, where the total length is estimated as length traversed so far plus a heuristic estimate of the remaining distance from the goal.</p>
+
+<p>Branch-and-bound will always find an optimal solution that is shortest path. A* will always find an optimal solution if the heuristic is correct. Choosing a good heuristic is the most important part of A* algorithm.</p>
 
 <h3 id="how-to-devise-algorithms">How to Devise Algorithms</h3>
 

@@ -47,7 +47,7 @@ end
 
 The virtue of this program is that it is almost syntactically identical to the mathematical definition. However it is inefficient from the standpoint of computing time. 
 
-The major source of the inefficiency is not because of recursion. The reason is that many values are recomputed many times. For example, f(n-2) is computed twice, f(n-3) is computed three times and f(n-4) is computed five times. 
+The time complexity of this solution is O(2<sup>n</sup>). The major source of the inefficiency is not because of recursion. The reason is that many values are recomputed many times. For example, f(n-2) is computed twice, f(n-3) is computed three times and f(n-4) is computed five times. 
 
 <blockquote class="note">
   <strong>DYNAMIC PROGRAMMING</strong> 
@@ -55,6 +55,8 @@ The major source of the inefficiency is not because of recursion. The reason is 
     If a calculation such as the Fibonacci numbers must recalculate the same values many times, you can save time by storing values in a lookup table so that you need to calculate them only once.
   </p>
 </blockquote>
+
+Applying dynamic programming to Fibonacci sequence solution improves the performance from exponential to O(n).
 
 #### Greatest Common Divisor 
 

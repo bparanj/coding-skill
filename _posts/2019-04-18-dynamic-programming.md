@@ -10,13 +10,25 @@ Some algorithms break a problem into smaller subproblems and use the solutions o
 
 During this process, the number of subproblems may become very large, and some algorithms solve the same subproblem repeatedly, needlessly increasing the running time. 
 
-Dynamic programming organizes computations to avoid recomputing values that you already know, which can often save a great deal of time.
-
-Examples:
+Dynamic programming organizes computations to avoid recomputing values that you already know, which can often save a great deal of time. Examples:
 
 - Fibonacci numbers computed by iteration
 - Warshall’s algorithm for transitive closure implemented by iterations
 - Floyd’s algorithms for all-pairs shortest paths
+- Assembly-line Scheduling
+- Matrix-chain Multiplication
+- 0/1 Knapsack Problem
+- Longest Common Subsequence
+- Optimal Binary Tree
+- Optimal Polygon Triangulation
+
+Steps for solving:
+
+1. Optimal Substructure: Try to find if there is a recursive relation between problem and subproblem.
+2. Write recursive relation of the problem. (Observe Overlapping Sub problems at this step.)
+3. Compute the value of sub problems in a bottom up fashion and store this value in some table.
+4. Construct the optimal solution from the value stored in step 3.
+5. Repeat step 3 and 4 until you get your solution.
 
 ### Bottom-Up Evaluation
 

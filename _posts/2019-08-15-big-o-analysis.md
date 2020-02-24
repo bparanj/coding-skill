@@ -17,21 +17,64 @@ There aren't that many types of complexity. We can assume that n indicates the l
 
 ### Linear O(n)  
 
-Most optimal algorithms run in linear time. An easy way to identify this is to determine if you're visiting every node or item once and only once. If you are, it is linear. It doesn't matter how many operations you're doing whether it's 1, 2, 3, or 4 lines of code you're executing per node.  Generally, you are still doing a constant amount of work per input.
+An algorithm is said to run in linear time if the execution time of the algorithm is directly proportional to the input size.
+
+Examples:
+
+1. Array operations like search element, find min, find max etc.
+2. Linked list operations like traversal, find min, find max etc.
+
+<blockquote class="note">
+  <strong>TIP</strong> 
+  <p>
+    When we need to traverse all the nodes of a data structure for some task then complexity is no less than O(n).
+  </p>
+</blockquote>
+
+Most optimal algorithms run in linear time. An easy way to identify this is to determine if you're visiting every node or item once and only once. If you are, it is linear. It doesn't matter how many operations you're doing whether it's 1, 2, 3, or 4 lines of code you're executing per node. Generally, you are still doing a constant amount of work per input.
 
 ### Constant  O(1) 
 
-Constant time algorithms have a running time independent of the input size.  Mathematical formulas for instance have fixed running times and are considered constant time.
+Constant time algorithms have a running time independent of the input size. Mathematical formulas have fixed running times and are considered constant time. Examples:
+
+1. Accessing n<sup>th</sup> element of an array.
+2. Push and pop of a stack.
+3. Enqueue and remove of a queue.
+4. Accessing an element of Hash-Table.
+5. Bucket sort.
 
 ### Logarithmic O(log(n))
+
+An algorithm is said to run in logarithmic time if the execution time of the algorithm is proportional to
+the logarithm of the input size. Each step of an algorithm, a significant portion of the input is pruned
+out without traversing it. For example, binary search.
 
 Logarithmic algorithms are often seen in trees. It's best to think of logarithmic as the height of the tree. So, a binary search, for instance, often includes traversing down the height of a tree and can be considered logarithmic in time. Although, it may still be more accurate to say that for an unbalanced tree, the runtime is in the worst case linear.
 
 ### Superlinear O(n*log(n))  
 
-Most of the sorting operate in (n log n) time. This includes popular sorting algorithms like quicksort, mergesort or heapsort. Actually, quicksort is O(n<sup>2</sup> time in the worst-case scenario generally.
+An algorithm is said to run in **n log n** time if the execution time of an algorithm is proportional to
+the product of input size and logarithm of the input size.
 
-### Quadratic or Cubic / Polynomial O(n<sup>2</sup>) or O(n<sup>3</sup>)  
+Examples:
+
+1. Merge-Sort
+2. Quick-Sort (Average case)
+3. Heap-Sort
+
+
+Most of the sorting operate in (n log n) time. This includes popular sorting algorithms like quicksort, mergesort or heapsort. Actually, quicksort has O(n<sup>2</sup>) time in worst-case complexity and O(n log n) as the average case complexity.
+
+### Quadratic O(n<sup>2</sup>)
+
+An algorithm is said to run in logarithmic time if the execution time of an algorithm is proportional to
+the square of the input size. Examples:
+
+1. Bubble-Sort
+2. Selection-Sort
+3. Insertion-Sort
+
+### Cubic O(n<sup>3</sup>)  
 
 Brute force algorithms often run in O(n<sup>2</sup>) or O(n<sup>3</sup>) time where you may be looping within a loop. It's easy to identify if you see a for-loop inside a for-loop, where for each element i you iterate through another element j, for instance. 
 
@@ -39,13 +82,51 @@ A common scenario is, given two arrays, find the common elements in each array w
 
 ### Exponential O(2<sup>n</sup>)
 
-Exponential algorithms are quite terrible in running time. A classic example is determining every permutation of a set of n bits (it would take 2n combinations). Another example is computing the fibonacci sequence fib(n) = fib(n-1) + fib(n-2), where for each item, it requires the computation of two more subproblems.  
+Exponential algorithms are quite terrible in running time. A classic example is determining every permutation of a set of n bits (it would take 2n combinations). Another example is computing the fibonacci sequence: 
+
+```
+fib(n) = fib(n-1) + fib(n-2)
+```
+
+where for each item, it requires the computation of two more subproblems.  
+
+### Deriving the Runtime Function of an Algorithm
+
+#### Constants
+
+Each statement takes a constant time to run. Time Complexity is O(1).
+
+#### Loops
+
+The running time of a loop is a product of running time of the statement inside a loop and number of iterations in the loop. Time Complexity is O(n).
+
+#### Nested Loop
+
+The running time of a nested loop is a product of running time of the statements inside loop multiplied by a product of the size of all the loops. Time Complexity is O(n<sup>c</sup>).
+
+Where c is a number of loops. For two loops, it will be O(n<sup>2</sup>).
+
+#### Consecutive Statements
+
+Just add the running times of all the consecutive statements.
+
+#### if-else Statement
+
+Consider the running time of the larger of if block or else block. Ignore the other one.
+
+#### Logarithmic Statement
+
+If each iteration is decreasing the input size by a constant factors. Time Complexity = O(log n).
 
 ### Factorial O(n!)  
 
 These algorithms are the slowest and don't show up that often. You might see this in combinatorial problems or the traveling salesman problem, where given n nodes, you need to find the optimal path from start to finish. 
 
-In your first iteration, you have a selection of n cities to visit, then n-1 cities, then n-2 cities, n-3 cities, etc., until you reach the last city. That runtime is n * (n -1 ) * (n - 2) * (n -3 ) ... 1 = O(n!).
+In your first iteration, you have a selection of n cities to visit, then n-1 cities, then n-2 cities, n-3 cities, etc., until you reach the last city. That runtime is:
+
+```
+n * (n - 1) * (n - 2) * (n - 3) ... 1 = O(n!)
+```
 
 ![Complexity Classes](/assets/images/complexity-classes.png)
 

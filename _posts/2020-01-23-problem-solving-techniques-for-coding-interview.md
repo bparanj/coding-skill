@@ -207,11 +207,12 @@ Decrease and Conquer is a simpler strategy than Divide and Conquer. Decrease and
 - Binary search in a sorted array (using recursion)
 - Searching in BST
 - Insertion Sort
-- Graph traversal algorithms (DFS and BFS)
 - Topological sort
+- Graph traversal algorithms (DFS and BFS)
 - Warshall's algorithm (using recursion)
 - Permutations (Minimal change approach, Johnson-Trotter algorithm)
-- Computing a median, Topological sorting, Fake-coin problem (Ternary search)
+- Computing a median
+- Fake-coin problem (Ternary search)
 
 ### Transform and Conquer
 

@@ -53,6 +53,14 @@ Moreover, in branch-and-bound algorithms, a bound is calculated at each node x o
   </p>
 </blockquote>
 
+#### A* Algorithm
+
+A* is sort of an elaboration on branch-and-bound. In branch-and-bound, at each iteration we expand the shortest path that we have found so far. 
+
+In A*, instead of just picking the path with the shortest length so far, we pick the path with the shortest estimated total length from start to goal, where the total length is estimated as length traversed so far plus a heuristic estimate of the remaining distance from the goal.
+
+Branch-and-bound will always find an optimal solution that is shortest path. A* will always find an optimal solution if the heuristic is correct. Choosing a good heuristic is the most important part of A* algorithm.
+
 ### How to Devise Algorithms
 
 The act of creating an algorithm is an art which may never be fully automated. This book provides various design techniques which have proven to be useful in that they have often yielded good algorithms. By mastering these design strategies, it will become easier for you to devise new and useful algorithms. 
