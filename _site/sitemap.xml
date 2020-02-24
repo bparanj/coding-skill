@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>/2018/12/13/how-to-prepare-for-a-software-engineering-job-interview.html</loc>
+<lastmod>2018-12-13T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>/2018/12/20/how-to-prepare-for-coding-interview-in-four-months.html</loc>
+<lastmod>2018-12-20T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>/2018/12/27/most-useful-topics-in-clrs-algorithms-book.html</loc>
+<lastmod>2018-12-27T00:00:00-05:00</lastmod>
+</url>
+<url>
 <loc>/2019/01/03/explaining-what-you-have-done-in-interview.html</loc>
 <lastmod>2019-01-03T00:00:00-05:00</lastmod>
 </url>
@@ -239,6 +251,10 @@
 <url>
 <loc>/2020/02/13/recursion-and-mathematical-induction.html</loc>
 <lastmod>2020-02-13T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>/2020/02/20/whiteboard-coding-secrets.html</loc>
+<lastmod>2020-02-20T00:00:00-05:00</lastmod>
 </url>
 <url>
 <loc>/</loc>
