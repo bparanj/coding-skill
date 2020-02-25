@@ -15,7 +15,7 @@ We can often easily get suboptimal solutions: a short path, but maybe not the sh
 
 For instance, the shortest route between two places is never shorter than their straight linear distance. The linear distance is thus a lower bound of the shortest driving distance.
 
-### How does it Work?
+### How Does it Work?
 
 1. Divide the problem into subproblems.
 2. Find upper and lower bounds of each new subproblem.

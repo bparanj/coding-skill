@@ -31,6 +31,13 @@ When we encounter a problem that can be posed as a special case of another probl
 
 For some computing problems for example, a database query it is usually not necessary to write a program that solves only this problem; it is sufficient to use general-purpose software that handles more general problems. The general-purpose solution may not be the most efficient solution, but it is much easier to use.
 
+<blockquote class="note">
+  <strong>FINDING NEW TECHNIQUES</strong> 
+  <p>
+    Finding a reduction between two problems is useful even if it does not lead directly to new upper or lower bounds on the complexity of the problem. The reduction helps us to understand both problems. The reduction may be used to find new techniques for attacking the problem or variations of it. For example, the reduction may be used to design a parallel algorithm for the problem.
+  </p>
+</blockquote>
+
 #### Ways to Solve Problems
  
 Suppose that we are given a problem P that seems complicated, but that also seems similar to a known problem Q. We can try to solve P from scratch, or we can try to borrow some of the methods used to solve Q and apply them to P.
@@ -46,12 +53,10 @@ A solution of P that uses a black box for Q can be translated into an algorithm 
   </p>
 </blockquote>
 
-### Matrix Multiplication
+#### Matrix Multiplication
 
 For example consider the problems of matrix multiplication and matrix squaring (multiplying the matrix with itself). Clearly, we can square a matrix with a matrix multiplication algorithm. Therefore, the problem of matrix squaring can be reduced to the problem of matrix multiplication.
 
 ## Conclusion
-
-Finding a reduction between two problems is useful even if it does not lead directly to new upper or lower bounds on the complexity of the problem. The reduction helps us to understand both problems. The reduction may be used to find new techniques for attacking the problem or variations of it. For example, the reduction may be used to design a parallel algorithm for the problem.
 
 An effective way to use reductions is to define a general problem to which many problems can be reduced. Finding such a general problem is not easy. This problem should be general enough to cover a wide variety of problems, but it must also be simple enough to have an efficient solution. One such problem is linear programming.
