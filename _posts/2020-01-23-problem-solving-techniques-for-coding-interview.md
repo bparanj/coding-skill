@@ -473,6 +473,10 @@ Run through your problem one step at a time, keeping track of the single best so
   </tbody>
 </table>
 
+**Reference** 
+
+Choosing Best Algorithm Design Strategy For A Particular Problem by Shailendra Nigam, Dr. Deepak Garg
+
 ## Conclusion
 
 The high level strategic decisions are data structures, algorithms and problem solving strategies and the tactical decisions at the code level are coding patterns, coding drills and the semantics. You need a good grasp of both aspects to become a problem solver capable of solving new problems.
