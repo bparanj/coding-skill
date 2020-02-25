@@ -44,6 +44,8 @@ Read the problem description and write down the problem hints. The hints are use
 
 Solution for a similar problem can be discovered by adjusting the solution to a known problem within the same problem type. Focus on practicing problem types instead of focusing on quantity of problems solved. It is practical to practice hundred types of problems rather than a thousand problems. Recognize variations of a given problem type.
 
+You can read about [Mapping Problem Types to Algorithm Strategies](/2020/01/23/problem-solving-techniques-for-coding-interview.html#mapping-problem-types-to-algorithm-strategies)
+
 ## Map Data Structures to Problems
 
 One of the challenges to solving a coding problem is picking the right data structure. Given a problem, you need to first recognize what data structure to use to solve that problem. [Schedule a call](https://go.oncehub.com/BalaParanj) with me to get access to a list of problems that is mapped to data structures.

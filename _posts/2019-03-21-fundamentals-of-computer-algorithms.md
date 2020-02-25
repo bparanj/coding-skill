@@ -42,7 +42,7 @@ A clean separation is made between how the computation will proceed and decision
 
 The act of creating an algorithm is an art which may never be fully automated. This book provides various design techniques which have proven to be useful in that they have often yielded good algorithms. By mastering these design strategies, it will become easier for you to devise new and useful algorithms. 
 
-This book is organized around the major methods of algorithm design. It gives an introduction to many approaches to algorithm formulation. 
+This book is organized around the major methods of [algorithm design](/2020/01/23/problem-solving-techniques-for-coding-interview.html#some-algorithm-design-strategies). It gives an introduction to many approaches to algorithm formulation. 
 
 ### How to Express Algorithms
 

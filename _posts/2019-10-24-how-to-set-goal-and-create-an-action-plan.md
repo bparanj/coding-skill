@@ -88,7 +88,7 @@ Make a list of topics to study for the interview and prioritize them. The famili
 
 ### Algorithm Design Techniques
 
-An algorithm design technique (or "strategy" or "paradigm") is a general approach to solving problems algorithmically that is applicable to a variety of problems from different areas of computing.
+An [algorithm design](/2020/01/23/problem-solving-techniques-for-coding-interview.html#some-algorithm-design-strategies) technique (or "strategy" or "paradigm") is a general approach to solving problems algorithmically that is applicable to a variety of problems from different areas of computing.
 
 They distill a few key ideas that have proven to be useful in designing algorithms.
 
@@ -98,7 +98,7 @@ They distill a few key ideas that have proven to be useful in designing algorith
 - [Dynamic Programming]({% post_url 2019-04-18-dynamic-programming %}) (advanced level)
 - [Backtracking]({% post_url 2019-04-25-backtracking %})
 - [Recursion]({% post_url 2019-03-28-recursion-basics %})
-- Branch and Bound
+- [Branch and Bound]({% post_url 2018-12-06-branch-and-bound %})
 - Least Cost Algorithms
 - Constricting Bounds
 - Heuristics

@@ -21,7 +21,7 @@ There are a number of approaches to designing algorithms:
 - [Randomized](#randomization)
 - Parallelization
 - [Backtracking]({% post_url 2019-04-25-backtracking %})
-- Heuristics
+- [Heuristics](#heuristics)
 - [Reduction](#reduction)
 - Approximation
  

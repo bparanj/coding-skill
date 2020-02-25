@@ -60,3 +60,5 @@ For example consider the problems of matrix multiplication and matrix squaring (
 ## Conclusion
 
 An effective way to use reductions is to define a general problem to which many problems can be reduced. Finding such a general problem is not easy. This problem should be general enough to cover a wide variety of problems, but it must also be simple enough to have an efficient solution. One such problem is linear programming.
+
+**Reference**: Introduction to Algorithms - A Creative Approach by Udi Manber 
