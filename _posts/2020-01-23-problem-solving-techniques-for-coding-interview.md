@@ -78,22 +78,13 @@ Can you find a solution to small concrete instances of the problem and then buil
 
 ### Reduction
 
-Reduction is the single most common technique used in designing algorithms. Reducing one problem X to another problem Y means to write an algorithm for X that uses an algorithm for Y as a black box. 
-
-A problem A reduces to a problem B, if an algorithm that solves B can be easily translated into one that solves A. For example, the problem of computing the median element of an array reduces to the problem of sorting the array. 
-
 You should always be on the lookout for reductions. Whenever you encounter a seemingly new problem, always ask: 
 
 - Is the problem a disguised version of one you already know how to solve? 
 - Can you reduce the general version of the problem to a special case?
 - Can you use a problem with a known solution as a subroutine?
 
-<blockquote class="note">
-  <strong>TIP</strong> 
-  <p>
-    You should always be on the lookout for reductions to problems you already know how to solve.
-  </p>
-</blockquote>
+This is discussed in more detail in the article on [Reduction]({% post_url 2018-11-29-reductions %}).
 
 ### Graph Modeling
 

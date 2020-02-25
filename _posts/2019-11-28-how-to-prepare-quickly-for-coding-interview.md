@@ -22,6 +22,8 @@ And so on.
 
 #### Linear Programming
 
+Instead of looking for a candidate for a [reduction]({% post_url 2018-11-29-reductions %}) whenever a new problem arises, we explore some "super-problems", to which many problems can be reduced. One such super-problem, perhaps the most important one is linear programming.
+
 Many of the problems for which we want algorithms are optimization tasks: 
 
 - The shortest path 
@@ -34,7 +36,7 @@ and so on. In such cases, we seek a solution that:
 
 2. Is the best possible, with respect to some well-defined criterion, among all solutions that satisfy these constraints.
 
-Linear programming describes a broad class of optimization tasks in which both the con- straints and the optimization criterion are linear functions. It turns out an enormous number of problems can be expressed in this way
+Linear programming describes a broad class of optimization tasks in which both the constraints and the optimization criterion are linear functions. It turns out an enormous number of problems can be expressed in this way.
 
 ## Map Problem Types to Solution Types
 
