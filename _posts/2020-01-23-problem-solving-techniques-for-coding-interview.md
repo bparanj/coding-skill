@@ -31,7 +31,7 @@ And so on.
 
 Exhaustive Search is simply a [Brute Force](#brute-force) approach to combinatorial problems. It suggests generating each and every element of the problem domain, selecting those of them that satisfy all the constraints, and then finding a desired element.
 
-In certain cases, as we explore the various alternatives in a brute force algorithm, we discover that we can omit a large number of alternatives, a technique that is often called [Branch and Bound](/2019/03/21/fundamentals-of-computer-algorithms.html#branch-and-bound).
+In certain cases, as we explore the various alternatives in a brute force algorithm, we discover that we can omit a large number of alternatives, a technique that is often called [Branch and Bound]({% post_url 2018-12-06-branch-and-bound %}).
 
 ### Heuristics
 
@@ -255,6 +255,232 @@ Run through your problem one step at a time, keeping track of the single best so
     Some of these approaches work better than others. It is the role of algorithm analysis to figure out which are likely to be both correct and efficient in practice. But having all of them in your toolbox lets you try different possibilities for a given problem.
   </p>
 </blockquote>
+
+## Comparison of Design Strategy
+
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Design Strategy</th>
+      <th scope="col">Advantage</th>
+      <th scope="col">Disadvantage</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Brute Force</td>
+      <td>Simple and easy to implement</td>
+      <td>Does not use any tacticts or shortcut</td>
+    </tr>
+    <tr>
+      <td>Greedy Algorithm</td>
+      <td>Very large Number of feasible solutions</td>
+      <td>Does not always gives the optimal solution</td>
+    </tr>
+    <tr>
+      <td>Divide and Conquer</td>
+      <td>Algorithm efficiency</td>
+      <td>Recursion overhead</td>
+    </tr>
+    <tr>
+      <td>Dynamic Programming</td>
+      <td>Recalls performed calculation</td>
+      <td>Only for overlapping sub problems</td>
+    </tr>
+    <tr>
+      <td>Backtracking Algorithm</td>
+      <td>1. Quick test <br/> 2. Pair matching <br/> 3. Following real life concept</td>
+      <td>1. Not widely implemented <br/> 2. Cannot express left-recursive rules <br/> 3. More time & complexity</td>
+    </tr>
+    <tr>
+      <td>Branch and Bound</td>
+      <td>Very large Number of feasible solutions</td>
+      <td>Finding pruning strategies require clever thinking technologies</td>
+    </tr>
+  </tbody>
+</table>
+
+## Some Algorithm Design Strategies
+
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Design Strategies</th>
+      <th scope="col">Based On</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Recursive Algorithm</td>
+      <td>Reapplying algorithm to sub problem</td>
+    </tr>
+    <tr>
+      <td>Backtracking Algorithm</td>
+      <td>Depth-first recursive search</td>
+    </tr>
+    <tr>
+      <td>Divide and Conquer</td>
+      <td>Dividing problem into subproblems</td>
+    </tr>
+    <tr>
+      <td>Dynamic Programming Algorithm</td>
+      <td>Remembering past results</td>
+    </tr>
+    <tr>
+      <td>Greedy Algorithm</td>
+      <td>Trying best current (local) choice</td>
+    </tr>
+    <tr>
+      <td>Brute Force Algorithm</td>
+      <td>Trying all possible solutions</td>
+    </tr>
+    <tr>
+      <td>Branch and Bound Algorithm</td>
+      <td>Limiting search using current solution</td>
+    </tr>
+    <tr>
+      <td>Heuristic Algorithm</td>
+      <td>Trying to guide search for solution</td>
+    </tr>
+    <tr>
+      <td>Decrease and Conquer</td>
+      <td>Extend solution of smaller instance to obtain solution to original instance</td>
+    </tr>
+  </tbody>
+</table>
+
+## Mapping Problem Types to Algorithm Strategies
+
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Problem Type</th>
+      <th scope="col">Algorithm Strategies</th>
+      <th scope="col">Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>• Multi-branched recursion <br/>
+• Hard Problems <br/>
+• Sharing repeated subproblems <br/>
+• Overlapping subproblems <br/>
+• Optimal substructure <br/>
+• Memoization</td>
+      <td>
+        - Divide-and-conquer algorithms<br/>
+         are naturally implemented<br/>
+         as recursive procedures.<br/>
+         The partial sub-problems <br/>
+         leading to the one currently<br/>
+         being solved are automatically <br/>
+        stored in the procedure call stack. <br/>
+        - The dynamic programming <br/>
+         algorithm is suitable for  <br/>
+         the observe the dependency of the sub problem<br/>
+      </td>
+      <td>
+        Fibonacci numbers <br/>
+        Towers of Hanoi <br/>
+        The Halting Problem <br/>
+        geometric curves <br/>
+        Closest-Points <br/>
+        Merge sort <br/>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        • Optimization problems<br/>
+        • Heuristic problem<br/>
+        • Interval Scheduling<br/>
+      </td>
+      <td>
+        - Brute force is a straightforward<br/>
+         approach to solving a problem,<br/> 
+        usually directly based on the<br/>
+        problem’s statement and definitions<br/>
+        of the concepts involved.<br/>
+        - Greedy algorithms can run<br/> 
+         significantly faster than brute<br/>
+         force ones. <br/>
+        Unfortunately, it is not always<br/>
+        the case that a greedy strategy<br/>
+        leads to the correct solution.<br/>
+      </td>
+      <td>
+        Selection sort <br/>
+        String matching<br/>
+        Convex-hull problem <br/>
+        and Exhaustive search <br/>
+        Traveling salesman problem<br/>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        • Combinatorial <br/>
+        optimization problems<br/>
+      </td>
+      <td>
+        - Backtracking depends on user<br/>
+          given "black box procedures"<br/>
+         that define the problem to <br/>
+         be solved.<br/>
+        - Backtracking is a better approach<br/>
+        than brute force (independently <br/> 
+        evaluating all possible solutions)<br/>
+      </td>
+      <td>
+        Calculate the route<br/>
+        The Traveling Saleman<br/>
+        Minimum Spanning Tree <br/>
+        N Queens <br/>
+        Time and space complexity<br/>
+        Useful when problem <br/>
+        size is small  <br/>
+        Integer linear programs <br/>
+        (ILPs) problems<br/>
+      </td>
+    </tr>
+    <tr>
+      <td>• Representation problem</td>
+      <td>Transform and Conquer algorithm<br/>
+        basically handle the change<br/>
+        one instance to another instance <br/>
+        of the problems so this type of <br/>
+        the problem basically suitable for<br/>
+        the transform and conquer algorithm.<br/>
+        </td>
+      <td>Heap sort <br/>
+          gaussian elimination <br/>
+          hashing<br/>
+          search trees</td>
+    </tr>
+    <tr>
+      <td>
+        • Global optimization problem<br/>
+        • Test-Cover Problem
+      </td>
+      <td>
+        - The branch and bound strategy<br/>
+         divides a problem to be solved <br/>
+        into a number of subproblems, <br/>
+        similar to the backtracking strategy <br/>
+        - In branch and bound algorithm <br/>
+        sometimes we can tell that a <br/>
+        particular branch will not <br/>
+        lead to an optimal solution:<br/>
+        - The partial solution may already<br/>
+         be infeasible<br/>
+        - Already have another solution that<br/>
+        is guaranteed to be better than<br/>
+        any descendant of the given solution<br/>
+      </td>
+      <td>
+        Travelling salesman problem<br/>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## Conclusion
 

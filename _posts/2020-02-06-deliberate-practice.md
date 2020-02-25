@@ -42,7 +42,9 @@ Deliberate practice is characterized by the following traits:
 
 - Deliberate practice both produces and depends on effective mental representations
 
-Improving performance goes hand in hand with improving mental representations; as one's performance improves, the representations become more detailed and effective, in turn making it possible to improve even more. Mental representations make it possible to monitor how one is doing, both in practice and in actual performance. They show the right way to do something and allow one to notice when doing something wrong and to correct it.
+Improving performance goes hand in hand with improving mental representations; as one's performance improves, the representations become more detailed and effective, in turn making it possible to improve even more. 
+
+Mental representations make it possible to monitor how one is doing, both in practice and in actual performance. They show the right way to do something and allow one to notice when doing something wrong and to correct it.
 
 - Deliberate practice involves building or modifying previously acquired skills by focusing on particular aspects of those skills and working to improve them specifically; over time this step-by-step improvement will eventually lead to expert performance. 
 
@@ -302,7 +304,7 @@ Mental representations are developed specifically for the purpose of analyzing c
 
 Before each class the students were expected to read assigned sections - generally just three or four pages long and then complete a short online true/false test about the reading. The idea was to make them familar with the concepts that would be worked on in class before they ever came to class.
 
-#### Deliberate Practice vis Traditional Learning
+#### Deliberate Practice vs Traditional Learning
 
 A major difference between the deliberate-practice approach and the traditional approach to learning lies with the emphasis place on skills versus knowledge - what you can do versus what you know. 
 

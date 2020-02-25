@@ -17,11 +17,13 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="In a coding interview you have to demonstrate to your interviewer that you possess several key skills. The ability to rigorously formulate real-world problems. The skills to solve problems and design algorithms. The tools to go from an algorithm to a working program. The analytical techniques required to determine the computational complexity of your solution." />
 <meta property="og:description" content="In a coding interview you have to demonstrate to your interviewer that you possess several key skills. The ability to rigorously formulate real-world problems. The skills to solve problems and design algorithms. The tools to go from an algorithm to a working program. The analytical techniques required to determine the computational complexity of your solution." />
+<link rel="canonical" href="http://localhost:4000/2020/01/23/problem-solving-techniques-for-coding-interview.html" />
+<meta property="og:url" content="http://localhost:4000/2020/01/23/problem-solving-techniques-for-coding-interview.html" />
 <meta property="og:site_name" content="Coding Skill" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-01-23T00:00:00-05:00" />
 <script type="application/ld+json">
-{"url":"/2020/01/23/problem-solving-techniques-for-coding-interview.html","headline":"Problem Solving Techniques for Coding Interview","dateModified":"2020-01-23T00:00:00-05:00","datePublished":"2020-01-23T00:00:00-05:00","description":"In a coding interview you have to demonstrate to your interviewer that you possess several key skills. The ability to rigorously formulate real-world problems. The skills to solve problems and design algorithms. The tools to go from an algorithm to a working program. The analytical techniques required to determine the computational complexity of your solution.","mainEntityOfPage":{"@type":"WebPage","@id":"/2020/01/23/problem-solving-techniques-for-coding-interview.html"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2020/01/23/problem-solving-techniques-for-coding-interview.html"},"url":"http://localhost:4000/2020/01/23/problem-solving-techniques-for-coding-interview.html","description":"In a coding interview you have to demonstrate to your interviewer that you possess several key skills. The ability to rigorously formulate real-world problems. The skills to solve problems and design algorithms. The tools to go from an algorithm to a working program. The analytical techniques required to determine the computational complexity of your solution.","headline":"Problem Solving Techniques for Coding Interview","dateModified":"2020-01-23T00:00:00-05:00","datePublished":"2020-01-23T00:00:00-05:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -86,7 +88,7 @@
 
 <p>Exhaustive Search is simply a <a href="#brute-force">Brute Force</a> approach to combinatorial problems. It suggests generating each and every element of the problem domain, selecting those of them that satisfy all the constraints, and then finding a desired element.</p>
 
-<p>In certain cases, as we explore the various alternatives in a brute force algorithm, we discover that we can omit a large number of alternatives, a technique that is often called <a href="/2019/03/21/fundamentals-of-computer-algorithms.html#branch-and-bound">Branch and Bound</a>.</p>
+<p>In certain cases, as we explore the various alternatives in a brute force algorithm, we discover that we can omit a large number of alternatives, a technique that is often called <a href="/2018/12/06/branch-and-bound.html">Branch and Bound</a>.</p>
 
 <h3 id="heuristics">Heuristics</h3>
 
@@ -335,6 +337,232 @@ will try to keep the minimum distance pair. This approach has a Time Complexity 
   </p>
 </blockquote>
 
+<h2 id="comparison-of-design-strategy">Comparison of Design Strategy</h2>
+
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Design Strategy</th>
+      <th scope="col">Advantage</th>
+      <th scope="col">Disadvantage</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Brute Force</td>
+      <td>Simple and easy to implement</td>
+      <td>Does not use any tacticts or shortcut</td>
+    </tr>
+    <tr>
+      <td>Greedy Algorithm</td>
+      <td>Very large Number of feasible solutions</td>
+      <td>Does not always gives the optimal solution</td>
+    </tr>
+    <tr>
+      <td>Divide and Conquer</td>
+      <td>Algorithm efficiency</td>
+      <td>Recursion overhead</td>
+    </tr>
+    <tr>
+      <td>Dynamic Programming</td>
+      <td>Recalls performed calculation</td>
+      <td>Only for overlapping sub problems</td>
+    </tr>
+    <tr>
+      <td>Backtracking Algorithm</td>
+      <td>1. Quick test <br /> 2. Pair matching <br /> 3. Following real life concept</td>
+      <td>1. Not widely implemented <br /> 2. Cannot express left-recursive rules <br /> 3. More time &amp; complexity</td>
+    </tr>
+    <tr>
+      <td>Branch and Bound</td>
+      <td>Very large Number of feasible solutions</td>
+      <td>Finding pruning strategies require clever thinking technologies</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="some-algorithm-design-strategies">Some Algorithm Design Strategies</h2>
+
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Design Strategies</th>
+      <th scope="col">Based On</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Recursive Algorithm</td>
+      <td>Reapplying algorithm to sub problem</td>
+    </tr>
+    <tr>
+      <td>Backtracking Algorithm</td>
+      <td>Depth-first recursive search</td>
+    </tr>
+    <tr>
+      <td>Divide and Conquer</td>
+      <td>Dividing problem into subproblems</td>
+    </tr>
+    <tr>
+      <td>Dynamic Programming Algorithm</td>
+      <td>Remembering past results</td>
+    </tr>
+    <tr>
+      <td>Greedy Algorithm</td>
+      <td>Trying best current (local) choice</td>
+    </tr>
+    <tr>
+      <td>Brute Force Algorithm</td>
+      <td>Trying all possible solutions</td>
+    </tr>
+    <tr>
+      <td>Branch and Bound Algorithm</td>
+      <td>Limiting search using current solution</td>
+    </tr>
+    <tr>
+      <td>Heuristic Algorithm</td>
+      <td>Trying to guide search for solution</td>
+    </tr>
+    <tr>
+      <td>Decrease and Conquer</td>
+      <td>Extend solution of smaller instance to obtain solution to original instance</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="mapping-problem-types-to-algorithm-strategies">Mapping Problem Types to Algorithm Strategies</h2>
+
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Problem Type</th>
+      <th scope="col">Algorithm Strategies</th>
+      <th scope="col">Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>• Multi-branched recursion <br />
+• Hard Problems <br />
+• Sharing repeated subproblems <br />
+• Overlapping subproblems <br />
+• Optimal substructure <br />
+• Memoization</td>
+      <td>
+        - Divide-and-conquer algorithms<br />
+         are naturally implemented<br />
+         as recursive procedures.<br />
+         The partial sub-problems <br />
+         leading to the one currently<br />
+         being solved are automatically <br />
+        stored in the procedure call stack. <br />
+        - The dynamic programming <br />
+         algorithm is suitable for  <br />
+         the observe the dependency of the sub problem<br />
+      </td>
+      <td>
+        Fibonacci numbers <br />
+        Towers of Hanoi <br />
+        The Halting Problem <br />
+        geometric curves <br />
+        Closest-Points <br />
+        Merge sort <br />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        • Optimization problems<br />
+        • Heuristic problem<br />
+        • Interval Scheduling<br />
+      </td>
+      <td>
+        - Brute force is a straightforward<br />
+         approach to solving a problem,<br /> 
+        usually directly based on the<br />
+        problem’s statement and definitions<br />
+        of the concepts involved.<br />
+        - Greedy algorithms can run<br /> 
+         significantly faster than brute<br />
+         force ones. <br />
+        Unfortunately, it is not always<br />
+        the case that a greedy strategy<br />
+        leads to the correct solution.<br />
+      </td>
+      <td>
+        Selection sort <br />
+        String matching<br />
+        Convex-hull problem <br />
+        and Exhaustive search <br />
+        Traveling salesman problem<br />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        • Combinatorial <br />
+        optimization problems<br />
+      </td>
+      <td>
+        - Backtracking depends on user<br />
+          given "black box procedures"<br />
+         that define the problem to <br />
+         be solved.<br />
+        - Backtracking is a better approach<br />
+        than brute force (independently <br /> 
+        evaluating all possible solutions)<br />
+      </td>
+      <td>
+        Calculate the route<br />
+        The Traveling Saleman<br />
+        Minimum Spanning Tree <br />
+        N Queens <br />
+        Time and space complexity<br />
+        Useful when problem <br />
+        size is small  <br />
+        Integer linear programs <br />
+        (ILPs) problems<br />
+      </td>
+    </tr>
+    <tr>
+      <td>• Representation problem</td>
+      <td>Transform and Conquer algorithm<br />
+        basically handle the change<br />
+        one instance to another instance <br />
+        of the problems so this type of <br />
+        the problem basically suitable for<br />
+        the transform and conquer algorithm.<br />
+        </td>
+      <td>Heap sort <br />
+          gaussian elimination <br />
+          hashing<br />
+          search trees</td>
+    </tr>
+    <tr>
+      <td>
+        • Global optimization problem<br />
+        • Test-Cover Problem
+      </td>
+      <td>
+        - The branch and bound strategy<br />
+         divides a problem to be solved <br />
+        into a number of subproblems, <br />
+        similar to the backtracking strategy <br />
+        - In branch and bound algorithm <br />
+        sometimes we can tell that a <br />
+        particular branch will not <br />
+        lead to an optimal solution:<br />
+        - The partial solution may already<br />
+         be infeasible<br />
+        - Already have another solution that<br />
+        is guaranteed to be better than<br />
+        any descendant of the given solution<br />
+      </td>
+      <td>
+        Travelling salesman problem<br />
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 <h2 id="conclusion">Conclusion</h2>
 
 <p>The high level strategic decisions are data structures, algorithms and problem solving strategies and the tactical decisions at the code level are coding patterns, coding drills and the semantics. You need a good grasp of both aspects to become a problem solver capable of solving new problems.</p>
@@ -360,17 +588,6 @@ will try to keep the minimum distance pair. This approach has a Time Complexity 
     
     <br/>    <br/>
     <script src="/assets/js/bootstrap.min.js"></script>
-    
-          <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-358645-13"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-358645-13');
-</script>
-
     
     
   </body>

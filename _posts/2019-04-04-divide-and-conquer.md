@@ -80,6 +80,10 @@ def solve(p, q)
 end
 ```
 
+### Strategy
+
+Problems with optimal substructure can be divided into similar but smaller subproblems. They can be divided over and over until subproblems become easy. Then subproblem solutions are combined for obtaining the original problem’s solution.
+
 The divide-and-conquer strategy solves a problem by:
 
 1. Breaking it into subproblems that are themselves smaller instances of the same type of problem
