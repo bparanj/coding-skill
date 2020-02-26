@@ -31,7 +31,7 @@ Examples:
   </p>
 </blockquote>
 
-Most optimal algorithms run in linear time. An easy way to identify this is to determine if you're visiting every node or item once and only once. If you are, it is linear. It doesn't matter how many operations you're doing whether it's 1, 2, 3, or 4 lines of code you're executing per node. Generally, you are still doing a constant amount of work per input.
+Most optimal algorithms run in linear time. An easy way to identify this is to determine if you're visiting every node or item once and only once. If you are, it is linear. It doesn't matter how many operations, whether it's 1, 2, 3, or 4 lines of code you're executing per node. You are still doing a constant amount of work per input.
 
 ### Constant  O(1) 
 
@@ -50,6 +50,13 @@ the logarithm of the input size. Each step of an algorithm, a significant portio
 out without traversing it. For example, binary search.
 
 Logarithmic algorithms are often seen in trees. It's best to think of logarithmic as the height of the tree. So, a binary search, for instance, often includes traversing down the height of a tree and can be considered logarithmic in time. Although, it may still be more accurate to say that for an unbalanced tree, the runtime is in the worst case linear.
+
+<blockquote class="note">
+  <strong>LOGARITHM</strong> 
+  <p>
+    Logarithm is the inverse of exponents. 2<sup>3</sup> is the equivalent of 2 * 2 * 2, which is 8. Now log<sub>2</sub>8 is the inverse of 2<sup>3</sup>. It means: "how many times do you have to multiply 2 by itself to get a result of 8?". Since you have to multiply 2 by itself 3 times to get 8, log<sub>2</sub> 8 = 3. Another way to view this is: How many times do we need to divide 8 by 2 until we end up with 1?
+  </p>
+</blockquote>
 
 ### Superlinear O(n*log(n))  
 
