@@ -90,6 +90,8 @@ fib(n) = fib(n-1) + fib(n-2)
 
 where for each item, it requires the computation of two more subproblems.  
 
+![Complexity Functions](/assets/images/complexity-functions.png)
+
 ### Deriving the Runtime Function of an Algorithm
 
 #### Constants
