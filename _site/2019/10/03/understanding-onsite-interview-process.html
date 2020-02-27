@@ -190,6 +190,60 @@
 
 <h2 id="when-you-get-stuck">When You Get Stuck</h2>
 
+<p>Getting stuck is normal. Stay calm. When you get stuck in the middle of coding, it’s typically because of these reasons, in increasing order of difficulty:</p>
+
+<ol>
+  <li>You blanked out.</li>
+</ol>
+
+<p>Interviewing is a high-pressure situation. It requires a lot of focus, and different areas of your mind are working at the same time. It’s ok to lose your chain of thought sometimes.</p>
+
+<p>Stay calm, go up a few lines and see what you were doing. If that doesn’t help, go back to your high-level approach and see where you are in your problem. This is one of the reasons you should plan your solution before you start coding.</p>
+
+<ol>
+  <li>The approach is not completely clear in your head.</li>
+</ol>
+
+<p>Sometimes, you realize that you didn’t consider a particular edge case or condition. For example, how to handle arrays of length 1. Of course, it’s better if you plan these cases before you start coding. But don’t freak out, you can’t do much about that now. Go back up your code and walk through it to see how this case fits in.</p>
+
+<ol>
+  <li>Something is wrong with your approach.</li>
+</ol>
+
+<p>At other times, you may realize that the approach you embarked on will not work for this problem. Again, what’s done is done. Go back to your approach and modify if needed. Make sure your initial approach actually doesn’t work, don’t just abandon it without giving it a fair consideration.</p>
+
+<p>In all of the cases above, there are 2 common solutions/precautions:</p>
+
+<ol>
+  <li>Plan your approach beforehand</li>
+</ol>
+
+<p>Before you start coding, make sure you have a clear idea of what you are implementing. If you don’t, then spend some time figuring it out. Better now than after you start coding.</p>
+
+<ol>
+  <li>If you get stuck, go back a few lines of code, or review your approach again.</li>
+</ol>
+
+<p>Did you notice something else? Interviewers will understand, as long as you stay calm and recover. They know that the candidate is human after all, not a robot.</p>
+
+<p>In addition to the other answers you’ve gotten to this question (some of which are excellent), I’ll suggest this: Write “top-down” code instead of “bottom-up” code. Start by writing the main routine (“main()” in C or C++) in the vaguest possible way, just stating the main, top-level things that need to be done, expressed as function calls.</p>
+
+<p>You might comment orally, “I’ll need a function for user input, a function for processing all the files in the current directory, a function for processing the current file, and a function for processing the current line of the current file.” Or whatever the main tasks of the program are. Then move on to writing the second-level functions, then third-level.</p>
+
+<p>But whatever you do, don’t try to just dump everything in main()! Not unless it’s a very, very simple program. Otherwise you’ll have a huge, complicated main() function and have a hard time keeping track of where you are and what you’re doing. It’s much better to write 20 functions with 20 lines of code each, than 1 function with 400 lines of code.</p>
+
+<p>In other words, use top-down “structured” programming as your default programming paradigm, unless you absolutely must program in another way. This paradigm is good not only because it lends itself to easy debugging, maintaining, and testing, but because it allows you to use a “divide and conquer” approach, which generally results in faster, easier programming, which is a big advantage in a high-pressure job interview situation.</p>
+
+<p>Get the program down on the whiteboard at a high level of abstraction. If there’s something you don’t know how to do yet, invent a function called do_something(), and move on.</p>
+
+<p>Sometimes the interviewer only wants the high level plan, and won’t even make you write do_something(). For instance, maybe he just wants to know you know what breadth-first-search is. But in any case, you have constrained the problem you’re needing to solve.</p>
+
+<p>Getting bogged down in data structures is a trap, and another reason why you want to abstract. Interviewers care way less about data structures than about algorithms. All they want to know is if you know what a queue is. They don’t care if you can’t implement it in 20 minutes.</p>
+
+<p>You need to relax and be confident of your abilities. Interviews are an amazing dynamic: some are practically over before they begin, if you’re an outstanding candidate on paper or if the employer has met the person they want already.</p>
+
+<p>Some interviewers look at how you approach the topic while some will want precise details. Practice on paper, then practice with someone watching you. More practice means you get better.</p>
+
 <p>If you get stuck, you can try some of the following general problem solving tips:</p>
 
 <ul>
@@ -251,7 +305,7 @@
 
 <p>Good interviewers don’t necessarily expect you to solve every problem. In fact, they will probably learn more about you when you don’t solve a problem. Rather than wanting to know the answer, the best interviewers want to see how you approach an unfamiliar problem.</p>
 
-<p>They want to see whether you throw up your hands and say the problem is unreasonable in a job interview. Or perhaps you analyze the problem and come up with a promising line of reasoning for using algorithmic approaches to attack the problem. “Gosh, I don’t know. Maybe I’d search the Internet,” would be a bad answer. “It seems like a recursive divide-and-conquer approach might work” would be a much better answer.</p>
+<p>They want to see whether you throw up your hands and say the problem is unreasonable in a job interview. Or perhaps you analyze the problem and come up with a promising line of reasoning for using algorithmic approaches to attack the problem. “I will search the Internet,” would be a bad answer. “It seems like a recursive divide-and-conquer approach might work” would be a much better answer.</p>
 
 <h2 id="duration">Duration</h2>
 
