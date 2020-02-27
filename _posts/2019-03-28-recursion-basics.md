@@ -7,9 +7,71 @@ In this article, we will cover the basics of recursion with a few examples. We w
 
 ### Recursion
 
-Recursion is a powerful programming technique. We discussed reduction in the article [Problem Solving Techniques for Coding Interview]({% post_url 2020-01-23-problem-solving-techniques-for-coding-interview %})
+Recursion makes it possible to solve complex problems using programs that are concise and easily understood. It requires thinking about problems in a new and different way. 
 
-#### Simplify and Delegate
+Recursion is the process of solving a large problem by reducing it to one or more subproblems which are:
+
+1. Identical in structure to the original problem.
+2. Somewhat simpler to solve.
+
+Once that original subdivision has been made, the decompositional technique is used to divide each of these subproblems into new ones which are even less complex. Eventually the subproblems become so simple that they can be then solved without further subdivision and the complete solution is obtained by reassembling the solved components.
+
+The only thing that changes is the dimension of the problem. The essence of the recursive approach lies in applying the same decomposition repeatedly at each stage of the solution.
+
+Solutions which operate in this way are referred to as Divide and Conquer strategies. Since they depend on splitting a problem into more manageable components. 
+
+The original problem divides to form several simpler subproblems, which, in turn, branch into a set of simpler ones and so on, until the simple cases are reached. If we represent this process diagrammatically, we obtain a solution tree for the problem.
+
+In order to represent this algorithm in a form more suggestive of a programming language, it is important to notice that there are several different instances of a similar problem.
+
+### Recursive Program Structure
+
+There is a structural similarity of each problem. To exploit that similarity, we must first generalize the problem.
+
+```ruby
+def solve(n)
+  if simple?
+    # Compute the value
+  else
+    # 1. Problem is divided into subproblems
+    # 2. Solve by recursive strategy
+  end
+end
+```
+
+The structure of this program is typical of recursive algorithms represented in a programming language. Many recursive programs share this underlying structure. 
+
+The first step in a recursive procedure consists of a test to determine whether or not the current problem represents a simple case. If it does, the procedure handles it directly. If not, the problem is divided into subproblems, each of which is solved by applying the same recursive strategy.
+
+### Characteristics of Recursive Algorithms
+
+To be an appropriate candidate for recursive solution, a problem must have three distinct properties:
+
+1. It must be possible to decompose the orginal problem into simpler instances of the same problem.
+
+2. Once each of these simper subproblems has been solved, it must be possible to combine these solutions to produce a solution to the original problem.
+
+3. As the large problem is broken down into successively less complex ones, those subproblems must eventually become so simple that they can be solved without furthur subdivision.
+
+The first step consists of checking to see if the problem fits into the simple case category. If it does, the problem is solved directly. If not, the entire problem is broken down into new subsidiary problems, each of which is solved by a recursive application of the algorithm. Finally, each of these solutions is then reassembled to form the solution to the original problem.
+
+### Recursive Program Template
+
+```ruby
+def solve(instance)
+  if instance_is_easy
+    # solve problem directly
+  else
+    # 1. Break it into new instances I1, I2, etc
+    # 2. solve(I1), solve(I2) and so forth...
+    # 3. Reassemble the solutions
+  end
+end
+```
+
+### Simplify and Delegate
+
+Recursion is a powerful programming technique. We discussed reduction in the article [Problem Solving Techniques for Coding Interview]({% post_url 2020-01-23-problem-solving-techniques-for-coding-interview %}).
 
 Recursion is a powerful kind of reduction, which can be described as follows:
 
@@ -23,6 +85,16 @@ Eventually, the recursive reductions must lead to an elementary base case that c
 Otherwise, the recursive algorithm will loop forever. The most common way to satisfy this condition is to reduce to one or more smaller instances of the same problem. So the sequence of smaller problems must eventually converge on the base case.
 
 ### Why Recursion?
+
+The principal advantage of recursion as a solution technique is that it provides an excellent mechanism for managing complexity. Now matter how difficult a problem at first appears, if we can determine a way to break that problem down into simpler problems of the same form, we can define a strategy for producing a complete solution. 
+
+As programmers, all we need to specify is:
+
+1. How to simplify a problem by recursive subdivision.
+2. How to solve the simple cases.
+3. How to reassemble the partial solutions.
+
+Writing a recursive programs requires a holistic view of the process. It is the big picture which is important, not the details. In developing a recursive instinct, you must stop analyzing the process after the first decomposition. The rest of the problem will take care of itself. The details will confuse the issue.
 
 Recursive code is generally concise and easy to write than iterative equivalent. Recursion is most useful for tasks than can be defined in terms of similar subtasks. For example, sort, search and traversal problems often have simple recursive solutions.
 

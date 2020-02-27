@@ -69,7 +69,6 @@ Examples:
 2. Quick-Sort (Average case)
 3. Heap-Sort
 
-
 Most of the sorting operate in (n log n) time. This includes popular sorting algorithms like quicksort, mergesort or heapsort. Actually, quicksort has O(n<sup>2</sup>) time in worst-case complexity and O(n log n) as the average case complexity.
 
 ### Quadratic O(n<sup>2</sup>)

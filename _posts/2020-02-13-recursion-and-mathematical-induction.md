@@ -4,6 +4,16 @@ title: Recursion and Mathematical Induction
 excerpt: Recursion and Mathematical Induction are closely related concepts. This article looks at how they are related. These are the notes from the paper Computational Recursion and Mathematical Induction by Uri Leron, Rina Zazkis.
 ---
 
+Mathematical induction provides a powerful tool for proving the correctness of certain useful formulae. Recursive thinking has a parallel in mathematics which is called mathematical induction.
+
+In both techniques, one must:
+
+1. Determine a set of simple cases for which the proof or calculation is easily handled
+
+2. Find an appropriate rule which can be repeatedly applied until the complete solution is obtained.
+
+In recursive applications, this process begins with the complex cases and the rule successively reduces the complexity of the problem until only simple cases are left. When using induction, we tend to think of this process in the opposite direction. We start by proving the simple cases and then use the inductive rule to derive increasingly complex results. 
+
 A good way to learn mathematical induction is to
 tackle a problem that admits naturally of an inductive solution. Take for example the problem of how many regions are formed in the plane by n straight lines. Assume no two lines are parallel and no three are concurrent. Since the answer is difficult to see directly from the problem, there is need for investigating.
 
@@ -29,4 +39,7 @@ From here, the final step of playing the same game once and for all is not too b
 
 Thus, to summarize, mathematical induction captures the pattern of the argument as we go up from one number to its successor. 
 
-Reference: Computational Recursion and Mathematical Induction by Uri Leron, Rina Zazkis
+**References**
+
+- Computational Recursion and Mathematical Induction by Uri Leron, Rina Zazkis
+- Thinking Recursively by Eric S Roberts
