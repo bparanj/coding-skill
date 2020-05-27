@@ -38,7 +38,7 @@ Backtracking uses depth-first search:
 4. While there are available operators, do:
     a. Apply an operator to generate a child
     b. If the child is a goal state – return solution
-    c. If it is a new state, and pruning function does not    discard it push the child into the stack.
+    c. If it is a new state, and pruning function does not discard it push the child into the stack.
 
 ### Recursion
 
@@ -182,3 +182,38 @@ Backtracking is a technique where a recursive algorithm considers partial soluti
 - Fundamentals of Computer Algorithms by Horowitz and Sahni
 - Essential Algorithms A Practical Approach to Computer Algorithms using Python and C by Rod Stephens
 
+## Why is backtracking called a modified depth-first search of a tree?
+
+The backtracking algorithm traverses the search tree recursively, from the root down, in depth-first order. At each node c, the algorithm checks whether c can be completed to a valid solution. If it cannot, the whole sub-tree rooted at c is skipped (pruned). Otherwise, the algorithm:
+
+1. Checks whether c itself is a valid solution, and if so reports it to the user; and 
+2. Recursively enumerates all sub-trees of c. The two tests and the children of each node are defined by user-given procedures.
+
+The backtracking algorithm enumerates a set of partial candidates that, in principle, could be completed in various ways to give all the possible solutions to the given problem. The completion is done incrementally, by a sequence of candidate extension steps.
+
+Conceptually, the partial candidates are represented as the nodes of a tree structure, the potential search tree. Each partial candidate is the parent of the candidates that differ from it by a single extension step; the leaves of the tree are the partial candidates that cannot be extended any further.
+
+Therefore, the actual search tree that is traversed by the algorithm is only a part of the potential tree. The total cost of the algorithm is the number of nodes of the actual tree times the cost of obtaining and processing each node. This fact should be considered when choosing the potential search tree and implementing the pruning test.
+
+### Pseudocode
+
+In order to apply backtracking to a specific class of problems, one must provide the data P for the particular instance of the problem that is to be solved, and six procedural parameters, root, reject, accept, first, next, and output. These procedures should take the instance data P as a parameter and should do the following:
+
+1. root(P): return the partial candidate at the root of the search tree.
+2. reject(P,c): return true only if the partial candidate c is not worth completing.
+3. accept(P,c): return true if c is a solution of P, and false otherwise.
+4. first(P,c): generate the first extension of candidate c.
+5. next(P,s): generate the next alternative extension of a candidate, after the extension s.
+6. output(P,c): use the solution c of P, as appropriate to the application.
+
+The backtracking algorithm reduces the problem to the call **bt(root(P))**, where **bt** is the following recursive procedure:
+
+```python
+procedure bt(c)
+  if reject(P,c) then return
+  if accept(P,c) then output(P,c)
+  s ← first(P,c)
+  while s ≠ Λ do
+    bt(s)
+    s ← next(P,s)
+```
