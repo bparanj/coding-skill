@@ -217,3 +217,9 @@ procedure bt(c)
     bt(s)
     s ← next(P,s)
 ```
+
+## When to use backtracking to solve problems?
+
+- You should use backtracking while solving crosswords, Sudoku and many other kind of puzzles.
+- Backtracking method is mainly used for solving the constraint satisfactions problem where specific constrains are needed to be satisfied.
+- It is also used for solving the problems related to the State space have size of factorial .Example of such problem is Travelling sales man Problem
