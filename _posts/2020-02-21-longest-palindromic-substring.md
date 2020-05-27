@@ -1,3 +1,9 @@
+---
+layout: post
+---
+
+One of the top 100 questions asked by Amazon. Recursive solution to solving longest palindromic substring.
+
 ## Longest Palindromic Substring
 
 This question is Amazon's top 100 questions asked during the interview. Given a string s, find the longest palindromic substring in s. Example:
