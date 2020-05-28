@@ -21,15 +21,11 @@ A solution to the N Queens problem, N=8, in a 2-dimensional matrix, might be rep
 
 In order to find a solution to N-Queens using the matrix as our representation, we may have to consider all n x n matrices that have n 1s. The number of such matrices is:
 
-```
-\binom{n<sup>2</sup>}{k}
-```
+$$\binom{n^2}{k}$$
 
 which, for N=8 is:
 
-```
-\binom{68}{8} = 4426165368
-```
+$$\binom{68}{8} = 4426165368$$
 
 By contrast, the same solution could be represented as a permutation of the columns 1 - N, with the interpretation that the first column listed has a queen in the first row, the second column listed has a queen in the second row, and so on. This works because the rules of the puzzle guarantee that no solution will put two queens on the same column or the same row. The same solution for the N=8 problem would be represented as:
 
