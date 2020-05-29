@@ -1,0 +1,86 @@
+How do we derive the time complexity of Quicksort as O(n log n) ?
+
+To sort an array of n distinct elements, quicksort takes O(n log n) time in averaged over all n! Permutations of n elements with equal probability.
+
+T(n) = T(k) + T(n-k-1) + theta(n)
+
+We can get an idea of average case by considering the case when partition puts O(n/9) elements in one set and O(9n/10) elements in other set. Following is recurrence for this case.
+
+T(n) = T(n/9) + T(9n/10) + theta(n)
+
+The key process in quickSort is partition(). Target of partitions is, given an array and an element x of array as pivot, put x at its correct position in sorted array and put all smaller elements (smaller than x) before x, and put all greater elements (greater than x) after x. All this should be done in linear time.
+
+
+
+
+
+
+There are certain operation in which there could be advantage of using recursion rather than iterative functions. This includes reduction in the overall complexity of the algorithms and adds clarity to the implementation. There are certain operations in which recursion is better to implement rather than iteration.
+
+There are the following ways in which recursive operations could be better.
+
+Adding clarity to the implementation: This can improve the clarity of the implementations and as the operations are repetitive thus this provides more clarity to the operations that are being done.
+Better at certain operation: There are some of the operations that are better to be done such as tree traversal. Thus certain operations could be done with the help of recursion that reduces the complexity of the operations.
+Reduces time complexity: Recursion can help to reduce the time complexity in some of the algorithms.
+
+
+
+If I have a mxn grid, I want to move from top-left corner of the grid to the bottom-right corner and I have the constraints that I can only move to the right or down. How many unique paths are there? 
+With a combinatory approach, the number of unique paths is: (m-1 + n-1)! / ((m-1)! * (n-1)!)
+
+For large numbers this can lead to round off errors. Is there a better approach performance wise and not running into round off errors?
+You can use dynamic programming it will have time complexity of O(m*n), which is fine for such problem. It will not include round off errors.
+
+numberOfPaths(m,n)   
+    dp[n] = {1} 
+    dp[0] = 1
+    for i = 0 to m
+      for j = 1 to n
+         dp[j] += dp[j - 1]
+    return dp[n - 1]
+
+This Dp was derived from the recursion => numberOfPaths(m - 1, n) + numberOfPaths(m, n - 1)
+
+It states check first in one direction and then in other direction and add possibilities.
+
+
+
+So we can use Dp and store the results for the same recursion that would take O(m*n) time and space.
+
+Above solution is space optimised.
+
+
+
+
+How do you decide the number of base cases for a recursive solution? Do we always pick 0 and 1? Should we minimize the number of base cases?
+
+
+The number of base cases for a recursive solution depends on the algorithm which is being used. The main motive should be to check if the problem is getting reduced by every recursive call and in the end the base cases are there to prevent it from going into infinite loop. 
+
+
+
+Picking up 0 and 1 also depends on the algorithm in which recursion is being applied. 
+
+Generally, we use 0 and 1, for example: In problems like the Fibonacci series.
+
+
+
+According to recursion, there should be at least 1 base case in a program. So, there should always be minimal number of base cases as if one uses too many cases then it is of no use to go for a recursion instead one can specify all the conditions separately in the code without recursion.
+
+
+
+Bubble Sort
+
+Can bubble sort be used for finding the largest element in a list? Can it be used to find the 3rd largest element in a list? Performance wise is it a good choice? If not, which algorithm is better for performance?
+
+Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order. So, in the first traversal, we can find the largest element of the array at the last index of the array. 
+
+Yes, It can be easily find the third largest elements, as after 3 traversals, we can check for the 3rd last index of the array and there It will be 3rd largest element.
+
+Performance-wise if we see, Bubble sort is efficient with small amounts of data. 
+
+Bubble sort has a worst-case and average complexity of О(n2), where n is the number of items being sorted. 
+
+Even other О(n2) sorting algorithms, such as quick sort, generally run faster than bubble sort, and are no more complex. So, Bubble sort is not a practical sorting algorithm and not a good choice. 
+
+Quick sort is the best algorithm as it takes significantly less time than other sorting algorithm. The time complexity of Quicksort is O(n log n) in the best case, O(n log n) in the average case, and O(n^2) in the worst case. But because it has the best performance in the average case for most inputs, Quicksort is generally considered the "fastest" sorting algorithm.

@@ -45,3 +45,13 @@ FIBONACCI(n)
 Here you can see that we store initial values first in the array and use then for calculating further values, i.e from smaller values, we calculate bigger values, this is how bottom up dynamic programming works.
 
 And you can keep this as rule that we always go from smaller to larger value for Bottom Up Dynamic Programming and larger values to smaller values for Top Down Dynamic Programming.
+
+## Advantages of Bottom Up Dynamic Programming
+
+The advantages of bottom up dynamic programming over top-down are:-
+
+- Bottom-up approach is easy to debug.
+- Bottom-up approach is difficult to implement but it is usually faster.
+- Bottom up implementations have a better performance, and top-down approach often results in worse complexities.
+- We can in certain cases avoid recursion by using iterative bottom up dynamic programming, and using bottom up approach, using certain specific data structures we can improve performance and we can get a better and optimal complexity.
+- So performance wise top-down is generally worse in case of complexity.

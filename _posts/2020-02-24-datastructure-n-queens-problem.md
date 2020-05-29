@@ -1,11 +1,10 @@
 ---
 layout: post
 title: Choice of Datastructure for N Queens Problem
-excerpt: Why is not a good idea to choose matrix as the data structure for N Queens problem?
+excerpt: Why is it not a good idea to choose matrix as the data structure for N Queens problem?
 ---
 
 It's a waste of space, and introduces unnecessary degrees of freedom that may inflate the search space.
-
 A solution to the N Queens problem, N=8, in a 2-dimensional matrix, might be represented as:
 
 ```
@@ -40,5 +39,3 @@ Since all possible solutions correspond to some permutations of the N columns, t
 ```
 
 In comparison, the matrix representation leads to a very inefficient representation of the search space.
-
-
