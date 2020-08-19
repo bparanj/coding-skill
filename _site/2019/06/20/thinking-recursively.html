@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="/assets/css/styles.css">
 	<!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>How to Think Recursively | Coding Skill</title>
-<meta name="generator" content="Jekyll v4.0.0" />
+<meta name="generator" content="Jekyll v4.1.1" />
 <meta property="og:title" content="How to Think Recursively" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="In this article, we will look at some example problems and solve it recursively and iteratively. Sometimes it is possible to define an algorithm in terms of itself. This process is called recursion. It is similar to mathematical induction." />
@@ -21,7 +21,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-06-20T00:00:00-04:00" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","headline":"How to Think Recursively","dateModified":"2019-06-20T00:00:00-04:00","datePublished":"2019-06-20T00:00:00-04:00","url":"/2019/06/20/thinking-recursively.html","mainEntityOfPage":{"@type":"WebPage","@id":"/2019/06/20/thinking-recursively.html"},"description":"In this article, we will look at some example problems and solve it recursively and iteratively. Sometimes it is possible to define an algorithm in terms of itself. This process is called recursion. It is similar to mathematical induction.","@context":"https://schema.org"}</script>
+{"url":"/2019/06/20/thinking-recursively.html","description":"In this article, we will look at some example problems and solve it recursively and iteratively. Sometimes it is possible to define an algorithm in terms of itself. This process is called recursion. It is similar to mathematical induction.","@type":"BlogPosting","headline":"How to Think Recursively","dateModified":"2019-06-20T00:00:00-04:00","datePublished":"2019-06-20T00:00:00-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"/2019/06/20/thinking-recursively.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -98,27 +98,27 @@
 
 <p>A recursive function is a function that is defined by itself or that calls itself. The sum function is given as an example, which is defined as follows:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sum(n) = 1 + 2 + ... + n
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sum(n) = 1 + 2 + ... + n
 </code></pre></div></div>
 
 <p>That means, the first n natural numbers are added. So, for n = 4 we get:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sum(4) = 1 + 2 + 3 + 4 = 10
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sum(4) = 1 + 2 + 3 + 4 = 10
 </code></pre></div></div>
 
 <p>If we want to calculate the result of the sum function for a certain n and we already know the result for n - 1, n just has to be added to this result:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sum(n) = sum(n-1) + n
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sum(n) = sum(n-1) + n
 </code></pre></div></div>
 
 <p>Such a definition is called a recursive step. In order to calculate the sum function for some n in this way, we still need the base case for the smallest n:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sum(1) = 1
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sum(1) = 1
 </code></pre></div></div>
 
 <p>Using these definitions, we are now able to calculate the sum function for some n:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sum(4) = sum(3) + 4
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sum(4) = sum(3) + 4
        = (sum(2) + 3) + 4
 	   = ((sum(1) + 2) + 3) + 4
 	   = ((1 + 2) + 3) + 4
@@ -140,7 +140,7 @@
 
 <p>You can see the last line that makes the recursive call is using the same form we saw earlier:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sum(n) = sum(n-1) + n
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sum(n) = sum(n-1) + n
 </code></pre></div></div>
 
 <blockquote class="note">
@@ -155,29 +155,29 @@
 
 <p>Multiply two numbers using multiplication operator. For instance:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>5 * 3 = 5 + 5 + 5
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>5 * 3 = 5 + 5 + 5
 </code></pre></div></div>
 <p>We add 5, 3 times. This is the same as:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>5 * 3 = 5 + 5 * (3 - 1)
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>5 * 3 = 5 + 5 * (3 - 1)
 </code></pre></div></div>
 
 <p>We keep going until we multipy by 1. This is the base case.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>5 * 3 = 5 + 5 + 5 * (2 - 1)
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>5 * 3 = 5 + 5 + 5 * (2 - 1)
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>5 * 3 = 5 + 5 + 5 * 1
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>5 * 3 = 5 + 5 + 5 * 1
 </code></pre></div></div>
 
 <p>We can generalize this as below:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a * b = (a + a + a + a + a + a)
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a * b = (a + a + a + a + a + a)
 </code></pre></div></div>
 
 <p>Add a to itself b times.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a * b = (a + a + a + a + a + a) 
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a * b = (a + a + a + a + a + a) 
 		b times
 	= a + (a + a + a + a + a)
 		b - 1 times
@@ -186,7 +186,7 @@
 
 <p>The last line:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a + a * (b-1)
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a + a * (b-1)
 </code></pre></div></div>
 
 <p>is called the Recursive Reduction. Notice that the original problem is reduced to a smaller problem that is similar to the original problem.</p>
@@ -255,7 +255,7 @@
 
 <p>For example, consider the following implementation of the Factorial algorithm:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Integer: Factorial(Integer: n)
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Integer: Factorial(Integer: n)
       If (n == 0) Then Return 1
       Integer: result = n * Factorial(n - 1)
       Return result
@@ -274,14 +274,14 @@
 
 <p>For the Factorial algorithm, the stopping condition is:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>n == 0
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>n == 0
 </code></pre></div></div>
 
 <p>so that condition controls the loop. When the algorithm calls itself recursively, it decreases its parameter n by 1, so the non-recursive version should also decrease n by 1 before the end of the loop.</p>
 
 <p>The following pseudocode shows the new nonrecursive version of the Factorial algorithm:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Integer: Factorial(Integer: n)
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Integer: Factorial(Integer: n)
       // Make a variable to keep track of the returned value.
       // Initialize it to 1 so we can multiply it by returned results.
       // (The result is 1 if we do not enter the loop at all.)

@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="/assets/css/styles.css">
 	<!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Backtracking | Coding Skill</title>
-<meta name="generator" content="Jekyll v4.0.0" />
+<meta name="generator" content="Jekyll v4.1.1" />
 <meta property="og:title" content="Backtracking" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="A backtracking algorithm tries to construct a solution to a computational problem incrementally, one small piece at a time. Whenever the algorithm needs to decide between multiple alternatives to the next component of the solution, it recursively evaluates every alternative and then chooses the best one." />
@@ -21,7 +21,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-04-25T00:00:00-04:00" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","headline":"Backtracking","dateModified":"2019-04-25T00:00:00-04:00","datePublished":"2019-04-25T00:00:00-04:00","url":"/2019/04/25/backtracking.html","mainEntityOfPage":{"@type":"WebPage","@id":"/2019/04/25/backtracking.html"},"description":"A backtracking algorithm tries to construct a solution to a computational problem incrementally, one small piece at a time. Whenever the algorithm needs to decide between multiple alternatives to the next component of the solution, it recursively evaluates every alternative and then chooses the best one.","@context":"https://schema.org"}</script>
+{"url":"/2019/04/25/backtracking.html","description":"A backtracking algorithm tries to construct a solution to a computational problem incrementally, one small piece at a time. Whenever the algorithm needs to decide between multiple alternatives to the next component of the solution, it recursively evaluates every alternative and then chooses the best one.","@type":"BlogPosting","headline":"Backtracking","dateModified":"2019-04-25T00:00:00-04:00","datePublished":"2019-04-25T00:00:00-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"/2019/04/25/backtracking.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -157,7 +157,7 @@
 
 <p>The following pseudocode shows the general backtracking approach at a high level:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// Explore this test solution.
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// Explore this test solution.
 // Return false if it cannot be extended to a full solution.
 // Return true if a recursive call to LeadsToSolution finds
 // a full solution.
@@ -274,7 +274,7 @@ End LeadsToSolution
   <span class="k">if</span> <span class="n">reject</span><span class="p">(</span><span class="n">P</span><span class="p">,</span><span class="n">c</span><span class="p">)</span> <span class="n">then</span> <span class="k">return</span>
   <span class="k">if</span> <span class="n">accept</span><span class="p">(</span><span class="n">P</span><span class="p">,</span><span class="n">c</span><span class="p">)</span> <span class="n">then</span> <span class="n">output</span><span class="p">(</span><span class="n">P</span><span class="p">,</span><span class="n">c</span><span class="p">)</span>
   <span class="n">s</span> <span class="err">←</span> <span class="n">first</span><span class="p">(</span><span class="n">P</span><span class="p">,</span><span class="n">c</span><span class="p">)</span>
-  <span class="k">while</span> <span class="n">s</span> <span class="err">≠</span> <span class="err">Λ</span> <span class="n">do</span>
+  <span class="k">while</span> <span class="n">s</span> <span class="err">≠</span> <span class="n">Λ</span> <span class="n">do</span>
     <span class="n">bt</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
     <span class="n">s</span> <span class="err">←</span> <span class="nb">next</span><span class="p">(</span><span class="n">P</span><span class="p">,</span><span class="n">s</span><span class="p">)</span>
 </code></pre></div></div>

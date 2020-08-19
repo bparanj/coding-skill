@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="/assets/css/styles.css">
 	<!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Choice of Datastructure for N Queens Problem | Coding Skill</title>
-<meta name="generator" content="Jekyll v4.0.0" />
+<meta name="generator" content="Jekyll v4.1.1" />
 <meta property="og:title" content="Choice of Datastructure for N Queens Problem" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Why is it not a good idea to choose matrix as the data structure for N Queens problem?" />
@@ -21,7 +21,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-02-24T00:00:00-05:00" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","headline":"Choice of Datastructure for N Queens Problem","dateModified":"2020-02-24T00:00:00-05:00","datePublished":"2020-02-24T00:00:00-05:00","url":"/2020/02/24/datastructure-n-queens-problem.html","mainEntityOfPage":{"@type":"WebPage","@id":"/2020/02/24/datastructure-n-queens-problem.html"},"description":"Why is it not a good idea to choose matrix as the data structure for N Queens problem?","@context":"https://schema.org"}</script>
+{"url":"/2020/02/24/datastructure-n-queens-problem.html","description":"Why is it not a good idea to choose matrix as the data structure for N Queens problem?","@type":"BlogPosting","headline":"Choice of Datastructure for N Queens Problem","dateModified":"2020-02-24T00:00:00-05:00","datePublished":"2020-02-24T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"/2020/02/24/datastructure-n-queens-problem.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -58,7 +58,7 @@
 <p>It’s a waste of space, and introduces unnecessary degrees of freedom that may inflate the search space.
 A solution to the N Queens problem, N=8, in a 2-dimensional matrix, might be represented as:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>0 0 1 0 0 0 0 0
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>0 0 1 0 0 0 0 0
 0 0 0 0 0 1 0 0
 0 0 0 0 0 0 0 1
 1 0 0 0 0 0 0 0
@@ -70,20 +70,20 @@ A solution to the N Queens problem, N=8, in a 2-dimensional matrix, might be rep
 
 <p>In order to find a solution to N-Queens using the matrix as our representation, we may have to consider all n x n matrices that have n 1s. The number of such matrices is:</p>
 
-<script type="math/tex; mode=display">\binom{n^2}{k}</script>
+\[\binom{n^2}{k}\]
 
 <p>which, for N=8 is:</p>
 
-<script type="math/tex; mode=display">\binom{68}{8} = 4426165368</script>
+\[\binom{68}{8} = 4426165368\]
 
 <p>By contrast, the same solution could be represented as a permutation of the columns 1 - N, with the interpretation that the first column listed has a queen in the first row, the second column listed has a queen in the second row, and so on. This works because the rules of the puzzle guarantee that no solution will put two queens on the same column or the same row. The same solution for the N=8 problem would be represented as:</p>
 
 <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">2</span><span class="p">]</span>
 </code></pre></div></div>
 
-<p>Since all possible solutions correspond to some permutations of the N columns, there are only <code class="highlighter-rouge">n!</code> possible solutions to consider. For N=8, that’s:</p>
+<p>Since all possible solutions correspond to some permutations of the N columns, there are only <code class="language-plaintext highlighter-rouge">n!</code> possible solutions to consider. For N=8, that’s:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>8! = 40320
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>8! = 40320
 </code></pre></div></div>
 
 <p>In comparison, the matrix representation leads to a very inefficient representation of the search space.</p>
