@@ -24,6 +24,8 @@ The input and output are:
 @return {Void} Do not return anything, modify root in-place instead.
 ```
 
+The base case is when the input is nil. This can happen when the input to the program is nil or when we reach the leaf node (it has no children, nothing to compute). We return without doing any computation.
+
 ## Inorder Traversal
 
 Solution:
@@ -49,8 +51,6 @@ def flatten(node)
   if node.right
     flatten(node.right) 
   end
-   
-  return node
 end
 ```
 
@@ -81,4 +81,3 @@ def flatten(node)
 
 end
 ```
- 
