@@ -50,7 +50,65 @@
   </div>	
 </nav>
 
+
+    <div class="container">
+			<div class="row">
+			  <div class="col-md-8">
+					<h1>How to Ask Clarification Questions</h1>
+
+<p>In a technical interview, it is important to ask clarification questions to figure out the scope of the problem. Otherwise you will be solving the wrong problem.</p>
+
+<h3 id="strings-arrays-and-numbers">Strings, Arrays and Numbers</h3>
+
+<ul>
+  <li>How many elements can be in the array?</li>
+  <li>How large can each element be? If it’s a string, how long? If it’s a number, what is the minimum and maximum value?</li>
+  <li>What is in each element? If it’s a number, is it an integer or a floating point? If it’s a string, is it single-byte or multibyte (unicode)?</li>
+  <li>If the problem involves finding a subsequence, does “subsequence” mean that the elements must be adjacent, or is there no such requirement?</li>
+  <li>Does the array contain unique numbers or can they be repeated (this is sometimes relevant)?</li>
+</ul>
+
+<h3 id="gridsmazes">Grids/Mazes</h3>
+
+<ul>
+  <li>For problems where some actor (e.g. a robot) is moving in a grid or maze, what moves are allowed? Can the robot move diagonally (hence 8 valid moves), or only horizontally/vertically (hence only 4 valid moves)?</li>
+  <li>Are all cells in the grid allowed, or can there be obstacles?</li>
+  <li>If the actor is trying to get from cell A to cell B, are cells A and B guaranteed to be different from each other?</li>
+  <li>If the actor is trying to get from cell A to cell B, is it guaranteed that there’s a path between the two cells?</li>
+</ul>
+
+<h3 id="graphs">Graphs</h3>
+
+<ul>
+  <li>How many nodes can the graph have?</li>
+  <li>How many edges can the graph have?</li>
+  <li>If the edges have weights, what is the range for the weights?</li>
+  <li>Can there be loops in the graph? Can there be negative-sum loops in the graph?</li>
+  <li>Is the graph directed or undirected?</li>
+  <li>Does the graph have multiple edges and/or self-loops?</li>
+</ul>
+
+<h3 id="return-values">Return Values</h3>
+
+<ul>
+  <li>What should my method return? For example, if I’m trying to find the longest subsequence of increasing numbers in an array, should I return the length, the start index, or both?</li>
+  <li>If there are multiple solutions to the problem, which one should be returned?</li>
+  <li>If it should return multiple values, do you have any preference on what to return? E.g. should it return an object, a tuple, an array, or pass the output parameters as input references? (This may not be applicable in languages allowing you to return multiple values, e.g. Ruby)</li>
+  <li>What should I do/return if the input is invalid / does not match the constraints? Options may be to do nothing (always assume the input is correct), raise an exception, or return some specific value.</li>
+  <li>In problems where you’re supposed to find something (e.g. a number in an array), what should be returned if the element is not present?</li>
+</ul>
+
+
+<hr/>
+<a class="btn btn-primary btn-lg" href="https://go.oncehub.com/BalaParanj" role="button">Schedule Your Free Consultation Now</a>
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+			  </div>	
+			</div>
+    </div>
     
+    <br/>    <br/>
     <script src="/assets/js/bootstrap.min.js"></script>
     
           <!-- Global site tag (gtag.js) - Google Analytics -->

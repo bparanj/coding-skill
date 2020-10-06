@@ -50,7 +50,70 @@
   </div>	
 </nav>
 
+
+    <div class="container">
+			<div class="row">
+			  <div class="col-md-8">
+					<h1>Longest Palindromic Substring</h1>
+
+<p>One of the top 100 questions asked by Amazon. Recursive solution to solving longest palindromic substring.</p>
+
+<h2 id="longest-palindromic-substring">Longest Palindromic Substring</h2>
+
+<p>This question is Amazon’s top 100 questions asked during the interview. Given a string s, find the longest palindromic substring in s. Example:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Input: 'babad'
+Output 'bab' or 'aba'
+</code></pre></div></div>
+
+<p>I had to make corrections to the code in my videos on how to solve this problem. The fixes are:</p>
+
+<ol>
+  <li>To exclude the last character, you have to use n-2 because the s[0] == s[n-1] checks the first and last character.</li>
+  <li>Going from first character to and less than the last character requires s[0..n-2]. It’s not s[0..n-1].</li>
+</ol>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">palindrome?</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+  <span class="n">n</span> <span class="o">=</span> <span class="n">s</span><span class="p">.</span><span class="nf">length</span>
+  <span class="k">if</span> <span class="n">n</span> <span class="o">&lt;=</span> <span class="mi">1</span>
+    <span class="k">return</span> <span class="kp">true</span>
+  <span class="k">else</span> 
+    <span class="k">return</span> <span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="n">s</span><span class="p">[</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span> <span class="o">&amp;&amp;</span> <span class="n">palindrome?</span><span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="mi">1</span><span class="o">..</span><span class="n">n</span><span class="o">-</span><span class="mi">2</span><span class="p">])</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+
+<span class="k">def</span> <span class="nf">longest_palindrome</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+  <span class="n">n</span> <span class="o">=</span> <span class="n">s</span><span class="p">.</span><span class="nf">length</span>
+  <span class="k">if</span> <span class="n">palindrome?</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">s</span>
+  <span class="k">else</span>
+    <span class="n">saux1</span> <span class="o">=</span> <span class="n">longest_palindrome</span><span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="mi">1</span><span class="o">..</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+    <span class="n">saux2</span> <span class="o">=</span> <span class="n">longest_palindrome</span><span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="mi">0</span><span class="o">..</span><span class="n">n</span><span class="o">-</span><span class="mi">2</span><span class="p">])</span>
+    <span class="k">if</span> <span class="n">saux1</span><span class="p">.</span><span class="nf">length</span> <span class="o">&gt;</span> <span class="n">saux2</span><span class="p">.</span><span class="nf">length</span>
+      <span class="k">return</span> <span class="n">saux1</span>
+    <span class="k">else</span>
+      <span class="k">return</span> <span class="n">saux2</span>
+    <span class="k">end</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+
+<span class="nb">p</span> <span class="n">longest_palindrome</span><span class="p">(</span><span class="s2">"babad"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Next step is to make this solution optimal by using dynamic programming.</p>
+
+
+
+<hr/>
+<a class="btn btn-primary btn-lg" href="https://go.oncehub.com/BalaParanj" role="button">Schedule Your Free Consultation Now</a>
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+			  </div>	
+			</div>
+    </div>
     
+    <br/>    <br/>
     <script src="/assets/js/bootstrap.min.js"></script>
     
           <!-- Global site tag (gtag.js) - Google Analytics -->

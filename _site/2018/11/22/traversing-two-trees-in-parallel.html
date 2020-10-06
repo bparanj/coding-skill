@@ -50,7 +50,105 @@
   </div>	
 </nav>
 
+
+    <div class="container">
+			<div class="row">
+			  <div class="col-md-8">
+					<h1>Traversing Two Trees in Parallel</h1>
+
+<p>Given two trees, determine whether they are copies of one another. This is a common coding interview question.</p>
+
+<h3 id="clarification-questions">Clarification Questions</h3>
+
+<p>It is intentionally vague. Sometimes, interviewers will ask question to see if you can define the problem scope by asking the necessary clarifying questions.</p>
+
+<ul>
+  <li>What are the data structures?</li>
+  <li>What’s the function signature?</li>
+  <li>Are there classes?</li>
+  <li>What does the tree look like, how many children are there?</li>
+</ul>
+
+<h3 id="variations">Variations</h3>
+
+<p>It is up to you how you would design it. So, this is about traversing two trees in parallel. There are variations of this question like:</p>
+
+<ul>
+  <li>Are two trees copies of each other?</li>
+  <li>Is there a node in one tree that is considered the same as a node in another tree?</li>
+</ul>
+
+<h3 id="solution">Solution</h3>
+
+<p>You might be familiar with traversing a single tree. But when asked to traverse two trees at the same time, it tests if you understand the algorithm. There is nothing tricky about this questions. We will see the code with two variations.</p>
+
+<p>First, think about how you represent children. Sometimes it is simpler to represent them as an array, rather than as a <code class="language-plaintext highlighter-rouge">left</code> node and a <code class="language-plaintext highlighter-rouge">right</code> node.  Sometimes, a tree can have multiple fan-outs, so the array representation is more flexible. It depends on the problem at hand.</p>
+
+<p>The second thing is the implementation is in recursive form and then in iterative form. You will find that the recursive form is a bit simpler. The iterative form requires passing a lot of state around, and nearly warrants creating a new data structure just to encapsulate the state of two nodes. I get away with it using a <code class="language-plaintext highlighter-rouge">stack of arrays</code> for brevity.</p>
+
+<p>This solution uses object-oriented style. So instead of having a function <code class="language-plaintext highlighter-rouge">isClone(a, b)</code>, I’m going to use the form <code class="language-plaintext highlighter-rouge">a.isClone(b)</code>. Just be aware that there are multiple ways of doing these method params.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Node</span><span class="p">:</span>
+  <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="n">children</span><span class="o">=</span><span class="p">[]):</span>
+    <span class="bp">self</span><span class="p">.</span><span class="n">value</span> <span class="o">=</span> <span class="n">value</span>
+    <span class="bp">self</span><span class="p">.</span><span class="n">children</span> <span class="o">=</span> <span class="n">children</span>
+
+  <span class="k">def</span> <span class="nf">prettyPrint</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="k">print</span> <span class="bp">self</span><span class="p">.</span><span class="n">value</span>
+    <span class="k">for</span> <span class="n">child</span> <span class="ow">in</span> <span class="bp">self</span><span class="p">.</span><span class="n">children</span><span class="p">:</span>
+      <span class="n">child</span><span class="p">.</span><span class="n">prettyPrint</span><span class="p">()</span>
+
+  <span class="k">def</span> <span class="nf">isClone</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">n2</span><span class="p">):</span>
+    <span class="k">if</span> <span class="bp">self</span><span class="p">.</span><span class="n">value</span> <span class="o">!=</span> <span class="n">n2</span><span class="p">.</span><span class="n">value</span><span class="p">:</span>
+      <span class="k">return</span> <span class="bp">False</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">children</span><span class="p">)</span> <span class="o">!=</span> <span class="nb">len</span><span class="p">(</span><span class="n">n2</span><span class="p">.</span><span class="n">children</span><span class="p">):</span>
+      <span class="k">return</span> <span class="bp">False</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">children</span><span class="p">)):</span>
+      <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="p">.</span><span class="n">children</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">isClone</span><span class="p">(</span><span class="n">n2</span><span class="p">.</span><span class="n">children</span><span class="p">[</span><span class="n">i</span><span class="p">]):</span>
+        <span class="k">return</span> <span class="bp">False</span>
+    <span class="k">return</span> <span class="bp">True</span>
+
+  <span class="k">def</span> <span class="nf">isCloneIterative</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">n2</span><span class="p">):</span>
+    <span class="n">stack</span> <span class="o">=</span> <span class="p">[</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">n2</span><span class="p">)</span> <span class="p">]</span>
+    <span class="k">while</span> <span class="nb">len</span><span class="p">(</span><span class="n">stack</span><span class="p">):</span>
+      <span class="p">(</span><span class="n">c1</span><span class="p">,</span> <span class="n">c2</span><span class="p">)</span> <span class="o">=</span> <span class="n">stack</span><span class="p">.</span><span class="n">pop</span><span class="p">()</span>
+      <span class="k">if</span> <span class="n">c1</span><span class="p">.</span><span class="n">value</span> <span class="o">!=</span> <span class="n">c2</span><span class="p">.</span><span class="n">value</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">False</span>
+      <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">c1</span><span class="p">.</span><span class="n">children</span><span class="p">)</span> <span class="o">!=</span> <span class="nb">len</span><span class="p">(</span><span class="n">c2</span><span class="p">.</span><span class="n">children</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">False</span>
+      <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">c1</span><span class="p">.</span><span class="n">children</span><span class="p">)):</span>
+        <span class="n">stack</span><span class="p">.</span><span class="n">append</span><span class="p">(</span> <span class="p">(</span><span class="n">c1</span><span class="p">.</span><span class="n">children</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">c2</span><span class="p">.</span><span class="n">children</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="p">)</span>
+    <span class="k">return</span> <span class="bp">True</span>
+
+  <span class="c1">#     1
+</span>  <span class="c1">#    / \
+</span>  <span class="c1">#   2   3
+</span>  <span class="c1">#  / \
+</span>  <span class="c1"># 4   5
+</span>
+<span class="n">n</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">n</span><span class="p">.</span><span class="n">children</span> <span class="o">=</span> <span class="p">[</span><span class="n">Node</span><span class="p">(</span><span class="mi">2</span><span class="p">),</span> <span class="n">Node</span><span class="p">(</span><span class="mi">3</span><span class="p">)]</span>
+<span class="n">n</span><span class="p">.</span><span class="n">children</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="n">children</span> <span class="o">=</span> <span class="p">[</span><span class="n">Node</span><span class="p">(</span><span class="mi">4</span><span class="p">),</span> <span class="n">Node</span><span class="p">(</span><span class="mi">5</span><span class="p">)]</span>
+
+<span class="n">n2</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">n2</span><span class="p">.</span><span class="n">children</span> <span class="o">=</span> <span class="p">[</span><span class="n">Node</span><span class="p">(</span><span class="mi">2</span><span class="p">),</span> <span class="n">Node</span><span class="p">(</span><span class="mi">3</span><span class="p">)]</span>
+<span class="n">n2</span><span class="p">.</span><span class="n">children</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="n">children</span> <span class="o">=</span> <span class="p">[</span><span class="n">Node</span><span class="p">(</span><span class="mi">4</span><span class="p">),</span> <span class="n">Node</span><span class="p">(</span><span class="mi">5</span><span class="p">)]</span>
+
+<span class="k">print</span> <span class="n">n</span><span class="p">.</span><span class="n">isClone</span><span class="p">(</span><span class="n">n2</span><span class="p">)</span>
+<span class="k">print</span> <span class="n">n</span><span class="p">.</span><span class="n">isCloneIterative</span><span class="p">(</span><span class="n">n2</span><span class="p">)</span>
+</code></pre></div></div>
+
+
+<hr/>
+<a class="btn btn-primary btn-lg" href="https://go.oncehub.com/BalaParanj" role="button">Schedule Your Free Consultation Now</a>
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+			  </div>	
+			</div>
+    </div>
     
+    <br/>    <br/>
     <script src="/assets/js/bootstrap.min.js"></script>
     
           <!-- Global site tag (gtag.js) - Google Analytics -->

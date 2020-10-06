@@ -50,7 +50,97 @@
   </div>	
 </nav>
 
+
+    <div class="container">
+			<div class="row">
+			  <div class="col-md-8">
+					<h1>Flatten Binary Tree to Linked List in Place</h1>
+
+<p>Definition for a binary tree node.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">TreeNode</span>
+  <span class="nb">attr_accessor</span> <span class="ss">:val</span><span class="p">,</span> <span class="ss">:left</span><span class="p">,</span> <span class="ss">:right</span>
+  <span class="k">def</span> <span class="nf">initialize</span><span class="p">(</span><span class="n">val</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">left</span> <span class="o">=</span> <span class="kp">nil</span><span class="p">,</span> <span class="n">right</span> <span class="o">=</span> <span class="kp">nil</span><span class="p">)</span>
+    <span class="vi">@val</span> <span class="o">=</span> <span class="n">val</span>
+    <span class="vi">@left</span> <span class="o">=</span> <span class="n">left</span>
+    <span class="vi">@right</span> <span class="o">=</span> <span class="n">right</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p>The input and output are:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@param {TreeNode} root
+@return {Void} Do not return anything, modify root in-place instead.
+</code></pre></div></div>
+
+<p>The base case is when the input is nil. This can happen when the input to the program is nil or when we reach the leaf node (it has no children, nothing to compute). We return without doing any computation.</p>
+
+<h2 id="inorder-traversal">Inorder Traversal</h2>
+
+<p>Solution:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">flatten</span><span class="p">(</span><span class="n">node</span><span class="p">)</span>
+  <span class="k">if</span> <span class="n">node</span><span class="p">.</span><span class="nf">nil?</span>
+    <span class="k">return</span>
+  <span class="k">end</span>
+   
+  <span class="k">if</span> <span class="n">node</span><span class="p">.</span><span class="nf">left</span>
+    <span class="n">flatten</span><span class="p">(</span><span class="n">node</span><span class="p">.</span><span class="nf">left</span><span class="p">)</span>
+    <span class="n">right</span> <span class="o">=</span> <span class="n">node</span><span class="p">.</span><span class="nf">right</span>
+    <span class="n">node</span><span class="p">.</span><span class="nf">right</span> <span class="o">=</span> <span class="n">node</span><span class="p">.</span><span class="nf">left</span>
+    <span class="n">node</span><span class="p">.</span><span class="nf">left</span> <span class="o">=</span> <span class="kp">nil</span>
+    <span class="n">current</span> <span class="o">=</span> <span class="n">node</span><span class="p">.</span><span class="nf">right</span>
+    <span class="k">while</span> <span class="n">current</span><span class="p">.</span><span class="nf">right</span>
+      <span class="n">current</span> <span class="o">=</span> <span class="n">current</span><span class="p">.</span><span class="nf">right</span> 
+    <span class="k">end</span>
+    <span class="n">current</span><span class="p">.</span><span class="nf">right</span> <span class="o">=</span> <span class="n">right</span>
+  <span class="k">end</span>
+
+  <span class="k">if</span> <span class="n">node</span><span class="p">.</span><span class="nf">right</span>
+    <span class="n">flatten</span><span class="p">(</span><span class="n">node</span><span class="p">.</span><span class="nf">right</span><span class="p">)</span> 
+  <span class="k">end</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<h2 id="postorder-traversal">Postorder Traversal</h2>
+
+<p>Solution:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">flatten</span><span class="p">(</span><span class="n">node</span><span class="p">)</span>
+  <span class="k">if</span> <span class="n">node</span><span class="p">.</span><span class="nf">nil?</span>
+      <span class="k">return</span>
+  <span class="k">end</span>
+  
+  <span class="n">flatten</span><span class="p">(</span><span class="n">node</span><span class="p">.</span><span class="nf">left</span><span class="p">)</span>
+  <span class="n">flatten</span><span class="p">(</span><span class="n">node</span><span class="p">.</span><span class="nf">right</span><span class="p">)</span>
+  
+  <span class="k">if</span> <span class="n">node</span><span class="p">.</span><span class="nf">left</span>
+   <span class="n">temp</span> <span class="o">=</span> <span class="n">node</span><span class="p">.</span><span class="nf">right</span>
+   <span class="n">node</span><span class="p">.</span><span class="nf">right</span> <span class="o">=</span> <span class="n">node</span><span class="p">.</span><span class="nf">left</span>
+   
+   <span class="n">current</span> <span class="o">=</span> <span class="n">node</span><span class="p">.</span><span class="nf">right</span>
+   <span class="k">while</span> <span class="n">current</span><span class="p">.</span><span class="nf">right</span>
+     <span class="n">current</span> <span class="o">=</span> <span class="n">current</span><span class="p">.</span><span class="nf">right</span>
+   <span class="k">end</span>
+   <span class="n">current</span><span class="p">.</span><span class="nf">right</span> <span class="o">=</span> <span class="n">temp</span>
+   <span class="n">node</span><span class="p">.</span><span class="nf">left</span> <span class="o">=</span> <span class="kp">nil</span>
+  <span class="k">end</span>
+
+<span class="k">end</span>
+</code></pre></div></div>
+
+
+<hr/>
+<a class="btn btn-primary btn-lg" href="https://go.oncehub.com/BalaParanj" role="button">Schedule Your Free Consultation Now</a>
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+			  </div>	
+			</div>
+    </div>
     
+    <br/>    <br/>
     <script src="/assets/js/bootstrap.min.js"></script>
     
           <!-- Global site tag (gtag.js) - Google Analytics -->

@@ -50,7 +50,56 @@
   </div>	
 </nav>
 
+
+    <div class="container">
+			<div class="row">
+			  <div class="col-md-8">
+					<h1>Longest Palindromic Substring</h1>
+
+<p>The input and output are:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Input: String
+output: String
+</code></pre></div></div>
+
+<p>The base case is when the input string is either 0 or 1 in length. We have to consider three cases, the entire string can be a palindrome, if so that is the longest palindrome. If not, either the string that excludes the first character or the string that excludes the last character can be a palindrome. One of this can be the longest when we make recursive calls.</p>
+
+<h2 id="recursive-solution">Recursive Solution</h2>
+
+<p>It is easy to make mistakes in discarding the last character because we are used to using n-1 for the end of the string. To discard the last character we have to use n-2 for reducing the input size to the recursive call.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">palindrome?</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+  <span class="n">s</span> <span class="o">==</span> <span class="n">s</span><span class="p">.</span><span class="nf">reverse</span>
+<span class="k">end</span>
+
+<span class="k">def</span> <span class="nf">longest_palindrome?</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+  <span class="n">n</span> <span class="o">=</span> <span class="n">s</span><span class="p">.</span><span class="nf">size</span>
+  
+  <span class="k">if</span> <span class="n">n</span> <span class="o">&lt;=</span> <span class="mi">1</span>
+    <span class="k">return</span> <span class="n">s</span>
+  <span class="k">else</span>
+    <span class="nb">p</span> <span class="n">n</span>
+    <span class="nb">p</span> <span class="n">s</span><span class="p">[</span><span class="mi">1</span><span class="o">..</span><span class="n">n</span><span class="p">]</span>
+    <span class="nb">p</span> <span class="n">s</span><span class="p">[</span><span class="mi">0</span><span class="o">..</span><span class="n">n</span><span class="o">-</span><span class="mi">2</span><span class="p">]</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+
+<span class="nb">p</span> <span class="n">longest_palindrome?</span><span class="p">(</span><span class="s1">'abbda'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>This will work for small inputs but will result in Time Limit Exceeded error for large inputs.</p>
+
+
+<hr/>
+<a class="btn btn-primary btn-lg" href="https://go.oncehub.com/BalaParanj" role="button">Schedule Your Free Consultation Now</a>
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+			  </div>	
+			</div>
+    </div>
     
+    <br/>    <br/>
     <script src="/assets/js/bootstrap.min.js"></script>
     
           <!-- Global site tag (gtag.js) - Google Analytics -->

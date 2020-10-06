@@ -17,7 +17,16 @@
   </style>
   <body>
 		{% include navigation.html %}
+
+    <div class="container">
+			<div class="row">
+			  <div class="col-md-8">
+					{{ content }}
+			  </div>	
+			</div>
+    </div>
     
+    <br/>    <br/>
     <script src="/assets/js/bootstrap.min.js"></script>
     {% if jekyll.environment == 'production' %}
           {% include analytics.html %}
