@@ -21,7 +21,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-02-26T00:00:00-05:00" />
 <script type="application/ld+json">
-{"mainEntityOfPage":{"@type":"WebPage","@id":"/2020/02/26/choosing-dynamic-programming.html"},"@type":"BlogPosting","url":"/2020/02/26/choosing-dynamic-programming.html","headline":"Dynamic Programming Q&amp;A","dateModified":"2020-02-26T00:00:00-05:00","datePublished":"2020-02-26T00:00:00-05:00","description":"What are the conditions to choose dynamic programming? In Dynamic Programming how to characterize structure of optimal solution?","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","headline":"Dynamic Programming Q&amp;A","dateModified":"2020-02-26T00:00:00-05:00","datePublished":"2020-02-26T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"/2020/02/26/choosing-dynamic-programming.html"},"url":"/2020/02/26/choosing-dynamic-programming.html","description":"What are the conditions to choose dynamic programming? In Dynamic Programming how to characterize structure of optimal solution?","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -50,79 +50,7 @@
   </div>	
 </nav>
 
-    <div class="container">
-			<div class="row">
-			  <div class="col-md-8">
-					<h1>Dynamic Programming Q&A</h1>
-
-<h2 id="what-are-the-conditions-to-choose-dynamic-programming">What are the conditions to choose dynamic programming?</h2>
-
-<p>If the following conditions are met, then we can choose Dynamic Programming to solve that problem:</p>
-
-<ul>
-  <li>Recursion - Problem can be solved using the recursive function calls.</li>
-  <li>Optimization (min, max, largest) - The problem is requiring some optimizations such as finding Longest Common Sub sequence.</li>
-  <li>Choice is given (option to choose something)</li>
-  <li>Overlapping subproblems - The solution of one sub problem can be used to find the solution of another subproblem.</li>
-  <li>Likely when two recursive calls are made</li>
-</ul>
-
-<h2 id="in-dynamic-programming-how-to-characterize-structure-of-optimal-solution">In Dynamic Programming how to characterize structure of optimal solution?</h2>
-
-<ol>
-  <li>The characterization of optimal solution is given by the optimal substructure of the problem.</li>
-  <li>Optimal substructure of the problem in dynamic programming is the art of the whole problem where the solution of such part will be latter used to find the solution of the whole problem.</li>
-  <li>The subprograms for the optimal solution will be created as such that solution of all those subproblem can be combined to form the whole big solution.</li>
-  <li>Consider the example of find the subset of numbers in a sequence of number such that their sum will be equal to the given below:</li>
-  <li>This problem is dynamic problem where we can divide the problem into subproblems.</li>
-  <li>Each subproblem will be related to either include a particular number in the while sum or not.</li>
-  <li>The solution of this if problem is given by a recursive equation is shown below:</li>
-</ol>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>isSubsetSum (set, n, sum) = isSubsetSum (set, n-1, sum) || isSubsetSum (set, n-1, sum-set[n-1])
-</code></pre></div></div>
-
-<p>where <code class="language-plaintext highlighter-rouge">isSubsetSum (set, n, sum)</code> will tell that whether the nth number in the sequence will be included in set to which eventually gives the value equal to sum.</p>
-
-<p>Can I use bottom up Dynamic Programming with iterative solution as well as recursive solution? Is bottom up Dynamic Programming used only with iterative solution?</p>
-
-<p>No, you cannot use bottom up Dynamic Programming with iterative solution as well as recursive solution.
-Yes, bottom up Dynamic Programming is used only with iterative solution.
-Bottom up dynamic programming works with memoization and iterative approach. 
-For recursive solution, we have to solve the problem top down approach which is also an expensive choice in terms of complexity and stack memory issues.
-However, it depends upon the type of the problem, dynamic programming can be used by top-down recursive solution and bottom up iterative solution.</p>
-
-<h2 id="bottom-up-dynamic-programming-algorithm">Bottom Up Dynamic Programming Algorithm</h2>
-
-<p>For example, here is the solution for Fibonacci from MIT class notes:</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">fib</span> <span class="o">=</span> <span class="p">{}</span>
- <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">:</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
-   <span class="k">if</span> <span class="n">k</span> <span class="o">&lt;=</span><span class="mi">2</span><span class="p">:</span> <span class="n">f</span> <span class="o">=</span> <span class="mi">1</span>
-   <span class="k">else</span><span class="p">:</span> <span class="n">f</span> <span class="o">=</span> <span class="n">fib</span><span class="p">[</span><span class="n">k</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">fib</span><span class="p">[</span><span class="n">k</span><span class="o">-</span><span class="mi">2</span><span class="p">]</span>
-   <span class="n">fib</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="n">f</span>
- <span class="k">return</span> <span class="n">fib</span><span class="p">[</span><span class="n">n</span><span class="p">]</span>
-</code></pre></div></div>
-
-
-
-<hr/>
-<a class="btn btn-primary btn-lg" href="https://go.oncehub.com/BalaParanj" role="button">Schedule Your Free Consultation Now</a>
-
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-
-			  </div>
-	
-			  <div class="col-md-4">
-			    <h3 class="my-3">Coding Interview Secrets</h3>
-			    <p>
-						If you are feeling frustrated and overwhelmed with coding interview preparation, sign up for FREE <a href='https://codinginterview.coach/'> coaching session </a> and we will figure it all out. Why is this free? Because I believe in Zig Ziglar's quote: You can get everything in life you want if you will just help enough other people get what they want.
-			    </p>
-			  </div>
-			</div>
-    </div>
     
-    <br/>    <br/>
     <script src="/assets/js/bootstrap.min.js"></script>
     
           <!-- Global site tag (gtag.js) - Google Analytics -->

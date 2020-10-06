@@ -46,3 +46,21 @@ Why do you do that?
 So, what does that mean?
 Are you sure?
 
+
+
+
+
+    <div class="container">
+			<div class="row">
+			  <div class="col-md-8">
+					{{ content }}
+			  </div>
+	
+			  <div class="col-md-4">
+			    <h3 class="my-3">Coding Interview Secrets</h3>
+			    <p>
+						If you are feeling frustrated and overwhelmed with coding interview preparation, sign up for FREE <a href='https://codinginterview.coach/'> coaching session </a> and we will figure it all out. Why is this free? Because I believe in Zig Ziglar's quote: You can get everything in life you want if you will just help enough other people get what they want.
+			    </p>
+			  </div>
+			</div>
+    </div>
