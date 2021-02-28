@@ -1,0 +1,241 @@
+<!doctype html>
+<html>
+  <head>
+	<meta charset="utf-8">
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Divide and Conquer Strategy - Coding Skill</title>
+
+  <link rel="stylesheet" href="/assets/css/styles.css">
+	<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Divide and Conquer Strategy | Coding Skill</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Divide and Conquer Strategy" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="One big problem may be hard to solve, but two problems that are half the size may be significantly easier. In these cases, divide-and-conquer algorithms fare well by doing just that: splitting the problem into smaller subproblems, solving the subproblems independently, and combining the solutions of subproblems into a solution of the original problem." />
+<meta property="og:description" content="One big problem may be hard to solve, but two problems that are half the size may be significantly easier. In these cases, divide-and-conquer algorithms fare well by doing just that: splitting the problem into smaller subproblems, solving the subproblems independently, and combining the solutions of subproblems into a solution of the original problem." />
+<meta property="og:site_name" content="Coding Skill" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-04-04T00:00:00-05:00" />
+<script type="application/ld+json">
+{"description":"One big problem may be hard to solve, but two problems that are half the size may be significantly easier. In these cases, divide-and-conquer algorithms fare well by doing just that: splitting the problem into smaller subproblems, solving the subproblems independently, and combining the solutions of subproblems into a solution of the original problem.","@type":"BlogPosting","url":"/2019/04/04/divide-and-conquer.html","headline":"Divide and Conquer Strategy","dateModified":"2019-04-04T00:00:00-05:00","datePublished":"2019-04-04T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"/2019/04/04/divide-and-conquer.html"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+  
+  <style>
+  .note {
+      background-color: #f7f7f7;
+      line-height: 26px;
+      margin: 30px 0;
+      padding: 26px 30px 12px 30px;
+      border-left-style: solid;
+      border-left-width: 4px;
+      border-color: #008000;
+  	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  		border-radius: 5px;
+  }
+  </style>
+  <body>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="/">Coding Skill</a>
+		<form class="form-inline my-2 my-lg-0">			
+			<a class="btn btn-primary btn-lg" href="https://go.oncehub.com/BalaParanj" role="button">Schedule a Free Consultation</a>
+		    </form>
+  </div>	
+</nav>
+
+
+<main role="main" class="container mt-3 offer shadow-lg p-3 mb-5 bg-white rounded">
+	  <div class="row">
+	    <div class="col">
+				
+				<h4 class='text-center mt-3 mb-4 challenge'>Get Your Dream Job </h4>
+				
+				<ul class='lead' style="list-style-type:none;">
+					<li> 
+						<span>&#10003;</span> Drawbacks of theoretical approach. 
+					</li>
+					<li> 
+						<span>&#10003;</span> Drawbacks of practical approach. 
+					</li>
+					<li>
+						<span>&#10003;</span> The right approach to learning to code.
+					</li>												
+					<li>
+						<span>&#10003;</span> Skills common to all top programmers. 
+					</li>
+					<li>
+						<span>&#10003;</span> Mental representations used by expert programmers. 
+					</li>
+					<li>
+						<span>&#10003;</span> Effective training techniques to gain skills 
+					</li>
+				</ul>
+	      
+	    </div>
+	    <div class="col border-left border-info">
+				
+				<h4 class='challenge text-center mt-3'> 7 Step Framework to Coding Skills Acquisition</h4>
+		
+				<p class='lead mb-4 text-center'>
+					Learn the Effective Approach to Learning to Code
+				</p>
+				
+				<div class="form-group ml-5 mb-0">						
+				  <form method="post" action="https://www.aweber.com/scripts/addlead.pl">
+							<label for="name">First Name</label>
+							<input type="text" name="name" value="" class="form-control col-10">
+					
+					    <label for="email">Email </label>
+					    <input type="text" name="email" value="" class="form-control col-10" >
+							<input type="hidden" name="listname" value="awlist5322122" />
+							
+					    <small id="emailHelp" class="form-text text-muted text-center">No spam ever. Unsubscribe anytime.</small>
+					  </div>
+
+						<p class='text-center'>
+							<input type="submit" name="submit" value="Yes, I Want to Take the Free Course Now!" class="btn btn-primary"/> 
+						</p>
+
+				</form>
+	    </div>
+	  </div>
+</main>
+
+    <div class="container">
+			<div class="row">
+			  <div class="col-md-8">
+					<h1>Divide and Conquer Strategy</h1>
+
+<p>One big problem may be hard to solve, but two problems that are half the size may be significantly easier. In these cases, divide-and-conquer algorithms fare well by doing just that: splitting the problem into smaller subproblems, solving the subproblems independently, and combining the solutions of subproblems into a solution of the original problem.</p>
+
+<p>The situation is usually more complicated than this and after splitting one problem into subproblems, a divide-and-conquer algorithm usually splits these subproblems into even smaller sub-subproblems and so on, until it reaches a point at which it no longer needs to recurse.</p>
+
+<p>A critical step in many divide-and-conquer algorithms is the recombining of solutions to subproblems into a solution for a larger problem.</p>
+
+<p>Given a function to compute on <strong>n</strong> inputs, the divide and conquer strategy splits the input into k distinct subsets, yielding k subproblems. These subproblems must be solved and then a method must be found to combine subsolutions into a solution of the whole.</p>
+
+<p>If the subproblems are large, then the divide and conquer strategy may possibly be reapplied. Often the subproblems resulting from a divide and conquer design are of the same type as the original problem. For those cases, the reapplication of the divide and conquer principle is naturally expressed by a recursive procedure.</p>
+
+<p>Now smaller and smaller subproblems of the same kind as the original problem are generated, eventually producing subproblems that are small enough to be solved without splitting.</p>
+
+<p>We can write a program template which mirrors the way an actual program based upon divide-and-conquer will look. By a program template we mean a procedure whose flow of control is clear, but whose primary operations are specified by other procedures whose precise meaning is left undefined.</p>
+
+<h3 id="recursive-program-template">Recursive Program Template</h3>
+
+<p>Let the n inputs be stored by the array called input. Here is the program template for divide and conquer:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">solve</span><span class="p">(</span><span class="nb">p</span><span class="p">,</span> <span class="n">q</span><span class="p">)</span>
+   <span class="n">input</span> 
+  <span class="c1"># 1 &lt;= p &lt;= q &lt;= n </span>
+  <span class="k">if</span> <span class="n">small</span><span class="p">(</span><span class="nb">p</span><span class="p">,</span> <span class="n">q</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">compute</span><span class="p">(</span><span class="nb">p</span><span class="p">,</span> <span class="n">q</span><span class="p">)</span>
+  <span class="k">else</span>
+    <span class="n">m</span> <span class="o">=</span> <span class="n">divide</span><span class="p">(</span><span class="nb">p</span><span class="p">,</span> <span class="n">q</span><span class="p">)</span>
+    <span class="c1"># p &lt;= m &lt; q </span>
+    <span class="n">solution</span> <span class="o">=</span> <span class="n">combine</span><span class="p">(</span><span class="n">solve</span><span class="p">(</span><span class="nb">p</span><span class="p">,</span> <span class="n">m</span><span class="p">),</span> <span class="n">solve</span><span class="p">(</span><span class="n">m</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">q</span><span class="p">))</span>        
+  <span class="k">end</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p>small(p, q) returns true if the input size q - p + 1 is small enough so that the answer can be computed without splitting. If so, the function compute() is invoked. Otherwise the function divide (p, q) is called. This function returns an integer which specifies where the input is to be split.</p>
+
+<p>Let m = divide(p, q). The input is split so that input(p, m) and input(m+1, q) define instances of two subproblems. The subsolutions x and y respectively of these two subproblems are obtained by recursive application of solve().</p>
+
+<p>The combine(x, y) is a function which determines the solution to input[p, q] using the solutions x and y to the subproblems input[p, m] and input[m+1, q]. If the sizes of the two subproblems are approximately equal then the computing time of solve() is naturally described by the recurrence relation:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>T<span class="o">(</span>n<span class="o">)</span> <span class="o">=</span> compute<span class="o">(</span>n<span class="o">)</span>, n small
+       2T<span class="o">(</span>n/2<span class="o">)</span> + f<span class="o">(</span>n<span class="o">)</span>, otherwise
+</code></pre></div></div>
+
+<p>T(n) - Time for solve() on n inputs.
+compute(n) - Time to compute the answer directly for small inputs
+f(n) - Time for divide and combine</p>
+
+<blockquote class="note">
+  <strong>TIP</strong> 
+  <p>
+    Recurrence relations will often arise for divide and conquer based algorithms.
+  </p>
+</blockquote>
+
+<p>For divide and conquer based algorithms which produce subproblems of the same type as the original problem it is natural to first describe such an algorithm using recursion. But to gain efficiency it may be desirable to translate the resulting program into iterative form.</p>
+
+<h3 id="iterative-program-template">Iterative Program Template</h3>
+
+<p>The iterative form of divide and conquer program template:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">solve</span><span class="p">(</span><span class="nb">p</span><span class="p">,</span> <span class="n">q</span><span class="p">)</span>
+  <span class="c1"># declare a stack of appropriate size</span>
+  <span class="c1"># set the stack to empty </span>
+  <span class="n">top</span> <span class="o">=</span> <span class="no">Stack</span><span class="p">.</span><span class="nf">new</span>
+  
+  <span class="k">while</span><span class="p">(</span><span class="o">!</span><span class="n">small</span><span class="p">(</span><span class="nb">p</span><span class="p">,</span> <span class="n">q</span><span class="p">))</span>
+    <span class="n">m</span> <span class="o">=</span> <span class="n">divide</span><span class="p">(</span><span class="nb">p</span><span class="p">,</span> <span class="n">q</span><span class="p">)</span>
+  <span class="k">end</span>
+  <span class="k">while</span> <span class="n">top</span> <span class="o">!=</span> <span class="mi">0</span>
+    <span class="c1"># decrement top</span>
+    <span class="c1"># process the second recursive call</span>
+    <span class="c1"># combine two solutions into one</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<h3 id="strategy">Strategy</h3>
+
+<p>Problems with optimal substructure can be divided into similar but smaller subproblems. They can be divided over and over until subproblems become easy. Then subproblem solutions are combined for obtaining the original problem’s solution.</p>
+
+<p>The divide-and-conquer strategy solves a problem by:</p>
+
+<ol>
+  <li>Breaking it into subproblems that are themselves smaller instances of the same type of problem</li>
+  <li>Recursively solving these subproblems</li>
+  <li>Combining the solutions to the subproblems</li>
+</ol>
+
+<p>The real work is done piecemeal, in three different places:</p>
+
+<ol>
+  <li>In the partitioning of problems into subproblems</li>
+  <li>At the very tail end of the recursion, when the subproblems are so small that they are solved outright</li>
+  <li>In the gluing together of partial answers.</li>
+</ol>
+
+<p>These are held together and coordinated by the algorithm’s core recursive structure.</p>
+
+
+<hr/>
+<a class="btn btn-primary btn-lg" href="https://go.oncehub.com/BalaParanj" role="button">Schedule Your Free Consultation Now</a>
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+			  </div>	
+			</div>
+    </div>
+    
+    <br/>    <br/>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    
+          <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-358645-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-358645-13');
+</script>
+
+    
+    
+  </body>
+</html>
+
+
+
