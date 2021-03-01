@@ -138,6 +138,8 @@ n * (n - 1) * (n - 2) * (n - 3) ... 1 = O(n!)
 
 ![Complexity Classes](/assets/images/complexity-classes.png)
 
+![Complexity Classes](/assets/images/complexity-classes.png)
+
 ## Some Tips
 
 Do not overcomplicate this like saying "This is O(3 * k *  n<sup>2</sup>), where k is the number of comparisons." Most people don't care about this level of detail, and you can often get away with simply saying: "This is quadratic time because we have two for-loops, each one iterating from 1 to n."

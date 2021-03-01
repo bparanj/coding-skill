@@ -41,6 +41,7 @@ Create could be described as the ability to combine one subject with others in o
 
 In the beginning a programming newbie is taught how to use a loop structure. He will go through all the levels of Bloom's taxonomy while learning it. He knows that a loop can be used for iteration. He understands how the loop works. He is able to apply a loop when told etc., eventually learning it thoroughly. 
 
+<<<<<<< Updated upstream
 After reaching the highest levels, the loop structure has become a tool for the student to use in subsequent programming. As the student is trying to learn how to sort an array, the loop can be seen as his basis knowledge upon which he is building his new knowledge. Later as the student is trying to implement a top-application to his own operating system, he will use the sorting of an array as a part of his base knowledge. 
 
 <blockquote class="note">
@@ -49,3 +50,6 @@ After reaching the highest levels, the loop structure has become a tool for the 
     Bloom's Taxonomy applied to computer science provides a very powerful and effective way to learn how to program.
   </p>
 </blockquote>
+=======
+After reaching the highest levels, the loop  structure has become a tool for the student to use in subsequent programming. As the student is trying to learn how to sort an array, the loop can be seen as his basis knowledge upon which he is building his new knowledge. Later as the student is trying to implement a top-application to his own operating system, he will use the sorting of an array as a part of his base knowledge. 
+>>>>>>> Stashed changes
