@@ -478,6 +478,7 @@ Run through your problem one step at a time, keeping track of the single best so
 - [Choosing Best Algorithm Design Strategy For A Particular Problem](/assets/files/algo.pdf) by Shailendra Nigam, Dr. Deepak Garg
 - [Topological Sort](/assets/files/toposort.pdf) by Bala Paranj
 - [Cornell Notes Template](/assets/files/CornellNotesTemplate.pdf) 
+- [Interleaving](/assets/files/Interleaving.pdf) 
 
 ## Conclusion
 
