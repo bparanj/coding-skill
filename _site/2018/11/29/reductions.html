@@ -1,0 +1,208 @@
+<!doctype html>
+<html>
+  <head>
+	<meta charset="utf-8">
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Reductions - Coding Skill</title>
+
+  <link rel="stylesheet" href="/assets/css/styles.css">
+	<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Reductions | Coding Skill</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Reductions" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Reduction is the single most common technique used in designing algorithms. Reducing one problem X to another problem Y means to write an algorithm for X that uses an algorithm for Y as a black box." />
+<meta property="og:description" content="Reduction is the single most common technique used in designing algorithms. Reducing one problem X to another problem Y means to write an algorithm for X that uses an algorithm for Y as a black box." />
+<meta property="og:site_name" content="Coding Skill" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-11-29T00:00:00-06:00" />
+<script type="application/ld+json">
+{"datePublished":"2018-11-29T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"/2018/11/29/reductions.html"},"description":"Reduction is the single most common technique used in designing algorithms. Reducing one problem X to another problem Y means to write an algorithm for X that uses an algorithm for Y as a black box.","@type":"BlogPosting","headline":"Reductions","dateModified":"2018-11-29T00:00:00-06:00","url":"/2018/11/29/reductions.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+  
+  <style>
+  .note {
+      background-color: #f7f7f7;
+      line-height: 26px;
+      margin: 30px 0;
+      padding: 26px 30px 12px 30px;
+      border-left-style: solid;
+      border-left-width: 4px;
+      border-color: #008000;
+  	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  		border-radius: 5px;
+  }
+  </style>
+  <body>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="/">Coding Skill</a>
+		<form class="form-inline my-2 my-lg-0">			
+			<a class="btn btn-primary btn-lg" href="https://go.oncehub.com/BalaParanj" role="button">Schedule a Free Consultation</a>
+		    </form>
+  </div>	
+</nav>
+
+
+<main role="main" class="container mt-3 offer shadow-lg p-3 mb-5 bg-white rounded">
+	  <div class="row">
+	    <div class="col">
+				
+				<h4 class='text-center mt-3 mb-4 challenge'>Get Your Dream Job </h4>
+				
+				<ul class='lead' style="list-style-type:none;">
+					<li> 
+						<span>&#10003;</span> Drawbacks of theoretical approach. 
+					</li>
+					<li> 
+						<span>&#10003;</span> Drawbacks of practical approach. 
+					</li>
+					<li>
+						<span>&#10003;</span> The right approach to learning to code.
+					</li>												
+					<li>
+						<span>&#10003;</span> Skills common to all top programmers. 
+					</li>
+					<li>
+						<span>&#10003;</span> Mental representations used by expert programmers. 
+					</li>
+					<li>
+						<span>&#10003;</span> Effective training techniques to gain skills 
+					</li>
+				</ul>
+	      
+	    </div>
+	    <div class="col border-left border-info">
+				
+				<h4 class='challenge text-center mt-3'> 7 Step Framework to Coding Skills Acquisition</h4>
+		
+				<p class='lead mb-4 text-center'>
+					Learn the Effective Approach to Learning to Code
+				</p>
+				
+				<div class="form-group ml-5 mb-0">						
+				  <form method="post" action="https://www.aweber.com/scripts/addlead.pl">
+							<label for="name">First Name</label>
+							<input type="text" name="name" value="" class="form-control col-10">
+					
+					    <label for="email">Email </label>
+					    <input type="text" name="email" value="" class="form-control col-10" >
+							<input type="hidden" name="listname" value="awlist5322122" />
+							
+					    <small id="emailHelp" class="form-text text-muted text-center">No spam ever. Unsubscribe anytime.</small>
+					  </div>
+
+						<p class='text-center'>
+							<input type="submit" name="submit" value="Yes, I Want to Take the Free Course Now!" class="btn btn-primary"/> 
+						</p>
+
+				</form>
+	    </div>
+	  </div>
+</main>
+
+    <div class="container">
+			<div class="row">
+			  <div class="col-md-8">
+					<h1>Reductions</h1>
+
+<p>Reduction is the single most common technique used in designing algorithms. Reducing one problem X to another problem Y means to write an algorithm for X that uses an algorithm for Y as a black box.</p>
+
+<p>A problem A reduces to a problem B, if an algorithm that solves B can be easily translated into one that solves A. For example, the problem of computing the median element of an array reduces to the problem of sorting the array.</p>
+
+<p>You should always be on the lookout for reductions. Whenever you encounter a seemingly new problem, always ask:</p>
+
+<ul>
+  <li>Is the problem a disguised version of one you already know how to solve?</li>
+  <li>Can you reduce the general version of the problem to a special case?</li>
+  <li>Can you use a problem with a known solution as a subroutine?</li>
+</ul>
+
+<blockquote class="note">
+  <strong>TIP</strong> 
+  <p>
+    You should always be on the lookout for reductions to problems you already know how to solve.
+  </p>
+</blockquote>
+
+<h3 id="shipping-packages">Shipping Packages</h3>
+
+<p>When you send a package by Federal Express from uptown New York City to downtown New York City, the package will be routed through Memphis. Federal Express routes all packages through Memphis, so when they are faced with the special situation of delivering packages across town they “already know how to solve the problem.” In this case, the solution makes sense.</p>
+
+<p>It may be much more difficult to identify a special situation and to build a mechanism to handle that situation more efficiently. It may be easier, and overall cheaper, to handle everything equally. This is also often true in algorithm design.</p>
+
+<h3 id="computing-problems">Computing Problems</h3>
+
+<p>When we encounter a problem that can be posed as a special case of another problem, whose solution is already known, then the known solution can be used. Such a solution may sometimes be too general or too expensive. But in many cases, using a general solution is the the easiest, the fastest, and the most elegant way to get a solution. We use this principle every day.</p>
+
+<p>For some computing problems for example, a database query it is usually not necessary to write a program that solves only this problem; it is sufficient to use general-purpose software that handles more general problems. The general-purpose solution may not be the most efficient solution, but it is much easier to use.</p>
+
+<blockquote class="note">
+  <strong>FINDING NEW TECHNIQUES</strong> 
+  <p>
+    Finding a reduction between two problems is useful even if it does not lead directly to new upper or lower bounds on the complexity of the problem. The reduction helps us to understand both problems. The reduction may be used to find new techniques for attacking the problem or variations of it. For example, the reduction may be used to design a parallel algorithm for the problem.
+  </p>
+</blockquote>
+
+<h4 id="ways-to-solve-problems">Ways to Solve Problems</h4>
+
+<p>Suppose that we are given a problem P that seems complicated, but that also seems similar to a known problem Q. We can try to solve P from scratch, or we can try to borrow some of the methods used to solve Q and apply them to P.</p>
+
+<p>There is, however, a third way. We can try to find a reduction (or transformation) between the two problems. Loosely speaking, a reduction is a solution of one problem using a “black box” that solves the other problem. Reductions can achieve one of two goals depending on the direction in which they are done (i.e.,which black box is used to solve which problem).</p>
+
+<p>A solution of P that uses a black box for Q can be translated into an algorithm for P if we know an algorithm for Q. On the other hand, if P is known to be a hard problem, or, in particular, if we know a lower bound for P, then the same lower bound may be applied to Q. In the former case, the reduction is used to obtain information about P, wherease, in the latter case, it is used to obtain information about Q.</p>
+
+<blockquote class="note">
+  <strong>BOTTOM LINE</strong> 
+  <p>
+		In reduction, we map one problem to another so that we could use a known algorithm.
+  </p>
+</blockquote>
+
+<h4 id="matrix-multiplication">Matrix Multiplication</h4>
+
+<p>For example consider the problems of matrix multiplication and matrix squaring (multiplying the matrix with itself). Clearly, we can square a matrix with a matrix multiplication algorithm. Therefore, the problem of matrix squaring can be reduced to the problem of matrix multiplication.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>An effective way to use reductions is to define a general problem to which many problems can be reduced. Finding such a general problem is not easy. This problem should be general enough to cover a wide variety of problems, but it must also be simple enough to have an efficient solution. One such problem is linear programming.</p>
+
+<p><strong>Reference</strong>: Introduction to Algorithms - A Creative Approach by Udi Manber</p>
+
+
+<hr/>
+<a class="btn btn-primary btn-lg" href="https://go.oncehub.com/BalaParanj" role="button">Schedule Your Free Consultation Now</a>
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+			  </div>	
+			</div>
+    </div>
+    
+    <br/>    <br/>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    
+          <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-358645-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-358645-13');
+</script>
+
+    
+    
+  </body>
+</html>
+
+
+

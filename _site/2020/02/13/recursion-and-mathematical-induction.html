@@ -1,0 +1,196 @@
+<!doctype html>
+<html>
+  <head>
+	<meta charset="utf-8">
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Recursion and Mathematical Induction - Coding Skill</title>
+
+  <link rel="stylesheet" href="/assets/css/styles.css">
+	<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Recursion and Mathematical Induction | Coding Skill</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Recursion and Mathematical Induction" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Recursion and Mathematical Induction are closely related concepts. This article looks at how they are related. These are the notes from the paper Computational Recursion and Mathematical Induction by Uri Leron, Rina Zazkis." />
+<meta property="og:description" content="Recursion and Mathematical Induction are closely related concepts. This article looks at how they are related. These are the notes from the paper Computational Recursion and Mathematical Induction by Uri Leron, Rina Zazkis." />
+<meta property="og:site_name" content="Coding Skill" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-02-13T00:00:00-06:00" />
+<script type="application/ld+json">
+{"datePublished":"2020-02-13T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"/2020/02/13/recursion-and-mathematical-induction.html"},"description":"Recursion and Mathematical Induction are closely related concepts. This article looks at how they are related. These are the notes from the paper Computational Recursion and Mathematical Induction by Uri Leron, Rina Zazkis.","@type":"BlogPosting","headline":"Recursion and Mathematical Induction","dateModified":"2020-02-13T00:00:00-06:00","url":"/2020/02/13/recursion-and-mathematical-induction.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+  
+  <style>
+  .note {
+      background-color: #f7f7f7;
+      line-height: 26px;
+      margin: 30px 0;
+      padding: 26px 30px 12px 30px;
+      border-left-style: solid;
+      border-left-width: 4px;
+      border-color: #008000;
+  	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  		border-radius: 5px;
+  }
+  </style>
+  <body>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="/">Coding Skill</a>
+		<form class="form-inline my-2 my-lg-0">			
+			<a class="btn btn-primary btn-lg" href="https://go.oncehub.com/BalaParanj" role="button">Schedule a Free Consultation</a>
+		    </form>
+  </div>	
+</nav>
+
+
+<main role="main" class="container mt-3 offer shadow-lg p-3 mb-5 bg-white rounded">
+	  <div class="row">
+	    <div class="col">
+				
+				<h4 class='text-center mt-3 mb-4 challenge'>Get Your Dream Job </h4>
+				
+				<ul class='lead' style="list-style-type:none;">
+					<li> 
+						<span>&#10003;</span> Drawbacks of theoretical approach. 
+					</li>
+					<li> 
+						<span>&#10003;</span> Drawbacks of practical approach. 
+					</li>
+					<li>
+						<span>&#10003;</span> The right approach to learning to code.
+					</li>												
+					<li>
+						<span>&#10003;</span> Skills common to all top programmers. 
+					</li>
+					<li>
+						<span>&#10003;</span> Mental representations used by expert programmers. 
+					</li>
+					<li>
+						<span>&#10003;</span> Effective training techniques to gain skills 
+					</li>
+				</ul>
+	      
+	    </div>
+	    <div class="col border-left border-info">
+				
+				<h4 class='challenge text-center mt-3'> 7 Step Framework to Coding Skills Acquisition</h4>
+		
+				<p class='lead mb-4 text-center'>
+					Learn the Effective Approach to Learning to Code
+				</p>
+				
+				<div class="form-group ml-5 mb-0">						
+				  <form method="post" action="https://www.aweber.com/scripts/addlead.pl">
+							<label for="name">First Name</label>
+							<input type="text" name="name" value="" class="form-control col-10">
+					
+					    <label for="email">Email </label>
+					    <input type="text" name="email" value="" class="form-control col-10" >
+							<input type="hidden" name="listname" value="awlist5322122" />
+							
+					    <small id="emailHelp" class="form-text text-muted text-center">No spam ever. Unsubscribe anytime.</small>
+					  </div>
+
+						<p class='text-center'>
+							<input type="submit" name="submit" value="Yes, I Want to Take the Free Course Now!" class="btn btn-primary"/> 
+						</p>
+
+				</form>
+	    </div>
+	  </div>
+</main>
+
+    <div class="container">
+			<div class="row">
+			  <div class="col-md-8">
+					<h1>Recursion and Mathematical Induction</h1>
+
+<p>Mathematical induction provides a powerful tool for proving the correctness of certain useful formulae. Recursive thinking has a parallel in mathematics which is called mathematical induction.</p>
+
+<p>In both techniques, one must:</p>
+
+<ol>
+  <li>
+    <p>Determine a set of simple cases for which the proof or calculation is easily handled</p>
+  </li>
+  <li>
+    <p>Find an appropriate rule which can be repeatedly applied until the complete solution is obtained.</p>
+  </li>
+</ol>
+
+<p>In recursive applications, this process begins with the complex cases and the rule successively reduces the complexity of the problem until only simple cases are left. When using induction, we tend to think of this process in the opposite direction. We start by proving the simple cases and then use the inductive rule to derive increasingly complex results.</p>
+
+<p>A good way to learn mathematical induction is to
+tackle a problem that admits naturally of an inductive solution. Take for example the problem of how many regions are formed in the plane by n straight lines. Assume no two lines are parallel and no three are concurrent. Since the answer is difficult to see directly from the problem, there is need for investigating.</p>
+
+<p>What is the answer for one line? Two lines? And so on. From here on the investigation may branch into two main routes. The more common one is to look for a pattern in the cases investigated (e g., by arranging the results in a table) and generalize This way one comes to perceive the answer but not the reasons for it.</p>
+
+<p>The second route is to look for a pattern not merely in the sequence of numbers, but in the way they are generated. Rather than the original question:</p>
+
+<ul>
+  <li>How many regions for n lines?</li>
+</ul>
+
+<p>We switch our attention slightly but significantly to the question:</p>
+
+<ul>
+  <li>How many more regions are generated by the addition of one more line?</li>
+</ul>
+
+<p>This is where <a href="/2019/06/20/thinking-recursively.html">inductive thinking</a> begins. This approach is very powerful and potentially very satisfying, for it leads to perceiving the answer as well as the reasons for it, so that it can lead to the feeling that one has really understood the solution.</p>
+
+<p>Didactically, we would tackle this revised question starting with small numbers, and watch for the emerging pattern as we gradually increase n.</p>
+
+<p>Thus suppose we already have 3 lines. How many new regions are formed by adding a fourth line? Can you do that without counting the regions? We would then repeat for 4, 5, etc, until the class is bored.</p>
+
+<p>This boredom is welcome and can be put to good use, for what it expresses - “why do we keep playing the same game over and over?” - is what we are after.</p>
+
+<p>From here, the final step of playing the same game once and for all is not too big to take. That is, we can give the general argument for going from n lines to n + 1 lines even though we do not know the answer for n.</p>
+
+<p>Thus, to summarize, mathematical induction captures the pattern of the argument as we go up from one number to its successor.</p>
+
+<p><strong>References</strong></p>
+
+<ul>
+  <li>Computational Recursion and Mathematical Induction by Uri Leron, Rina Zazkis</li>
+  <li>Thinking Recursively by Eric S Roberts</li>
+</ul>
+
+
+<hr/>
+<a class="btn btn-primary btn-lg" href="https://go.oncehub.com/BalaParanj" role="button">Schedule Your Free Consultation Now</a>
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+			  </div>	
+			</div>
+    </div>
+    
+    <br/>    <br/>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    
+          <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-358645-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-358645-13');
+</script>
+
+    
+    
+  </body>
+</html>
+
+
+
