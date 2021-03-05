@@ -479,6 +479,7 @@ Run through your problem one step at a time, keeping track of the single best so
 - [Topological Sort](/assets/files/toposort.pdf) by Bala Paranj
 - [Cornell Notes Template](/assets/files/CornellNotesTemplate.pdf) 
 - [Interleaving](/assets/files/Interleaving.pdf) 
+- [Feynman Learning Technique Template](/assets/files/FeynmanLearningTechniqueTemplate.pdf) 
 
 ## Conclusion
 
