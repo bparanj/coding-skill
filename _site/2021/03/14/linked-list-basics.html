@@ -1,0 +1,242 @@
+<!doctype html>
+<html>
+  <head>
+	<meta charset="utf-8">
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>The Leetcode Missing Guide - Coding Skill</title>
+
+  <link rel="stylesheet" href="/assets/css/styles.css">
+	<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>The Leetcode Missing Guide | Coding Skill</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="The Leetcode Missing Guide" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Implement traverse and search in a singly linked list." />
+<meta property="og:description" content="Implement traverse and search in a singly linked list." />
+<meta property="og:site_name" content="Coding Skill" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-03-14T00:00:00-07:00" />
+<script type="application/ld+json">
+{"description":"Implement traverse and search in a singly linked list.","headline":"The Leetcode Missing Guide","dateModified":"2021-03-14T00:00:00-07:00","datePublished":"2021-03-14T00:00:00-07:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"/2021/03/14/linked-list-basics.html"},"url":"/2021/03/14/linked-list-basics.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+  
+  <style>
+  .note {
+      background-color: #f7f7f7;
+      line-height: 26px;
+      margin: 30px 0;
+      padding: 26px 30px 12px 30px;
+      border-left-style: solid;
+      border-left-width: 4px;
+      border-color: #008000;
+  	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  		border-radius: 5px;
+  }
+  </style>
+  <body>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="/">Coding Skill</a>
+		<form class="form-inline my-2 my-lg-0">			
+			<a class="btn btn-primary btn-lg" href="https://go.oncehub.com/BalaParanj" role="button">Schedule a Free Consultation</a>
+		    </form>
+  </div>	
+</nav>
+
+
+<main role="main" class="container mt-3 offer shadow-lg p-3 mb-5 bg-white rounded">
+	  <div class="row">
+	    <div class="col">
+				
+				<h4 class='text-center mt-3 mb-4 challenge'>Get Your Dream Job </h4>
+				
+				<ul class='lead' style="list-style-type:none;">
+					<li> 
+						<span>&#10003;</span> Drawbacks of theoretical approach. 
+					</li>
+					<li> 
+						<span>&#10003;</span> Drawbacks of practical approach. 
+					</li>
+					<li>
+						<span>&#10003;</span> The right approach to learning to code.
+					</li>												
+					<li>
+						<span>&#10003;</span> Skills common to all top programmers. 
+					</li>
+					<li>
+						<span>&#10003;</span> Mental representations used by expert programmers. 
+					</li>
+					<li>
+						<span>&#10003;</span> Effective training techniques to gain skills 
+					</li>
+				</ul>
+	      
+	    </div>
+	    <div class="col border-left border-info">
+				
+				<h4 class='challenge text-center mt-3'> 7 Step Framework to Coding Skills Acquisition</h4>
+		
+				<p class='lead mb-4 text-center'>
+					Learn the Effective Approach to Learning to Code
+				</p>
+				
+				<div class="form-group ml-5 mb-0">						
+				  <form method="post" action="https://www.aweber.com/scripts/addlead.pl">
+							<label for="name">First Name</label>
+							<input type="text" name="name" value="" class="form-control col-10">
+					
+					    <label for="email">Email </label>
+					    <input type="text" name="email" value="" class="form-control col-10" >
+							<input type="hidden" name="listname" value="awlist5322122" />
+							
+					    <small id="emailHelp" class="form-text text-muted text-center">No spam ever. Unsubscribe anytime.</small>
+					  </div>
+
+						<p class='text-center'>
+							<input type="submit" name="submit" value="Yes, I Want to Take the Free Course Now!" class="btn btn-primary"/> 
+						</p>
+
+				</form>
+	    </div>
+	  </div>
+</main>
+
+    <div class="container">
+			<div class="row">
+			  <div class="col-md-8">
+					<h1>The Leetcode Missing Guide</h1>
+
+<h2 id="linked-list-basics">Linked List Basics</h2>
+
+<h3 id="node-class">Node Class</h3>
+
+<p>Define a node class for a singly linked list node. In a singly linked list each node is connected to the following node by a single link. Since next is a key word in Ruby, the code uses link as the name instead of next for the pointer to the next element in the linked list. The value is the data stored in the node. The value can be of any type.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Node</span>
+  <span class="nb">attr_reader</span> <span class="ss">:value</span>
+  <span class="nb">attr_accessor</span> <span class="ss">:link</span>
+
+  <span class="k">def</span> <span class="nf">initialize</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="n">link</span><span class="p">)</span>
+    <span class="vi">@value</span> <span class="o">=</span> <span class="n">value</span>
+    <span class="vi">@link</span> <span class="o">=</span> <span class="n">link</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p>We need a getter for the value because we need to access the value in the node after creating a node object. The value attribute is immutable. We cannot modify the value once we create the node object. We have getter and setter for the link attribute since we need to set and get links of the node. The link pointers are used to traverse the linked list and modify the link pointers to add and remove nodes in a linked list.</p>
+
+<h3 id="linkedlist-class">LinkedList Class</h3>
+
+<p>Define a class for linked list with constructor that takes the head of the linked list. The head node is the beginning of the linked list.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">LinkedList</span>
+  <span class="k">def</span> <span class="nf">initialize</span><span class="p">(</span><span class="n">head</span><span class="p">)</span>
+    <span class="vi">@head</span> <span class="o">=</span> <span class="n">head</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<h3 id="traversing-a-linkedlist">Traversing a LinkedList</h3>
+
+<p>Define the traverse method in the linked list class.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">require_relative</span> <span class="s1">'node'</span>
+
+<span class="k">class</span> <span class="nc">LinkedList</span>
+  <span class="k">def</span> <span class="nf">initialize</span><span class="p">(</span><span class="n">head</span><span class="p">)</span>
+    <span class="vi">@head</span> <span class="o">=</span> <span class="n">head</span>
+  <span class="k">end</span>
+  
+  <span class="c1"># Iterate Over the List</span>
+  <span class="k">def</span> <span class="nf">traverse</span>
+    <span class="n">current</span> <span class="o">=</span> <span class="vi">@head</span>
+
+    <span class="k">while</span> <span class="n">current</span>
+      <span class="nb">p</span> <span class="n">current</span><span class="p">.</span><span class="nf">value</span>
+      <span class="n">current</span> <span class="o">=</span> <span class="n">current</span><span class="p">.</span><span class="nf">link</span>
+    <span class="k">end</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p>The traverse method starts from the head of the linked list and traverses all the nodes in the linked list and prints the value of the nodes.</p>
+
+<p>We can include the files that defines the node can linked list class in the file called traverse.rb.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">require_relative</span> <span class="s1">'node'</span>
+<span class="nb">require_relative</span> <span class="s1">'linked_list'</span>
+
+<span class="c1"># Create the linked List</span>
+<span class="n">last</span> <span class="o">=</span> <span class="no">Node</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="mi">14</span><span class="p">,</span> <span class="kp">nil</span><span class="p">)</span>
+<span class="n">second</span> <span class="o">=</span> <span class="no">Node</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="mi">18</span><span class="p">,</span> <span class="n">last</span><span class="p">)</span>
+<span class="n">head</span> <span class="o">=</span> <span class="no">Node</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span> <span class="n">second</span><span class="p">)</span>
+
+<span class="n">list</span> <span class="o">=</span> <span class="no">LinkedList</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="n">head</span><span class="p">)</span>
+<span class="n">list</span><span class="p">.</span><span class="nf">traverse</span>
+</code></pre></div></div>
+
+<p>Create an instance of the LinkedList class and invoke the traverse method. We create the linked list that contains the nodes with values: 20, 18 and 14. The head node has the value 20 and it links to the second node. The second node connects to the last node. The last node has nil value for the next node since it is the last node.</p>
+
+<h3 id="search-a-node">Search a Node</h3>
+
+<p>Define a find method in the LinkedList class. It takes the target value of the node to search in the linked list.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="c1"># Find a Node</span>
+  <span class="k">def</span> <span class="nf">find</span><span class="p">(</span><span class="n">target</span><span class="p">)</span>
+    <span class="n">current</span> <span class="o">=</span> <span class="vi">@head</span>
+
+    <span class="k">while</span> <span class="n">current</span>
+      <span class="k">if</span> <span class="n">current</span><span class="p">.</span><span class="nf">value</span> <span class="o">==</span> <span class="n">target</span>
+        <span class="k">return</span> <span class="n">current</span>
+      <span class="k">end</span>
+      <span class="n">current</span> <span class="o">=</span> <span class="n">current</span><span class="p">.</span><span class="nf">link</span>
+    <span class="k">end</span>  
+  <span class="k">end</span>
+</code></pre></div></div>
+
+<p>We define a current node that traverses through the linked list and check if the current node value is the same as the target. If so, it returns the node object, otherwise we return nil. We can test this method by invoking the find method on linked list object:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">node</span> <span class="o">=</span> <span class="n">list</span><span class="p">.</span><span class="nf">find</span><span class="p">(</span><span class="mi">18</span><span class="p">)</span>
+<span class="nb">p</span> <span class="n">node</span><span class="p">.</span><span class="nf">value</span>
+</code></pre></div></div>
+
+<p>This will print the node value 18.</p>
+
+
+
+<hr/>
+<a class="btn btn-primary btn-lg" href="https://go.oncehub.com/BalaParanj" role="button">Schedule Your Free Consultation Now</a>
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+			  </div>	
+			</div>
+    </div>
+    
+    <br/>    <br/>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    
+          <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-358645-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-358645-13');
+</script>
+
+    
+    
+  </body>
+</html>
+
+
+
