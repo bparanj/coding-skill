@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Leetcode Missing Guide
+title: Linked List Basics
 excerpt: Implement traverse and search in a singly linked list.
 ---
  
