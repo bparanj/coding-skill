@@ -54,7 +54,7 @@ The sentinel node has 0 as the value for the node. The next node of the sentinel
 
 ### Add at the Beginning
 
-Implement the `add_at_beginning`method to the `LinkedList` class. It takes the node to be inserted as the parameter. The implementation of inserting a node to the beginning of the linked list is shown below:
+Implement the `add_at_beginning`method in the `LinkedList` class. It takes the node to be inserted as the parameter. The implementation of inserting a node to the beginning of the linked list is shown below:
 
 ```ruby
   def add_at_beginning(node)
@@ -83,7 +83,7 @@ The sentinel node makes adding a new node to the beginning easier to implement.
 
 ### Add at the End
 
-Implement the `add_at_end` method to the `LinkedList`class. It takes the node to be added to the end of the linked list as the parameter. The implementation for adding a node to the end of the linked list class is shown below:
+Implement the `add_at_end` method in the `LinkedList`class. It takes the node to be added to the end of the linked list as the parameter. The implementation for adding a node to the end of the linked list class is shown below:
 
 ```ruby
   def add_at_end(node)
@@ -115,3 +115,67 @@ list.traverse
 ```
 
 The new node with value 25 will be added to the end of the linked list.
+
+### Insert After a Node
+
+Implement the `insert` method in the `LinkedList` class. It takes two parameters, after and node. The after node is the first parameter, we need to insert the second parameter called node after this node.
+
+```ruby
+  def insert(after, node)
+    node.link = after.link
+    after.link = node
+  end
+```
+
+The insert method can be tested by running the code:
+
+```ruby
+
+last = Node.new(14, nil)
+second = Node.new(18, last)
+head = Node.new(20, second)
+sentinel = Node.new(0, head)
+
+list = LinkedList.new(sentinel)
+list.traverse
+
+node = Node.new(25, nil)
+list.insert(second, node)
+list.traverse
+```
+
+The output will show that node 25 was inserted after the node 18. In this example, the after node is second element in the linked list. In practice, we have to find the node where we need to insert after, this can take O(N) time.
+
+### Deleting a Node
+
+The previous link of the node before the node to be deleted will point to the next node of the node to be deleted. Implement the `delete` method that takes the node to be deleted as the parameter.
+
+```ruby
+  def delete(node)
+    current = @head
+    
+    while current.link.value != node.value
+      current = current.link
+    end
+    
+    current.link = node.link
+    node.link = nil
+  end
+```
+
+The delete method can be tested by running the code:
+
+```ruby
+last = Node.new(14, nil)
+second = Node.new(18, last)
+head = Node.new(20, second)
+sentinel = Node.new(0, head)
+
+list = LinkedList.new(sentinel)
+list.traverse
+
+list.delete(second)
+list.traverse
+```
+
+The output shows that node 18 is deleted from the linked list.

@@ -159,7 +159,7 @@
 
 <h3 id="add-at-the-beginning">Add at the Beginning</h3>
 
-<p>Implement the <code class="language-plaintext highlighter-rouge">add_at_beginning</code>method to the <code class="language-plaintext highlighter-rouge">LinkedList</code> class. It takes the node to be inserted as the parameter. The implementation of inserting a node to the beginning of the linked list is shown below:</p>
+<p>Implement the <code class="language-plaintext highlighter-rouge">add_at_beginning</code>method in the <code class="language-plaintext highlighter-rouge">LinkedList</code> class. It takes the node to be inserted as the parameter. The implementation of inserting a node to the beginning of the linked list is shown below:</p>
 
 <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="k">def</span> <span class="nf">add_at_beginning</span><span class="p">(</span><span class="n">node</span><span class="p">)</span>
     <span class="n">node</span><span class="p">.</span><span class="nf">link</span> <span class="o">=</span> <span class="vi">@head</span><span class="p">.</span><span class="nf">link</span>
@@ -186,7 +186,7 @@
 
 <h3 id="add-at-the-end">Add at the End</h3>
 
-<p>Implement the <code class="language-plaintext highlighter-rouge">add_at_end</code> method to the <code class="language-plaintext highlighter-rouge">LinkedList</code>class. It takes the node to be added to the end of the linked list as the parameter. The implementation for adding a node to the end of the linked list class is shown below:</p>
+<p>Implement the <code class="language-plaintext highlighter-rouge">add_at_end</code> method in the <code class="language-plaintext highlighter-rouge">LinkedList</code>class. It takes the node to be added to the end of the linked list as the parameter. The implementation for adding a node to the end of the linked list class is shown below:</p>
 
 <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="k">def</span> <span class="nf">add_at_end</span><span class="p">(</span><span class="n">node</span><span class="p">)</span>
     <span class="n">current</span> <span class="o">=</span> <span class="vi">@head</span>
@@ -216,6 +216,66 @@
 </code></pre></div></div>
 
 <p>The new node with value 25 will be added to the end of the linked list.</p>
+
+<h3 id="insert-after-a-node">Insert After a Node</h3>
+
+<p>Implement the <code class="language-plaintext highlighter-rouge">insert</code> method in the <code class="language-plaintext highlighter-rouge">LinkedList</code> class. It takes two parameters, after and node. The after node is the first parameter, we need to insert the second parameter called node after this node.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="k">def</span> <span class="nf">insert</span><span class="p">(</span><span class="n">after</span><span class="p">,</span> <span class="n">node</span><span class="p">)</span>
+    <span class="n">node</span><span class="p">.</span><span class="nf">link</span> <span class="o">=</span> <span class="n">after</span><span class="p">.</span><span class="nf">link</span>
+    <span class="n">after</span><span class="p">.</span><span class="nf">link</span> <span class="o">=</span> <span class="n">node</span>
+  <span class="k">end</span>
+</code></pre></div></div>
+
+<p>The insert method can be tested by running the code:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="n">last</span> <span class="o">=</span> <span class="no">Node</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="mi">14</span><span class="p">,</span> <span class="kp">nil</span><span class="p">)</span>
+<span class="n">second</span> <span class="o">=</span> <span class="no">Node</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="mi">18</span><span class="p">,</span> <span class="n">last</span><span class="p">)</span>
+<span class="n">head</span> <span class="o">=</span> <span class="no">Node</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span> <span class="n">second</span><span class="p">)</span>
+<span class="n">sentinel</span> <span class="o">=</span> <span class="no">Node</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">head</span><span class="p">)</span>
+
+<span class="n">list</span> <span class="o">=</span> <span class="no">LinkedList</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="n">sentinel</span><span class="p">)</span>
+<span class="n">list</span><span class="p">.</span><span class="nf">traverse</span>
+
+<span class="n">node</span> <span class="o">=</span> <span class="no">Node</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="mi">25</span><span class="p">,</span> <span class="kp">nil</span><span class="p">)</span>
+<span class="n">list</span><span class="p">.</span><span class="nf">insert</span><span class="p">(</span><span class="n">second</span><span class="p">,</span> <span class="n">node</span><span class="p">)</span>
+<span class="n">list</span><span class="p">.</span><span class="nf">traverse</span>
+</code></pre></div></div>
+
+<p>The output will show that node 25 was inserted after the node 18. In this example, the after node is second element in the linked list. In practice, we have to find the node where we need to insert after, this can take O(N) time.</p>
+
+<h3 id="deleting-a-node">Deleting a Node</h3>
+
+<p>The previous link of the node before the node to be deleted will point to the next node of the node to be deleted. Implement the <code class="language-plaintext highlighter-rouge">delete</code> method that takes the node to be deleted as the parameter.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="k">def</span> <span class="nf">delete</span><span class="p">(</span><span class="n">node</span><span class="p">)</span>
+    <span class="n">current</span> <span class="o">=</span> <span class="vi">@head</span>
+    
+    <span class="k">while</span> <span class="n">current</span><span class="p">.</span><span class="nf">link</span><span class="p">.</span><span class="nf">value</span> <span class="o">!=</span> <span class="n">node</span><span class="p">.</span><span class="nf">value</span>
+      <span class="n">current</span> <span class="o">=</span> <span class="n">current</span><span class="p">.</span><span class="nf">link</span>
+    <span class="k">end</span>
+    
+    <span class="n">current</span><span class="p">.</span><span class="nf">link</span> <span class="o">=</span> <span class="n">node</span><span class="p">.</span><span class="nf">link</span>
+    <span class="n">node</span><span class="p">.</span><span class="nf">link</span> <span class="o">=</span> <span class="kp">nil</span>
+  <span class="k">end</span>
+</code></pre></div></div>
+
+<p>The delete method can be tested by running the code:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">last</span> <span class="o">=</span> <span class="no">Node</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="mi">14</span><span class="p">,</span> <span class="kp">nil</span><span class="p">)</span>
+<span class="n">second</span> <span class="o">=</span> <span class="no">Node</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="mi">18</span><span class="p">,</span> <span class="n">last</span><span class="p">)</span>
+<span class="n">head</span> <span class="o">=</span> <span class="no">Node</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span> <span class="n">second</span><span class="p">)</span>
+<span class="n">sentinel</span> <span class="o">=</span> <span class="no">Node</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">head</span><span class="p">)</span>
+
+<span class="n">list</span> <span class="o">=</span> <span class="no">LinkedList</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="n">sentinel</span><span class="p">)</span>
+<span class="n">list</span><span class="p">.</span><span class="nf">traverse</span>
+
+<span class="n">list</span><span class="p">.</span><span class="nf">delete</span><span class="p">(</span><span class="n">second</span><span class="p">)</span>
+<span class="n">list</span><span class="p">.</span><span class="nf">traverse</span>
+</code></pre></div></div>
+
+<p>The output shows that node 18 is deleted from the linked list.</p>
 
 
 <hr/>
