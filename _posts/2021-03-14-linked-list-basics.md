@@ -3,8 +3,7 @@ layout: post
 title: Linked List Basics
 excerpt: Implement traverse and search in a singly linked list.
 ---
- 
-## Linked List Basics
+
 
 ### Node Class
 

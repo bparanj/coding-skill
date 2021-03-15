@@ -1,0 +1,249 @@
+<!doctype html>
+<html>
+  <head>
+	<meta charset="utf-8">
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Linked List Basics Part II - Coding Skill</title>
+
+  <link rel="stylesheet" href="/assets/css/styles.css">
+	<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Linked List Basics Part II | Coding Skill</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Linked List Basics Part II" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Implement find_previous_node, add_at_beginning and add_at_end methods in a singly linked list." />
+<meta property="og:description" content="Implement find_previous_node, add_at_beginning and add_at_end methods in a singly linked list." />
+<meta property="og:site_name" content="Coding Skill" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-03-14T00:00:00-07:00" />
+<script type="application/ld+json">
+{"description":"Implement find_previous_node, add_at_beginning and add_at_end methods in a singly linked list.","headline":"Linked List Basics Part II","dateModified":"2021-03-14T00:00:00-07:00","datePublished":"2021-03-14T00:00:00-07:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"/2021/03/14/linked-list-basics-part-II.html"},"url":"/2021/03/14/linked-list-basics-part-II.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+  
+  <style>
+  .note {
+      background-color: #f7f7f7;
+      line-height: 26px;
+      margin: 30px 0;
+      padding: 26px 30px 12px 30px;
+      border-left-style: solid;
+      border-left-width: 4px;
+      border-color: #008000;
+  	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  		border-radius: 5px;
+  }
+  </style>
+  <body>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="/">Coding Skill</a>
+		<form class="form-inline my-2 my-lg-0">			
+			<a class="btn btn-primary btn-lg" href="https://go.oncehub.com/BalaParanj" role="button">Schedule a Free Consultation</a>
+		    </form>
+  </div>	
+</nav>
+
+
+<main role="main" class="container mt-3 offer shadow-lg p-3 mb-5 bg-white rounded">
+	  <div class="row">
+	    <div class="col">
+				
+				<h4 class='text-center mt-3 mb-4 challenge'>Get Your Dream Job </h4>
+				
+				<ul class='lead' style="list-style-type:none;">
+					<li> 
+						<span>&#10003;</span> Drawbacks of theoretical approach. 
+					</li>
+					<li> 
+						<span>&#10003;</span> Drawbacks of practical approach. 
+					</li>
+					<li>
+						<span>&#10003;</span> The right approach to learning to code.
+					</li>												
+					<li>
+						<span>&#10003;</span> Skills common to all top programmers. 
+					</li>
+					<li>
+						<span>&#10003;</span> Mental representations used by expert programmers. 
+					</li>
+					<li>
+						<span>&#10003;</span> Effective training techniques to gain skills 
+					</li>
+				</ul>
+	      
+	    </div>
+	    <div class="col border-left border-info">
+				
+				<h4 class='challenge text-center mt-3'> 7 Step Framework to Coding Skills Acquisition</h4>
+		
+				<p class='lead mb-4 text-center'>
+					Learn the Effective Approach to Learning to Code
+				</p>
+				
+				<div class="form-group ml-5 mb-0">						
+				  <form method="post" action="https://www.aweber.com/scripts/addlead.pl">
+							<label for="name">First Name</label>
+							<input type="text" name="name" value="" class="form-control col-10">
+					
+					    <label for="email">Email </label>
+					    <input type="text" name="email" value="" class="form-control col-10" >
+							<input type="hidden" name="listname" value="awlist5322122" />
+							
+					    <small id="emailHelp" class="form-text text-muted text-center">No spam ever. Unsubscribe anytime.</small>
+					  </div>
+
+						<p class='text-center'>
+							<input type="submit" name="submit" value="Yes, I Want to Take the Free Course Now!" class="btn btn-primary"/> 
+						</p>
+
+				</form>
+	    </div>
+	  </div>
+</main>
+
+    <div class="container">
+			<div class="row">
+			  <div class="col-md-8">
+					<h1>Linked List Basics Part II</h1>
+
+<h3 id="find-previous-node">Find Previous Node</h3>
+
+<p>The dataset used in creating the linked list is the same as the previous article. Define a <code class="language-plaintext highlighter-rouge">find_previous_node</code> methodin the <code class="language-plaintext highlighter-rouge">LinkedList</code> class. It takes the target value as the parameter. The method must return the node before the given target value. If the target value is not found in the linked list it will return <code class="language-plaintext highlighter-rouge">nil</code>.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="k">def</span> <span class="nf">find_previous_node</span><span class="p">(</span><span class="n">target</span><span class="p">)</span>
+    <span class="n">current</span> <span class="o">=</span> <span class="vi">@head</span>
+
+    <span class="k">while</span> <span class="n">current</span><span class="p">.</span><span class="nf">link</span> 
+      <span class="k">if</span> <span class="n">current</span><span class="p">.</span><span class="nf">link</span><span class="p">.</span><span class="nf">value</span> <span class="o">==</span> <span class="n">target</span>
+        <span class="k">return</span> <span class="n">current</span>
+      <span class="k">end</span>
+    
+      <span class="n">current</span> <span class="o">=</span> <span class="n">current</span><span class="p">.</span><span class="nf">link</span>
+    <span class="k">end</span>
+  <span class="k">end</span>
+</code></pre></div></div>
+
+<p>The current pointer is initialized to the head of the linked list. The while loop keeps traversing the linked list as long as the <code class="language-plaintext highlighter-rouge">current.link</code> is not <code class="language-plaintext highlighter-rouge">nil</code>. This means we stop searching after the last node. Because the last node points to <code class="language-plaintext highlighter-rouge">nil</code>. The comparison check if the next node value is the same as the target, if it is it returns the current node. Before the start of the next iteration, the current pointer moves to the next node.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">previous</span> <span class="o">=</span> <span class="n">list</span><span class="p">.</span><span class="nf">find_previous_node</span><span class="p">(</span><span class="mi">18</span><span class="p">)</span>
+<span class="nb">p</span> <span class="n">previous</span><span class="p">.</span><span class="nf">value</span>
+</code></pre></div></div>
+
+<p>This will print the value of the previous node which is 20. However, this implementation of the <code class="language-plaintext highlighter-rouge">find_previous_node</code> will crash if the target value is the value of the first node. Because we do not have any node before the first node. This can be demonstrated by running the code:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">previous</span> <span class="o">=</span> <span class="n">list</span><span class="p">.</span><span class="nf">find_previous_node</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span>
+<span class="nb">p</span> <span class="n">previous</span><span class="p">.</span><span class="nf">value</span>
+</code></pre></div></div>
+
+<h3 id="sentinel-node">Sentinel Node</h3>
+
+<p>The code can be simplified and made crash proof by using a sentinel node. The code for creating the linked list can be modified to include a dummy node to the beginning of the linked list.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Create the linked List</span>
+<span class="n">last</span> <span class="o">=</span> <span class="no">Node</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="mi">14</span><span class="p">,</span> <span class="kp">nil</span><span class="p">)</span>
+<span class="n">second</span> <span class="o">=</span> <span class="no">Node</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="mi">18</span><span class="p">,</span> <span class="n">last</span><span class="p">)</span>
+<span class="n">head</span> <span class="o">=</span> <span class="no">Node</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span> <span class="n">second</span><span class="p">)</span>
+<span class="n">sentinel</span> <span class="o">=</span> <span class="no">Node</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">head</span><span class="p">)</span>
+
+<span class="n">list</span> <span class="o">=</span> <span class="no">LinkedList</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="n">sentinel</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>The sentinel node has 0 as the value for the node. The next node of the sentinel nodes is the head node. Now the implementation of<code class="language-plaintext highlighter-rouge">find_previous_node</code>will work without crashing if we pass in the head node value as the target. The sentinel node will be returned as the previous node for the head. The main advantage of sentinel node is that we don’t need to check for <code class="language-plaintext highlighter-rouge">nil</code>simplifying the while loop.</p>
+
+<h3 id="add-at-the-beginning">Add at the Beginning</h3>
+
+<p>Implement the <code class="language-plaintext highlighter-rouge">add_at_beginning</code>method to the <code class="language-plaintext highlighter-rouge">LinkedList</code> class. It takes the node to be inserted as the parameter. The implementation of inserting a node to the beginning of the linked list is shown below:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="k">def</span> <span class="nf">add_at_beginning</span><span class="p">(</span><span class="n">node</span><span class="p">)</span>
+    <span class="n">node</span><span class="p">.</span><span class="nf">link</span> <span class="o">=</span> <span class="vi">@head</span><span class="p">.</span><span class="nf">link</span>
+    <span class="vi">@head</span><span class="p">.</span><span class="nf">link</span> <span class="o">=</span> <span class="n">node</span>
+  <span class="k">end</span>
+</code></pre></div></div>
+
+<p>The linked list values before inserting the new node and after inserting the node is displayed in the code.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">last</span> <span class="o">=</span> <span class="no">Node</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="mi">14</span><span class="p">,</span> <span class="kp">nil</span><span class="p">)</span>
+<span class="n">second</span> <span class="o">=</span> <span class="no">Node</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="mi">18</span><span class="p">,</span> <span class="n">last</span><span class="p">)</span>
+<span class="n">head</span> <span class="o">=</span> <span class="no">Node</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span> <span class="n">second</span><span class="p">)</span>
+<span class="n">sentinel</span> <span class="o">=</span> <span class="no">Node</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">head</span><span class="p">)</span>
+
+<span class="n">list</span> <span class="o">=</span> <span class="no">LinkedList</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="n">sentinel</span><span class="p">)</span>
+<span class="n">list</span><span class="p">.</span><span class="nf">traverse</span>
+
+<span class="n">node</span> <span class="o">=</span> <span class="no">Node</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="mi">25</span><span class="p">,</span> <span class="kp">nil</span><span class="p">)</span>
+<span class="n">list</span><span class="p">.</span><span class="nf">add_at_beginning</span><span class="p">(</span><span class="n">node</span><span class="p">)</span>
+<span class="n">list</span><span class="p">.</span><span class="nf">traverse</span>
+</code></pre></div></div>
+
+<p>The sentinel node makes adding a new node to the beginning easier to implement.</p>
+
+<h3 id="add-at-the-end">Add at the End</h3>
+
+<p>Implement the <code class="language-plaintext highlighter-rouge">add_at_end</code> method to the <code class="language-plaintext highlighter-rouge">LinkedList</code>class. It takes the node to be added to the end of the linked list as the parameter. The implementation for adding a node to the end of the linked list class is shown below:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="k">def</span> <span class="nf">add_at_end</span><span class="p">(</span><span class="n">node</span><span class="p">)</span>
+    <span class="n">current</span> <span class="o">=</span> <span class="vi">@head</span>
+  
+    <span class="k">while</span> <span class="n">current</span><span class="p">.</span><span class="nf">link</span>
+      <span class="n">current</span> <span class="o">=</span> <span class="n">current</span><span class="p">.</span><span class="nf">link</span>
+    <span class="k">end</span>
+  
+    <span class="n">current</span><span class="p">.</span><span class="nf">link</span> <span class="o">=</span> <span class="n">node</span>
+    <span class="n">node</span><span class="p">.</span><span class="nf">link</span> <span class="o">=</span> <span class="kp">nil</span>
+  <span class="k">end</span>
+</code></pre></div></div>
+
+<p>The method can be tested by running:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">last</span> <span class="o">=</span> <span class="no">Node</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="mi">14</span><span class="p">,</span> <span class="kp">nil</span><span class="p">)</span>
+<span class="n">second</span> <span class="o">=</span> <span class="no">Node</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="mi">18</span><span class="p">,</span> <span class="n">last</span><span class="p">)</span>
+<span class="n">head</span> <span class="o">=</span> <span class="no">Node</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span> <span class="n">second</span><span class="p">)</span>
+<span class="n">sentinel</span> <span class="o">=</span> <span class="no">Node</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">head</span><span class="p">)</span>
+
+<span class="n">list</span> <span class="o">=</span> <span class="no">LinkedList</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="n">sentinel</span><span class="p">)</span>
+<span class="n">list</span><span class="p">.</span><span class="nf">traverse</span>
+
+<span class="n">node</span> <span class="o">=</span> <span class="no">Node</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="mi">25</span><span class="p">,</span> <span class="kp">nil</span><span class="p">)</span>
+<span class="n">list</span><span class="p">.</span><span class="nf">add_at_end</span><span class="p">(</span><span class="n">node</span><span class="p">)</span>
+<span class="n">list</span><span class="p">.</span><span class="nf">traverse</span>
+</code></pre></div></div>
+
+<p>The new node with value 25 will be added to the end of the linked list.</p>
+
+
+<hr/>
+<a class="btn btn-primary btn-lg" href="https://go.oncehub.com/BalaParanj" role="button">Schedule Your Free Consultation Now</a>
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+			  </div>	
+			</div>
+    </div>
+    
+    <br/>    <br/>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    
+          <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-358645-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-358645-13');
+</script>
+
+    
+    
+  </body>
+</html>
+
+
+
